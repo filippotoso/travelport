@@ -1,8 +1,8 @@
 {
-    "name": "filippotoso/travelport",
+    "name": "filippo-toso/travelport",
     "description": "PHP client library for Travelport SOAP API",
     "keywords": [
-        "filippotoso",
+        "filippo-toso",
         "travelport"
     ],
     "homepage": "https://github.com/filippotoso/travelport",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Filippotoso\\Travelport\\": "src"
+            "FilippoToso\\Travelport\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Filippotoso\\Travelport\\Tests\\": "tests"
+            "FilippoToso\\Travelport\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Filippotoso\\Travelport\\TravelportServiceProvider"
+                "FilippoToso\\Travelport\\TravelportServiceProvider"
             ],
             "aliases": {
-                "Travelport": "Filippotoso\\Travelport\\TravelportFacade"
+                "Travelport": "FilippoToso\\Travelport\\TravelportFacade"
             }
         }
     }
