@@ -64,7 +64,7 @@ class HistoryElement
       $this->Action = $Action;
       $this->ModifiedByAgentID = $ModifiedByAgentID;
       $this->ModifiedByAgentUserName = $ModifiedByAgentUserName;
-      $this->ModifiedDate = $ModifiedDate->format(\DateTime::ATOM);
+      $this->ModifiedDate = $ModifiedDate ? $ModifiedDate->format(\DateTime::ATOM) : null;
       $this->Component = $Component;
       $this->CorrelationElement = $CorrelationElement;
       $this->CorrelationValue = $CorrelationValue;

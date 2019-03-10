@@ -50,7 +50,7 @@ class AgentAction
       $this->BranchCode = $BranchCode;
       $this->AgencyCode = $AgencyCode;
       $this->AgentSine = $AgentSine;
-      $this->EventTime = $EventTime->format(\DateTime::ATOM);
+      $this->EventTime = $EventTime ? $EventTime->format(\DateTime::ATOM) : null;
     }
 
     /**

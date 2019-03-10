@@ -34,7 +34,7 @@ class TCRInfo
     public function __construct($Status = null, \DateTime $Date = null, $TCRNumber = null, $ProviderReservationInfoRef = null)
     {
       $this->Status = $Status;
-      $this->Date = $Date->format(\DateTime::ATOM);
+      $this->Date = $Date ? $Date->format(\DateTime::ATOM) : null;
       $this->TCRNumber = $TCRNumber;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
     }

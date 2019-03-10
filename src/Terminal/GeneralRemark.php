@@ -99,7 +99,7 @@ class GeneralRemark
       $this->SupplierType = $SupplierType;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
       $this->Direction = $Direction;
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
       $this->UseProviderNativeMode = $UseProviderNativeMode;
       $this->ProviderCode = $ProviderCode;
       $this->SupplierCode = $SupplierCode;

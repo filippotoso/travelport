@@ -42,7 +42,7 @@ class InvoiceData
       $this->BookingTravelerInformation = $BookingTravelerInformation;
       $this->Key = $Key;
       $this->InvoiceNumber = $InvoiceNumber;
-      $this->IssueDate = $IssueDate->format(\DateTime::ATOM);
+      $this->IssueDate = $IssueDate ? $IssueDate->format(\DateTime::ATOM) : null;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
     }
 

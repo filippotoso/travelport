@@ -76,7 +76,7 @@ class RailTicketInfo
       $this->TicketStatus = $TicketStatus;
       $this->TicketFormType = $TicketFormType;
       $this->TrafficType = $TrafficType;
-      $this->IssuedDate = $IssuedDate->format(\DateTime::ATOM);
+      $this->IssuedDate = $IssuedDate ? $IssuedDate->format(\DateTime::ATOM) : null;
       $this->TicketType = $TicketType;
       $this->BookingTravelerRef = $BookingTravelerRef;
     }

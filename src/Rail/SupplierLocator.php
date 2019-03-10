@@ -41,7 +41,7 @@ class SupplierLocator
       $this->SupplierCode = $SupplierCode;
       $this->SupplierLocatorCode = $SupplierLocatorCode;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
-      $this->CreateDateTime = $CreateDateTime->format(\DateTime::ATOM);
+      $this->CreateDateTime = $CreateDateTime ? $CreateDateTime->format(\DateTime::ATOM) : null;
     }
 
     /**

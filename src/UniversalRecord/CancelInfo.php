@@ -104,7 +104,7 @@ class CancelInfo
     public function __construct($NonRefundableStayIndicator = null, \DateTime $CancelDeadline = null, $TaxInclusive = null, $FeeInclusive = null, $CancelPenaltyAmount = null, $NumberOfNights = null, $CancelPenaltyPercent = null, $CancelPenaltyPercentAppliesTo = null, $Method = null, $Supported = null, $URL = null, $OffsetTimeUnit = null, $OffsetUnitMultiplier = null, $OffsetDropTime = null)
     {
       $this->NonRefundableStayIndicator = $NonRefundableStayIndicator;
-      $this->CancelDeadline = $CancelDeadline->format(\DateTime::ATOM);
+      $this->CancelDeadline = $CancelDeadline ? $CancelDeadline->format(\DateTime::ATOM) : null;
       $this->TaxInclusive = $TaxInclusive;
       $this->FeeInclusive = $FeeInclusive;
       $this->CancelPenaltyAmount = $CancelPenaltyAmount;

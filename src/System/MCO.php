@@ -157,7 +157,7 @@ class MCO extends MCOInformation
       $this->TicketType = $TicketType;
       $this->TicketNumber = $TicketNumber;
       $this->MCOIssued = $MCOIssued;
-      $this->MCOIssueDate = $MCOIssueDate->format(\DateTime::ATOM);
+      $this->MCOIssueDate = $MCOIssueDate ? $MCOIssueDate->format(\DateTime::ATOM) : null;
       $this->MCODocNum = $MCODocNum;
       $this->IssueReasonCode = $IssueReasonCode;
       $this->PlatingCarrier = $PlatingCarrier;

@@ -41,7 +41,7 @@ class ConjunctedTicketInfo
     {
       $this->Number = $Number;
       $this->IATANumber = $IATANumber;
-      $this->TicketIssueDate = $TicketIssueDate->format(\DateTime::ATOM);
+      $this->TicketIssueDate = $TicketIssueDate ? $TicketIssueDate->format(\DateTime::ATOM) : null;
       $this->TicketingAgentSignOn = $TicketingAgentSignOn;
       $this->Status = $Status;
     }

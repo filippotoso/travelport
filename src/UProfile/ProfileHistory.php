@@ -73,10 +73,10 @@ class ProfileHistory
       $this->ProfileName = $ProfileName;
       $this->CreatedByAgentID = $CreatedByAgentID;
       $this->CreatedByAgentUserName = $CreatedByAgentUserName;
-      $this->CreatedDate = $CreatedDate->format(\DateTime::ATOM);
+      $this->CreatedDate = $CreatedDate ? $CreatedDate->format(\DateTime::ATOM) : null;
       $this->LastModifiedByAgentID = $LastModifiedByAgentID;
       $this->LastModifiedByAgentUserName = $LastModifiedByAgentUserName;
-      $this->LastModifiedDate = $LastModifiedDate->format(\DateTime::ATOM);
+      $this->LastModifiedDate = $LastModifiedDate ? $LastModifiedDate->format(\DateTime::ATOM) : null;
       $this->ProfileID = $ProfileID;
       $this->ProfileType = $ProfileType;
     }

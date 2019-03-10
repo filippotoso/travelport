@@ -105,8 +105,8 @@ class AirSegmentDetails
       $this->Carrier = $Carrier;
       $this->Origin = $Origin;
       $this->Destination = $Destination;
-      $this->DepartureTime = $DepartureTime->format(\DateTime::ATOM);
-      $this->ArrivalTime = $ArrivalTime->format(\DateTime::ATOM);
+      $this->DepartureTime = $DepartureTime ? $DepartureTime->format(\DateTime::ATOM) : null;
+      $this->ArrivalTime = $ArrivalTime ? $ArrivalTime->format(\DateTime::ATOM) : null;
       $this->Equipment = $Equipment;
       $this->ClassOfService = $ClassOfService;
       $this->CabinClass = $CabinClass;

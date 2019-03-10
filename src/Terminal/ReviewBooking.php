@@ -72,7 +72,7 @@ class ReviewBooking
       $this->Key = $Key;
       $this->Queue = $Queue;
       $this->QueueCategory = $QueueCategory;
-      $this->DateTime = $DateTime->format(\DateTime::ATOM);
+      $this->DateTime = $DateTime ? $DateTime->format(\DateTime::ATOM) : null;
       $this->PseudoCityCode = $PseudoCityCode;
       $this->ProviderCode = $ProviderCode;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;

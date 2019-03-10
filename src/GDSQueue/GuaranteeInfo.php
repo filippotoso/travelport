@@ -79,7 +79,7 @@ class GuaranteeInfo
       $this->DepositNights = $DepositNights;
       $this->DepositPercent = $DepositPercent;
       $this->GuaranteePaymentType = $GuaranteePaymentType;
-      $this->AbsoluteDeadline = $AbsoluteDeadline->format(\DateTime::ATOM);
+      $this->AbsoluteDeadline = $AbsoluteDeadline ? $AbsoluteDeadline->format(\DateTime::ATOM) : null;
       $this->CredentialsRequired = $CredentialsRequired;
       $this->HoldTime = $HoldTime;
       $this->GuaranteeType = $GuaranteeType;

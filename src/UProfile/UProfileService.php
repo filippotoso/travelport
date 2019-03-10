@@ -525,17 +525,16 @@ class UProfileService extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
+      foreach (self::$classmap as $key => $value) {
+        if (!isset($options['classmap'][$key])) {
+          $options['classmap'][$key] = $value;
+        }
+      }
       $options = array_merge(array (
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/uprofile_v37_0/UProfile.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/uprofile_v37_0/UProfile.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

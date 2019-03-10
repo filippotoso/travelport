@@ -279,7 +279,7 @@ class UniversalRecord
       $this->LocatorCode = $LocatorCode;
       $this->SavedTripLocatorCode = $SavedTripLocatorCode;
       $this->LockReason = $LockReason;
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
       $this->Version = $Version;
       $this->Status = $Status;
     }

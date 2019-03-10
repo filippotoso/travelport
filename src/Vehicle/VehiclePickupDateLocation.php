@@ -33,7 +33,7 @@ class VehiclePickupDateLocation
      */
     public function __construct(\DateTime $PickupDateTime = null, $PickupLocation = null, $PickupLocationType = null, $PickupLocationNumber = null)
     {
-      $this->PickupDateTime = $PickupDateTime->format(\DateTime::ATOM);
+      $this->PickupDateTime = $PickupDateTime ? $PickupDateTime->format(\DateTime::ATOM) : null;
       $this->PickupLocation = $PickupLocation;
       $this->PickupLocationType = $PickupLocationType;
       $this->PickupLocationNumber = $PickupLocationNumber;

@@ -108,7 +108,7 @@ class CancelInfo
       $this->CancellationPolicy = $CancellationPolicy;
       $this->Text = $Text;
       $this->NonRefundableStayIndicator = $NonRefundableStayIndicator;
-      $this->CancelDeadline = $CancelDeadline->format(\DateTime::ATOM);
+      $this->CancelDeadline = $CancelDeadline ? $CancelDeadline->format(\DateTime::ATOM) : null;
       $this->TaxInclusive = $TaxInclusive;
       $this->FeeInclusive = $FeeInclusive;
       $this->CancelPenaltyAmount = $CancelPenaltyAmount;

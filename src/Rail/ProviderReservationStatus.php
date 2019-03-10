@@ -44,8 +44,8 @@ class ProviderReservationStatus
      */
     public function __construct(\DateTime $CreateDate = null, \DateTime $ModifiedDate = null, $ProviderCode = null, $LocatorCode = null, $Cancelled = null)
     {
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
-      $this->ModifiedDate = $ModifiedDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
+      $this->ModifiedDate = $ModifiedDate ? $ModifiedDate->format(\DateTime::ATOM) : null;
       $this->ProviderCode = $ProviderCode;
       $this->LocatorCode = $LocatorCode;
       $this->Cancelled = $Cancelled;

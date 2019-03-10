@@ -470,7 +470,7 @@ class OptionalService
       $this->Available = $Available;
       $this->Entitled = $Entitled;
       $this->PerTraveler = $PerTraveler;
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
       $this->PaymentRef = $PaymentRef;
       $this->ServiceStatus = $ServiceStatus;
       $this->Quantity = $Quantity;

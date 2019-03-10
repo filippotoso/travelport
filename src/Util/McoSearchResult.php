@@ -46,7 +46,7 @@ class McoSearchResult
     public function __construct($Name = null, \DateTime $CreateDate = null, $Number = null, $Status = null, $Type = null, $LocatorCode = null)
     {
       $this->Name = $Name;
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
       $this->Number = $Number;
       $this->Status = $Status;
       $this->Type = $Type;

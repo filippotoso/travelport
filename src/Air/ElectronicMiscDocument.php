@@ -83,7 +83,7 @@ class ElectronicMiscDocument
       $this->InConjunctionWith = $InConjunctionWith;
       $this->AssociatedTicketNumber = $AssociatedTicketNumber;
       $this->PlatingCarrier = $PlatingCarrier;
-      $this->IssueDate = $IssueDate->format(\DateTime::ATOM);
+      $this->IssueDate = $IssueDate ? $IssueDate->format(\DateTime::ATOM) : null;
       $this->ElStat = $ElStat;
       $this->KeyOverride = $KeyOverride;
     }

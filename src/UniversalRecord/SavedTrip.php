@@ -308,8 +308,8 @@ class SavedTrip
       $this->LocatorCode = $LocatorCode;
       $this->UniversalRecordLocatorCode = $UniversalRecordLocatorCode;
       $this->Name = $Name;
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
-      $this->ModifiedDate = $ModifiedDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
+      $this->ModifiedDate = $ModifiedDate ? $ModifiedDate->format(\DateTime::ATOM) : null;
       $this->Version = $Version;
       $this->Status = $Status;
       $this->CreatedByAgent = $CreatedByAgent;
