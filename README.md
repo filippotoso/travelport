@@ -21,6 +21,7 @@ Here is a pure PHP example:
 
 ```php
 use FilippoToso\Travelport;
+use FilippoToso\Travelport\System;
 
 // Create the API client
 $travelport = new Travelport\Travelport(
@@ -72,7 +73,8 @@ Then insert your credentials in the config\travelport.php file.
 Then you can execute requests with a code like this:
 
 ```php
-use Travelport;
+use FilippoToso\Travelport;
+use FilippoToso\Travelport\System;
 
 // Create a Time request on the System service
 $request = (new System\TimeReq())
