@@ -15,7 +15,7 @@ composer require filippo-toso/travelport
 
 ## Usage
 
-If you don't have the required credentials you can register for a trial on this page: https://developer.travelport.com/app/developer-network/request-formpage
+If you don't have the required credentials you can register for a trial on this page: https://developer.travelport.com/web/developer/contact-us?type=UAPI
 
 Here is a pure PHP example:
 
