@@ -131,7 +131,7 @@ class RateInfo
      * @param boolean $MinInPolicy
      * @param boolean $MaxInPolicy
      */
-    public function __construct($MinimumAmount = null, $ApproximateMinimumAmount = null, $MinAmountRateChanged = null, $MaximumAmount = null, $ApproximateMaximumAmount = null, $MaxAmountRateChanged = null, $MinimumStayAmount = null, $ApproximateMinimumStayAmount = null, $Commission = null, $RateSupplier = null, $RateSupplierLogo = null, $PaymentType = null, $ApproxAvgNightlyAmt = null, $TaxesIncluded = null, $AmountConverted = null, $MultipleRoom = null, $PackageOffer = null, $MinInPolicy = null, $MaxInPolicy = null)
+    public function __construct($MinimumAmount, $ApproximateMinimumAmount, $MinAmountRateChanged, $MaximumAmount, $ApproximateMaximumAmount, $MaxAmountRateChanged, $MinimumStayAmount, $ApproximateMinimumStayAmount, $Commission, $RateSupplier, $RateSupplierLogo, $PaymentType, $ApproxAvgNightlyAmt, $TaxesIncluded, $AmountConverted, $MultipleRoom, $PackageOffer, $MinInPolicy, $MaxInPolicy)
     {
       $this->MinimumAmount = $MinimumAmount;
       $this->ApproximateMinimumAmount = $ApproximateMinimumAmount;

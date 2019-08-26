@@ -25,7 +25,7 @@ class AirRefundModifiers
      * @param string $AccountCode
      * @param typeTicketDesignator $TicketDesignator
      */
-    public function __construct($RefundDate = null, $AccountCode = null, $TicketDesignator = null)
+    public function __construct($RefundDate, $AccountCode, $TicketDesignator)
     {
       $this->RefundDate = $RefundDate;
       $this->AccountCode = $AccountCode;

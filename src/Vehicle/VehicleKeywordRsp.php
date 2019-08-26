@@ -23,7 +23,7 @@ class VehicleKeywordRsp extends BaseRsp
      * @param string $CommandHistory
      * @param Keyword $Keyword
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $Keyword = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $Keyword)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->Keyword = $Keyword;

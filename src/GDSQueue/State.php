@@ -13,7 +13,7 @@ class State
     /**
      * @param string $_
      */
-    public function __construct($_ = null)
+    public function __construct($_)
     {
       $this->_ = $_;
     }

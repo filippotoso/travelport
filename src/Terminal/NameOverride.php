@@ -19,7 +19,7 @@ class NameOverride
      * @param anonymous409 $First
      * @param anonymous410 $Last
      */
-    public function __construct($First = null, $Last = null)
+    public function __construct($First, $Last)
     {
       $this->First = $First;
       $this->Last = $Last;

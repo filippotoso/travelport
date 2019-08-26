@@ -6,7 +6,7 @@ class EMD
 {
 
     /**
-     * @var anonymous921 $FulfillmentType
+     * @var anonymous919 $FulfillmentType
      */
     protected $FulfillmentType = null;
 
@@ -21,42 +21,42 @@ class EMD
     protected $AssociatedItem = null;
 
     /**
-     * @var anonymous922 $AvailabilityChargeIndicator
+     * @var anonymous920 $AvailabilityChargeIndicator
      */
     protected $AvailabilityChargeIndicator = null;
 
     /**
-     * @var anonymous923 $RefundReissueIndicator
+     * @var anonymous921 $RefundReissueIndicator
      */
     protected $RefundReissueIndicator = null;
 
     /**
-     * @var anonymous924 $Commissionable
+     * @var anonymous922 $Commissionable
      */
     protected $Commissionable = null;
 
     /**
-     * @var anonymous925 $MileageIndicator
+     * @var anonymous923 $MileageIndicator
      */
     protected $MileageIndicator = null;
 
     /**
-     * @var anonymous926 $Location
+     * @var anonymous924 $Location
      */
     protected $Location = null;
 
     /**
-     * @var anonymous927 $Date
+     * @var anonymous925 $Date
      */
     protected $Date = null;
 
     /**
-     * @var anonymous928 $Booking
+     * @var anonymous926 $Booking
      */
     protected $Booking = null;
 
     /**
-     * @var anonymous929 $DisplayCategory
+     * @var anonymous927 $DisplayCategory
      */
     protected $DisplayCategory = null;
 
@@ -66,20 +66,20 @@ class EMD
     protected $Reusable = null;
 
     /**
-     * @param anonymous921 $FulfillmentType
+     * @param anonymous919 $FulfillmentType
      * @param string $FulfillmentTypeDescription
      * @param string $AssociatedItem
-     * @param anonymous922 $AvailabilityChargeIndicator
-     * @param anonymous923 $RefundReissueIndicator
-     * @param anonymous924 $Commissionable
-     * @param anonymous925 $MileageIndicator
-     * @param anonymous926 $Location
-     * @param anonymous927 $Date
-     * @param anonymous928 $Booking
-     * @param anonymous929 $DisplayCategory
+     * @param anonymous920 $AvailabilityChargeIndicator
+     * @param anonymous921 $RefundReissueIndicator
+     * @param anonymous922 $Commissionable
+     * @param anonymous923 $MileageIndicator
+     * @param anonymous924 $Location
+     * @param anonymous925 $Date
+     * @param anonymous926 $Booking
+     * @param anonymous927 $DisplayCategory
      * @param boolean $Reusable
      */
-    public function __construct($FulfillmentType = null, $FulfillmentTypeDescription = null, $AssociatedItem = null, $AvailabilityChargeIndicator = null, $RefundReissueIndicator = null, $Commissionable = null, $MileageIndicator = null, $Location = null, $Date = null, $Booking = null, $DisplayCategory = null, $Reusable = null)
+    public function __construct($FulfillmentType, $FulfillmentTypeDescription, $AssociatedItem, $AvailabilityChargeIndicator, $RefundReissueIndicator, $Commissionable, $MileageIndicator, $Location, $Date, $Booking, $DisplayCategory, $Reusable)
     {
       $this->FulfillmentType = $FulfillmentType;
       $this->FulfillmentTypeDescription = $FulfillmentTypeDescription;
@@ -96,7 +96,7 @@ class EMD
     }
 
     /**
-     * @return anonymous921
+     * @return anonymous919
      */
     public function getFulfillmentType()
     {
@@ -104,7 +104,7 @@ class EMD
     }
 
     /**
-     * @param anonymous921 $FulfillmentType
+     * @param anonymous919 $FulfillmentType
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setFulfillmentType($FulfillmentType)
@@ -150,7 +150,7 @@ class EMD
     }
 
     /**
-     * @return anonymous922
+     * @return anonymous920
      */
     public function getAvailabilityChargeIndicator()
     {
@@ -158,7 +158,7 @@ class EMD
     }
 
     /**
-     * @param anonymous922 $AvailabilityChargeIndicator
+     * @param anonymous920 $AvailabilityChargeIndicator
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setAvailabilityChargeIndicator($AvailabilityChargeIndicator)
@@ -168,7 +168,7 @@ class EMD
     }
 
     /**
-     * @return anonymous923
+     * @return anonymous921
      */
     public function getRefundReissueIndicator()
     {
@@ -176,7 +176,7 @@ class EMD
     }
 
     /**
-     * @param anonymous923 $RefundReissueIndicator
+     * @param anonymous921 $RefundReissueIndicator
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setRefundReissueIndicator($RefundReissueIndicator)
@@ -186,7 +186,7 @@ class EMD
     }
 
     /**
-     * @return anonymous924
+     * @return anonymous922
      */
     public function getCommissionable()
     {
@@ -194,7 +194,7 @@ class EMD
     }
 
     /**
-     * @param anonymous924 $Commissionable
+     * @param anonymous922 $Commissionable
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setCommissionable($Commissionable)
@@ -204,7 +204,7 @@ class EMD
     }
 
     /**
-     * @return anonymous925
+     * @return anonymous923
      */
     public function getMileageIndicator()
     {
@@ -212,7 +212,7 @@ class EMD
     }
 
     /**
-     * @param anonymous925 $MileageIndicator
+     * @param anonymous923 $MileageIndicator
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setMileageIndicator($MileageIndicator)
@@ -222,7 +222,7 @@ class EMD
     }
 
     /**
-     * @return anonymous926
+     * @return anonymous924
      */
     public function getLocation()
     {
@@ -230,7 +230,7 @@ class EMD
     }
 
     /**
-     * @param anonymous926 $Location
+     * @param anonymous924 $Location
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setLocation($Location)
@@ -240,7 +240,7 @@ class EMD
     }
 
     /**
-     * @return anonymous927
+     * @return anonymous925
      */
     public function getDate()
     {
@@ -248,7 +248,7 @@ class EMD
     }
 
     /**
-     * @param anonymous927 $Date
+     * @param anonymous925 $Date
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setDate($Date)
@@ -258,7 +258,7 @@ class EMD
     }
 
     /**
-     * @return anonymous928
+     * @return anonymous926
      */
     public function getBooking()
     {
@@ -266,7 +266,7 @@ class EMD
     }
 
     /**
-     * @param anonymous928 $Booking
+     * @param anonymous926 $Booking
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setBooking($Booking)
@@ -276,7 +276,7 @@ class EMD
     }
 
     /**
-     * @return anonymous929
+     * @return anonymous927
      */
     public function getDisplayCategory()
     {
@@ -284,7 +284,7 @@ class EMD
     }
 
     /**
-     * @param anonymous929 $DisplayCategory
+     * @param anonymous927 $DisplayCategory
      * @return \FilippoToso\Travelport\GDSQueue\EMD
      */
     public function setDisplayCategory($DisplayCategory)

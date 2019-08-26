@@ -6,7 +6,7 @@ class PromoCode
 {
 
     /**
-     * @var anonymous848 $Code
+     * @var anonymous845 $Code
      */
     protected $Code = null;
 
@@ -21,11 +21,11 @@ class PromoCode
     protected $SupplierCode = null;
 
     /**
-     * @param anonymous848 $Code
+     * @param anonymous845 $Code
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($Code = null, $ProviderCode = null, $SupplierCode = null)
+    public function __construct($Code, $ProviderCode, $SupplierCode)
     {
       $this->Code = $Code;
       $this->ProviderCode = $ProviderCode;
@@ -33,7 +33,7 @@ class PromoCode
     }
 
     /**
-     * @return anonymous848
+     * @return anonymous845
      */
     public function getCode()
     {
@@ -41,7 +41,7 @@ class PromoCode
     }
 
     /**
-     * @param anonymous848 $Code
+     * @param anonymous845 $Code
      * @return \FilippoToso\Travelport\Rail\PromoCode
      */
     public function setCode($Code)

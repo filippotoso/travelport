@@ -35,7 +35,7 @@ class typeOTAKeyword
      * @param UNKNOWN $Number
      * @param UNKNOWN $Description
      */
-    public function __construct($Name = null, $Number = null, $Description = null)
+    public function __construct($Name, $Number, $Description)
     {
       $this->Name = $Name;
       $this->Number = $Number;

@@ -73,7 +73,7 @@ class HotelUpsellQualify
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($CorporateDiscountID = null, $HotelChainCode = null, $HotelCode = null, $HotelLocation = null, $RatePlanType = null, $EffectiveDate = null, $ExpirationDate = null, $Key = null, $OfferRef = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($CorporateDiscountID, $HotelChainCode, $HotelCode, $HotelLocation, $RatePlanType, $EffectiveDate, $ExpirationDate, $Key, $OfferRef, $ElStat, $KeyOverride)
     {
       $this->CorporateDiscountID = $CorporateDiscountID;
       $this->HotelChainCode = $HotelChainCode;

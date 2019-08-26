@@ -37,7 +37,7 @@ class BillingDetailItem
      * @param string $MaxLength
      * @param string $Value
      */
-    public function __construct($Name = null, $DataType = null, $MinLength = null, $MaxLength = null, $Value = null)
+    public function __construct($Name, $DataType, $MinLength, $MaxLength, $Value)
     {
       $this->Name = $Name;
       $this->DataType = $DataType;

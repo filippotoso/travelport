@@ -55,7 +55,7 @@ class QueueAgentRecord
      * @param string $Category
      * @param string $DateRange
      */
-    public function __construct($UniversalRecordLocatorCode = null, $PseudoCityCode = null, $QueueSessionToken = null, $QueueNumber = null, $Lastupdated = null, $TargetBranch = null, $Category = null, $DateRange = null)
+    public function __construct($UniversalRecordLocatorCode, $PseudoCityCode, $QueueSessionToken, $QueueNumber, $Lastupdated, $TargetBranch, $Category, $DateRange)
     {
       $this->UniversalRecordLocatorCode = $UniversalRecordLocatorCode;
       $this->PseudoCityCode = $PseudoCityCode;

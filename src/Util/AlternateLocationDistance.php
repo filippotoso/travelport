@@ -31,7 +31,7 @@ class AlternateLocationDistance
      * @param typeIATACode $SearchLocation
      * @param typeIATACode $AlternateLocation
      */
-    public function __construct($Distance = null, $Key = null, $SearchLocation = null, $AlternateLocation = null)
+    public function __construct($Distance, $Key, $SearchLocation, $AlternateLocation)
     {
       $this->Distance = $Distance;
       $this->Key = $Key;

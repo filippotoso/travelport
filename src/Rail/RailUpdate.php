@@ -19,7 +19,7 @@ class RailUpdate
      * @param BookingAction $BookingAction
      * @param typeLocatorCode $ReservationLocatorCode
      */
-    public function __construct($BookingAction = null, $ReservationLocatorCode = null)
+    public function __construct($BookingAction, $ReservationLocatorCode)
     {
       $this->BookingAction = $BookingAction;
       $this->ReservationLocatorCode = $ReservationLocatorCode;

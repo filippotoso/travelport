@@ -57,7 +57,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
      * @param typeRateCode $RateCode
      * @param typeDiscountNumber $DiscountNumber
      */
-    public function __construct($EffectiveDate = null, $ExpirationDate = null, $VendorCode = null, $VehicleClass = null, $Category = null, $AirConditioning = null, $TransmissionType = null, $DoorCount = null, $RateCode = null, $DiscountNumber = null)
+    public function __construct($EffectiveDate, $ExpirationDate, $VendorCode, $VehicleClass, $Category, $AirConditioning, $TransmissionType, $DoorCount, $RateCode, $DiscountNumber)
     {
       parent::__construct($EffectiveDate, $ExpirationDate);
       $this->VendorCode = $VendorCode;

@@ -19,7 +19,7 @@ class AlternateRoute
      * @param Leg $Leg
      * @param typeRef $Key
      */
-    public function __construct($Leg = null, $Key = null)
+    public function __construct($Leg, $Key)
     {
       $this->Leg = $Leg;
       $this->Key = $Key;

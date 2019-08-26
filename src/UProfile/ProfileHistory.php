@@ -67,16 +67,16 @@ class ProfileHistory
      * @param typeProfileID $ProfileID
      * @param typeProfileType $ProfileType
      */
-    public function __construct($HistoryElement = null, $ProfileName = null, $CreatedByAgentID = null, $CreatedByAgentUserName = null, \DateTime $CreatedDate = null, $LastModifiedByAgentID = null, $LastModifiedByAgentUserName = null, \DateTime $LastModifiedDate = null, $ProfileID = null, $ProfileType = null)
+    public function __construct($HistoryElement, $ProfileName, $CreatedByAgentID, $CreatedByAgentUserName, \DateTime $CreatedDate, $LastModifiedByAgentID, $LastModifiedByAgentUserName, \DateTime $LastModifiedDate, $ProfileID, $ProfileType)
     {
       $this->HistoryElement = $HistoryElement;
       $this->ProfileName = $ProfileName;
       $this->CreatedByAgentID = $CreatedByAgentID;
       $this->CreatedByAgentUserName = $CreatedByAgentUserName;
-      $this->CreatedDate = $CreatedDate ? $CreatedDate->format(\DateTime::ATOM) : null;
+      $this->CreatedDate = $CreatedDate->format(\DateTime::ATOM);
       $this->LastModifiedByAgentID = $LastModifiedByAgentID;
       $this->LastModifiedByAgentUserName = $LastModifiedByAgentUserName;
-      $this->LastModifiedDate = $LastModifiedDate ? $LastModifiedDate->format(\DateTime::ATOM) : null;
+      $this->LastModifiedDate = $LastModifiedDate->format(\DateTime::ATOM);
       $this->ProfileID = $ProfileID;
       $this->ProfileType = $ProfileType;
     }

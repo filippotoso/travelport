@@ -19,7 +19,7 @@ class ModifiedRange
      * @param date $ModifiedStart
      * @param date $ModifiedEnd
      */
-    public function __construct($ModifiedStart = null, $ModifiedEnd = null)
+    public function __construct($ModifiedStart, $ModifiedEnd)
     {
       $this->ModifiedStart = $ModifiedStart;
       $this->ModifiedEnd = $ModifiedEnd;

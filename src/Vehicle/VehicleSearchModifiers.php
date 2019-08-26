@@ -123,7 +123,7 @@ class VehicleSearchModifiers
      * @param typeRateTimePeriod $RatePeriod
      * @param boolean $SellableRatesOnly
      */
-    public function __construct($VehicleModifier = null, $VehicleType = null, $RateModifiers = null, $LoyaltyCard = null, $ReferencePoint = null, $BookingSource = null, $SpecialEquipment = null, $Policy = null, $DriverInfo = null, $Key = null, $PreferredCurrency = null, $UnlimitedMileage = null, $RateCategory = null, $RateGuaranteed = null, $RatePeriod = null, $SellableRatesOnly = null)
+    public function __construct($VehicleModifier, $VehicleType, $RateModifiers, $LoyaltyCard, $ReferencePoint, $BookingSource, $SpecialEquipment, $Policy, $DriverInfo, $Key, $PreferredCurrency, $UnlimitedMileage, $RateCategory, $RateGuaranteed, $RatePeriod, $SellableRatesOnly)
     {
       $this->VehicleModifier = $VehicleModifier;
       $this->VehicleType = $VehicleType;

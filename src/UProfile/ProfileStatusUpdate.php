@@ -13,7 +13,7 @@ class ProfileStatusUpdate
     /**
      * @param typeProfileEntityStatus $Status
      */
-    public function __construct($Status = null)
+    public function __construct($Status)
     {
       $this->Status = $Status;
     }

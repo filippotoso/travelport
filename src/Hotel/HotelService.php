@@ -381,7 +381,7 @@ class HotelService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/hotel_v47_0/Hotel.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/hotel_v48_0/Hotel.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

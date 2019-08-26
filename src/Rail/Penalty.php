@@ -19,7 +19,7 @@ class Penalty
      * @param typeMoney $Amount
      * @param string $PenaltyType
      */
-    public function __construct($Amount = null, $PenaltyType = null)
+    public function __construct($Amount, $PenaltyType)
     {
       $this->Amount = $Amount;
       $this->PenaltyType = $PenaltyType;

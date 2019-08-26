@@ -13,7 +13,7 @@ class PermittedBookingCodes
     /**
      * @param BookingCode $BookingCode
      */
-    public function __construct($BookingCode = null)
+    public function __construct($BookingCode)
     {
       $this->BookingCode = $BookingCode;
     }

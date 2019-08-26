@@ -19,7 +19,7 @@ class DisplayDetail
      * @param typeDisplayDetailName $Name
      * @param string $Value
      */
-    public function __construct($Name = null, $Value = null)
+    public function __construct($Name, $Value)
     {
       $this->Name = $Name;
       $this->Value = $Value;

@@ -24,7 +24,7 @@ class typeStringRestriction
      * @param int $MinLength
      * @param int $MaxLength
      */
-    public function __construct($MinLength = null, $MaxLength = null)
+    public function __construct($MinLength, $MaxLength)
     {
       $this->MinLength = $MinLength;
       $this->MaxLength = $MaxLength;

@@ -16,16 +16,16 @@ class WaiverCode
     protected $TicketDesignator = null;
 
     /**
-     * @var anonymous794 $Endorsement
+     * @var anonymous791 $Endorsement
      */
     protected $Endorsement = null;
 
     /**
      * @param typeTourCode $TourCode
      * @param typeTicketDesignator $TicketDesignator
-     * @param anonymous794 $Endorsement
+     * @param anonymous791 $Endorsement
      */
-    public function __construct($TourCode = null, $TicketDesignator = null, $Endorsement = null)
+    public function __construct($TourCode, $TicketDesignator, $Endorsement)
     {
       $this->TourCode = $TourCode;
       $this->TicketDesignator = $TicketDesignator;
@@ -69,7 +69,7 @@ class WaiverCode
     }
 
     /**
-     * @return anonymous794
+     * @return anonymous791
      */
     public function getEndorsement()
     {
@@ -77,7 +77,7 @@ class WaiverCode
     }
 
     /**
-     * @param anonymous794 $Endorsement
+     * @param anonymous791 $Endorsement
      * @return \FilippoToso\Travelport\Rail\WaiverCode
      */
     public function setEndorsement($Endorsement)

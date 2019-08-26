@@ -36,7 +36,7 @@ class UniversalRecordModifyRsp extends BaseRsp
      * @param UniversalModifyFailureInfo $UniversalModifyFailureInfo
      * @param string $QueueSessionToken
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $UniversalRecord = null, $AirSolutionChangedInfo = null, $UniversalModifyFailureInfo = null, $QueueSessionToken = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $UniversalRecord, $AirSolutionChangedInfo, $UniversalModifyFailureInfo, $QueueSessionToken)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->UniversalRecord = $UniversalRecord;

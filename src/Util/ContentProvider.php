@@ -16,7 +16,7 @@ class ContentProvider
     protected $SupplierCode = null;
 
     /**
-     * @var anonymous1140 $AgencyCredentials
+     * @var anonymous1138 $AgencyCredentials
      */
     protected $AgencyCredentials = null;
 
@@ -88,7 +88,7 @@ class ContentProvider
     /**
      * @param string $ProviderCode
      * @param string $SupplierCode
-     * @param anonymous1140 $AgencyCredentials
+     * @param anonymous1138 $AgencyCredentials
      * @param boolean $Active
      * @param boolean $Provisionable
      * @param string $MerchandisingACHAdapter
@@ -103,7 +103,7 @@ class ContentProvider
      * @param typeProviderSupplierCapabilityType $BookingCancel
      * @param typeProviderSupplierCapabilityType $SeatMap
      */
-    public function __construct($ProviderCode = null, $SupplierCode = null, $AgencyCredentials = null, $Active = null, $Provisionable = null, $MerchandisingACHAdapter = null, $StaticDataCarrier = null, $MerchandisingACHCarrier = null, $MerchandisingHubCarrier = null, $BookingRetrieve = null, $SegmentModify = null, $OptionalServicesModify = null, $TravelerInfoModify = null, $AdditionalPayment = null, $BookingCancel = null, $SeatMap = null)
+    public function __construct($ProviderCode, $SupplierCode, $AgencyCredentials, $Active, $Provisionable, $MerchandisingACHAdapter, $StaticDataCarrier, $MerchandisingACHCarrier, $MerchandisingHubCarrier, $BookingRetrieve, $SegmentModify, $OptionalServicesModify, $TravelerInfoModify, $AdditionalPayment, $BookingCancel, $SeatMap)
     {
       $this->ProviderCode = $ProviderCode;
       $this->SupplierCode = $SupplierCode;
@@ -160,7 +160,7 @@ class ContentProvider
     }
 
     /**
-     * @return anonymous1140
+     * @return anonymous1138
      */
     public function getAgencyCredentials()
     {
@@ -168,7 +168,7 @@ class ContentProvider
     }
 
     /**
-     * @param anonymous1140 $AgencyCredentials
+     * @param anonymous1138 $AgencyCredentials
      * @return \FilippoToso\Travelport\Util\ContentProvider
      */
     public function setAgencyCredentials($AgencyCredentials)

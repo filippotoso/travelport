@@ -19,7 +19,7 @@ class AirPricingAdjustment
      * @param Adjustment $Adjustment
      * @param typeRef $Key
      */
-    public function __construct($Adjustment = null, $Key = null)
+    public function __construct($Adjustment, $Key)
     {
       $this->Adjustment = $Adjustment;
       $this->Key = $Key;

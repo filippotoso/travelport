@@ -19,7 +19,7 @@ class typeWeight
      * @param int $Value
      * @param typeUnitWeight $Unit
      */
-    public function __construct($Value = null, $Unit = null)
+    public function __construct($Value, $Unit)
     {
       $this->Value = $Value;
       $this->Unit = $Unit;

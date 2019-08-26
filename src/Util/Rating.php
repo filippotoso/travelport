@@ -19,7 +19,7 @@ class Rating
      * @param string $_
      * @param int $Number
      */
-    public function __construct($_ = null, $Number = null)
+    public function __construct($_, $Number)
     {
       $this->_ = $_;
       $this->Number = $Number;

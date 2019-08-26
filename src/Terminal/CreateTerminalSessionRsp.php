@@ -18,7 +18,7 @@ class CreateTerminalSessionRsp extends BaseRsp
      * @param string $CommandHistory
      * @param HostToken $HostToken
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $HostToken = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $HostToken)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->HostToken = $HostToken;

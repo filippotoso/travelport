@@ -109,7 +109,7 @@ class UniversalAdd
      * @param ReviewBooking $ReviewBooking
      * @param FormOfPayment $FormOfPayment
      */
-    public function __construct($AccountingRemark = null, $GeneralRemark = null, $OSI = null, $UnassociatedRemark = null, $XMLRemark = null, $Postscript = null, $BookingTravelerInfo = null, $ServiceFeeInfo = null, $LinkedUniversalRecord = null, $AgencyContactInfo = null, $CustomerID = null, $CommissionRemark = null, $ConsolidatorRemark = null, $InvoiceRemark = null, $ActionStatus = null, $ReviewBooking = null, $FormOfPayment = null)
+    public function __construct($AccountingRemark, $GeneralRemark, $OSI, $UnassociatedRemark, $XMLRemark, $Postscript, $BookingTravelerInfo, $ServiceFeeInfo, $LinkedUniversalRecord, $AgencyContactInfo, $CustomerID, $CommissionRemark, $ConsolidatorRemark, $InvoiceRemark, $ActionStatus, $ReviewBooking, $FormOfPayment)
     {
       $this->AccountingRemark = $AccountingRemark;
       $this->GeneralRemark = $GeneralRemark;

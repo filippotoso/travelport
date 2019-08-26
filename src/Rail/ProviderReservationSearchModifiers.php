@@ -55,7 +55,7 @@ class ProviderReservationSearchModifiers
      * @param boolean $ExcludeHotel
      * @param boolean $ExcludeGround
      */
-    public function __construct($IncludeAllNames = null, $IncludeAgentInfo = null, $MaxResults = null, $StartFromResult = null, $ExcludeAir = null, $ExcludeVehicle = null, $ExcludeHotel = null, $ExcludeGround = null)
+    public function __construct($IncludeAllNames, $IncludeAgentInfo, $MaxResults, $StartFromResult, $ExcludeAir, $ExcludeVehicle, $ExcludeHotel, $ExcludeGround)
     {
       $this->IncludeAllNames = $IncludeAllNames;
       $this->IncludeAgentInfo = $IncludeAgentInfo;

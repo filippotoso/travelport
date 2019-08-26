@@ -25,7 +25,7 @@ class GuaranteePaymentType
      * @param string $Type
      * @param string $Description
      */
-    public function __construct($_ = null, $Type = null, $Description = null)
+    public function __construct($_, $Type, $Description)
     {
       $this->_ = $_;
       $this->Type = $Type;

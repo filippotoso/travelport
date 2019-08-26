@@ -31,7 +31,7 @@ class typeSegmentPolicy
      * @param boolean $InPolicy
      * @param boolean $InContract
      */
-    public function __construct($Preference = null, $SegmentRef = null, $InPolicy = null, $InContract = null)
+    public function __construct($Preference, $SegmentRef, $InPolicy, $InContract)
     {
       $this->Preference = $Preference;
       $this->SegmentRef = $SegmentRef;

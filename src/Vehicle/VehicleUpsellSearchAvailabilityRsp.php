@@ -15,7 +15,7 @@ class VehicleUpsellSearchAvailabilityRsp extends BaseVehicleSearchAvailabilityRs
      * @param VehicleDateLocation $VehicleDateLocation
      * @param Vehicle $Vehicle
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $NextResultReference = null, $VehicleDateLocation = null, $Vehicle = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $VehicleDateLocation, $Vehicle)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $VehicleDateLocation, $Vehicle);
     }

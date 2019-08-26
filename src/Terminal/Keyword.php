@@ -15,7 +15,7 @@ class Keyword extends typeKeyword
      * @param UNKNOWN $Number
      * @param UNKNOWN $Description
      */
-    public function __construct($Name = null, $Number = null, $Description = null)
+    public function __construct($Name, $Number, $Description)
     {
       parent::__construct($Name, $Number, $Description);
     }

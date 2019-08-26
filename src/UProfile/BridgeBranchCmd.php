@@ -19,7 +19,7 @@ class BridgeBranchCmd
      * @param typeBridgeBranchCmd $BridgeBranchAdd
      * @param typeBridgeBranchCmd $BridgeBranchDelete
      */
-    public function __construct($BridgeBranchAdd = null, $BridgeBranchDelete = null)
+    public function __construct($BridgeBranchAdd, $BridgeBranchDelete)
     {
       $this->BridgeBranchAdd = $BridgeBranchAdd;
       $this->BridgeBranchDelete = $BridgeBranchDelete;

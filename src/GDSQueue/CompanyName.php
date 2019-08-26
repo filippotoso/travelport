@@ -13,7 +13,7 @@ class CompanyName
     /**
      * @param typeCarrier $SupplierCode
      */
-    public function __construct($SupplierCode = null)
+    public function __construct($SupplierCode)
     {
       $this->SupplierCode = $SupplierCode;
     }

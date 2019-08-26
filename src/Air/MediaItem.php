@@ -49,7 +49,7 @@ class MediaItem
      * @param anyURI $icon
      * @param typeResponseImageSize $sizeCode
      */
-    public function __construct($caption = null, $height = null, $width = null, $type = null, $url = null, $icon = null, $sizeCode = null)
+    public function __construct($caption, $height, $width, $type, $url, $icon, $sizeCode)
     {
       $this->caption = $caption;
       $this->height = $height;

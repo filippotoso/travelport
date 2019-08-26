@@ -139,7 +139,7 @@ class FixedField
      * @param boolean $Searchable
      * @param boolean $Inheritable
      */
-    public function __construct($FixedFieldGroupRef = null, $ActionRef = null, $ID = null, $ReadOnly = null, $Overriden = null, $Label = null, $DisplayOrder = null, $Hide = null, $SearchOption = null, $SearchOptionDisplayOrder = null, $MinOccursOverride = null, $MaxOccursOverride = null, $MaxOccurs = null, $MinOccurs = null, $Name = null, $DataType = null, $Component = null, $Description = null, $Encrypted = null, $Masked = null, $Searchable = null, $Inheritable = null)
+    public function __construct($FixedFieldGroupRef, $ActionRef, $ID, $ReadOnly, $Overriden, $Label, $DisplayOrder, $Hide, $SearchOption, $SearchOptionDisplayOrder, $MinOccursOverride, $MaxOccursOverride, $MaxOccurs, $MinOccurs, $Name, $DataType, $Component, $Description, $Encrypted, $Masked, $Searchable, $Inheritable)
     {
       $this->FixedFieldGroupRef = $FixedFieldGroupRef;
       $this->ActionRef = $ActionRef;

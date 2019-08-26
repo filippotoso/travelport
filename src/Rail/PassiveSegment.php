@@ -101,7 +101,7 @@ class PassiveSegment
     protected $TravelOrder = null;
 
     /**
-     * @var anonymous1269 $ProviderSegmentOrder
+     * @var anonymous1267 $ProviderSegmentOrder
      */
     protected $ProviderSegmentOrder = null;
 
@@ -139,12 +139,12 @@ class PassiveSegment
      * @param typeRef $PassiveProviderReservationInfoRef
      * @param int $Group
      * @param int $TravelOrder
-     * @param anonymous1269 $ProviderSegmentOrder
+     * @param anonymous1267 $ProviderSegmentOrder
      * @param string $PassiveGroup
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($SupplierCode = null, $Status = null, $StartDate = null, $EndDate = null, $Origin = null, $Destination = null, $AvailabilitySource = null, $PolledAvailabilityOption = null, $AvailabilityDisplayType = null, $FlightNumber = null, $ClassOfService = null, $NumberOfItems = null, $SegmentType = null, $Key = null, $VehicleType = null, $PassiveProviderReservationInfoRef = null, $Group = null, $TravelOrder = null, $ProviderSegmentOrder = null, $PassiveGroup = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($SupplierCode, $Status, $StartDate, $EndDate, $Origin, $Destination, $AvailabilitySource, $PolledAvailabilityOption, $AvailabilityDisplayType, $FlightNumber, $ClassOfService, $NumberOfItems, $SegmentType, $Key, $VehicleType, $PassiveProviderReservationInfoRef, $Group, $TravelOrder, $ProviderSegmentOrder, $PassiveGroup, $ElStat, $KeyOverride)
     {
       $this->SupplierCode = $SupplierCode;
       $this->Status = $Status;
@@ -513,7 +513,7 @@ class PassiveSegment
     }
 
     /**
-     * @return anonymous1269
+     * @return anonymous1267
      */
     public function getProviderSegmentOrder()
     {
@@ -521,7 +521,7 @@ class PassiveSegment
     }
 
     /**
-     * @param anonymous1269 $ProviderSegmentOrder
+     * @param anonymous1267 $ProviderSegmentOrder
      * @return \FilippoToso\Travelport\Rail\PassiveSegment
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)

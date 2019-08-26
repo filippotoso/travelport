@@ -25,7 +25,7 @@ class PriceRange
      * @param typeMoney $StartPrice
      * @param typeMoney $EndPrice
      */
-    public function __construct($DefaultCurrency = null, $StartPrice = null, $EndPrice = null)
+    public function __construct($DefaultCurrency, $StartPrice, $EndPrice)
     {
       $this->DefaultCurrency = $DefaultCurrency;
       $this->StartPrice = $StartPrice;

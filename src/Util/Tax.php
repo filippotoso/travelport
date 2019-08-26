@@ -19,7 +19,7 @@ class Tax
      * @param string $Category
      * @param typeMoney $Amount
      */
-    public function __construct($Category = null, $Amount = null)
+    public function __construct($Category, $Amount)
     {
       $this->Category = $Category;
       $this->Amount = $Amount;

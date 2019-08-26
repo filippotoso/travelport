@@ -73,13 +73,13 @@ class GuaranteeInfo
      * @param Numeric0to999 $OffsetUnitMultiplier
      * @param StringLength1to20 $OffsetDropTime
      */
-    public function __construct($DepositAmount = null, $DepositNights = null, $DepositPercent = null, $GuaranteePaymentType = null, \DateTime $AbsoluteDeadline = null, $CredentialsRequired = null, $HoldTime = null, $GuaranteeType = null, $OffsetTimeUnit = null, $OffsetUnitMultiplier = null, $OffsetDropTime = null)
+    public function __construct($DepositAmount, $DepositNights, $DepositPercent, $GuaranteePaymentType, \DateTime $AbsoluteDeadline, $CredentialsRequired, $HoldTime, $GuaranteeType, $OffsetTimeUnit, $OffsetUnitMultiplier, $OffsetDropTime)
     {
       $this->DepositAmount = $DepositAmount;
       $this->DepositNights = $DepositNights;
       $this->DepositPercent = $DepositPercent;
       $this->GuaranteePaymentType = $GuaranteePaymentType;
-      $this->AbsoluteDeadline = $AbsoluteDeadline ? $AbsoluteDeadline->format(\DateTime::ATOM) : null;
+      $this->AbsoluteDeadline = $AbsoluteDeadline->format(\DateTime::ATOM);
       $this->CredentialsRequired = $CredentialsRequired;
       $this->HoldTime = $HoldTime;
       $this->GuaranteeType = $GuaranteeType;

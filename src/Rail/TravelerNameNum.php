@@ -43,7 +43,7 @@ class TravelerNameNum
      * @param typeTravelerLastName $Last
      * @param anonymous88 $Suffix
      */
-    public function __construct($PaxNum = null, $Prefix = null, $First = null, $Middle = null, $Last = null, $Suffix = null)
+    public function __construct($PaxNum, $Prefix, $First, $Middle, $Last, $Suffix)
     {
       $this->PaxNum = $PaxNum;
       $this->Prefix = $Prefix;

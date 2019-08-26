@@ -13,7 +13,7 @@ class typeBulkTicketModifierType
     /**
      * @param boolean $SuppressOnFareCalc
      */
-    public function __construct($SuppressOnFareCalc = null)
+    public function __construct($SuppressOnFareCalc)
     {
       $this->SuppressOnFareCalc = $SuppressOnFareCalc;
     }

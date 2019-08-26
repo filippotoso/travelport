@@ -51,7 +51,7 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
      * @param typePriorityOrder $PriorityOrder
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $TagRef = null, $Name = null, $Type = null, $Format = null, $Purpose = null, $Provisioned = null, $PriorityOrder = null, $OwnerID = null)
+    public function __construct($Key, $TagRef, $Name, $Type, $Format, $Purpose, $Provisioned, $PriorityOrder, $OwnerID)
     {
       parent::__construct($Key, $TagRef);
       $this->Name = $Name;

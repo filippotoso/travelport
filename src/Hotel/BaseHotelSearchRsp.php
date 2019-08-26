@@ -42,7 +42,7 @@ class BaseHotelSearchRsp extends BaseSearchRsp
      * @param HostToken $HostToken
      * @param int $AddressSearchQuality
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $NextResultReference = null, $HotelSearchResult = null, $MarketingInformation = null, $HostToken = null, $AddressSearchQuality = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $HotelSearchResult, $MarketingInformation, $HostToken, $AddressSearchQuality)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference);
       $this->HotelSearchResult = $HotelSearchResult;

@@ -13,7 +13,7 @@ class RailSegmentList
     /**
      * @param RailSegment $RailSegment
      */
-    public function __construct($RailSegment = null)
+    public function __construct($RailSegment)
     {
       $this->RailSegment = $RailSegment;
     }

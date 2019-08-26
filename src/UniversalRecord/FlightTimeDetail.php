@@ -116,12 +116,12 @@ class FlightTimeDetail
     protected $LastIntermediateStop = null;
 
     /**
-     * @var anonymous935 $InsideAvailability
+     * @var anonymous933 $InsideAvailability
      */
     protected $InsideAvailability = null;
 
     /**
-     * @var anonymous936 $SecureSell
+     * @var anonymous934 $SecureSell
      */
     protected $SecureSell = null;
 
@@ -152,11 +152,11 @@ class FlightTimeDetail
      * @param string $EndTerminal
      * @param typeIATACode $FirstIntermediateStop
      * @param typeIATACode $LastIntermediateStop
-     * @param anonymous935 $InsideAvailability
-     * @param anonymous936 $SecureSell
+     * @param anonymous933 $InsideAvailability
+     * @param anonymous934 $SecureSell
      * @param typeAvailabilitySource $AvailabilitySource
      */
-    public function __construct($Connection = null, $Key = null, $VendorCode = null, $FlightNumber = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $StopCount = null, $Equipment = null, $ScheduleStartDate = null, $ScheduleEndDate = null, $DisplayOption = null, $OnTimePerformance = null, $DayChange = null, $JourneyTime = null, $FlightTime = null, $StartTerminal = null, $EndTerminal = null, $FirstIntermediateStop = null, $LastIntermediateStop = null, $InsideAvailability = null, $SecureSell = null, $AvailabilitySource = null)
+    public function __construct($Connection, $Key, $VendorCode, $FlightNumber, $Origin, $Destination, $DepartureTime, $ArrivalTime, $StopCount, $Equipment, $ScheduleStartDate, $ScheduleEndDate, $DisplayOption, $OnTimePerformance, $DayChange, $JourneyTime, $FlightTime, $StartTerminal, $EndTerminal, $FirstIntermediateStop, $LastIntermediateStop, $InsideAvailability, $SecureSell, $AvailabilitySource)
     {
       $this->Connection = $Connection;
       $this->Key = $Key;
@@ -581,7 +581,7 @@ class FlightTimeDetail
     }
 
     /**
-     * @return anonymous935
+     * @return anonymous933
      */
     public function getInsideAvailability()
     {
@@ -589,7 +589,7 @@ class FlightTimeDetail
     }
 
     /**
-     * @param anonymous935 $InsideAvailability
+     * @param anonymous933 $InsideAvailability
      * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setInsideAvailability($InsideAvailability)
@@ -599,7 +599,7 @@ class FlightTimeDetail
     }
 
     /**
-     * @return anonymous936
+     * @return anonymous934
      */
     public function getSecureSell()
     {
@@ -607,7 +607,7 @@ class FlightTimeDetail
     }
 
     /**
-     * @param anonymous936 $SecureSell
+     * @param anonymous934 $SecureSell
      * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setSecureSell($SecureSell)

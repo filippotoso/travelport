@@ -24,7 +24,7 @@ class ProfileRetrieveHistoryRsp extends BaseRsp
      * @param ProfileHistory $ProfileHistory
      * @param typeMoreResults $MoreResults
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ProfileHistory = null, $MoreResults = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ProfileHistory, $MoreResults)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ProfileHistory = $ProfileHistory;

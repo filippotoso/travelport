@@ -49,7 +49,7 @@ class Endpoint
      * @param int $MaxOccurs
      * @param string $EndPointCode
      */
-    public function __construct($ID = null, $Name = null, $Description = null, $DataType = null, $MinOccurs = null, $MaxOccurs = null, $EndPointCode = null)
+    public function __construct($ID, $Name, $Description, $DataType, $MinOccurs, $MaxOccurs, $EndPointCode)
     {
       $this->ID = $ID;
       $this->Name = $Name;

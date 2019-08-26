@@ -56,7 +56,7 @@ class Vehicle
     protected $Location = null;
 
     /**
-     * @var anonymous1087 $CounterLocationCode
+     * @var anonymous1085 $CounterLocationCode
      */
     protected $CounterLocationCode = null;
 
@@ -66,7 +66,7 @@ class Vehicle
     protected $VendorLocationKey = null;
 
     /**
-     * @var anonymous1088 $VendorName
+     * @var anonymous1086 $VendorName
      */
     protected $VendorName = null;
 
@@ -81,7 +81,7 @@ class Vehicle
     protected $FuelType = null;
 
     /**
-     * @var anonymous1089 $AcrissVehicleCode
+     * @var anonymous1087 $AcrissVehicleCode
      */
     protected $AcrissVehicleCode = null;
 
@@ -121,19 +121,19 @@ class Vehicle
      * @param string $Description
      * @param typeDoorCount $DoorCount
      * @param string $Location
-     * @param anonymous1087 $CounterLocationCode
+     * @param anonymous1085 $CounterLocationCode
      * @param typeRef $VendorLocationKey
-     * @param anonymous1088 $VendorName
+     * @param anonymous1086 $VendorName
      * @param string $AlternateVendor
      * @param typeFuel $FuelType
-     * @param anonymous1089 $AcrissVehicleCode
+     * @param anonymous1087 $AcrissVehicleCode
      * @param typeRef $Key
      * @param boolean $ReturnAtPickup
      * @param boolean $InPolicy
      * @param typePolicyCode $PolicyCode
      * @param boolean $PreferredOption
      */
-    public function __construct($PolicyCodesList = null, $VehicleRate = null, $VendorCode = null, $AirConditioning = null, $TransmissionType = null, $VehicleClass = null, $Category = null, $Description = null, $DoorCount = null, $Location = null, $CounterLocationCode = null, $VendorLocationKey = null, $VendorName = null, $AlternateVendor = null, $FuelType = null, $AcrissVehicleCode = null, $Key = null, $ReturnAtPickup = null, $InPolicy = null, $PolicyCode = null, $PreferredOption = null)
+    public function __construct($PolicyCodesList, $VehicleRate, $VendorCode, $AirConditioning, $TransmissionType, $VehicleClass, $Category, $Description, $DoorCount, $Location, $CounterLocationCode, $VendorLocationKey, $VendorName, $AlternateVendor, $FuelType, $AcrissVehicleCode, $Key, $ReturnAtPickup, $InPolicy, $PolicyCode, $PreferredOption)
     {
       $this->PolicyCodesList = $PolicyCodesList;
       $this->VehicleRate = $VehicleRate;
@@ -339,7 +339,7 @@ class Vehicle
     }
 
     /**
-     * @return anonymous1087
+     * @return anonymous1085
      */
     public function getCounterLocationCode()
     {
@@ -347,7 +347,7 @@ class Vehicle
     }
 
     /**
-     * @param anonymous1087 $CounterLocationCode
+     * @param anonymous1085 $CounterLocationCode
      * @return \FilippoToso\Travelport\UniversalRecord\Vehicle
      */
     public function setCounterLocationCode($CounterLocationCode)
@@ -375,7 +375,7 @@ class Vehicle
     }
 
     /**
-     * @return anonymous1088
+     * @return anonymous1086
      */
     public function getVendorName()
     {
@@ -383,7 +383,7 @@ class Vehicle
     }
 
     /**
-     * @param anonymous1088 $VendorName
+     * @param anonymous1086 $VendorName
      * @return \FilippoToso\Travelport\UniversalRecord\Vehicle
      */
     public function setVendorName($VendorName)
@@ -429,7 +429,7 @@ class Vehicle
     }
 
     /**
-     * @return anonymous1089
+     * @return anonymous1087
      */
     public function getAcrissVehicleCode()
     {
@@ -437,7 +437,7 @@ class Vehicle
     }
 
     /**
-     * @param anonymous1089 $AcrissVehicleCode
+     * @param anonymous1087 $AcrissVehicleCode
      * @return \FilippoToso\Travelport\UniversalRecord\Vehicle
      */
     public function setAcrissVehicleCode($AcrissVehicleCode)

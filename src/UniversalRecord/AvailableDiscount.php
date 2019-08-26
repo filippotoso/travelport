@@ -37,7 +37,7 @@ class AvailableDiscount
      * @param string $Description
      * @param string $DiscountQualifier
      */
-    public function __construct($LoyaltyProgram = null, $Amount = null, $Percent = null, $Description = null, $DiscountQualifier = null)
+    public function __construct($LoyaltyProgram, $Amount, $Percent, $Description, $DiscountQualifier)
     {
       $this->LoyaltyProgram = $LoyaltyProgram;
       $this->Amount = $Amount;

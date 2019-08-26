@@ -51,7 +51,7 @@ class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
      * @param OriginalItineraryDetails $OriginalItineraryDetails
      * @param OverridePCC $OverridePCC
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $TicketNumber = null, $AirPricingSolution = null, $RepricingModifiers = null, $OriginalItineraryDetails = null, $OverridePCC = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $TicketNumber, $AirPricingSolution, $RepricingModifiers, $OriginalItineraryDetails, $OverridePCC)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode);
       $this->TicketNumber = $TicketNumber;

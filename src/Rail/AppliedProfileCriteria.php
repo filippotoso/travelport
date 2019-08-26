@@ -6,20 +6,20 @@ class AppliedProfileCriteria
 {
 
     /**
-     * @var anonymous1412 $TravelerProfileId
+     * @var anonymous1410 $TravelerProfileId
      */
     protected $TravelerProfileId = null;
 
     /**
-     * @param anonymous1412 $TravelerProfileId
+     * @param anonymous1410 $TravelerProfileId
      */
-    public function __construct($TravelerProfileId = null)
+    public function __construct($TravelerProfileId)
     {
       $this->TravelerProfileId = $TravelerProfileId;
     }
 
     /**
-     * @return anonymous1412
+     * @return anonymous1410
      */
     public function getTravelerProfileId()
     {
@@ -27,7 +27,7 @@ class AppliedProfileCriteria
     }
 
     /**
-     * @param anonymous1412 $TravelerProfileId
+     * @param anonymous1410 $TravelerProfileId
      * @return \FilippoToso\Travelport\Rail\AppliedProfileCriteria
      */
     public function setTravelerProfileId($TravelerProfileId)

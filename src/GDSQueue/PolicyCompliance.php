@@ -19,7 +19,7 @@ class PolicyCompliance
      * @param boolean $InPolicy
      * @param StringLength1to128 $PolicyToken
      */
-    public function __construct($InPolicy = null, $PolicyToken = null)
+    public function __construct($InPolicy, $PolicyToken)
     {
       $this->InPolicy = $InPolicy;
       $this->PolicyToken = $PolicyToken;

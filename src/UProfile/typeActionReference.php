@@ -19,7 +19,7 @@ class typeActionReference
      * @param typeActionID $ID
      * @param string $ProfileActionCode
      */
-    public function __construct($ID = null, $ProfileActionCode = null)
+    public function __construct($ID, $ProfileActionCode)
     {
       $this->ID = $ID;
       $this->ProfileActionCode = $ProfileActionCode;

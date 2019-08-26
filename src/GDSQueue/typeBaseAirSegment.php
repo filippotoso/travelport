@@ -156,12 +156,12 @@ class typeBaseAirSegment extends Segment
     protected $OperationalStatus = null;
 
     /**
-     * @var anonymous1059 $NumberInParty
+     * @var anonymous1057 $NumberInParty
      */
     protected $NumberInParty = null;
 
     /**
-     * @var anonymous1060 $RailCoachNumber
+     * @var anonymous1058 $RailCoachNumber
      */
     protected $RailCoachNumber = null;
 
@@ -289,8 +289,8 @@ class typeBaseAirSegment extends Segment
      * @param string $APISRequirementsRef
      * @param boolean $BlackListed
      * @param string $OperationalStatus
-     * @param anonymous1059 $NumberInParty
-     * @param anonymous1060 $RailCoachNumber
+     * @param anonymous1057 $NumberInParty
+     * @param anonymous1058 $RailCoachNumber
      * @param date $BookingDate
      * @param boolean $FlownSegment
      * @param boolean $ScheduleChange
@@ -309,7 +309,7 @@ class typeBaseAirSegment extends Segment
      * @param string $PolledAvailabilityOption
      * @param string $AvailabilityDisplayType
      */
-    public function __construct($SegmentRemark = null, $Key = null, $Status = null, $Passive = null, $TravelOrder = null, $ProviderSegmentOrder = null, $ElStat = null, $KeyOverride = null, $SponsoredFltInfo = null, $CodeshareInfo = null, $AirAvailInfo = null, $FlightDetails = null, $FlightDetailsRef = null, $AlternateLocationDistanceRef = null, $Connection = null, $SellMessage = null, $RailCoachDetails = null, $OpenSegment = null, $Group = null, $Carrier = null, $CabinClass = null, $FlightNumber = null, $ClassOfService = null, $ETicketability = null, $Equipment = null, $MarriageGroup = null, $NumberOfStops = null, $Seamless = null, $ChangeOfPlane = null, $GuaranteedPaymentCarrier = null, $HostTokenRef = null, $ProviderReservationInfoRef = null, $PassiveProviderReservationInfoRef = null, $OptionalServicesIndicator = null, $AvailabilitySource = null, $APISRequirementsRef = null, $BlackListed = null, $OperationalStatus = null, $NumberInParty = null, $RailCoachNumber = null, $BookingDate = null, $FlownSegment = null, $ScheduleChange = null, $BrandIndicator = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $FlightTime = null, $TravelTime = null, $Distance = null, $ProviderCode = null, $SupplierCode = null, $ParticipantLevel = null, $LinkAvailability = null, $PolledAvailabilityOption = null, $AvailabilityDisplayType = null)
+    public function __construct($SegmentRemark, $Key, $Status, $Passive, $TravelOrder, $ProviderSegmentOrder, $ElStat, $KeyOverride, $SponsoredFltInfo, $CodeshareInfo, $AirAvailInfo, $FlightDetails, $FlightDetailsRef, $AlternateLocationDistanceRef, $Connection, $SellMessage, $RailCoachDetails, $OpenSegment, $Group, $Carrier, $CabinClass, $FlightNumber, $ClassOfService, $ETicketability, $Equipment, $MarriageGroup, $NumberOfStops, $Seamless, $ChangeOfPlane, $GuaranteedPaymentCarrier, $HostTokenRef, $ProviderReservationInfoRef, $PassiveProviderReservationInfoRef, $OptionalServicesIndicator, $AvailabilitySource, $APISRequirementsRef, $BlackListed, $OperationalStatus, $NumberInParty, $RailCoachNumber, $BookingDate, $FlownSegment, $ScheduleChange, $BrandIndicator, $Origin, $Destination, $DepartureTime, $ArrivalTime, $FlightTime, $TravelTime, $Distance, $ProviderCode, $SupplierCode, $ParticipantLevel, $LinkAvailability, $PolledAvailabilityOption, $AvailabilityDisplayType)
     {
       parent::__construct($SegmentRemark, $Key, $Status, $Passive, $TravelOrder, $ProviderSegmentOrder, $ElStat, $KeyOverride);
       $this->SponsoredFltInfo = $SponsoredFltInfo;
@@ -904,7 +904,7 @@ class typeBaseAirSegment extends Segment
     }
 
     /**
-     * @return anonymous1059
+     * @return anonymous1057
      */
     public function getNumberInParty()
     {
@@ -912,7 +912,7 @@ class typeBaseAirSegment extends Segment
     }
 
     /**
-     * @param anonymous1059 $NumberInParty
+     * @param anonymous1057 $NumberInParty
      * @return \FilippoToso\Travelport\GDSQueue\typeBaseAirSegment
      */
     public function setNumberInParty($NumberInParty)
@@ -922,7 +922,7 @@ class typeBaseAirSegment extends Segment
     }
 
     /**
-     * @return anonymous1060
+     * @return anonymous1058
      */
     public function getRailCoachNumber()
     {
@@ -930,7 +930,7 @@ class typeBaseAirSegment extends Segment
     }
 
     /**
-     * @param anonymous1060 $RailCoachNumber
+     * @param anonymous1058 $RailCoachNumber
      * @return \FilippoToso\Travelport\GDSQueue\typeBaseAirSegment
      */
     public function setRailCoachNumber($RailCoachNumber)

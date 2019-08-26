@@ -19,7 +19,7 @@ class URL
      * @param string $_
      * @param string $Type
      */
-    public function __construct($_ = null, $Type = null)
+    public function __construct($_, $Type)
     {
       $this->_ = $_;
       $this->Type = $Type;

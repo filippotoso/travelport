@@ -49,7 +49,7 @@ class Tax
      * @param string $Term
      * @param string $CollectionFreq
      */
-    public function __construct($Amount = null, $Percentage = null, $Code = null, $EffectiveDate = null, $ExpirationDate = null, $Term = null, $CollectionFreq = null)
+    public function __construct($Amount, $Percentage, $Code, $EffectiveDate, $ExpirationDate, $Term, $CollectionFreq)
     {
       $this->Amount = $Amount;
       $this->Percentage = $Percentage;

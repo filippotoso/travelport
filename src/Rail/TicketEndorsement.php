@@ -13,7 +13,7 @@ class TicketEndorsement
     /**
      * @param typeEndorsement $Value
      */
-    public function __construct($Value = null)
+    public function __construct($Value)
     {
       $this->Value = $Value;
     }

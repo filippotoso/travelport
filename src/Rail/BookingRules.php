@@ -36,7 +36,7 @@ class BookingRules
      * @param DocumentRequired $DocumentRequired
      * @param boolean $GenderDobRequired
      */
-    public function __construct($BookingRulesFareReference = null, $Restriction = null, $DocumentRequired = null, $GenderDobRequired = null)
+    public function __construct($BookingRulesFareReference, $Restriction, $DocumentRequired, $GenderDobRequired)
     {
       $this->BookingRulesFareReference = $BookingRulesFareReference;
       $this->Restriction = $Restriction;

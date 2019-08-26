@@ -48,7 +48,7 @@ class LocationInfo
      * @param string $CounterLocation
      * @param boolean $PreferredOption
      */
-    public function __construct($LocationAddress = null, $PhoneNumber = null, $OperationTime = null, $Name = null, $CounterLocation = null, $PreferredOption = null)
+    public function __construct($LocationAddress, $PhoneNumber, $OperationTime, $Name, $CounterLocation, $PreferredOption)
     {
       $this->LocationAddress = $LocationAddress;
       $this->PhoneNumber = $PhoneNumber;

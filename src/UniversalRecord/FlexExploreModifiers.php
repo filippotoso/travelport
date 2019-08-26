@@ -11,7 +11,7 @@ class FlexExploreModifiers
     protected $Destination = null;
 
     /**
-     * @var anonymous604 $Type
+     * @var anonymous605 $Type
      */
     protected $Type = null;
 
@@ -21,16 +21,16 @@ class FlexExploreModifiers
     protected $Radius = null;
 
     /**
-     * @var anonymous605 $GroupName
+     * @var anonymous606 $GroupName
      */
     protected $GroupName = null;
 
     /**
-     * @param anonymous604 $Type
+     * @param anonymous605 $Type
      * @param int $Radius
-     * @param anonymous605 $GroupName
+     * @param anonymous606 $GroupName
      */
-    public function __construct($Type = null, $Radius = null, $GroupName = null)
+    public function __construct($Type, $Radius, $GroupName)
     {
       $this->Type = $Type;
       $this->Radius = $Radius;
@@ -56,7 +56,7 @@ class FlexExploreModifiers
     }
 
     /**
-     * @return anonymous604
+     * @return anonymous605
      */
     public function getType()
     {
@@ -64,7 +64,7 @@ class FlexExploreModifiers
     }
 
     /**
-     * @param anonymous604 $Type
+     * @param anonymous605 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\FlexExploreModifiers
      */
     public function setType($Type)
@@ -92,7 +92,7 @@ class FlexExploreModifiers
     }
 
     /**
-     * @return anonymous605
+     * @return anonymous606
      */
     public function getGroupName()
     {
@@ -100,7 +100,7 @@ class FlexExploreModifiers
     }
 
     /**
-     * @param anonymous605 $GroupName
+     * @param anonymous606 $GroupName
      * @return \FilippoToso\Travelport\UniversalRecord\FlexExploreModifiers
      */
     public function setGroupName($GroupName)

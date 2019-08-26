@@ -245,7 +245,7 @@ class VehicleRate
      * @param typeTrinary $CardNumberApplied
      * @param int $RateQualifierInd
      */
-    public function __construct($SupplierRate = null, $PricedEquip = null, $RateInclusions = null, $RatePeriod = null, $NumberOfPeriods = null, $UnlimitedMileage = null, $MileageAllowance = null, $Units = null, $RateSource = null, $RateAvailability = null, $RequiredCharges = null, $RateCode = null, $RequestedRateCodeApplied = null, $RateCategory = null, $DiscountNumber = null, $DiscountNumberApplied = null, $VendorCode = null, $RateGuaranteed = null, $RateCodePeriod = null, $PromotionalCode = null, $PromotionalCodeApplied = null, $TourCode = null, $TourCodeApplied = null, $RateGuaranteeType = null, $RequiredPayment = null, $DropOffChargesIncluded = null, $CorporateRate = null, $AdvancedBooking = null, $RentalRestriction = null, $FlightRestriction = null, $CardNumber = null, $CardNumberApplied = null, $RateQualifierInd = null)
+    public function __construct($SupplierRate, $PricedEquip, $RateInclusions, $RatePeriod, $NumberOfPeriods, $UnlimitedMileage, $MileageAllowance, $Units, $RateSource, $RateAvailability, $RequiredCharges, $RateCode, $RequestedRateCodeApplied, $RateCategory, $DiscountNumber, $DiscountNumberApplied, $VendorCode, $RateGuaranteed, $RateCodePeriod, $PromotionalCode, $PromotionalCodeApplied, $TourCode, $TourCodeApplied, $RateGuaranteeType, $RequiredPayment, $DropOffChargesIncluded, $CorporateRate, $AdvancedBooking, $RentalRestriction, $FlightRestriction, $CardNumber, $CardNumberApplied, $RateQualifierInd)
     {
       $this->SupplierRate = $SupplierRate;
       $this->PricedEquip = $PricedEquip;

@@ -25,7 +25,7 @@ class PCC
      * @param PointOfSale $PointOfSale
      * @param TicketAgency $TicketAgency
      */
-    public function __construct($OverridePCC = null, $PointOfSale = null, $TicketAgency = null)
+    public function __construct($OverridePCC, $PointOfSale, $TicketAgency)
     {
       $this->OverridePCC = $OverridePCC;
       $this->PointOfSale = $PointOfSale;

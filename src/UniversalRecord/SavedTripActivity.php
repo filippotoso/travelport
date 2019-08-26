@@ -126,14 +126,14 @@ class SavedTripActivity
     protected $RailPricingSolutionRef = null;
 
     /**
-     * @var anonymous1448 $Type
+     * @var anonymous1446 $Type
      */
     protected $Type = null;
 
     /**
-     * @param anonymous1448 $Type
+     * @param anonymous1446 $Type
      */
-    public function __construct($Type = null)
+    public function __construct($Type)
     {
       $this->Type = $Type;
     }
@@ -571,7 +571,7 @@ class SavedTripActivity
     }
 
     /**
-     * @return anonymous1448
+     * @return anonymous1446
      */
     public function getType()
     {
@@ -579,7 +579,7 @@ class SavedTripActivity
     }
 
     /**
-     * @param anonymous1448 $Type
+     * @param anonymous1446 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\SavedTripActivity
      */
     public function setType($Type)

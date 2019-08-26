@@ -11,15 +11,15 @@ class ProviderLocation
     protected $ProviderCode = null;
 
     /**
-     * @var anonymous1180 $Location
+     * @var anonymous1178 $Location
      */
     protected $Location = null;
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @param anonymous1180 $Location
+     * @param anonymous1178 $Location
      */
-    public function __construct($ProviderCode = null, $Location = null)
+    public function __construct($ProviderCode, $Location)
     {
       $this->ProviderCode = $ProviderCode;
       $this->Location = $Location;
@@ -44,7 +44,7 @@ class ProviderLocation
     }
 
     /**
-     * @return anonymous1180
+     * @return anonymous1178
      */
     public function getLocation()
     {
@@ -52,7 +52,7 @@ class ProviderLocation
     }
 
     /**
-     * @param anonymous1180 $Location
+     * @param anonymous1178 $Location
      * @return \FilippoToso\Travelport\UniversalRecord\ProviderLocation
      */
     public function setLocation($Location)

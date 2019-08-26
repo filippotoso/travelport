@@ -24,7 +24,7 @@ class UniversalRecordHistorySearchRsp extends BaseRsp
      * @param UniversalRecordHistorySearchResult $UniversalRecordHistorySearchResult
      * @param boolean $LastResult
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $UniversalRecordHistorySearchResult = null, $LastResult = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $UniversalRecordHistorySearchResult, $LastResult)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->UniversalRecordHistorySearchResult = $UniversalRecordHistorySearchResult;

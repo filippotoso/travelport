@@ -21,21 +21,21 @@ class ExemptTaxes
     protected $AllTaxes = null;
 
     /**
-     * @var anonymous740 $TaxTerritory
+     * @var anonymous737 $TaxTerritory
      */
     protected $TaxTerritory = null;
 
     /**
-     * @var anonymous741 $CompanyName
+     * @var anonymous738 $CompanyName
      */
     protected $CompanyName = null;
 
     /**
      * @param boolean $AllTaxes
-     * @param anonymous740 $TaxTerritory
-     * @param anonymous741 $CompanyName
+     * @param anonymous737 $TaxTerritory
+     * @param anonymous738 $CompanyName
      */
-    public function __construct($AllTaxes = null, $TaxTerritory = null, $CompanyName = null)
+    public function __construct($AllTaxes, $TaxTerritory, $CompanyName)
     {
       $this->AllTaxes = $AllTaxes;
       $this->TaxTerritory = $TaxTerritory;
@@ -97,7 +97,7 @@ class ExemptTaxes
     }
 
     /**
-     * @return anonymous740
+     * @return anonymous737
      */
     public function getTaxTerritory()
     {
@@ -105,7 +105,7 @@ class ExemptTaxes
     }
 
     /**
-     * @param anonymous740 $TaxTerritory
+     * @param anonymous737 $TaxTerritory
      * @return \FilippoToso\Travelport\UniversalRecord\ExemptTaxes
      */
     public function setTaxTerritory($TaxTerritory)
@@ -115,7 +115,7 @@ class ExemptTaxes
     }
 
     /**
-     * @return anonymous741
+     * @return anonymous738
      */
     public function getCompanyName()
     {
@@ -123,7 +123,7 @@ class ExemptTaxes
     }
 
     /**
-     * @param anonymous741 $CompanyName
+     * @param anonymous738 $CompanyName
      * @return \FilippoToso\Travelport\UniversalRecord\ExemptTaxes
      */
     public function setCompanyName($CompanyName)

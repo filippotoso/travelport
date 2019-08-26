@@ -43,7 +43,7 @@ class ActionSummary
      * @param string $TargetService
      * @param string $ProfileActionCode
      */
-    public function __construct($ID = null, $Name = null, $Description = null, $ConsumingSystem = null, $TargetService = null, $ProfileActionCode = null)
+    public function __construct($ID, $Name, $Description, $ConsumingSystem, $TargetService, $ProfileActionCode)
     {
       $this->ID = $ID;
       $this->Name = $Name;

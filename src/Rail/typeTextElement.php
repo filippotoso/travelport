@@ -25,7 +25,7 @@ class typeTextElement
      * @param string $Type
      * @param language $LanguageCode
      */
-    public function __construct($_ = null, $Type = null, $LanguageCode = null)
+    public function __construct($_, $Type, $LanguageCode)
     {
       $this->_ = $_;
       $this->Type = $Type;

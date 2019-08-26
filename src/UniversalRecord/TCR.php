@@ -106,7 +106,7 @@ class TCR
     protected $Modifiable = null;
 
     /**
-     * @var anonymous647 $RefundAccessCode
+     * @var anonymous648 $RefundAccessCode
      */
     protected $RefundAccessCode = null;
 
@@ -156,14 +156,14 @@ class TCR
      * @param boolean $Exchangeable
      * @param boolean $Voidable
      * @param boolean $Modifiable
-     * @param anonymous647 $RefundAccessCode
+     * @param anonymous648 $RefundAccessCode
      * @param typeMoney $RefundAmount
      * @param typeMoney $RefundFee
      * @param typeMoney $ForfeitAmount
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($FormOfPayment = null, $Payment = null, $BookingTraveler = null, $PassengerTicketNumber = null, $AirPricingInfo = null, $AgencyInfo = null, $AirReservationLocatorCode = null, $SupplierLocator = null, $RefundRemark = null, $TCRNumber = null, $Status = null, $ModifiedDate = null, $ConfirmedDate = null, $BasePrice = null, $Taxes = null, $Fees = null, $Refundable = null, $Exchangeable = null, $Voidable = null, $Modifiable = null, $RefundAccessCode = null, $RefundAmount = null, $RefundFee = null, $ForfeitAmount = null, $ProviderCode = null, $ProviderLocatorCode = null)
+    public function __construct($FormOfPayment, $Payment, $BookingTraveler, $PassengerTicketNumber, $AirPricingInfo, $AgencyInfo, $AirReservationLocatorCode, $SupplierLocator, $RefundRemark, $TCRNumber, $Status, $ModifiedDate, $ConfirmedDate, $BasePrice, $Taxes, $Fees, $Refundable, $Exchangeable, $Voidable, $Modifiable, $RefundAccessCode, $RefundAmount, $RefundFee, $ForfeitAmount, $ProviderCode, $ProviderLocatorCode)
     {
       $this->FormOfPayment = $FormOfPayment;
       $this->Payment = $Payment;
@@ -554,7 +554,7 @@ class TCR
     }
 
     /**
-     * @return anonymous647
+     * @return anonymous648
      */
     public function getRefundAccessCode()
     {
@@ -562,7 +562,7 @@ class TCR
     }
 
     /**
-     * @param anonymous647 $RefundAccessCode
+     * @param anonymous648 $RefundAccessCode
      * @return \FilippoToso\Travelport\UniversalRecord\TCR
      */
     public function setRefundAccessCode($RefundAccessCode)

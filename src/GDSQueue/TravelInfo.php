@@ -19,7 +19,7 @@ class TravelInfo
      * @param anonymous289 $TripName
      * @param anonymous290 $TravelPurpose
      */
-    public function __construct($TripName = null, $TravelPurpose = null)
+    public function __construct($TripName, $TravelPurpose)
     {
       $this->TripName = $TripName;
       $this->TravelPurpose = $TravelPurpose;

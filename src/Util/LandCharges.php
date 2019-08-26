@@ -43,7 +43,7 @@ class LandCharges
      * @param typeMoney $PrePaid
      * @param typeMoney $Deposit
      */
-    public function __construct($Tax = null, $Base = null, $Total = null, $Miscellaneous = null, $PrePaid = null, $Deposit = null)
+    public function __construct($Tax, $Base, $Total, $Miscellaneous, $PrePaid, $Deposit)
     {
       $this->Tax = $Tax;
       $this->Base = $Base;

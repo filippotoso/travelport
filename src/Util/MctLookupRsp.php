@@ -24,7 +24,7 @@ class MctLookupRsp extends BaseRsp
      * @param MctStandard $MctStandard
      * @param MctException $MctException
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $MctStandard = null, $MctException = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $MctStandard, $MctException)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->MctStandard = $MctStandard;

@@ -31,7 +31,7 @@ class BundledService
     protected $Name = null;
 
     /**
-     * @var anonymous910 $Booking
+     * @var anonymous908 $Booking
      */
     protected $Booking = null;
 
@@ -46,10 +46,10 @@ class BundledService
      * @param string $ServiceType
      * @param string $ServiceSubCode
      * @param string $Name
-     * @param anonymous910 $Booking
+     * @param anonymous908 $Booking
      * @param int $Occurrence
      */
-    public function __construct($Carrier = null, $CarrierSubCode = null, $ServiceType = null, $ServiceSubCode = null, $Name = null, $Booking = null, $Occurrence = null)
+    public function __construct($Carrier, $CarrierSubCode, $ServiceType, $ServiceSubCode, $Name, $Booking, $Occurrence)
     {
       $this->Carrier = $Carrier;
       $this->CarrierSubCode = $CarrierSubCode;
@@ -151,7 +151,7 @@ class BundledService
     }
 
     /**
-     * @return anonymous910
+     * @return anonymous908
      */
     public function getBooking()
     {
@@ -159,7 +159,7 @@ class BundledService
     }
 
     /**
-     * @param anonymous910 $Booking
+     * @param anonymous908 $Booking
      * @return \FilippoToso\Travelport\Air\BundledService
      */
     public function setBooking($Booking)

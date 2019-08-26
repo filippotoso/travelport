@@ -19,7 +19,7 @@ class SessionContext
      * @param SessTok $SessTok
      * @param SessProp[] $SessProp
      */
-    public function __construct($SessTok = null, array $SessProp = null)
+    public function __construct($SessTok, array $SessProp)
     {
       $this->SessTok = $SessTok;
       $this->SessProp = $SessProp;

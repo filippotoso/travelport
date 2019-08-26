@@ -19,7 +19,7 @@ class FareFamilyDelete
      * @param typeRef $FareFamilyRef
      * @param typeURVersion $Version
      */
-    public function __construct($FareFamilyRef = null, $Version = null)
+    public function __construct($FareFamilyRef, $Version)
     {
       $this->FareFamilyRef = $FareFamilyRef;
       $this->Version = $Version;

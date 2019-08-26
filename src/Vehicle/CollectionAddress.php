@@ -18,7 +18,7 @@ class CollectionAddress extends typeStructuredAddress
      * @param boolean $KeyOverride
      * @param PhoneNumber $PhoneNumber
      */
-    public function __construct($State = null, $ProviderReservationInfoRef = null, $Key = null, $ElStat = null, $KeyOverride = null, $PhoneNumber = null)
+    public function __construct($State, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride, $PhoneNumber)
     {
       parent::__construct($State, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride);
       $this->PhoneNumber = $PhoneNumber;

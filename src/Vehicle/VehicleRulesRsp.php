@@ -77,7 +77,7 @@ class VehicleRulesRsp extends BaseSearchRsp
      * @param MarketingInformation $MarketingInformation
      * @param typeKeyword $Policy
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $NextResultReference = null, $Vehicle = null, $OperationTime = null, $MarketingInformation = null, $Policy = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $Vehicle, $OperationTime, $MarketingInformation, $Policy)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference);
       $this->Vehicle = $Vehicle;

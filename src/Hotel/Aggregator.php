@@ -13,7 +13,7 @@ class Aggregator
     /**
      * @param typeThirdPartySupplier $Name
      */
-    public function __construct($Name = null)
+    public function __construct($Name)
     {
       $this->Name = $Name;
     }

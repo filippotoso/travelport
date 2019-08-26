@@ -30,7 +30,7 @@ class VehicleLocationDetailRsp extends BaseRsp
      * @param LocationInfo $LocationInfo
      * @param VehiclePolicy $VehiclePolicy
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $VendorInfo = null, $LocationInfo = null, $VehiclePolicy = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $VendorInfo, $LocationInfo, $VehiclePolicy)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->VendorInfo = $VendorInfo;

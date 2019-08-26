@@ -18,7 +18,7 @@ class QueuePlace
     /**
      * @param QueueSelector $QueueSelector
      */
-    public function __construct($QueueSelector = null)
+    public function __construct($QueueSelector)
     {
       $this->QueueSelector = $QueueSelector;
     }

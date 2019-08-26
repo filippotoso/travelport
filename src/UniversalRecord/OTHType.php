@@ -223,7 +223,7 @@ class OTHType
      * @param boolean $NotUSACity
      * @param boolean $MissingRules
      */
-    public function __construct($Cat0 = null, $Cat1 = null, $Cat2 = null, $Cat3 = null, $Cat4 = null, $Cat5 = null, $Cat6 = null, $Cat7 = null, $Cat8 = null, $Cat9 = null, $Cat10 = null, $Cat11 = null, $Cat12 = null, $Cat13 = null, $Cat14 = null, $Cat15 = null, $Cat16 = null, $Cat17 = null, $Cat18 = null, $Cat19 = null, $Cat20 = null, $Cat21 = null, $Cat22 = null, $Cat23 = null, $Cat24 = null, $Cat25 = null, $Cat26 = null, $Cat27 = null, $Cat28 = null, $Cat29 = null, $Cat30 = null, $Cat31 = null, $RestrictiveDt = null, $SurchargeAmt = null, $NotUSACity = null, $MissingRules = null)
+    public function __construct($Cat0, $Cat1, $Cat2, $Cat3, $Cat4, $Cat5, $Cat6, $Cat7, $Cat8, $Cat9, $Cat10, $Cat11, $Cat12, $Cat13, $Cat14, $Cat15, $Cat16, $Cat17, $Cat18, $Cat19, $Cat20, $Cat21, $Cat22, $Cat23, $Cat24, $Cat25, $Cat26, $Cat27, $Cat28, $Cat29, $Cat30, $Cat31, $RestrictiveDt, $SurchargeAmt, $NotUSACity, $MissingRules)
     {
       $this->Cat0 = $Cat0;
       $this->Cat1 = $Cat1;

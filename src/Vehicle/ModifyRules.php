@@ -25,7 +25,7 @@ class ModifyRules
      * @param anonymous324 $SupportedModifications
      * @param string $ProviderDefinedModificationType
      */
-    public function __construct(array $ModifyRule = null, $SupportedModifications = null, $ProviderDefinedModificationType = null)
+    public function __construct(array $ModifyRule, $SupportedModifications, $ProviderDefinedModificationType)
     {
       $this->ModifyRule = $ModifyRule;
       $this->SupportedModifications = $SupportedModifications;

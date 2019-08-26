@@ -31,7 +31,7 @@ class RailJourney
     protected $Key = null;
 
     /**
-     * @var anonymous1276 $RouteDescription
+     * @var anonymous1274 $RouteDescription
      */
     protected $RouteDescription = null;
 
@@ -66,7 +66,7 @@ class RailJourney
     protected $TravelOrder = null;
 
     /**
-     * @var anonymous1277 $RouteReference
+     * @var anonymous1275 $RouteReference
      */
     protected $RouteReference = null;
 
@@ -191,14 +191,14 @@ class RailJourney
      * @param JourneyRemark $JourneyRemark
      * @param HostToken $HostToken
      * @param typeRef $Key
-     * @param anonymous1276 $RouteDescription
+     * @param anonymous1274 $RouteDescription
      * @param typeJourneyDirection $JourneyDirection
      * @param int $JourneyDuration
      * @param string $Status
      * @param typeRef $ProviderReservationInfoRef
      * @param typeRef $PassiveProviderReservationInfoRef
      * @param int $TravelOrder
-     * @param anonymous1277 $RouteReference
+     * @param anonymous1275 $RouteReference
      * @param string $Operation
      * @param typeIATACode $Origin
      * @param typeIATACode $Destination
@@ -223,7 +223,7 @@ class RailJourney
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RailSegment = null, $RailSegmentRef = null, $JourneyRemark = null, $HostToken = null, $Key = null, $RouteDescription = null, $JourneyDirection = null, $JourneyDuration = null, $Status = null, $ProviderReservationInfoRef = null, $PassiveProviderReservationInfoRef = null, $TravelOrder = null, $RouteReference = null, $Operation = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $OriginStationName = null, $DestinationStationName = null, $RailLocOrigin = null, $RailLocDestination = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null, $ProviderCode = null, $SupplierCode = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($RailSegment, $RailSegmentRef, $JourneyRemark, $HostToken, $Key, $RouteDescription, $JourneyDirection, $JourneyDuration, $Status, $ProviderReservationInfoRef, $PassiveProviderReservationInfoRef, $TravelOrder, $RouteReference, $Operation, $Origin, $Destination, $DepartureTime, $ArrivalTime, $OriginStationName, $DestinationStationName, $RailLocOrigin, $RailLocDestination, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees, $ProviderCode, $SupplierCode, $ElStat, $KeyOverride)
     {
       $this->RailSegment = $RailSegment;
       $this->RailSegmentRef = $RailSegmentRef;
@@ -354,7 +354,7 @@ class RailJourney
     }
 
     /**
-     * @return anonymous1276
+     * @return anonymous1274
      */
     public function getRouteDescription()
     {
@@ -362,7 +362,7 @@ class RailJourney
     }
 
     /**
-     * @param anonymous1276 $RouteDescription
+     * @param anonymous1274 $RouteDescription
      * @return \FilippoToso\Travelport\Rail\RailJourney
      */
     public function setRouteDescription($RouteDescription)
@@ -480,7 +480,7 @@ class RailJourney
     }
 
     /**
-     * @return anonymous1277
+     * @return anonymous1275
      */
     public function getRouteReference()
     {
@@ -488,7 +488,7 @@ class RailJourney
     }
 
     /**
-     * @param anonymous1277 $RouteReference
+     * @param anonymous1275 $RouteReference
      * @return \FilippoToso\Travelport\Rail\RailJourney
      */
     public function setRouteReference($RouteReference)

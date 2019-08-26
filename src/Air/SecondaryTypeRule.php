@@ -18,7 +18,7 @@ class SecondaryTypeRule
     /**
      * @param typeRef $SecondaryType
      */
-    public function __construct($SecondaryType = null)
+    public function __construct($SecondaryType)
     {
       $this->SecondaryType = $SecondaryType;
     }

@@ -112,7 +112,7 @@ class PricingDetails
      * @param float $RateOfExchange
      * @param typeCurrency $OriginalTicketCurrency
      */
-    public function __construct($LowFarePricing = null, $LowFareFound = null, $PenaltyApplies = null, $DiscountApplies = null, $ItineraryType = null, $ValidatingVendorCode = null, $ForTicketingOnDate = null, $LastDateToTicket = null, $FormOfRefund = null, $AccountCode = null, $BankersSellingRate = null, $PricingType = null, $ConversionRate = null, $RateOfExchange = null, $OriginalTicketCurrency = null)
+    public function __construct($LowFarePricing, $LowFareFound, $PenaltyApplies, $DiscountApplies, $ItineraryType, $ValidatingVendorCode, $ForTicketingOnDate, $LastDateToTicket, $FormOfRefund, $AccountCode, $BankersSellingRate, $PricingType, $ConversionRate, $RateOfExchange, $OriginalTicketCurrency)
     {
       $this->LowFarePricing = $LowFarePricing;
       $this->LowFareFound = $LowFareFound;

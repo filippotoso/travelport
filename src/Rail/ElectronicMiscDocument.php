@@ -73,7 +73,7 @@ class ElectronicMiscDocument
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($EMDCoupon = null, $Status = null, $Key = null, $Number = null, $PrimaryDocumentIndicator = null, $InConjunctionWith = null, $AssociatedTicketNumber = null, $PlatingCarrier = null, \DateTime $IssueDate = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($EMDCoupon, $Status, $Key, $Number, $PrimaryDocumentIndicator, $InConjunctionWith, $AssociatedTicketNumber, $PlatingCarrier, \DateTime $IssueDate, $ElStat, $KeyOverride)
     {
       $this->EMDCoupon = $EMDCoupon;
       $this->Status = $Status;
@@ -83,7 +83,7 @@ class ElectronicMiscDocument
       $this->InConjunctionWith = $InConjunctionWith;
       $this->AssociatedTicketNumber = $AssociatedTicketNumber;
       $this->PlatingCarrier = $PlatingCarrier;
-      $this->IssueDate = $IssueDate ? $IssueDate->format(\DateTime::ATOM) : null;
+      $this->IssueDate = $IssueDate->format(\DateTime::ATOM);
       $this->ElStat = $ElStat;
       $this->KeyOverride = $KeyOverride;
     }

@@ -18,7 +18,7 @@ class McoSearchRsp extends BaseRsp
      * @param string $CommandHistory
      * @param McoSearchResult $McoSearchResult
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $McoSearchResult = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $McoSearchResult)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->McoSearchResult = $McoSearchResult;

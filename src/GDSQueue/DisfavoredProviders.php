@@ -13,7 +13,7 @@ class DisfavoredProviders
     /**
      * @param Provider $Provider
      */
-    public function __construct($Provider = null)
+    public function __construct($Provider)
     {
       $this->Provider = $Provider;
     }

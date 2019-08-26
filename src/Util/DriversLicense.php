@@ -31,7 +31,7 @@ class DriversLicense
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key = null, $LicenseNumber = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Key, $LicenseNumber, $ElStat, $KeyOverride)
     {
       $this->Key = $Key;
       $this->LicenseNumber = $LicenseNumber;

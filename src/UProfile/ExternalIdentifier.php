@@ -19,7 +19,7 @@ class ExternalIdentifier
      * @param StringLength1to255 $ExtID
      * @param StringLength1to128 $Source
      */
-    public function __construct($ExtID = null, $Source = null)
+    public function __construct($ExtID, $Source)
     {
       $this->ExtID = $ExtID;
       $this->Source = $Source;

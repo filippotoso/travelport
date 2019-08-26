@@ -31,7 +31,7 @@ class FlightOption
      * @param typeIATACode $Origin
      * @param typeIATACode $Destination
      */
-    public function __construct($Option = null, $LegRef = null, $Origin = null, $Destination = null)
+    public function __construct($Option, $LegRef, $Origin, $Destination)
     {
       $this->Option = $Option;
       $this->LegRef = $LegRef;

@@ -37,7 +37,7 @@ class RuleAdvancedPurchase
      * @param string $TicketingLatestDate
      * @param boolean $MoreRulesPresent
      */
-    public function __construct($ReservationLatestPeriod = null, $ReservationLatestUnit = null, $TicketingEarliestDate = null, $TicketingLatestDate = null, $MoreRulesPresent = null)
+    public function __construct($ReservationLatestPeriod, $ReservationLatestUnit, $TicketingEarliestDate, $TicketingLatestDate, $MoreRulesPresent)
     {
       $this->ReservationLatestPeriod = $ReservationLatestPeriod;
       $this->ReservationLatestUnit = $ReservationLatestUnit;

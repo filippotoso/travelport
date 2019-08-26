@@ -126,7 +126,7 @@ class RailPricingInfo
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RailFare = null, $RailFareRef = null, $RailBookingInfo = null, $BookingTravelerRef = null, $Key = null, $ExchangeAmount = null, $ApproximateExchangeAmount = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($RailFare, $RailFareRef, $RailBookingInfo, $BookingTravelerRef, $Key, $ExchangeAmount, $ApproximateExchangeAmount, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees, $ElStat, $KeyOverride)
     {
       $this->RailFare = $RailFare;
       $this->RailFareRef = $RailFareRef;

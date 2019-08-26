@@ -41,12 +41,12 @@ class TCRRefundBundle
     protected $TCRNumber = null;
 
     /**
-     * @var anonymous664 $RefundType
+     * @var anonymous665 $RefundType
      */
     protected $RefundType = null;
 
     /**
-     * @var anonymous647 $RefundAccessCode
+     * @var anonymous648 $RefundAccessCode
      */
     protected $RefundAccessCode = null;
 
@@ -58,10 +58,10 @@ class TCRRefundBundle
      * @param typeTaxInfo $TaxInfo
      * @param HostToken $HostToken
      * @param typeTCRNumber $TCRNumber
-     * @param anonymous664 $RefundType
-     * @param anonymous647 $RefundAccessCode
+     * @param anonymous665 $RefundType
+     * @param anonymous648 $RefundAccessCode
      */
-    public function __construct($AirRefundInfo = null, $WaiverCode = null, $AirSegment = null, $FeeInfo = null, $TaxInfo = null, $HostToken = null, $TCRNumber = null, $RefundType = null, $RefundAccessCode = null)
+    public function __construct($AirRefundInfo, $WaiverCode, $AirSegment, $FeeInfo, $TaxInfo, $HostToken, $TCRNumber, $RefundType, $RefundAccessCode)
     {
       $this->AirRefundInfo = $AirRefundInfo;
       $this->WaiverCode = $WaiverCode;
@@ -201,7 +201,7 @@ class TCRRefundBundle
     }
 
     /**
-     * @return anonymous664
+     * @return anonymous665
      */
     public function getRefundType()
     {
@@ -209,7 +209,7 @@ class TCRRefundBundle
     }
 
     /**
-     * @param anonymous664 $RefundType
+     * @param anonymous665 $RefundType
      * @return \FilippoToso\Travelport\UniversalRecord\TCRRefundBundle
      */
     public function setRefundType($RefundType)
@@ -219,7 +219,7 @@ class TCRRefundBundle
     }
 
     /**
-     * @return anonymous647
+     * @return anonymous648
      */
     public function getRefundAccessCode()
     {
@@ -227,7 +227,7 @@ class TCRRefundBundle
     }
 
     /**
-     * @param anonymous647 $RefundAccessCode
+     * @param anonymous648 $RefundAccessCode
      * @return \FilippoToso\Travelport\UniversalRecord\TCRRefundBundle
      */
     public function setRefundAccessCode($RefundAccessCode)

@@ -43,7 +43,7 @@ class TCRExchangeBundle
      * @param Penalty $Penalty
      * @param typeTCRNumber $TCRNumber
      */
-    public function __construct($AirExchangeInfo = null, $AirPricingInfoRef = null, $FeeInfo = null, $TaxInfo = null, $Penalty = null, $TCRNumber = null)
+    public function __construct($AirExchangeInfo, $AirPricingInfoRef, $FeeInfo, $TaxInfo, $Penalty, $TCRNumber)
     {
       $this->AirExchangeInfo = $AirExchangeInfo;
       $this->AirPricingInfoRef = $AirPricingInfoRef;

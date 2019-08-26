@@ -43,7 +43,7 @@ class LegDetail
      * @param string $TravelDate
      * @param typeFlightNumber $FlightNumber
      */
-    public function __construct($Key = null, $OriginAirport = null, $DestinationAirport = null, $Carrier = null, $TravelDate = null, $FlightNumber = null)
+    public function __construct($Key, $OriginAirport, $DestinationAirport, $Carrier, $TravelDate, $FlightNumber)
     {
       $this->Key = $Key;
       $this->OriginAirport = $OriginAirport;

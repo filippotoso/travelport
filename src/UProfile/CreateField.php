@@ -103,7 +103,7 @@ class CreateField
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $Protected = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
+    public function __construct($Name, $Description, $Type, $Encrypted, $Masked, $DefaultValue, $Protected, $DisplayOrder, $Inheritable, $MinOccurs, $MaxOccurs)
     {
       $this->Name = $Name;
       $this->Description = $Description;

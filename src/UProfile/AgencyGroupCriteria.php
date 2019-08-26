@@ -14,7 +14,7 @@ class AgencyGroupCriteria extends typeProfileSearchCriteria
      * @param typeWildcard $AdditionalIdentifier
      * @param typeWildcard $Name
      */
-    public function __construct($AdditionalIdentifier = null, $Name = null)
+    public function __construct($AdditionalIdentifier, $Name)
     {
       parent::__construct($AdditionalIdentifier);
       $this->Name = $Name;

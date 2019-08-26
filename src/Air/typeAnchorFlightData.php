@@ -25,7 +25,7 @@ class typeAnchorFlightData
      * @param typeFlightNumber $FlightNumber
      * @param boolean $ConnectionIndicator
      */
-    public function __construct($AirlineCode = null, $FlightNumber = null, $ConnectionIndicator = null)
+    public function __construct($AirlineCode, $FlightNumber, $ConnectionIndicator)
     {
       $this->AirlineCode = $AirlineCode;
       $this->FlightNumber = $FlightNumber;

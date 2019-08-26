@@ -73,7 +73,7 @@ class CreditCardAuth
      * @param typeRef $ProviderReservationInfoRef
      * @param typeRef $FormOfPaymentRef
      */
-    public function __construct($Key = null, $PaymentRef = null, $TransId = null, $Number = null, $Amount = null, $AuthCode = null, $AuthResultCode = null, $AVSResultCode = null, $Message = null, $ProviderReservationInfoRef = null, $FormOfPaymentRef = null)
+    public function __construct($Key, $PaymentRef, $TransId, $Number, $Amount, $AuthCode, $AuthResultCode, $AVSResultCode, $Message, $ProviderReservationInfoRef, $FormOfPaymentRef)
     {
       $this->Key = $Key;
       $this->PaymentRef = $PaymentRef;

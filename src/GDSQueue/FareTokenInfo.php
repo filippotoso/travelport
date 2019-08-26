@@ -19,7 +19,7 @@ class FareTokenInfo
      * @param string $FareInfoRef
      * @param string $HostTokenRef
      */
-    public function __construct($FareInfoRef = null, $HostTokenRef = null)
+    public function __construct($FareInfoRef, $HostTokenRef)
     {
       $this->FareInfoRef = $FareInfoRef;
       $this->HostTokenRef = $HostTokenRef;

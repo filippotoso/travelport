@@ -19,7 +19,7 @@ class BedTypes
      * @param typeOTACode $Code
      * @param int $Quantity
      */
-    public function __construct($Code = null, $Quantity = null)
+    public function __construct($Code, $Quantity)
     {
       $this->Code = $Code;
       $this->Quantity = $Quantity;

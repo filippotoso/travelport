@@ -25,7 +25,7 @@ class typeLocation
      * @param City $City
      * @param CityOrAirport $CityOrAirport
      */
-    public function __construct($Airport = null, $City = null, $CityOrAirport = null)
+    public function __construct($Airport, $City, $CityOrAirport)
     {
       $this->Airport = $Airport;
       $this->City = $City;

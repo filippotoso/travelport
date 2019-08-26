@@ -19,7 +19,7 @@ class typeRateHostIndicator
      * @param string $InventoryToken
      * @param string $RateToken
      */
-    public function __construct($InventoryToken = null, $RateToken = null)
+    public function __construct($InventoryToken, $RateToken)
     {
       $this->InventoryToken = $InventoryToken;
       $this->RateToken = $RateToken;

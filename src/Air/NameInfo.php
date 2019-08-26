@@ -37,7 +37,7 @@ class NameInfo
      * @param typeTravelerLastName $Last
      * @param anonymous91 $Suffix
      */
-    public function __construct($Prefix = null, $First = null, $Middle = null, $Last = null, $Suffix = null)
+    public function __construct($Prefix, $First, $Middle, $Last, $Suffix)
     {
       $this->Prefix = $Prefix;
       $this->First = $First;

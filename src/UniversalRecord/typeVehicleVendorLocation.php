@@ -16,7 +16,7 @@ class typeVehicleVendorLocation extends typeVendorLocation
     protected $LocationCode = null;
 
     /**
-     * @var anonymous1085 $Type
+     * @var anonymous1083 $Type
      */
     protected $Type = null;
 
@@ -29,9 +29,9 @@ class typeVehicleVendorLocation extends typeVendorLocation
      * @param anonymous8 $MoreRatesToken
      * @param typeVehicleLocation $LocationType
      * @param typeIATACode $LocationCode
-     * @param anonymous1085 $Type
+     * @param anonymous1083 $Type
      */
-    public function __construct($ProviderCode = null, $VendorCode = null, $PreferredOption = null, $VendorLocationID = null, $Key = null, $MoreRatesToken = null, $LocationType = null, $LocationCode = null, $Type = null)
+    public function __construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken, $LocationType, $LocationCode, $Type)
     {
       parent::__construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken);
       $this->LocationType = $LocationType;
@@ -76,7 +76,7 @@ class typeVehicleVendorLocation extends typeVendorLocation
     }
 
     /**
-     * @return anonymous1085
+     * @return anonymous1083
      */
     public function getType()
     {
@@ -84,7 +84,7 @@ class typeVehicleVendorLocation extends typeVendorLocation
     }
 
     /**
-     * @param anonymous1085 $Type
+     * @param anonymous1083 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleVendorLocation
      */
     public function setType($Type)

@@ -25,7 +25,7 @@ class MctCount
      * @param typeCarrier $Carrier
      * @param int $Count
      */
-    public function __construct($Connection = null, $Carrier = null, $Count = null)
+    public function __construct($Connection, $Carrier, $Count)
     {
       $this->Connection = $Connection;
       $this->Carrier = $Carrier;

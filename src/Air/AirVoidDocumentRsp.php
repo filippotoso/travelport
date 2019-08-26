@@ -24,7 +24,7 @@ class AirVoidDocumentRsp extends BaseRsp
      * @param ETR $ETR
      * @param VoidResultInfo $VoidResultInfo
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ETR = null, $VoidResultInfo = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ETR, $VoidResultInfo)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ETR = $ETR;

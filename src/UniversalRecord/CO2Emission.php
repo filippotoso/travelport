@@ -19,7 +19,7 @@ class CO2Emission
      * @param typeRef $AirSegmentRef
      * @param float $Value
      */
-    public function __construct($AirSegmentRef = null, $Value = null)
+    public function __construct($AirSegmentRef, $Value)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->Value = $Value;

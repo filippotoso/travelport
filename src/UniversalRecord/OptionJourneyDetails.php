@@ -67,7 +67,7 @@ class OptionJourneyDetails
      * @param typeCarrier $ReturnCarrier
      * @param typeFlightNumber $ReturnFlightNumber
      */
-    public function __construct($PickUpLocation = null, $PickUpTime = null, $PickUpDescription = null, $PickUpCarrier = null, $PickUpFlightNumber = null, $ReturnLocation = null, $ReturnTime = null, $ReturnDescription = null, $ReturnCarrier = null, $ReturnFlightNumber = null)
+    public function __construct($PickUpLocation, $PickUpTime, $PickUpDescription, $PickUpCarrier, $PickUpFlightNumber, $ReturnLocation, $ReturnTime, $ReturnDescription, $ReturnCarrier, $ReturnFlightNumber)
     {
       $this->PickUpLocation = $PickUpLocation;
       $this->PickUpTime = $PickUpTime;

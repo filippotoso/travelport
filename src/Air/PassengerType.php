@@ -13,7 +13,7 @@ class PassengerType
     /**
      * @param FareGuaranteeInfo $FareGuaranteeInfo
      */
-    public function __construct($FareGuaranteeInfo = null)
+    public function __construct($FareGuaranteeInfo)
     {
       $this->FareGuaranteeInfo = $FareGuaranteeInfo;
     }

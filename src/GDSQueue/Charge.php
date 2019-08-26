@@ -25,7 +25,7 @@ class Charge
      * @param string $RatePeriod
      * @param boolean $IncludedInEstTotalInd
      */
-    public function __construct($Amount = null, $RatePeriod = null, $IncludedInEstTotalInd = null)
+    public function __construct($Amount, $RatePeriod, $IncludedInEstTotalInd)
     {
       $this->Amount = $Amount;
       $this->RatePeriod = $RatePeriod;

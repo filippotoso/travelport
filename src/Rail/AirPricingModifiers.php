@@ -166,7 +166,7 @@ class AirPricingModifiers
     protected $ReturnServices = null;
 
     /**
-     * @var anonymous809 $ChannelId
+     * @var anonymous806 $ChannelId
      */
     protected $ChannelId = null;
 
@@ -214,12 +214,12 @@ class AirPricingModifiers
      * @param boolean $OneWayShop
      * @param boolean $ProhibitUnbundledFareTypes
      * @param boolean $ReturnServices
-     * @param anonymous809 $ChannelId
+     * @param anonymous806 $ChannelId
      * @param boolean $ReturnFareAttributes
      * @param boolean $SellCheck
      * @param boolean $ReturnFailedSegments
      */
-    public function __construct($PermittedCabins = null, $ExemptTaxes = null, $PenaltyFareInformation = null, $DiscountCard = null, $ManualFareAdjustment = null, $PointOfSale = null, $BrandModifiers = null, $MultiGDSSearchIndicator = null, $PreferredCabins = null, $ProhibitMinStayFares = null, $ProhibitMaxStayFares = null, $CurrencyType = null, $ProhibitAdvancePurchaseFares = null, $ProhibitNonRefundableFares = null, $ProhibitRestrictedFares = null, $FaresIndicator = null, $FiledCurrency = null, $PlatingCarrier = null, $OverrideCarrier = null, $ETicketability = null, $AccountCodeFaresOnly = null, $Key = null, $ProhibitNonExchangeableFares = null, $ForceSegmentSelect = null, $InventoryRequestType = null, $OneWayShop = null, $ProhibitUnbundledFareTypes = null, $ReturnServices = null, $ChannelId = null, $ReturnFareAttributes = null, $SellCheck = null, $ReturnFailedSegments = null)
+    public function __construct($PermittedCabins, $ExemptTaxes, $PenaltyFareInformation, $DiscountCard, $ManualFareAdjustment, $PointOfSale, $BrandModifiers, $MultiGDSSearchIndicator, $PreferredCabins, $ProhibitMinStayFares, $ProhibitMaxStayFares, $CurrencyType, $ProhibitAdvancePurchaseFares, $ProhibitNonRefundableFares, $ProhibitRestrictedFares, $FaresIndicator, $FiledCurrency, $PlatingCarrier, $OverrideCarrier, $ETicketability, $AccountCodeFaresOnly, $Key, $ProhibitNonExchangeableFares, $ForceSegmentSelect, $InventoryRequestType, $OneWayShop, $ProhibitUnbundledFareTypes, $ReturnServices, $ChannelId, $ReturnFareAttributes, $SellCheck, $ReturnFailedSegments)
     {
       $this->PermittedCabins = $PermittedCabins;
       $this->ExemptTaxes = $ExemptTaxes;
@@ -832,7 +832,7 @@ class AirPricingModifiers
     }
 
     /**
-     * @return anonymous809
+     * @return anonymous806
      */
     public function getChannelId()
     {
@@ -840,7 +840,7 @@ class AirPricingModifiers
     }
 
     /**
-     * @param anonymous809 $ChannelId
+     * @param anonymous806 $ChannelId
      * @return \FilippoToso\Travelport\Rail\AirPricingModifiers
      */
     public function setChannelId($ChannelId)

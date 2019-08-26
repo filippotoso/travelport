@@ -256,7 +256,7 @@ class FareInfo
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($FareTicketDesignator = null, $FareSurcharge = null, $AccountCode = null, $ContractCode = null, $Endorsement = null, $BaggageAllowance = null, $FareRuleKey = null, $FareRuleFailureInfo = null, $FareRemarkRef = null, $Brand = null, $Commission = null, $FareRulesFilter = null, $Key = null, $FareBasis = null, $PassengerTypeCode = null, $Origin = null, $Destination = null, $EffectiveDate = null, $TravelDate = null, $DepartureDate = null, $Amount = null, $PrivateFare = null, $NegotiatedFare = null, $TourCode = null, $WaiverCode = null, $NotValidBefore = null, $NotValidAfter = null, $PseudoCityCode = null, $FareFamily = null, $PromotionalFare = null, $CarCode = null, $ValueCode = null, $BulkTicket = null, $InclusiveTour = null, $Value = null, $SupplierCode = null, $TaxAmount = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($FareTicketDesignator, $FareSurcharge, $AccountCode, $ContractCode, $Endorsement, $BaggageAllowance, $FareRuleKey, $FareRuleFailureInfo, $FareRemarkRef, $Brand, $Commission, $FareRulesFilter, $Key, $FareBasis, $PassengerTypeCode, $Origin, $Destination, $EffectiveDate, $TravelDate, $DepartureDate, $Amount, $PrivateFare, $NegotiatedFare, $TourCode, $WaiverCode, $NotValidBefore, $NotValidAfter, $PseudoCityCode, $FareFamily, $PromotionalFare, $CarCode, $ValueCode, $BulkTicket, $InclusiveTour, $Value, $SupplierCode, $TaxAmount, $ElStat, $KeyOverride)
     {
       $this->FareTicketDesignator = $FareTicketDesignator;
       $this->FareSurcharge = $FareSurcharge;

@@ -13,7 +13,7 @@ class OwnershipChange
     /**
      * @param typeRef $OwningPCC
      */
-    public function __construct($OwningPCC = null)
+    public function __construct($OwningPCC)
     {
       $this->OwningPCC = $OwningPCC;
     }

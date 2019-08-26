@@ -91,7 +91,7 @@ class RailFare
     protected $TicketTypeCode = null;
 
     /**
-     * @var anonymous1312 $FareReference
+     * @var anonymous1310 $FareReference
      */
     protected $FareReference = null;
 
@@ -158,7 +158,7 @@ class RailFare
      * @param typeMoney $Amount
      * @param string $RouteDescription
      * @param string $TicketTypeCode
-     * @param anonymous1312 $FareReference
+     * @param anonymous1310 $FareReference
      * @param boolean $CrossCityFare
      * @param string $OriginStationName
      * @param string $DestinationStationName
@@ -169,7 +169,7 @@ class RailFare
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RailFareNoteRef = null, $RailFareID = null, $RailFareIDRef = null, $FareValidity = null, $HostToken = null, $FulFillmentType = null, $RailFareComponent = null, $Key = null, $FareBasis = null, $CabinClass = null, $PassengerTypeCode = null, $Origin = null, $Destination = null, $EffectiveDate = null, $Amount = null, $RouteDescription = null, $TicketTypeCode = null, $FareReference = null, $CrossCityFare = null, $OriginStationName = null, $DestinationStationName = null, $ReservationRequired = null, $JourneyDirection = null, $RailLocOrigin = null, $RailLocDestination = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($RailFareNoteRef, $RailFareID, $RailFareIDRef, $FareValidity, $HostToken, $FulFillmentType, $RailFareComponent, $Key, $FareBasis, $CabinClass, $PassengerTypeCode, $Origin, $Destination, $EffectiveDate, $Amount, $RouteDescription, $TicketTypeCode, $FareReference, $CrossCityFare, $OriginStationName, $DestinationStationName, $ReservationRequired, $JourneyDirection, $RailLocOrigin, $RailLocDestination, $ElStat, $KeyOverride)
     {
       $this->RailFareNoteRef = $RailFareNoteRef;
       $this->RailFareID = $RailFareID;
@@ -507,7 +507,7 @@ class RailFare
     }
 
     /**
-     * @return anonymous1312
+     * @return anonymous1310
      */
     public function getFareReference()
     {
@@ -515,7 +515,7 @@ class RailFare
     }
 
     /**
-     * @param anonymous1312 $FareReference
+     * @param anonymous1310 $FareReference
      * @return \FilippoToso\Travelport\GDSQueue\RailFare
      */
     public function setFareReference($FareReference)

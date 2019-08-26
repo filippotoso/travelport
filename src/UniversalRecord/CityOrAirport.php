@@ -19,7 +19,7 @@ class CityOrAirport extends Location
      * @param typeIATACode $Code
      * @param boolean $PreferCity
      */
-    public function __construct($Code = null, $PreferCity = null)
+    public function __construct($Code, $PreferCity)
     {
       $this->Code = $Code;
       $this->PreferCity = $PreferCity;

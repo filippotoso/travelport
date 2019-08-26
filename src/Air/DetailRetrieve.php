@@ -19,7 +19,7 @@ class DetailRetrieve
      * @param typeProviderReservationDetail $ProviderReservationDetail
      * @param typeEMDNumber $EMDNumber
      */
-    public function __construct($ProviderReservationDetail = null, $EMDNumber = null)
+    public function __construct($ProviderReservationDetail, $EMDNumber)
     {
       $this->ProviderReservationDetail = $ProviderReservationDetail;
       $this->EMDNumber = $EMDNumber;

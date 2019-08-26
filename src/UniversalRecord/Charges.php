@@ -49,7 +49,7 @@ class Charges
      * @param StringLength1to13 $PortChargeDescription
      * @param typeMoney $PenaltyCharge
      */
-    public function __construct($AirCharge = null, $OptionalCharge = null, $WaiverCharge = null, $WaiverChargeType = null, $PortCharge = null, $PortChargeDescription = null, $PenaltyCharge = null)
+    public function __construct($AirCharge, $OptionalCharge, $WaiverCharge, $WaiverChargeType, $PortCharge, $PortChargeDescription, $PenaltyCharge)
     {
       $this->AirCharge = $AirCharge;
       $this->OptionalCharge = $OptionalCharge;

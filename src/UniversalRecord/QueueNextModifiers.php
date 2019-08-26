@@ -31,7 +31,7 @@ class QueueNextModifiers
      * @param boolean $ReQueueCurrent
      * @param string $QueueSessionToken
      */
-    public function __construct($NextOnQueue = null, $ProviderLocatorCode = null, $ReQueueCurrent = null, $QueueSessionToken = null)
+    public function __construct($NextOnQueue, $ProviderLocatorCode, $ReQueueCurrent, $QueueSessionToken)
     {
       $this->NextOnQueue = $NextOnQueue;
       $this->ProviderLocatorCode = $ProviderLocatorCode;

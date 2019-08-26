@@ -19,7 +19,7 @@ class CustomerReceiptInfo
      * @param typeRef $BookingTravelerRef
      * @param typeRef $EmailRef
      */
-    public function __construct($BookingTravelerRef = null, $EmailRef = null)
+    public function __construct($BookingTravelerRef, $EmailRef)
     {
       $this->BookingTravelerRef = $BookingTravelerRef;
       $this->EmailRef = $EmailRef;

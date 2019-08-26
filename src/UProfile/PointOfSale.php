@@ -31,7 +31,7 @@ class PointOfSale
      * @param typeRef $Key
      * @param typeIATA $IATA
      */
-    public function __construct($ProviderCode = null, $PseudoCityCode = null, $Key = null, $IATA = null)
+    public function __construct($ProviderCode, $PseudoCityCode, $Key, $IATA)
     {
       $this->ProviderCode = $ProviderCode;
       $this->PseudoCityCode = $PseudoCityCode;

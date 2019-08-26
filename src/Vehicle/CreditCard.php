@@ -19,7 +19,7 @@ class CreditCard
      * @param string $ProfileID
      * @param typeRef $Key
      */
-    public function __construct($ProfileID = null, $Key = null)
+    public function __construct($ProfileID, $Key)
     {
       $this->ProfileID = $ProfileID;
       $this->Key = $Key;

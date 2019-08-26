@@ -13,7 +13,7 @@ class RailSupplier
     /**
      * @param typeSupplierCode $Code
      */
-    public function __construct($Code = null)
+    public function __construct($Code)
     {
       $this->Code = $Code;
     }

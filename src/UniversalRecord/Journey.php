@@ -19,7 +19,7 @@ class Journey
      * @param AirSegmentRef $AirSegmentRef
      * @param duration $TravelTime
      */
-    public function __construct($AirSegmentRef = null, $TravelTime = null)
+    public function __construct($AirSegmentRef, $TravelTime)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->TravelTime = $TravelTime;

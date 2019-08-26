@@ -20,7 +20,7 @@ class MCOText extends typeFreeFormText
      * @param typeFreeFormText $_
      * @param string $Type
      */
-    public function __construct($_ = null, $Type = null)
+    public function __construct($_, $Type)
     {
       parent::__construct($_);
       $this->_ = $_;

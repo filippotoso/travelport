@@ -31,7 +31,7 @@ class LegPrice
      * @param typeMoney $TotalPrice
      * @param typeMoney $ApproximateTotalPrice
      */
-    public function __construct($LegDetail = null, $Key = null, $TotalPrice = null, $ApproximateTotalPrice = null)
+    public function __construct($LegDetail, $Key, $TotalPrice, $ApproximateTotalPrice)
     {
       $this->LegDetail = $LegDetail;
       $this->Key = $Key;

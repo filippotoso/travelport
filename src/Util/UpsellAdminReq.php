@@ -36,7 +36,7 @@ class UpsellAdminReq extends BaseReq
      * @param VehicleUpsellCriteria $VehicleUpsellCriteria
      * @param HotelUpsellCriteria $HotelUpsellCriteria
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AirUpsellCriteria = null, $VehicleUpsellCriteria = null, $HotelUpsellCriteria = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AirUpsellCriteria, $VehicleUpsellCriteria, $HotelUpsellCriteria)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AirUpsellCriteria = $AirUpsellCriteria;

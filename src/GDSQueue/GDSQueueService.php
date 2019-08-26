@@ -359,6 +359,7 @@ class GDSQueueService extends \SoapClient
   'FareRestrictionDaysOfWeek' => 'FilippoToso\\Travelport\\GDSQueue\\FareRestrictionDaysOfWeek',
   'FareRestrictionDate' => 'FilippoToso\\Travelport\\GDSQueue\\FareRestrictionDate',
   'FareRestrictionSaleDate' => 'FilippoToso\\Travelport\\GDSQueue\\FareRestrictionSaleDate',
+  'FareRestrictionSeasonal' => 'FilippoToso\\Travelport\\GDSQueue\\FareRestrictionSeasonal',
   'FarePricing' => 'FilippoToso\\Travelport\\GDSQueue\\FarePricing',
   'FareRuleLookup' => 'FilippoToso\\Travelport\\GDSQueue\\FareRuleLookup',
   'AirExchangeModifiers' => 'FilippoToso\\Travelport\\GDSQueue\\AirExchangeModifiers',
@@ -422,14 +423,10 @@ class GDSQueueService extends \SoapClient
   'LegRef' => 'FilippoToso\\Travelport\\GDSQueue\\LegRef',
   'FareBasis' => 'FilippoToso\\Travelport\\GDSQueue\\FareBasis',
   'FareRule' => 'FilippoToso\\Travelport\\GDSQueue\\FareRule',
-  'StructuredFareRules' => 'FilippoToso\\Travelport\\GDSQueue\\StructuredFareRules',
-  'STP' => 'FilippoToso\\Travelport\\GDSQueue\\STP',
-  'CXRApplicationDetailsType' => 'FilippoToso\\Travelport\\GDSQueue\\CXRApplicationDetailsType',
-  'CXRApplication' => 'FilippoToso\\Travelport\\GDSQueue\\CXRApplication',
-  'ADVSFRType' => 'FilippoToso\\Travelport\\GDSQueue\\ADVSFRType',
-  'MINSFRType' => 'FilippoToso\\Travelport\\GDSQueue\\MINSFRType',
-  'MAXSFRType' => 'FilippoToso\\Travelport\\GDSQueue\\MAXSFRType',
-  'CHGSFRType' => 'FilippoToso\\Travelport\\GDSQueue\\CHGSFRType',
+  'StructuredFareRulesType' => 'FilippoToso\\Travelport\\GDSQueue\\StructuredFareRulesType',
+  'FareRuleCategoryTypes' => 'FilippoToso\\Travelport\\GDSQueue\\FareRuleCategoryTypes',
+  'ValueDetails' => 'FilippoToso\\Travelport\\GDSQueue\\ValueDetails',
+  'CategoryDetailsType' => 'FilippoToso\\Travelport\\GDSQueue\\CategoryDetailsType',
   'FareSurcharge' => 'FilippoToso\\Travelport\\GDSQueue\\FareSurcharge',
   'FareRuleShortRef' => 'FilippoToso\\Travelport\\GDSQueue\\FareRuleShortRef',
   'FareRuleLongRef' => 'FilippoToso\\Travelport\\GDSQueue\\FareRuleLongRef',
@@ -965,7 +962,7 @@ class GDSQueueService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/gdsQueue_v47_0/GDSQueue.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/gdsQueue_v48_0/GDSQueue.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

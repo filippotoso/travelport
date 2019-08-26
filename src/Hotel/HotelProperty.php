@@ -138,7 +138,7 @@ class HotelProperty
      * @param typeNetTransCommission $NetTransCommissionInd
      * @param int $NumOfRatePlans
      */
-    public function __construct($PhoneNumber = null, $CoordinateLocation = null, $Distance = null, $HotelRating = null, $Amenities = null, $MarketingMessage = null, $HotelChain = null, $HotelCode = null, $HotelLocation = null, $Name = null, $VendorLocationKey = null, $HotelTransportation = null, $ReserveRequirement = null, $ParticipationLevel = null, $Availability = null, $Key = null, $PreferredOption = null, $MoreRates = null, $MoreRatesToken = null, $NetTransCommissionInd = null, $NumOfRatePlans = null)
+    public function __construct($PhoneNumber, $CoordinateLocation, $Distance, $HotelRating, $Amenities, $MarketingMessage, $HotelChain, $HotelCode, $HotelLocation, $Name, $VendorLocationKey, $HotelTransportation, $ReserveRequirement, $ParticipationLevel, $Availability, $Key, $PreferredOption, $MoreRates, $MoreRatesToken, $NetTransCommissionInd, $NumOfRatePlans)
     {
       $this->PhoneNumber = $PhoneNumber;
       $this->CoordinateLocation = $CoordinateLocation;

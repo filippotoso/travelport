@@ -18,7 +18,7 @@ class MctCountRsp extends BaseRsp
      * @param string $CommandHistory
      * @param MctCount $MctCount
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $MctCount = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $MctCount)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->MctCount = $MctCount;

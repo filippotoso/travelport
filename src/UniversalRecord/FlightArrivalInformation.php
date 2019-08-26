@@ -11,7 +11,7 @@ class FlightArrivalInformation
     protected $Carrier = null;
 
     /**
-     * @var anonymous1141 $FlightNumber
+     * @var anonymous1139 $FlightNumber
      */
     protected $FlightNumber = null;
 
@@ -22,10 +22,10 @@ class FlightArrivalInformation
 
     /**
      * @param typeCarrier $Carrier
-     * @param anonymous1141 $FlightNumber
+     * @param anonymous1139 $FlightNumber
      * @param typeRef $Key
      */
-    public function __construct($Carrier = null, $FlightNumber = null, $Key = null)
+    public function __construct($Carrier, $FlightNumber, $Key)
     {
       $this->Carrier = $Carrier;
       $this->FlightNumber = $FlightNumber;
@@ -51,7 +51,7 @@ class FlightArrivalInformation
     }
 
     /**
-     * @return anonymous1141
+     * @return anonymous1139
      */
     public function getFlightNumber()
     {
@@ -59,7 +59,7 @@ class FlightArrivalInformation
     }
 
     /**
-     * @param anonymous1141 $FlightNumber
+     * @param anonymous1139 $FlightNumber
      * @return \FilippoToso\Travelport\UniversalRecord\FlightArrivalInformation
      */
     public function setFlightNumber($FlightNumber)

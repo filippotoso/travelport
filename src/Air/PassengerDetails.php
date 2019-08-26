@@ -31,7 +31,7 @@ class PassengerDetails
      * @param typePTC $Code
      * @param int $Age
      */
-    public function __construct($LoyaltyCardDetails = null, $Key = null, $Code = null, $Age = null)
+    public function __construct($LoyaltyCardDetails, $Key, $Code, $Age)
     {
       $this->LoyaltyCardDetails = $LoyaltyCardDetails;
       $this->Key = $Key;

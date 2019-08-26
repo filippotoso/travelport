@@ -43,7 +43,7 @@ class FareFamily
      * @param typeRef $Key
      * @param typeURVersion $Version
      */
-    public function __construct($FlightSpec = null, $Carrier = null, $Label = null, $FareBasis = null, $Key = null, $Version = null)
+    public function __construct($FlightSpec, $Carrier, $Label, $FareBasis, $Key, $Version)
     {
       $this->FlightSpec = $FlightSpec;
       $this->Carrier = $Carrier;

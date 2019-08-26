@@ -37,12 +37,12 @@ class InvoiceData
      * @param \DateTime $IssueDate
      * @param typeRef $ProviderReservationInfoRef
      */
-    public function __construct($BookingTravelerInformation = null, $Key = null, $InvoiceNumber = null, \DateTime $IssueDate = null, $ProviderReservationInfoRef = null)
+    public function __construct($BookingTravelerInformation, $Key, $InvoiceNumber, \DateTime $IssueDate, $ProviderReservationInfoRef)
     {
       $this->BookingTravelerInformation = $BookingTravelerInformation;
       $this->Key = $Key;
       $this->InvoiceNumber = $InvoiceNumber;
-      $this->IssueDate = $IssueDate ? $IssueDate->format(\DateTime::ATOM) : null;
+      $this->IssueDate = $IssueDate->format(\DateTime::ATOM);
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
     }
 

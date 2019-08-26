@@ -37,7 +37,7 @@ class ResponseMessage
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($_ = null, $Code = null, $Type = null, $ProviderCode = null, $SupplierCode = null)
+    public function __construct($_, $Code, $Type, $ProviderCode, $SupplierCode)
     {
       $this->_ = $_;
       $this->Code = $Code;

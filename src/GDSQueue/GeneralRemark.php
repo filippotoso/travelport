@@ -90,7 +90,7 @@ class GeneralRemark
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RemarkData = null, $Key = null, $Category = null, $TypeInGds = null, $SupplierType = null, $ProviderReservationInfoRef = null, $Direction = null, \DateTime $CreateDate = null, $UseProviderNativeMode = null, $ProviderCode = null, $SupplierCode = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($RemarkData, $Key, $Category, $TypeInGds, $SupplierType, $ProviderReservationInfoRef, $Direction, \DateTime $CreateDate, $UseProviderNativeMode, $ProviderCode, $SupplierCode, $ElStat, $KeyOverride)
     {
       $this->RemarkData = $RemarkData;
       $this->Key = $Key;
@@ -99,7 +99,7 @@ class GeneralRemark
       $this->SupplierType = $SupplierType;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
       $this->Direction = $Direction;
-      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
+      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
       $this->UseProviderNativeMode = $UseProviderNativeMode;
       $this->ProviderCode = $ProviderCode;
       $this->SupplierCode = $SupplierCode;

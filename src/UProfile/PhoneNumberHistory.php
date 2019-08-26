@@ -61,7 +61,7 @@ class PhoneNumberHistory
      * @param anonymous912 $Extension
      * @param anonymous913 $Text
      */
-    public function __construct($ProviderReservationInfoRef = null, $Key = null, $Type = null, $Location = null, $CountryCode = null, $AreaCode = null, $Number = null, $Extension = null, $Text = null)
+    public function __construct($ProviderReservationInfoRef, $Key, $Type, $Location, $CountryCode, $AreaCode, $Number, $Extension, $Text)
     {
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
       $this->Key = $Key;

@@ -19,7 +19,7 @@ class PrePayRetrieve
      * @param typeCardNumber $Id
      * @param string $Type
      */
-    public function __construct($Id = null, $Type = null)
+    public function __construct($Id, $Type)
     {
       $this->Id = $Id;
       $this->Type = $Type;

@@ -146,7 +146,7 @@ class OptionalService
     protected $SequenceNumber = null;
 
     /**
-     * @var anonymous828 $ServiceSubCode
+     * @var anonymous826 $ServiceSubCode
      */
     protected $ServiceSubCode = null;
 
@@ -156,12 +156,12 @@ class OptionalService
     protected $SSRCode = null;
 
     /**
-     * @var anonymous829 $IssuanceReason
+     * @var anonymous827 $IssuanceReason
      */
     protected $IssuanceReason = null;
 
     /**
-     * @var anonymous830 $ProviderDefinedType
+     * @var anonymous828 $ProviderDefinedType
      */
     protected $ProviderDefinedType = null;
 
@@ -181,7 +181,7 @@ class OptionalService
     protected $Mileage = null;
 
     /**
-     * @var anonymous831 $ApplicableFFLevel
+     * @var anonymous829 $ApplicableFFLevel
      */
     protected $ApplicableFFLevel = null;
 
@@ -291,12 +291,12 @@ class OptionalService
     protected $PseudoCityCode = null;
 
     /**
-     * @var anonymous832 $Tag
+     * @var anonymous830 $Tag
      */
     protected $Tag = null;
 
     /**
-     * @var anonymous833 $DisplayOrder
+     * @var anonymous831 $DisplayOrder
      */
     protected $DisplayOrder = null;
 
@@ -399,14 +399,14 @@ class OptionalService
      * @param string $ServiceStatus
      * @param int $Quantity
      * @param int $SequenceNumber
-     * @param anonymous828 $ServiceSubCode
+     * @param anonymous826 $ServiceSubCode
      * @param typeSSRCode $SSRCode
-     * @param anonymous829 $IssuanceReason
-     * @param anonymous830 $ProviderDefinedType
+     * @param anonymous827 $IssuanceReason
+     * @param anonymous828 $ProviderDefinedType
      * @param typeRef $Key
      * @param typeAssessIndicator $AssessIndicator
      * @param int $Mileage
-     * @param anonymous831 $ApplicableFFLevel
+     * @param anonymous829 $ApplicableFFLevel
      * @param boolean $Private
      * @param typeSSRFreeText $SSRFreeText
      * @param boolean $IsPricingApproximate
@@ -428,8 +428,8 @@ class OptionalService
      * @param string $BookedQuantity
      * @param string $Group
      * @param typePCC $PseudoCityCode
-     * @param anonymous832 $Tag
-     * @param anonymous833 $DisplayOrder
+     * @param anonymous830 $Tag
+     * @param anonymous831 $DisplayOrder
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      * @param typeMoney $TotalPrice
@@ -445,7 +445,7 @@ class OptionalService
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($ServiceData = null, $ServiceInfo = null, $Remark = null, $TaxInfo = null, $FeeInfo = null, $EMD = null, $BundledServices = null, $AdditionalInfo = null, $FeeApplication = null, $Text = null, $PriceRange = null, $TourCode = null, $BrandingInfo = null, $Title = null, $OptionalServicesRuleRef = null, $Type = null, $Confirmation = null, $SecondaryType = null, $PurchaseWindow = null, $Priority = null, $Available = null, $Entitled = null, $PerTraveler = null, \DateTime $CreateDate = null, $PaymentRef = null, $ServiceStatus = null, $Quantity = null, $SequenceNumber = null, $ServiceSubCode = null, $SSRCode = null, $IssuanceReason = null, $ProviderDefinedType = null, $Key = null, $AssessIndicator = null, $Mileage = null, $ApplicableFFLevel = null, $Private = null, $SSRFreeText = null, $IsPricingApproximate = null, $Chargeable = null, $InclusiveOfTax = null, $InterlineSettlementAllowed = null, $GeographySpecification = null, $ExcessWeightRate = null, $Source = null, $ViewableOnly = null, $DisplayText = null, $WeightInExcess = null, $TotalWeight = null, $BaggageUnitPrice = null, $FirstPiece = null, $LastPiece = null, $Restricted = null, $IsRepriceRequired = null, $BookedQuantity = null, $Group = null, $PseudoCityCode = null, $Tag = null, $DisplayOrder = null, $ProviderCode = null, $SupplierCode = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($ServiceData, $ServiceInfo, $Remark, $TaxInfo, $FeeInfo, $EMD, $BundledServices, $AdditionalInfo, $FeeApplication, $Text, $PriceRange, $TourCode, $BrandingInfo, $Title, $OptionalServicesRuleRef, $Type, $Confirmation, $SecondaryType, $PurchaseWindow, $Priority, $Available, $Entitled, $PerTraveler, \DateTime $CreateDate, $PaymentRef, $ServiceStatus, $Quantity, $SequenceNumber, $ServiceSubCode, $SSRCode, $IssuanceReason, $ProviderDefinedType, $Key, $AssessIndicator, $Mileage, $ApplicableFFLevel, $Private, $SSRFreeText, $IsPricingApproximate, $Chargeable, $InclusiveOfTax, $InterlineSettlementAllowed, $GeographySpecification, $ExcessWeightRate, $Source, $ViewableOnly, $DisplayText, $WeightInExcess, $TotalWeight, $BaggageUnitPrice, $FirstPiece, $LastPiece, $Restricted, $IsRepriceRequired, $BookedQuantity, $Group, $PseudoCityCode, $Tag, $DisplayOrder, $ProviderCode, $SupplierCode, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees, $ElStat, $KeyOverride)
     {
       $this->ServiceData = $ServiceData;
       $this->ServiceInfo = $ServiceInfo;
@@ -470,7 +470,7 @@ class OptionalService
       $this->Available = $Available;
       $this->Entitled = $Entitled;
       $this->PerTraveler = $PerTraveler;
-      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
+      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
       $this->PaymentRef = $PaymentRef;
       $this->ServiceStatus = $ServiceStatus;
       $this->Quantity = $Quantity;
@@ -1035,7 +1035,7 @@ class OptionalService
     }
 
     /**
-     * @return anonymous828
+     * @return anonymous826
      */
     public function getServiceSubCode()
     {
@@ -1043,7 +1043,7 @@ class OptionalService
     }
 
     /**
-     * @param anonymous828 $ServiceSubCode
+     * @param anonymous826 $ServiceSubCode
      * @return \FilippoToso\Travelport\Util\OptionalService
      */
     public function setServiceSubCode($ServiceSubCode)
@@ -1071,7 +1071,7 @@ class OptionalService
     }
 
     /**
-     * @return anonymous829
+     * @return anonymous827
      */
     public function getIssuanceReason()
     {
@@ -1079,7 +1079,7 @@ class OptionalService
     }
 
     /**
-     * @param anonymous829 $IssuanceReason
+     * @param anonymous827 $IssuanceReason
      * @return \FilippoToso\Travelport\Util\OptionalService
      */
     public function setIssuanceReason($IssuanceReason)
@@ -1089,7 +1089,7 @@ class OptionalService
     }
 
     /**
-     * @return anonymous830
+     * @return anonymous828
      */
     public function getProviderDefinedType()
     {
@@ -1097,7 +1097,7 @@ class OptionalService
     }
 
     /**
-     * @param anonymous830 $ProviderDefinedType
+     * @param anonymous828 $ProviderDefinedType
      * @return \FilippoToso\Travelport\Util\OptionalService
      */
     public function setProviderDefinedType($ProviderDefinedType)
@@ -1161,7 +1161,7 @@ class OptionalService
     }
 
     /**
-     * @return anonymous831
+     * @return anonymous829
      */
     public function getApplicableFFLevel()
     {
@@ -1169,7 +1169,7 @@ class OptionalService
     }
 
     /**
-     * @param anonymous831 $ApplicableFFLevel
+     * @param anonymous829 $ApplicableFFLevel
      * @return \FilippoToso\Travelport\Util\OptionalService
      */
     public function setApplicableFFLevel($ApplicableFFLevel)
@@ -1557,7 +1557,7 @@ class OptionalService
     }
 
     /**
-     * @return anonymous832
+     * @return anonymous830
      */
     public function getTag()
     {
@@ -1565,7 +1565,7 @@ class OptionalService
     }
 
     /**
-     * @param anonymous832 $Tag
+     * @param anonymous830 $Tag
      * @return \FilippoToso\Travelport\Util\OptionalService
      */
     public function setTag($Tag)
@@ -1575,7 +1575,7 @@ class OptionalService
     }
 
     /**
-     * @return anonymous833
+     * @return anonymous831
      */
     public function getDisplayOrder()
     {
@@ -1583,7 +1583,7 @@ class OptionalService
     }
 
     /**
-     * @param anonymous833 $DisplayOrder
+     * @param anonymous831 $DisplayOrder
      * @return \FilippoToso\Travelport\Util\OptionalService
      */
     public function setDisplayOrder($DisplayOrder)

@@ -48,7 +48,7 @@ class typeSearchContact
     /**
      * @param typeContactType $Type
      */
-    public function __construct($Type = null)
+    public function __construct($Type)
     {
       $this->Type = $Type;
     }

@@ -21,6 +21,11 @@ class FareRestriction
     protected $FareRestrictionSaleDate = null;
 
     /**
+     * @var FareRestrictionSeasonal $FareRestrictionSeasonal
+     */
+    protected $FareRestrictionSeasonal = null;
+
+    /**
      * @var typeFareRestrictionType $FareRestrictiontype
      */
     protected $FareRestrictiontype = null;
@@ -29,13 +34,15 @@ class FareRestriction
      * @param FareRestrictionDaysOfWeek $FareRestrictionDaysOfWeek
      * @param FareRestrictionDate $FareRestrictionDate
      * @param FareRestrictionSaleDate $FareRestrictionSaleDate
+     * @param FareRestrictionSeasonal $FareRestrictionSeasonal
      * @param typeFareRestrictionType $FareRestrictiontype
      */
-    public function __construct($FareRestrictionDaysOfWeek = null, $FareRestrictionDate = null, $FareRestrictionSaleDate = null, $FareRestrictiontype = null)
+    public function __construct($FareRestrictionDaysOfWeek, $FareRestrictionDate, $FareRestrictionSaleDate, $FareRestrictionSeasonal, $FareRestrictiontype)
     {
       $this->FareRestrictionDaysOfWeek = $FareRestrictionDaysOfWeek;
       $this->FareRestrictionDate = $FareRestrictionDate;
       $this->FareRestrictionSaleDate = $FareRestrictionSaleDate;
+      $this->FareRestrictionSeasonal = $FareRestrictionSeasonal;
       $this->FareRestrictiontype = $FareRestrictiontype;
     }
 
@@ -90,6 +97,24 @@ class FareRestriction
     public function setFareRestrictionSaleDate($FareRestrictionSaleDate)
     {
       $this->FareRestrictionSaleDate = $FareRestrictionSaleDate;
+      return $this;
+    }
+
+    /**
+     * @return FareRestrictionSeasonal
+     */
+    public function getFareRestrictionSeasonal()
+    {
+      return $this->FareRestrictionSeasonal;
+    }
+
+    /**
+     * @param FareRestrictionSeasonal $FareRestrictionSeasonal
+     * @return \FilippoToso\Travelport\GDSQueue\FareRestriction
+     */
+    public function setFareRestrictionSeasonal($FareRestrictionSeasonal)
+    {
+      $this->FareRestrictionSeasonal = $FareRestrictionSeasonal;
       return $this;
     }
 

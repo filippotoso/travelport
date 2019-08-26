@@ -31,7 +31,7 @@ class Characteristic
      * @param typeRowLocation $RowLocation
      * @param StringLength1to99 $PADISCode
      */
-    public function __construct($Value = null, $Position = null, $RowLocation = null, $PADISCode = null)
+    public function __construct($Value, $Position, $RowLocation, $PADISCode)
     {
       $this->Value = $Value;
       $this->Position = $Position;

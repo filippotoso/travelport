@@ -13,7 +13,7 @@ class MerchandisingPricingModifiers
     /**
      * @param AccountCode $AccountCode
      */
-    public function __construct($AccountCode = null)
+    public function __construct($AccountCode)
     {
       $this->AccountCode = $AccountCode;
     }

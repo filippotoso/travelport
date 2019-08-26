@@ -1,6 +1,6 @@
 # PHP client library for Travelport SOAP API
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/filippotoso/travelport.svg?style=flat-square)](https://packagist.org/packages/filippotoso/travelport)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/filippo-toso/travelport.svg?style=flat-square)](https://packagist.org/packages/filippo-toso/travelport)
 
 With this library you can call the Travelport SOAP methods in a object oriented way.
 

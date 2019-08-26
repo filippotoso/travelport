@@ -60,7 +60,7 @@ class GeneralTimeTable
      * @param time $EndTime
      * @param boolean $IncludeConnection
      */
-    public function __construct($FlightOrigin = null, $FlightDestination = null, $CarrierList = null, $StartDate = null, $EndDate = null, $StartTime = null, $EndTime = null, $IncludeConnection = null)
+    public function __construct($FlightOrigin, $FlightDestination, $CarrierList, $StartDate, $EndDate, $StartTime, $EndTime, $IncludeConnection)
     {
       $this->FlightOrigin = $FlightOrigin;
       $this->FlightDestination = $FlightDestination;

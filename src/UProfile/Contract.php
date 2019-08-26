@@ -75,7 +75,7 @@ class Contract extends typeKeyTaggedElement
      * @param StringLength1to255 $Description
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key = null, $TagRef = null, $Supplier = null, $SupplierType = null, $Provider = null, $StartDate = null, $ExpirationDate = null, $DiscountPercentage = null, $DiscountValue = null, $SupplierContractNumber = null, $PromotionalDesignatorName = null, $Description = null, $PriorityOrder = null)
+    public function __construct($Key, $TagRef, $Supplier, $SupplierType, $Provider, $StartDate, $ExpirationDate, $DiscountPercentage, $DiscountValue, $SupplierContractNumber, $PromotionalDesignatorName, $Description, $PriorityOrder)
     {
       parent::__construct($Key, $TagRef);
       $this->Supplier = $Supplier;

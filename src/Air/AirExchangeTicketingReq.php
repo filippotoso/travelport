@@ -65,7 +65,7 @@ class AirExchangeTicketingReq extends BaseReq
      * @param boolean $BulkTicket
      * @param boolean $ChangeFeeOnTicket
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AirReservationLocatorCode = null, $TicketNumber = null, $WaiverCode = null, $DetailedBillingInformation = null, $AirTicketingModifiers = null, $BulkTicket = null, $ChangeFeeOnTicket = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AirReservationLocatorCode, $TicketNumber, $WaiverCode, $DetailedBillingInformation, $AirTicketingModifiers, $BulkTicket, $ChangeFeeOnTicket)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AirReservationLocatorCode = $AirReservationLocatorCode;

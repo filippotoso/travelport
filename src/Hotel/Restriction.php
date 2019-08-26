@@ -19,7 +19,7 @@ class Restriction
      * @param string $Operation
      * @param string $Reason
      */
-    public function __construct($Operation = null, $Reason = null)
+    public function __construct($Operation, $Reason)
     {
       $this->Operation = $Operation;
       $this->Reason = $Reason;

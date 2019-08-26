@@ -29,7 +29,7 @@ class typeTaggableElectronicAddress extends typeElectronicAddress
      * @param typeContactPurpose $Purpose
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key = null, $Name = null, $Type = null, $Format = null, $TagRef = null, $Purpose = null, $PriorityOrder = null)
+    public function __construct($Key, $Name, $Type, $Format, $TagRef, $Purpose, $PriorityOrder)
     {
       parent::__construct($Key, $Name, $Type, $Format);
       $this->TagRef = $TagRef;

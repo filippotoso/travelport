@@ -25,7 +25,7 @@ class RailSegmentInfo
      * @param string $Category
      * @param typeRailSegmentInfo $Type
      */
-    public function __construct($_ = null, $Category = null, $Type = null)
+    public function __construct($_, $Category, $Type)
     {
       $this->_ = $_;
       $this->Category = $Category;

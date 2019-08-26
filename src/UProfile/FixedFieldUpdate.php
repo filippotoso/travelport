@@ -67,7 +67,7 @@ class FixedFieldUpdate
      * @param int $MaxOccurs
      * @param int $MinOccurs
      */
-    public function __construct($ID = null, $Label = null, $DisplayOrder = null, $Hide = null, $SearchOption = null, $SearchOptionDisplayOrder = null, $MinOccursOverride = null, $MaxOccursOverride = null, $MaxOccurs = null, $MinOccurs = null)
+    public function __construct($ID, $Label, $DisplayOrder, $Hide, $SearchOption, $SearchOptionDisplayOrder, $MinOccursOverride, $MaxOccursOverride, $MaxOccurs, $MinOccurs)
     {
       $this->ID = $ID;
       $this->Label = $Label;

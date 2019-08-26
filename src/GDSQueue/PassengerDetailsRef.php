@@ -13,7 +13,7 @@ class PassengerDetailsRef
     /**
      * @param typeRef $Key
      */
-    public function __construct($Key = null)
+    public function __construct($Key)
     {
       $this->Key = $Key;
     }

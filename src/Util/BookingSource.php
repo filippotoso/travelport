@@ -19,7 +19,7 @@ class BookingSource
      * @param anonymous297 $Code
      * @param anonymous298 $Type
      */
-    public function __construct($Code = null, $Type = null)
+    public function __construct($Code, $Type)
     {
       $this->Code = $Code;
       $this->Type = $Type;

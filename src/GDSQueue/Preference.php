@@ -6,20 +6,20 @@ class Preference
 {
 
     /**
-     * @var anonymous1450 $Owner
+     * @var anonymous1448 $Owner
      */
     protected $Owner = null;
 
     /**
-     * @param anonymous1450 $Owner
+     * @param anonymous1448 $Owner
      */
-    public function __construct($Owner = null)
+    public function __construct($Owner)
     {
       $this->Owner = $Owner;
     }
 
     /**
-     * @return anonymous1450
+     * @return anonymous1448
      */
     public function getOwner()
     {
@@ -27,7 +27,7 @@ class Preference
     }
 
     /**
-     * @param anonymous1450 $Owner
+     * @param anonymous1448 $Owner
      * @return \FilippoToso\Travelport\GDSQueue\Preference
      */
     public function setOwner($Owner)

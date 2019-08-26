@@ -36,7 +36,7 @@ class FareRule
     protected $FareRuleResultMessage = null;
 
     /**
-     * @var StructuredFareRules $StructuredFareRules
+     * @var StructuredFareRulesType $StructuredFareRules
      */
     protected $StructuredFareRules = null;
 
@@ -83,7 +83,7 @@ class FareRule
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($FareRuleLong = null, $FareRuleShort = null, $RuleAdvancedPurchase = null, $RuleLengthOfStay = null, $RuleCharges = null, $FareInfoRef = null, $RuleNumber = null, $Source = null, $TariffNumber = null, $ProviderCode = null, $SupplierCode = null)
+    public function __construct($FareRuleLong, $FareRuleShort, $RuleAdvancedPurchase, $RuleLengthOfStay, $RuleCharges, $FareInfoRef, $RuleNumber, $Source, $TariffNumber, $ProviderCode, $SupplierCode)
     {
       $this->FareRuleLong = $FareRuleLong;
       $this->FareRuleShort = $FareRuleShort;
@@ -207,7 +207,7 @@ class FareRule
     }
 
     /**
-     * @return StructuredFareRules
+     * @return StructuredFareRulesType
      */
     public function getStructuredFareRules()
     {
@@ -215,7 +215,7 @@ class FareRule
     }
 
     /**
-     * @param StructuredFareRules $StructuredFareRules
+     * @param StructuredFareRulesType $StructuredFareRules
      * @return \FilippoToso\Travelport\Util\FareRule
      */
     public function setStructuredFareRules($StructuredFareRules)

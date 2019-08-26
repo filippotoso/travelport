@@ -43,7 +43,7 @@ class MiscFormOfPayment
      * @param anonymous34 $Category
      * @param boolean $AcceptanceOverride
      */
-    public function __construct($CreditCardType = null, $CreditCardNumber = null, $ExpDate = null, $Text = null, $Category = null, $AcceptanceOverride = null)
+    public function __construct($CreditCardType, $CreditCardNumber, $ExpDate, $Text, $Category, $AcceptanceOverride)
     {
       $this->CreditCardType = $CreditCardType;
       $this->CreditCardNumber = $CreditCardNumber;

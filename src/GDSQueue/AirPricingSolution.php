@@ -106,7 +106,7 @@ class AirPricingSolution
     protected $QuoteDate = null;
 
     /**
-     * @var anonymous709 $Itinerary
+     * @var anonymous710 $Itinerary
      */
     protected $Itinerary = null;
 
@@ -180,7 +180,7 @@ class AirPricingSolution
      * @param typeRef $Key
      * @param boolean $CompleteItinerary
      * @param date $QuoteDate
-     * @param anonymous709 $Itinerary
+     * @param anonymous710 $Itinerary
      * @param typeMoney $TotalPrice
      * @param typeMoney $BasePrice
      * @param typeMoney $ApproximateTotalPrice
@@ -192,7 +192,7 @@ class AirPricingSolution
      * @param typeMoney $ApproximateTaxes
      * @param typeMoney $ApproximateFees
      */
-    public function __construct($AirSegment = null, $AirSegmentRef = null, $Journey = null, $LegRef = null, $AirPricingInfo = null, $FareNote = null, $FareNoteRef = null, $Connection = null, $MetaData = null, $FeeInfo = null, $TaxInfo = null, $AirItinerarySolutionRef = null, $HostToken = null, $OptionalServices = null, $AvailableSSR = null, $PricingDetails = null, $Key = null, $CompleteItinerary = null, $QuoteDate = null, $Itinerary = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null)
+    public function __construct($AirSegment, $AirSegmentRef, $Journey, $LegRef, $AirPricingInfo, $FareNote, $FareNoteRef, $Connection, $MetaData, $FeeInfo, $TaxInfo, $AirItinerarySolutionRef, $HostToken, $OptionalServices, $AvailableSSR, $PricingDetails, $Key, $CompleteItinerary, $QuoteDate, $Itinerary, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees)
     {
       $this->AirSegment = $AirSegment;
       $this->AirSegmentRef = $AirSegmentRef;
@@ -587,7 +587,7 @@ class AirPricingSolution
     }
 
     /**
-     * @return anonymous709
+     * @return anonymous710
      */
     public function getItinerary()
     {
@@ -595,7 +595,7 @@ class AirPricingSolution
     }
 
     /**
-     * @param anonymous709 $Itinerary
+     * @param anonymous710 $Itinerary
      * @return \FilippoToso\Travelport\GDSQueue\AirPricingSolution
      */
     public function setItinerary($Itinerary)

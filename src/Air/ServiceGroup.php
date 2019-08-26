@@ -19,7 +19,7 @@ class ServiceGroup
      * @param ServiceSubGroup $ServiceSubGroup
      * @param string $Code
      */
-    public function __construct($ServiceSubGroup = null, $Code = null)
+    public function __construct($ServiceSubGroup, $Code)
     {
       $this->ServiceSubGroup = $ServiceSubGroup;
       $this->Code = $Code;

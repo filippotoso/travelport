@@ -31,7 +31,7 @@ class typeProductInfo
      * @param string $ProviderCode
      * @param string $ProviderLocatorCode
      */
-    public function __construct($ProductType = null, $VendorCode = null, $ProviderCode = null, $ProviderLocatorCode = null)
+    public function __construct($ProductType, $VendorCode, $ProviderCode, $ProviderLocatorCode)
     {
       $this->ProductType = $ProductType;
       $this->VendorCode = $VendorCode;

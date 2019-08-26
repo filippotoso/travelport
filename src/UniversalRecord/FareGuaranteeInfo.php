@@ -19,7 +19,7 @@ class FareGuaranteeInfo
      * @param date $GuaranteeDate
      * @param typeFareGuarantee $GuaranteeType
      */
-    public function __construct($GuaranteeDate = null, $GuaranteeType = null)
+    public function __construct($GuaranteeDate, $GuaranteeType)
     {
       $this->GuaranteeDate = $GuaranteeDate;
       $this->GuaranteeType = $GuaranteeType;

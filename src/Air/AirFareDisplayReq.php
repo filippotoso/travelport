@@ -86,12 +86,12 @@ class AirFareDisplayReq extends BaseReq
     protected $UnSaleableFaresOnly = null;
 
     /**
-     * @var anonymous1170 $ChannelId
+     * @var anonymous1168 $ChannelId
      */
     protected $ChannelId = null;
 
     /**
-     * @var anonymous1171 $NSCC
+     * @var anonymous1169 $NSCC
      */
     protected $NSCC = null;
 
@@ -127,11 +127,11 @@ class AirFareDisplayReq extends BaseReq
      * @param typeProviderCode $ProviderCode
      * @param typeMileOrRouteBasedFare $IncludeMileRouteInformation
      * @param boolean $UnSaleableFaresOnly
-     * @param anonymous1170 $ChannelId
-     * @param anonymous1171 $NSCC
+     * @param anonymous1168 $ChannelId
+     * @param anonymous1169 $NSCC
      * @param boolean $ReturnMM
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $FareType = null, $BookingCode = null, $IncludeAddlBookingCodeInfo = null, $FareBasis = null, $Carrier = null, $AccountCode = null, $ContractCode = null, $AirFareDisplayModifiers = null, $PointOfSale = null, $AirFareDisplayRuleKey = null, $Origin = null, $Destination = null, $ProviderCode = null, $IncludeMileRouteInformation = null, $UnSaleableFaresOnly = null, $ChannelId = null, $NSCC = null, $ReturnMM = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $FareType, $BookingCode, $IncludeAddlBookingCodeInfo, $FareBasis, $Carrier, $AccountCode, $ContractCode, $AirFareDisplayModifiers, $PointOfSale, $AirFareDisplayRuleKey, $Origin, $Destination, $ProviderCode, $IncludeMileRouteInformation, $UnSaleableFaresOnly, $ChannelId, $NSCC, $ReturnMM)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->FareType = $FareType;
@@ -443,7 +443,7 @@ class AirFareDisplayReq extends BaseReq
     }
 
     /**
-     * @return anonymous1170
+     * @return anonymous1168
      */
     public function getChannelId()
     {
@@ -451,7 +451,7 @@ class AirFareDisplayReq extends BaseReq
     }
 
     /**
-     * @param anonymous1170 $ChannelId
+     * @param anonymous1168 $ChannelId
      * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
      */
     public function setChannelId($ChannelId)
@@ -461,7 +461,7 @@ class AirFareDisplayReq extends BaseReq
     }
 
     /**
-     * @return anonymous1171
+     * @return anonymous1169
      */
     public function getNSCC()
     {
@@ -469,7 +469,7 @@ class AirFareDisplayReq extends BaseReq
     }
 
     /**
-     * @param anonymous1171 $NSCC
+     * @param anonymous1169 $NSCC
      * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
      */
     public function setNSCC($NSCC)

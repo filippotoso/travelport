@@ -25,7 +25,7 @@ class HotelUpsellCriteria
      * @param HotelUpsellUpdate $HotelUpsellUpdate
      * @param HotelUpsellDelete $HotelUpsellDelete
      */
-    public function __construct($HotelUpsellAdd = null, $HotelUpsellUpdate = null, $HotelUpsellDelete = null)
+    public function __construct($HotelUpsellAdd, $HotelUpsellUpdate, $HotelUpsellDelete)
     {
       $this->HotelUpsellAdd = $HotelUpsellAdd;
       $this->HotelUpsellUpdate = $HotelUpsellUpdate;

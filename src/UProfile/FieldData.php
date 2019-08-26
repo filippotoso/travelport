@@ -33,7 +33,7 @@ class FieldData extends typeKeyTaggedElement
      * @param StringLength1to255 $Name
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $TagRef = null, $Value = null, $FieldID = null, $Name = null, $OwnerID = null)
+    public function __construct($Key, $TagRef, $Value, $FieldID, $Name, $OwnerID)
     {
       parent::__construct($Key, $TagRef);
       $this->Value = $Value;

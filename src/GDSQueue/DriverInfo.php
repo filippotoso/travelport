@@ -13,7 +13,7 @@ class DriverInfo
     /**
      * @param anonymous612 $Age
      */
-    public function __construct($Age = null)
+    public function __construct($Age)
     {
       $this->Age = $Age;
     }

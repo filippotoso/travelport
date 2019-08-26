@@ -38,7 +38,7 @@ class typeServiceFeeHistory extends typeKeyElement
      * @param typeMoney $Amount
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key = null, $Type = null, $StartDate = null, $SupplierType = null, $Amount = null, $PriorityOrder = null)
+    public function __construct($Key, $Type, $StartDate, $SupplierType, $Amount, $PriorityOrder)
     {
       parent::__construct($Key);
       $this->Type = $Type;

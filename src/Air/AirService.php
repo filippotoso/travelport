@@ -356,6 +356,7 @@ class AirService extends \SoapClient
   'FareRestrictionDaysOfWeek' => 'FilippoToso\\Travelport\\Air\\FareRestrictionDaysOfWeek',
   'FareRestrictionDate' => 'FilippoToso\\Travelport\\Air\\FareRestrictionDate',
   'FareRestrictionSaleDate' => 'FilippoToso\\Travelport\\Air\\FareRestrictionSaleDate',
+  'FareRestrictionSeasonal' => 'FilippoToso\\Travelport\\Air\\FareRestrictionSeasonal',
   'FarePricing' => 'FilippoToso\\Travelport\\Air\\FarePricing',
   'FareRuleLookup' => 'FilippoToso\\Travelport\\Air\\FareRuleLookup',
   'AirExchangeModifiers' => 'FilippoToso\\Travelport\\Air\\AirExchangeModifiers',
@@ -417,14 +418,10 @@ class AirService extends \SoapClient
   'LegRef' => 'FilippoToso\\Travelport\\Air\\LegRef',
   'FareBasis' => 'FilippoToso\\Travelport\\Air\\FareBasis',
   'FareRule' => 'FilippoToso\\Travelport\\Air\\FareRule',
-  'StructuredFareRules' => 'FilippoToso\\Travelport\\Air\\StructuredFareRules',
-  'STP' => 'FilippoToso\\Travelport\\Air\\STP',
-  'CXRApplicationDetailsType' => 'FilippoToso\\Travelport\\Air\\CXRApplicationDetailsType',
-  'CXRApplication' => 'FilippoToso\\Travelport\\Air\\CXRApplication',
-  'ADVSFRType' => 'FilippoToso\\Travelport\\Air\\ADVSFRType',
-  'MINSFRType' => 'FilippoToso\\Travelport\\Air\\MINSFRType',
-  'MAXSFRType' => 'FilippoToso\\Travelport\\Air\\MAXSFRType',
-  'CHGSFRType' => 'FilippoToso\\Travelport\\Air\\CHGSFRType',
+  'StructuredFareRulesType' => 'FilippoToso\\Travelport\\Air\\StructuredFareRulesType',
+  'FareRuleCategoryTypes' => 'FilippoToso\\Travelport\\Air\\FareRuleCategoryTypes',
+  'ValueDetails' => 'FilippoToso\\Travelport\\Air\\ValueDetails',
+  'CategoryDetailsType' => 'FilippoToso\\Travelport\\Air\\CategoryDetailsType',
   'FareSurcharge' => 'FilippoToso\\Travelport\\Air\\FareSurcharge',
   'FareRuleShortRef' => 'FilippoToso\\Travelport\\Air\\FareRuleShortRef',
   'FareRuleLongRef' => 'FilippoToso\\Travelport\\Air\\FareRuleLongRef',
@@ -787,7 +784,7 @@ class AirService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/air_v47_0/Air.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/air_v48_0/Air.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

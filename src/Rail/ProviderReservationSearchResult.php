@@ -66,7 +66,7 @@ class ProviderReservationSearchResult
      * @param string $ProviderLocatorCode
      * @param typeExternalSearchIndex $ExternalSearchIndex
      */
-    public function __construct($Name = null, $AgencyInfo = null, $UniversalRecordLocatorCode = null, $CreatedDate = null, $EarliestTravelDate = null, $Ticketed = null, $ProviderCode = null, $ProviderLocatorCode = null, $ExternalSearchIndex = null)
+    public function __construct($Name, $AgencyInfo, $UniversalRecordLocatorCode, $CreatedDate, $EarliestTravelDate, $Ticketed, $ProviderCode, $ProviderLocatorCode, $ExternalSearchIndex)
     {
       $this->Name = $Name;
       $this->AgencyInfo = $AgencyInfo;

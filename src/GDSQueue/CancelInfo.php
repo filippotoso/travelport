@@ -103,12 +103,12 @@ class CancelInfo
      * @param Numeric0to999 $OffsetUnitMultiplier
      * @param StringLength1to20 $OffsetDropTime
      */
-    public function __construct($CancellationPolicy = null, $Text = null, $NonRefundableStayIndicator = null, \DateTime $CancelDeadline = null, $TaxInclusive = null, $FeeInclusive = null, $CancelPenaltyAmount = null, $NumberOfNights = null, $CancelPenaltyPercent = null, $CancelPenaltyPercentAppliesTo = null, $Method = null, $Supported = null, $URL = null, $OffsetTimeUnit = null, $OffsetUnitMultiplier = null, $OffsetDropTime = null)
+    public function __construct($CancellationPolicy, $Text, $NonRefundableStayIndicator, \DateTime $CancelDeadline, $TaxInclusive, $FeeInclusive, $CancelPenaltyAmount, $NumberOfNights, $CancelPenaltyPercent, $CancelPenaltyPercentAppliesTo, $Method, $Supported, $URL, $OffsetTimeUnit, $OffsetUnitMultiplier, $OffsetDropTime)
     {
       $this->CancellationPolicy = $CancellationPolicy;
       $this->Text = $Text;
       $this->NonRefundableStayIndicator = $NonRefundableStayIndicator;
-      $this->CancelDeadline = $CancelDeadline ? $CancelDeadline->format(\DateTime::ATOM) : null;
+      $this->CancelDeadline = $CancelDeadline->format(\DateTime::ATOM);
       $this->TaxInclusive = $TaxInclusive;
       $this->FeeInclusive = $FeeInclusive;
       $this->CancelPenaltyAmount = $CancelPenaltyAmount;

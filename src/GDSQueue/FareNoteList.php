@@ -13,7 +13,7 @@ class FareNoteList
     /**
      * @param FareNote $FareNote
      */
-    public function __construct($FareNote = null)
+    public function __construct($FareNote)
     {
       $this->FareNote = $FareNote;
     }

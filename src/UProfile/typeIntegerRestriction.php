@@ -19,7 +19,7 @@ class typeIntegerRestriction
      * @param typeIntegerRestrictionValue $MinValue
      * @param typeIntegerRestrictionValue $MaxValue
      */
-    public function __construct($MinValue = null, $MaxValue = null)
+    public function __construct($MinValue, $MaxValue)
     {
       $this->MinValue = $MinValue;
       $this->MaxValue = $MaxValue;

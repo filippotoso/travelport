@@ -25,7 +25,7 @@ class AirItinerary
      * @param HostToken $HostToken
      * @param APISRequirements $APISRequirements
      */
-    public function __construct($AirSegment = null, $HostToken = null, $APISRequirements = null)
+    public function __construct($AirSegment, $HostToken, $APISRequirements)
     {
       $this->AirSegment = $AirSegment;
       $this->HostToken = $HostToken;

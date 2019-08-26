@@ -77,7 +77,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
      * @param GeneralRemark $GeneralRemark
      * @param MerchandisingPricingModifiers $MerchandisingPricingModifiers
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $HostToken = null, $HostReservation = null, $AgencySellInfo = null, $AirSolution = null, $CreditCard = null, $OptionalServices = null, $SpecificSeatAssignment = null, $GeneralRemark = null, $MerchandisingPricingModifiers = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $HostToken, $HostReservation, $AgencySellInfo, $AirSolution, $CreditCard, $OptionalServices, $SpecificSeatAssignment, $GeneralRemark, $MerchandisingPricingModifiers)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->HostToken = $HostToken;

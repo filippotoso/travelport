@@ -13,7 +13,7 @@ class AirReservationLocatorCode
     /**
      * @param typeLocatorCode $_
      */
-    public function __construct($_ = null)
+    public function __construct($_)
     {
       $this->_ = $_;
     }

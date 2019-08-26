@@ -25,7 +25,7 @@ class UniqueProfileID
      * @param anonymous878 $ProfileType
      * @param typeProvisioningCode $AgencyCode
      */
-    public function __construct($_ = null, $ProfileType = null, $AgencyCode = null)
+    public function __construct($_, $ProfileType, $AgencyCode)
     {
       $this->_ = $_;
       $this->ProfileType = $ProfileType;

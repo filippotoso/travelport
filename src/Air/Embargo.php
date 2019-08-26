@@ -21,7 +21,7 @@ class Embargo
     protected $SegmentRef = null;
 
     /**
-     * @var anonymous1128 $Name
+     * @var anonymous1126 $Name
      */
     protected $Name = null;
 
@@ -46,7 +46,7 @@ class Embargo
     protected $Url = null;
 
     /**
-     * @var anonymous1129 $ServiceSubCode
+     * @var anonymous1127 $ServiceSubCode
      */
     protected $ServiceSubCode = null;
 
@@ -54,14 +54,14 @@ class Embargo
      * @param typeRef $Key
      * @param typeCarrier $Carrier
      * @param typeRef $SegmentRef
-     * @param anonymous1128 $Name
+     * @param anonymous1126 $Name
      * @param string $Text
      * @param string $SecondaryType
      * @param typeMerchandisingService $Type
      * @param anyURI $Url
-     * @param anonymous1129 $ServiceSubCode
+     * @param anonymous1127 $ServiceSubCode
      */
-    public function __construct($Key = null, $Carrier = null, $SegmentRef = null, $Name = null, $Text = null, $SecondaryType = null, $Type = null, $Url = null, $ServiceSubCode = null)
+    public function __construct($Key, $Carrier, $SegmentRef, $Name, $Text, $SecondaryType, $Type, $Url, $ServiceSubCode)
     {
       $this->Key = $Key;
       $this->Carrier = $Carrier;
@@ -129,7 +129,7 @@ class Embargo
     }
 
     /**
-     * @return anonymous1128
+     * @return anonymous1126
      */
     public function getName()
     {
@@ -137,7 +137,7 @@ class Embargo
     }
 
     /**
-     * @param anonymous1128 $Name
+     * @param anonymous1126 $Name
      * @return \FilippoToso\Travelport\Air\Embargo
      */
     public function setName($Name)
@@ -219,7 +219,7 @@ class Embargo
     }
 
     /**
-     * @return anonymous1129
+     * @return anonymous1127
      */
     public function getServiceSubCode()
     {
@@ -227,7 +227,7 @@ class Embargo
     }
 
     /**
-     * @param anonymous1129 $ServiceSubCode
+     * @param anonymous1127 $ServiceSubCode
      * @return \FilippoToso\Travelport\Air\Embargo
      */
     public function setServiceSubCode($ServiceSubCode)

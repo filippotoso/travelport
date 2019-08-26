@@ -30,7 +30,7 @@ class VoidResultInfo
      * @param StringLength1to13 $DocumentNumber
      * @param anonymous456 $DocumentType
      */
-    public function __construct($ResultType = null, $DocumentNumber = null, $DocumentType = null)
+    public function __construct($ResultType, $DocumentNumber, $DocumentType)
     {
       $this->ResultType = $ResultType;
       $this->DocumentNumber = $DocumentNumber;

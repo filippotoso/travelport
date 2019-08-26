@@ -19,7 +19,7 @@ class ProfileDataFilter
      * @param typeProfileDataCategory $ProfileDataCategory
      * @param GeoPoliticalAreaFilter $GeoPoliticalAreaFilter
      */
-    public function __construct($ProfileDataCategory = null, $GeoPoliticalAreaFilter = null)
+    public function __construct($ProfileDataCategory, $GeoPoliticalAreaFilter)
     {
       $this->ProfileDataCategory = $ProfileDataCategory;
       $this->GeoPoliticalAreaFilter = $GeoPoliticalAreaFilter;

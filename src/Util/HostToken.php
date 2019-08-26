@@ -37,7 +37,7 @@ class HostToken
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($_ = null, $Host = null, $Key = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($_, $Host, $Key, $ElStat, $KeyOverride)
     {
       $this->_ = $_;
       $this->Host = $Host;

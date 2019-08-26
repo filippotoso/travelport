@@ -27,7 +27,7 @@ class FieldGroupData extends typeKeyTaggedElement
      * @param typeFieldID $FieldGroupID
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $TagRef = null, $FieldData = null, $FieldGroupID = null, $OwnerID = null)
+    public function __construct($Key, $TagRef, $FieldData, $FieldGroupID, $OwnerID)
     {
       parent::__construct($Key, $TagRef);
       $this->FieldData = $FieldData;

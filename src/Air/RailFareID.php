@@ -37,7 +37,7 @@ class RailFareID
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($_ = null, $Key = null, $Category = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($_, $Key, $Category, $ElStat, $KeyOverride)
     {
       $this->_ = $_;
       $this->Key = $Key;

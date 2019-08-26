@@ -25,7 +25,7 @@ class BaggageAllowances
      * @param CarryOnAllowanceInfo $CarryOnAllowanceInfo
      * @param BaseBaggageAllowanceInfo $EmbargoInfo
      */
-    public function __construct($BaggageAllowanceInfo = null, $CarryOnAllowanceInfo = null, $EmbargoInfo = null)
+    public function __construct($BaggageAllowanceInfo, $CarryOnAllowanceInfo, $EmbargoInfo)
     {
       $this->BaggageAllowanceInfo = $BaggageAllowanceInfo;
       $this->CarryOnAllowanceInfo = $CarryOnAllowanceInfo;

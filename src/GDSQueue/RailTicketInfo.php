@@ -16,12 +16,12 @@ class RailTicketInfo
     protected $TicketAdvisory = null;
 
     /**
-     * @var anonymous1279 $Number
+     * @var anonymous1277 $Number
      */
     protected $Number = null;
 
     /**
-     * @var anonymous1280 $IssueLocation
+     * @var anonymous1278 $IssueLocation
      */
     protected $IssueLocation = null;
 
@@ -31,7 +31,7 @@ class RailTicketInfo
     protected $TicketStatus = null;
 
     /**
-     * @var anonymous1281 $TicketFormType
+     * @var anonymous1279 $TicketFormType
      */
     protected $TicketFormType = null;
 
@@ -58,16 +58,16 @@ class RailTicketInfo
     /**
      * @param RailJourneyRef $RailJourneyRef
      * @param TicketAdvisory $TicketAdvisory
-     * @param anonymous1279 $Number
-     * @param anonymous1280 $IssueLocation
+     * @param anonymous1277 $Number
+     * @param anonymous1278 $IssueLocation
      * @param StringLength1to255 $TicketStatus
-     * @param anonymous1281 $TicketFormType
+     * @param anonymous1279 $TicketFormType
      * @param StringLength1to255 $TrafficType
      * @param \DateTime $IssuedDate
      * @param StringLength1to255 $TicketType
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($RailJourneyRef = null, $TicketAdvisory = null, $Number = null, $IssueLocation = null, $TicketStatus = null, $TicketFormType = null, $TrafficType = null, \DateTime $IssuedDate = null, $TicketType = null, $BookingTravelerRef = null)
+    public function __construct($RailJourneyRef, $TicketAdvisory, $Number, $IssueLocation, $TicketStatus, $TicketFormType, $TrafficType, \DateTime $IssuedDate, $TicketType, $BookingTravelerRef)
     {
       $this->RailJourneyRef = $RailJourneyRef;
       $this->TicketAdvisory = $TicketAdvisory;
@@ -76,7 +76,7 @@ class RailTicketInfo
       $this->TicketStatus = $TicketStatus;
       $this->TicketFormType = $TicketFormType;
       $this->TrafficType = $TrafficType;
-      $this->IssuedDate = $IssuedDate ? $IssuedDate->format(\DateTime::ATOM) : null;
+      $this->IssuedDate = $IssuedDate->format(\DateTime::ATOM);
       $this->TicketType = $TicketType;
       $this->BookingTravelerRef = $BookingTravelerRef;
     }
@@ -118,7 +118,7 @@ class RailTicketInfo
     }
 
     /**
-     * @return anonymous1279
+     * @return anonymous1277
      */
     public function getNumber()
     {
@@ -126,7 +126,7 @@ class RailTicketInfo
     }
 
     /**
-     * @param anonymous1279 $Number
+     * @param anonymous1277 $Number
      * @return \FilippoToso\Travelport\GDSQueue\RailTicketInfo
      */
     public function setNumber($Number)
@@ -136,7 +136,7 @@ class RailTicketInfo
     }
 
     /**
-     * @return anonymous1280
+     * @return anonymous1278
      */
     public function getIssueLocation()
     {
@@ -144,7 +144,7 @@ class RailTicketInfo
     }
 
     /**
-     * @param anonymous1280 $IssueLocation
+     * @param anonymous1278 $IssueLocation
      * @return \FilippoToso\Travelport\GDSQueue\RailTicketInfo
      */
     public function setIssueLocation($IssueLocation)
@@ -172,7 +172,7 @@ class RailTicketInfo
     }
 
     /**
-     * @return anonymous1281
+     * @return anonymous1279
      */
     public function getTicketFormType()
     {
@@ -180,7 +180,7 @@ class RailTicketInfo
     }
 
     /**
-     * @param anonymous1281 $TicketFormType
+     * @param anonymous1279 $TicketFormType
      * @return \FilippoToso\Travelport\GDSQueue\RailTicketInfo
      */
     public function setTicketFormType($TicketFormType)

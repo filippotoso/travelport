@@ -13,7 +13,7 @@ class AirPricePointList
     /**
      * @param AirPricePoint $AirPricePoint
      */
-    public function __construct($AirPricePoint = null)
+    public function __construct($AirPricePoint)
     {
       $this->AirPricePoint = $AirPricePoint;
     }

@@ -19,7 +19,7 @@ class PassengerSeatPrice
      * @param typeRef $BookingTravelerRef
      * @param typeMoney $Amount
      */
-    public function __construct($BookingTravelerRef = null, $Amount = null)
+    public function __construct($BookingTravelerRef, $Amount)
     {
       $this->BookingTravelerRef = $BookingTravelerRef;
       $this->Amount = $Amount;

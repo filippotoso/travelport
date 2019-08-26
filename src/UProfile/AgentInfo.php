@@ -99,7 +99,7 @@ class AgentInfo extends typeProfileInfo
      * @param typeProvisioningCode $DefaultBranchCode
      * @param typeAlternateAgentID $AlternateAgentID
      */
-    public function __construct($AdditionalIdentifier = null, $Description = null, $Address = null, $Phone = null, $ElectronicAddress = null, $ExternalIdentifier = null, $UserName = null, $OccupationalTitle = null, $Title = null, $Nickname = null, $GivenName = null, $OtherName = null, $Surname = null, $Suffix = null, $DefaultBranchID = null, $DefaultBranchCode = null, $AlternateAgentID = null)
+    public function __construct($AdditionalIdentifier, $Description, $Address, $Phone, $ElectronicAddress, $ExternalIdentifier, $UserName, $OccupationalTitle, $Title, $Nickname, $GivenName, $OtherName, $Surname, $Suffix, $DefaultBranchID, $DefaultBranchCode, $AlternateAgentID)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->Address = $Address;

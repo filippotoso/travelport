@@ -49,7 +49,7 @@ class APISRequirements
      * @param string $RequiredDocuments
      * @param boolean $NationalityRequired
      */
-    public function __construct($Document = null, $Key = null, $Level = null, $GenderRequired = null, $DateOfBirthRequired = null, $RequiredDocuments = null, $NationalityRequired = null)
+    public function __construct($Document, $Key, $Level, $GenderRequired, $DateOfBirthRequired, $RequiredDocuments, $NationalityRequired)
     {
       $this->Document = $Document;
       $this->Key = $Key;

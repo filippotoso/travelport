@@ -55,7 +55,7 @@ class FaxDetails
      * @param string $DeptBillingCode
      * @param string $InvoiceNumber
      */
-    public function __construct($PhoneNumber = null, $TermConditions = null, $Remark = null, $IncludeCoverSheet = null, $To = null, $From = null, $DeptBillingCode = null, $InvoiceNumber = null)
+    public function __construct($PhoneNumber, $TermConditions, $Remark, $IncludeCoverSheet, $To, $From, $DeptBillingCode, $InvoiceNumber)
     {
       $this->PhoneNumber = $PhoneNumber;
       $this->TermConditions = $TermConditions;

@@ -25,7 +25,7 @@ class HotelStay
      * @param typeDate $CheckoutDate
      * @param typeRef $Key
      */
-    public function __construct($CheckinDate = null, $CheckoutDate = null, $Key = null)
+    public function __construct($CheckinDate, $CheckoutDate, $Key)
     {
       $this->CheckinDate = $CheckinDate;
       $this->CheckoutDate = $CheckoutDate;

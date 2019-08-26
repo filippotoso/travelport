@@ -19,7 +19,7 @@ class typeSearchLoyaltyProgram
      * @param typeWildcard $Number
      * @param typeSupplier $SupplierCode
      */
-    public function __construct($Number = null, $SupplierCode = null)
+    public function __construct($Number, $SupplierCode)
     {
       $this->Number = $Number;
       $this->SupplierCode = $SupplierCode;

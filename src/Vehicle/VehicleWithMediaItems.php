@@ -24,7 +24,7 @@ class VehicleWithMediaItems
      * @param Vehicle $Vehicle
      * @param MediaItem $MediaItem
      */
-    public function __construct($Vehicle = null, $MediaItem = null)
+    public function __construct($Vehicle, $MediaItem)
     {
       $this->Vehicle = $Vehicle;
       $this->MediaItem = $MediaItem;

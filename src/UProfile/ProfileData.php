@@ -163,7 +163,7 @@ class ProfileData
      * @param FieldData $FieldData
      * @param FieldGroupData $FieldGroupData
      */
-    public function __construct($AgencyGroupInfo = null, $AgencyInfo = null, $BranchGroupInfo = null, $BranchInfo = null, $AccountInfo = null, $AgentInfo = null, $TravelerGroupInfo = null, $TravelerInfo = null, $TravelDocument = null, $AccountingReference = null, $PolicyReference = null, $CommissionReference = null, $Commission = null, $FormOfPayment = null, $AirPreference = null, $HotelPreference = null, $RailPreference = null, $OtherPreference = null, $Contract = null, $ServiceFee = null, $AlternateContact = null, $LoyaltyProgramEnrollment = null, $Remark = null, $VehiclePreference = null, $FieldData = null, $FieldGroupData = null)
+    public function __construct($AgencyGroupInfo, $AgencyInfo, $BranchGroupInfo, $BranchInfo, $AccountInfo, $AgentInfo, $TravelerGroupInfo, $TravelerInfo, $TravelDocument, $AccountingReference, $PolicyReference, $CommissionReference, $Commission, $FormOfPayment, $AirPreference, $HotelPreference, $RailPreference, $OtherPreference, $Contract, $ServiceFee, $AlternateContact, $LoyaltyProgramEnrollment, $Remark, $VehiclePreference, $FieldData, $FieldGroupData)
     {
       $this->AgencyGroupInfo = $AgencyGroupInfo;
       $this->AgencyInfo = $AgencyInfo;

@@ -25,7 +25,7 @@ class HotelRateChangedInfo
      * @param HotelRateDetail $HotelRateDetail
      * @param string $Reason
      */
-    public function __construct($HotelProperty = null, $HotelRateDetail = null, $Reason = null)
+    public function __construct($HotelProperty, $HotelRateDetail, $Reason)
     {
       $this->HotelProperty = $HotelProperty;
       $this->HotelRateDetail = $HotelRateDetail;

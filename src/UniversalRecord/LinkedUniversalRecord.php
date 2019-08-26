@@ -31,7 +31,7 @@ class LinkedUniversalRecord
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($LocatorCode = null, $Key = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($LocatorCode, $Key, $ElStat, $KeyOverride)
     {
       $this->LocatorCode = $LocatorCode;
       $this->Key = $Key;

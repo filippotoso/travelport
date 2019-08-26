@@ -13,7 +13,7 @@ class ProhibitedCabins
     /**
      * @param CabinClass $CabinClass
      */
-    public function __construct($CabinClass = null)
+    public function __construct($CabinClass)
     {
       $this->CabinClass = $CabinClass;
     }

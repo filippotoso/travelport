@@ -19,7 +19,7 @@ class ReservationName
      * @param BookingTravelerRef $BookingTravelerRef
      * @param NameOverride $NameOverride
      */
-    public function __construct($BookingTravelerRef = null, $NameOverride = null)
+    public function __construct($BookingTravelerRef, $NameOverride)
     {
       $this->BookingTravelerRef = $BookingTravelerRef;
       $this->NameOverride = $NameOverride;

@@ -29,7 +29,7 @@ class AirRefundRsp extends BaseRsp
      * @param ETR $ETR
      * @param TCR $TCR
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ETR = null, $TCR = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ETR, $TCR)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ETR = $ETR;

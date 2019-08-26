@@ -18,7 +18,7 @@ class GdsQueueAgentListRsp extends BaseRsp
      * @param string $CommandHistory
      * @param QueueAgentRecord $QueueAgentRecord
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $QueueAgentRecord = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $QueueAgentRecord)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->QueueAgentRecord = $QueueAgentRecord;

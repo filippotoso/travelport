@@ -25,7 +25,7 @@ class Distance
      * @param int $Value
      * @param anonymous60 $Direction
      */
-    public function __construct($Units = null, $Value = null, $Direction = null)
+    public function __construct($Units, $Value, $Direction)
     {
       $this->Units = $Units;
       $this->Value = $Value;

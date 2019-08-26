@@ -73,7 +73,7 @@ class PhoneNumber
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($ProviderReservationInfoRef = null, $Key = null, $Type = null, $Location = null, $CountryCode = null, $AreaCode = null, $Number = null, $Extension = null, $Text = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($ProviderReservationInfoRef, $Key, $Type, $Location, $CountryCode, $AreaCode, $Number, $Extension, $Text, $ElStat, $KeyOverride)
     {
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
       $this->Key = $Key;

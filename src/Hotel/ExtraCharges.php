@@ -37,7 +37,7 @@ class ExtraCharges
      * @param typeMoney $AdultRollawayCharge
      * @param typeMoney $ChildRollawayCharge
      */
-    public function __construct($ExtraAdultAmount = null, $ExtraChildAmount = null, $CribAmount = null, $AdultRollawayCharge = null, $ChildRollawayCharge = null)
+    public function __construct($ExtraAdultAmount, $ExtraChildAmount, $CribAmount, $AdultRollawayCharge, $ChildRollawayCharge)
     {
       $this->ExtraAdultAmount = $ExtraAdultAmount;
       $this->ExtraChildAmount = $ExtraChildAmount;

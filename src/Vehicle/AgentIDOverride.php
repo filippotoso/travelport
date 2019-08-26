@@ -25,7 +25,7 @@ class AgentIDOverride
      * @param typeProviderCode $ProviderCode
      * @param anonymous400 $AgentID
      */
-    public function __construct($SupplierCode = null, $ProviderCode = null, $AgentID = null)
+    public function __construct($SupplierCode, $ProviderCode, $AgentID)
     {
       $this->SupplierCode = $SupplierCode;
       $this->ProviderCode = $ProviderCode;

@@ -19,7 +19,7 @@ class BrandModifiers
      * @param FareFamilyDisplay $FareFamilyDisplay
      * @param BasicDetailsOnly $BasicDetailsOnly
      */
-    public function __construct($FareFamilyDisplay = null, $BasicDetailsOnly = null)
+    public function __construct($FareFamilyDisplay, $BasicDetailsOnly)
     {
       $this->FareFamilyDisplay = $FareFamilyDisplay;
       $this->BasicDetailsOnly = $BasicDetailsOnly;

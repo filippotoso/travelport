@@ -30,7 +30,7 @@ class AirAvailInfo
      * @param typeProviderCode $ProviderCode
      * @param string $HostTokenRef
      */
-    public function __construct($BookingCodeInfo = null, $ProviderCode = null, $HostTokenRef = null)
+    public function __construct($BookingCodeInfo, $ProviderCode, $HostTokenRef)
     {
       $this->BookingCodeInfo = $BookingCodeInfo;
       $this->ProviderCode = $ProviderCode;

@@ -13,7 +13,7 @@ class Affiliations
     /**
      * @param TravelArranger $TravelArranger
      */
-    public function __construct($TravelArranger = null)
+    public function __construct($TravelArranger)
     {
       $this->TravelArranger = $TravelArranger;
     }

@@ -49,7 +49,7 @@ class CabinInfo
      * @param StringLength1to10 $BedConfiguration
      * @param boolean $SmokingIndicator
      */
-    public function __construct($Category = null, $Number = null, $Location = null, $RelativeLocation = null, $DeckName = null, $BedConfiguration = null, $SmokingIndicator = null)
+    public function __construct($Category, $Number, $Location, $RelativeLocation, $DeckName, $BedConfiguration, $SmokingIndicator)
     {
       $this->Category = $Category;
       $this->Number = $Number;

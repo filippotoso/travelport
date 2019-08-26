@@ -11,15 +11,15 @@ class AirSegmentSpecialUpdate
     protected $AirSegment = null;
 
     /**
-     * @var anonymous1390 $Action
+     * @var anonymous1388 $Action
      */
     protected $Action = null;
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @param anonymous1390 $Action
+     * @param anonymous1388 $Action
      */
-    public function __construct($AirSegment = null, $Action = null)
+    public function __construct($AirSegment, $Action)
     {
       $this->AirSegment = $AirSegment;
       $this->Action = $Action;
@@ -44,7 +44,7 @@ class AirSegmentSpecialUpdate
     }
 
     /**
-     * @return anonymous1390
+     * @return anonymous1388
      */
     public function getAction()
     {
@@ -52,7 +52,7 @@ class AirSegmentSpecialUpdate
     }
 
     /**
-     * @param anonymous1390 $Action
+     * @param anonymous1388 $Action
      * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentSpecialUpdate
      */
     public function setAction($Action)

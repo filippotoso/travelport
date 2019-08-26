@@ -24,7 +24,7 @@ class BrandedFareSearchRsp extends BaseRsp
      * @param FareFamily $FareFamily
      * @param typeMoreResults $MoreResults
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $FareFamily = null, $MoreResults = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $FareFamily, $MoreResults)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->FareFamily = $FareFamily;

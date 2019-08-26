@@ -25,7 +25,7 @@ class VehicleUpsellCriteria
      * @param VehicleUpsellUpdate $VehicleUpsellUpdate
      * @param VehicleUpsellDelete $VehicleUpsellDelete
      */
-    public function __construct($VehicleUpsellAdd = null, $VehicleUpsellUpdate = null, $VehicleUpsellDelete = null)
+    public function __construct($VehicleUpsellAdd, $VehicleUpsellUpdate, $VehicleUpsellDelete)
     {
       $this->VehicleUpsellAdd = $VehicleUpsellAdd;
       $this->VehicleUpsellUpdate = $VehicleUpsellUpdate;

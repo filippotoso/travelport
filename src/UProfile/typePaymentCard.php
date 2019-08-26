@@ -54,7 +54,7 @@ class typePaymentCard
      * @param anonymous38 $CVV
      * @param anonymous39 $ApprovalCode
      */
-    public function __construct($PhoneNumber = null, $Type = null, $Number = null, $ExpDate = null, $Name = null, $CVV = null, $ApprovalCode = null)
+    public function __construct($PhoneNumber, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode)
     {
       $this->PhoneNumber = $PhoneNumber;
       $this->Type = $Type;

@@ -223,7 +223,7 @@ class RailJourney
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RailSegment = null, $RailSegmentRef = null, $JourneyRemark = null, $HostToken = null, $Key = null, $RouteDescription = null, $JourneyDirection = null, $JourneyDuration = null, $Status = null, $ProviderReservationInfoRef = null, $PassiveProviderReservationInfoRef = null, $TravelOrder = null, $RouteReference = null, $Operation = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $OriginStationName = null, $DestinationStationName = null, $RailLocOrigin = null, $RailLocDestination = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null, $ProviderCode = null, $SupplierCode = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($RailSegment, $RailSegmentRef, $JourneyRemark, $HostToken, $Key, $RouteDescription, $JourneyDirection, $JourneyDuration, $Status, $ProviderReservationInfoRef, $PassiveProviderReservationInfoRef, $TravelOrder, $RouteReference, $Operation, $Origin, $Destination, $DepartureTime, $ArrivalTime, $OriginStationName, $DestinationStationName, $RailLocOrigin, $RailLocDestination, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees, $ProviderCode, $SupplierCode, $ElStat, $KeyOverride)
     {
       $this->RailSegment = $RailSegment;
       $this->RailSegmentRef = $RailSegmentRef;

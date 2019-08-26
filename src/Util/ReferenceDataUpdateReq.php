@@ -11,7 +11,7 @@ class ReferenceDataUpdateReq extends BaseReq
     protected $Item = null;
 
     /**
-     * @var anonymous1214 $Action
+     * @var anonymous1212 $Action
      */
     protected $Action = null;
 
@@ -33,10 +33,10 @@ class ReferenceDataUpdateReq extends BaseReq
      * @param OverridePCC $OverridePCC
      * @param boolean $RetrieveProviderReservationDetails
      * @param Item[] $Item
-     * @param anonymous1214 $Action
+     * @param anonymous1212 $Action
      * @param typeTypeCode $TypeCode
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, array $Item = null, $Action = null, $TypeCode = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, array $Item, $Action, $TypeCode)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->Item = $Item;
@@ -63,7 +63,7 @@ class ReferenceDataUpdateReq extends BaseReq
     }
 
     /**
-     * @return anonymous1214
+     * @return anonymous1212
      */
     public function getAction()
     {
@@ -71,7 +71,7 @@ class ReferenceDataUpdateReq extends BaseReq
     }
 
     /**
-     * @param anonymous1214 $Action
+     * @param anonymous1212 $Action
      * @return \FilippoToso\Travelport\Util\ReferenceDataUpdateReq
      */
     public function setAction($Action)

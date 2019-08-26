@@ -18,7 +18,7 @@ class HotelMediaLinksRsp extends BaseRsp
      * @param string $CommandHistory
      * @param HotelPropertyWithMediaItems $HotelPropertyWithMediaItems
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $HotelPropertyWithMediaItems = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $HotelPropertyWithMediaItems)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->HotelPropertyWithMediaItems = $HotelPropertyWithMediaItems;

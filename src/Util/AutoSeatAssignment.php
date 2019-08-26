@@ -37,7 +37,7 @@ class AutoSeatAssignment
      * @param boolean $Group
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($SegmentRef = null, $Smoking = null, $SeatType = null, $Group = null, $BookingTravelerRef = null)
+    public function __construct($SegmentRef, $Smoking, $SeatType, $Group, $BookingTravelerRef)
     {
       $this->SegmentRef = $SegmentRef;
       $this->Smoking = $Smoking;

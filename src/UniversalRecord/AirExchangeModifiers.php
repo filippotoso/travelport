@@ -66,7 +66,7 @@ class AirExchangeModifiers
      * @param typeLocatorCode $ProviderLocatorCode
      * @param string $ProviderCode
      */
-    public function __construct($BookingDate = null, $TicketingDate = null, $AccountCode = null, $TicketDesignator = null, $AllowPenaltyFares = null, $PrivateFaresOnly = null, $UniversalRecordLocatorCode = null, $ProviderLocatorCode = null, $ProviderCode = null)
+    public function __construct($BookingDate, $TicketingDate, $AccountCode, $TicketDesignator, $AllowPenaltyFares, $PrivateFaresOnly, $UniversalRecordLocatorCode, $ProviderLocatorCode, $ProviderCode)
     {
       $this->BookingDate = $BookingDate;
       $this->TicketingDate = $TicketingDate;

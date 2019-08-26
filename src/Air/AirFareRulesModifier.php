@@ -13,7 +13,7 @@ class AirFareRulesModifier
     /**
      * @param AirFareRuleCategory $AirFareRuleCategory
      */
-    public function __construct($AirFareRuleCategory = null)
+    public function __construct($AirFareRuleCategory)
     {
       $this->AirFareRuleCategory = $AirFareRuleCategory;
     }

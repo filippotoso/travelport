@@ -39,7 +39,7 @@ class AgencyGroupInfo extends typeProfileInfo
      * @param ExternalIdentifier $ExternalIdentifier
      * @param StringLength1to128 $Name
      */
-    public function __construct($AdditionalIdentifier = null, $Description = null, $Address = null, $Phone = null, $ElectronicAddress = null, $ExternalIdentifier = null, $Name = null)
+    public function __construct($AdditionalIdentifier, $Description, $Address, $Phone, $ElectronicAddress, $ExternalIdentifier, $Name)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->Address = $Address;

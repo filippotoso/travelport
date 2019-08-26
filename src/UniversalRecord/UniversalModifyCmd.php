@@ -103,7 +103,7 @@ class UniversalModifyCmd
      * @param RailUpdate $RailUpdate
      * @param typeRef $Key
      */
-    public function __construct($VehicleAdd = null, $VehicleDelete = null, $VehicleUpdate = null, $AirAdd = null, $AirDelete = null, $AirUpdate = null, $UniversalAdd = null, $UniversalDelete = null, $UniversalUpdate = null, $HotelAdd = null, $HotelUpdate = null, $HotelDelete = null, $PassiveAdd = null, $PassiveDelete = null, $RailUpdate = null, $Key = null)
+    public function __construct($VehicleAdd, $VehicleDelete, $VehicleUpdate, $AirAdd, $AirDelete, $AirUpdate, $UniversalAdd, $UniversalDelete, $UniversalUpdate, $HotelAdd, $HotelUpdate, $HotelDelete, $PassiveAdd, $PassiveDelete, $RailUpdate, $Key)
     {
       $this->VehicleAdd = $VehicleAdd;
       $this->VehicleDelete = $VehicleDelete;

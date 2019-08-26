@@ -25,7 +25,7 @@ class SearchTicketing
      * @param anonymous200 $ReservationStatus
      * @param date $TicketDate
      */
-    public function __construct($TicketStatus = null, $ReservationStatus = null, $TicketDate = null)
+    public function __construct($TicketStatus, $ReservationStatus, $TicketDate)
     {
       $this->TicketStatus = $TicketStatus;
       $this->ReservationStatus = $ReservationStatus;

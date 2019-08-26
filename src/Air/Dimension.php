@@ -15,7 +15,7 @@ class Dimension extends typeUnitOfMeasure
      * @param string $Unit
      * @param string $type
      */
-    public function __construct($Value = null, $Unit = null, $type = null)
+    public function __construct($Value, $Unit, $type)
     {
       parent::__construct($Value, $Unit);
       $this->type = $type;

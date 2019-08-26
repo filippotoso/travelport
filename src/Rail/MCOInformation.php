@@ -31,7 +31,7 @@ class MCOInformation
      * @param string $Status
      * @param string $MCOType
      */
-    public function __construct($PassengerInfo = null, $MCONumber = null, $Status = null, $MCOType = null)
+    public function __construct($PassengerInfo, $MCONumber, $Status, $MCOType)
     {
       $this->PassengerInfo = $PassengerInfo;
       $this->MCONumber = $MCONumber;

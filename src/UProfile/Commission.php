@@ -44,7 +44,7 @@ class Commission extends typeKeyElement
      * @param typePercentageWithDecimal $Percentage
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key = null, $Type = null, $SupplierType = null, $Supplier = null, $Amount = null, $Percentage = null, $PriorityOrder = null)
+    public function __construct($Key, $Type, $SupplierType, $Supplier, $Amount, $Percentage, $PriorityOrder)
     {
       parent::__construct($Key);
       $this->Type = $Type;

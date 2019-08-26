@@ -31,7 +31,7 @@ class typeReferenceData
      * @param StringLength1to128 $Name
      * @param StringLength1to255 $Description
      */
-    public function __construct($DeprecatedDate = null, $Code = null, $Name = null, $Description = null)
+    public function __construct($DeprecatedDate, $Code, $Name, $Description)
     {
       $this->DeprecatedDate = $DeprecatedDate;
       $this->Code = $Code;

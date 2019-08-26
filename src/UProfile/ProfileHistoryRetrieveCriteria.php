@@ -43,7 +43,7 @@ class ProfileHistoryRetrieveCriteria
      * @param typeFieldID $FieldGroupID
      * @param typeProfileComponentType $FieldGroupType
      */
-    public function __construct($AgentID = null, $StartDate = null, $EndDate = null, $FieldID = null, $FieldGroupID = null, $FieldGroupType = null)
+    public function __construct($AgentID, $StartDate, $EndDate, $FieldID, $FieldGroupID, $FieldGroupType)
     {
       $this->AgentID = $AgentID;
       $this->StartDate = $StartDate;

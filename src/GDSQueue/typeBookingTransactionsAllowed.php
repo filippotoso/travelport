@@ -13,7 +13,7 @@ class typeBookingTransactionsAllowed
     /**
      * @param boolean $BookingEnabled
      */
-    public function __construct($BookingEnabled = null)
+    public function __construct($BookingEnabled)
     {
       $this->BookingEnabled = $BookingEnabled;
     }

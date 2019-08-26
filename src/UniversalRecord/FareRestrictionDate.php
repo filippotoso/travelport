@@ -31,7 +31,7 @@ class FareRestrictionDate
      * @param string $EndDate
      * @param anonymous597 $EndDateIndicator
      */
-    public function __construct($Direction = null, $StartDate = null, $EndDate = null, $EndDateIndicator = null)
+    public function __construct($Direction, $StartDate, $EndDate, $EndDateIndicator)
     {
       $this->Direction = $Direction;
       $this->StartDate = $StartDate;

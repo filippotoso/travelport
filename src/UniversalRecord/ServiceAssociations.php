@@ -13,7 +13,7 @@ class ServiceAssociations
     /**
      * @param ApplicableSegment[] $ApplicableSegment
      */
-    public function __construct(array $ApplicableSegment = null)
+    public function __construct(array $ApplicableSegment)
     {
       $this->ApplicableSegment = $ApplicableSegment;
     }

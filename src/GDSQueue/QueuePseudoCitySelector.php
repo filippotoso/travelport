@@ -19,7 +19,7 @@ class QueuePseudoCitySelector
      * @param QueueSelector $QueueSelector
      * @param typePCC $PseudoCityCode
      */
-    public function __construct($QueueSelector = null, $PseudoCityCode = null)
+    public function __construct($QueueSelector, $PseudoCityCode)
     {
       $this->QueueSelector = $QueueSelector;
       $this->PseudoCityCode = $PseudoCityCode;

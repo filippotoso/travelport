@@ -37,7 +37,7 @@ class VehicleUpsellOfferSearchCriteria
      * @param typeVehicleTransmission $TransmissionType
      * @param typeDoorCount $DoorCount
      */
-    public function __construct($VehicleClass = null, $Category = null, $AirConditioning = null, $TransmissionType = null, $DoorCount = null)
+    public function __construct($VehicleClass, $Category, $AirConditioning, $TransmissionType, $DoorCount)
     {
       $this->VehicleClass = $VehicleClass;
       $this->Category = $Category;

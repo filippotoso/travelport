@@ -13,7 +13,7 @@ class PromoCodes
     /**
      * @param PromoCode $PromoCode
      */
-    public function __construct($PromoCode = null)
+    public function __construct($PromoCode)
     {
       $this->PromoCode = $PromoCode;
     }

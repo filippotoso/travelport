@@ -19,7 +19,7 @@ class PropertyDescription
      * @param string $_
      * @param typeProviderCode $ProviderCode
      */
-    public function __construct($_ = null, $ProviderCode = null)
+    public function __construct($_, $ProviderCode)
     {
       $this->_ = $_;
       $this->ProviderCode = $ProviderCode;

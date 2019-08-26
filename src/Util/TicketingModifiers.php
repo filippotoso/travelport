@@ -131,7 +131,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     protected $IsPrimaryDI = null;
 
     /**
-     * @var int $DocumentInstructionNumber
+     * @var string $DocumentInstructionNumber
      */
     protected $DocumentInstructionNumber = null;
 
@@ -141,14 +141,24 @@ class TicketingModifiers extends typeBulkTicketModifierType
     protected $Reference = null;
 
     /**
-     * @var anonymous860 $Status
+     * @var anonymous858 $Status
      */
     protected $Status = null;
 
     /**
-     * @var anonymous861 $FreeText
+     * @var anonymous859 $FreeText
      */
     protected $FreeText = null;
+
+    /**
+     * @var string $NameNumber
+     */
+    protected $NameNumber = null;
+
+    /**
+     * @var string $TicketRecord
+     */
+    protected $TicketRecord = null;
 
     /**
      * @var typeCarrier $PlatingCarrier
@@ -171,7 +181,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     protected $FreeTicket = null;
 
     /**
-     * @var anonymous862 $CurrencyOverrideCode
+     * @var anonymous860 $CurrencyOverrideCode
      */
     protected $CurrencyOverrideCode = null;
 
@@ -207,20 +217,22 @@ class TicketingModifiers extends typeBulkTicketModifierType
      * @param ExcludeTicketing $ExcludeTicketing
      * @param ExemptOBFee $ExemptOBFee
      * @param boolean $IsPrimaryDI
-     * @param int $DocumentInstructionNumber
+     * @param string $DocumentInstructionNumber
      * @param StringLength1to30 $Reference
-     * @param anonymous860 $Status
-     * @param anonymous861 $FreeText
+     * @param anonymous858 $Status
+     * @param anonymous859 $FreeText
+     * @param string $NameNumber
+     * @param string $TicketRecord
      * @param typeCarrier $PlatingCarrier
      * @param boolean $ExemptVAT
      * @param boolean $NetRemitApplied
      * @param boolean $FreeTicket
-     * @param anonymous862 $CurrencyOverrideCode
+     * @param anonymous860 $CurrencyOverrideCode
      * @param typeRef $Key
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($SuppressOnFareCalc = null, $Commission = null, $TourCode = null, $TicketEndorsement = null, $DocumentSelect = null, $DocumentOptions = null, $SegmentSelect = null, $SegmentModifiers = null, $SupplierLocator = null, $DestinationPurposeCode = null, $LanguageOption = null, $LandCharges = null, $PrintBlankFormItinerary = null, $ExcludeTicketing = null, $ExemptOBFee = null, $IsPrimaryDI = null, $DocumentInstructionNumber = null, $Reference = null, $Status = null, $FreeText = null, $PlatingCarrier = null, $ExemptVAT = null, $NetRemitApplied = null, $FreeTicket = null, $CurrencyOverrideCode = null, $Key = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($SuppressOnFareCalc, $Commission, $TourCode, $TicketEndorsement, $DocumentSelect, $DocumentOptions, $SegmentSelect, $SegmentModifiers, $SupplierLocator, $DestinationPurposeCode, $LanguageOption, $LandCharges, $PrintBlankFormItinerary, $ExcludeTicketing, $ExemptOBFee, $IsPrimaryDI, $DocumentInstructionNumber, $Reference, $Status, $FreeText, $NameNumber, $TicketRecord, $PlatingCarrier, $ExemptVAT, $NetRemitApplied, $FreeTicket, $CurrencyOverrideCode, $Key, $ElStat, $KeyOverride)
     {
       parent::__construct($SuppressOnFareCalc);
       $this->Commission = $Commission;
@@ -242,6 +254,8 @@ class TicketingModifiers extends typeBulkTicketModifierType
       $this->Reference = $Reference;
       $this->Status = $Status;
       $this->FreeText = $FreeText;
+      $this->NameNumber = $NameNumber;
+      $this->TicketRecord = $TicketRecord;
       $this->PlatingCarrier = $PlatingCarrier;
       $this->ExemptVAT = $ExemptVAT;
       $this->NetRemitApplied = $NetRemitApplied;
@@ -703,7 +717,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     }
 
     /**
-     * @return int
+     * @return string
      */
     public function getDocumentInstructionNumber()
     {
@@ -711,7 +725,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     }
 
     /**
-     * @param int $DocumentInstructionNumber
+     * @param string $DocumentInstructionNumber
      * @return \FilippoToso\Travelport\Util\TicketingModifiers
      */
     public function setDocumentInstructionNumber($DocumentInstructionNumber)
@@ -739,7 +753,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     }
 
     /**
-     * @return anonymous860
+     * @return anonymous858
      */
     public function getStatus()
     {
@@ -747,7 +761,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     }
 
     /**
-     * @param anonymous860 $Status
+     * @param anonymous858 $Status
      * @return \FilippoToso\Travelport\Util\TicketingModifiers
      */
     public function setStatus($Status)
@@ -757,7 +771,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     }
 
     /**
-     * @return anonymous861
+     * @return anonymous859
      */
     public function getFreeText()
     {
@@ -765,12 +779,48 @@ class TicketingModifiers extends typeBulkTicketModifierType
     }
 
     /**
-     * @param anonymous861 $FreeText
+     * @param anonymous859 $FreeText
      * @return \FilippoToso\Travelport\Util\TicketingModifiers
      */
     public function setFreeText($FreeText)
     {
       $this->FreeText = $FreeText;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getNameNumber()
+    {
+      return $this->NameNumber;
+    }
+
+    /**
+     * @param string $NameNumber
+     * @return \FilippoToso\Travelport\Util\TicketingModifiers
+     */
+    public function setNameNumber($NameNumber)
+    {
+      $this->NameNumber = $NameNumber;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getTicketRecord()
+    {
+      return $this->TicketRecord;
+    }
+
+    /**
+     * @param string $TicketRecord
+     * @return \FilippoToso\Travelport\Util\TicketingModifiers
+     */
+    public function setTicketRecord($TicketRecord)
+    {
+      $this->TicketRecord = $TicketRecord;
       return $this;
     }
 
@@ -847,7 +897,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     }
 
     /**
-     * @return anonymous862
+     * @return anonymous860
      */
     public function getCurrencyOverrideCode()
     {
@@ -855,7 +905,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
     }
 
     /**
-     * @param anonymous862 $CurrencyOverrideCode
+     * @param anonymous860 $CurrencyOverrideCode
      * @return \FilippoToso\Travelport\Util\TicketingModifiers
      */
     public function setCurrencyOverrideCode($CurrencyOverrideCode)

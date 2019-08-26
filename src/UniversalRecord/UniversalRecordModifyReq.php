@@ -66,7 +66,7 @@ class UniversalRecordModifyReq extends BaseReq
      * @param typeURVersion $Version
      * @param boolean $OverrideMCT
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ContinuityCheckOverride = null, $RecordIdentifier = null, $UniversalModifyCmd = null, $FileFinishingInfo = null, $QueueNextModifiers = null, $ReturnRecord = null, $Version = null, $OverrideMCT = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ContinuityCheckOverride, $RecordIdentifier, $UniversalModifyCmd, $FileFinishingInfo, $QueueNextModifiers, $ReturnRecord, $Version, $OverrideMCT)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ContinuityCheckOverride = $ContinuityCheckOverride;

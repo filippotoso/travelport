@@ -13,7 +13,7 @@ class RequiredField
     /**
      * @param anonymous412 $Name
      */
-    public function __construct($Name = null)
+    public function __construct($Name)
     {
       $this->Name = $Name;
     }

@@ -54,7 +54,7 @@ class GdsQueueRemoveReq extends BaseReq
      * @param typeLocatorCode $ProviderLocatorCode
      * @param boolean $RemoveDuplicates
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $QueueSelector = null, $QueueSessionToken = null, $PseudoCityCode = null, $ProviderCode = null, $ProviderLocatorCode = null, $RemoveDuplicates = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $QueueSelector, $QueueSessionToken, $PseudoCityCode, $ProviderCode, $ProviderLocatorCode, $RemoveDuplicates)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->QueueSelector = $QueueSelector;

@@ -19,7 +19,7 @@ class HotelAmenity
      * @param typeAmenityLevel $Level
      * @param typeAmenityCode $AmenityCode
      */
-    public function __construct($Level = null, $AmenityCode = null)
+    public function __construct($Level, $AmenityCode)
     {
       $this->Level = $Level;
       $this->AmenityCode = $AmenityCode;

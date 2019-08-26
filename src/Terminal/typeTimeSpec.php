@@ -23,7 +23,7 @@ class typeTimeSpec
     /**
      * @param string $PreferredTime
      */
-    public function __construct($PreferredTime = null)
+    public function __construct($PreferredTime)
     {
       $this->PreferredTime = $PreferredTime;
     }

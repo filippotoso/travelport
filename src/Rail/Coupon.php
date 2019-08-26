@@ -66,7 +66,7 @@ class Coupon
     protected $StopoverCode = null;
 
     /**
-     * @var anonymous845 $BookingClass
+     * @var anonymous842 $BookingClass
      */
     protected $BookingClass = null;
 
@@ -86,7 +86,7 @@ class Coupon
     protected $NotValidAfter = null;
 
     /**
-     * @var anonymous846 $Status
+     * @var anonymous843 $Status
      */
     protected $Status = null;
 
@@ -123,17 +123,17 @@ class Coupon
      * @param string $DepartureTime
      * @param string $ArrivalTime
      * @param boolean $StopoverCode
-     * @param anonymous845 $BookingClass
+     * @param anonymous842 $BookingClass
      * @param string $FareBasis
      * @param date $NotValidBefore
      * @param date $NotValidAfter
-     * @param anonymous846 $Status
+     * @param anonymous843 $Status
      * @param int $SegmentGroup
      * @param int $MarriageGroup
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($TicketDesignator = null, $Key = null, $CouponNumber = null, $OperatingCarrier = null, $OperatingFlightNumber = null, $MarketingCarrier = null, $MarketingFlightNumber = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $StopoverCode = null, $BookingClass = null, $FareBasis = null, $NotValidBefore = null, $NotValidAfter = null, $Status = null, $SegmentGroup = null, $MarriageGroup = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($TicketDesignator, $Key, $CouponNumber, $OperatingCarrier, $OperatingFlightNumber, $MarketingCarrier, $MarketingFlightNumber, $Origin, $Destination, $DepartureTime, $ArrivalTime, $StopoverCode, $BookingClass, $FareBasis, $NotValidBefore, $NotValidAfter, $Status, $SegmentGroup, $MarriageGroup, $ElStat, $KeyOverride)
     {
       $this->TicketDesignator = $TicketDesignator;
       $this->Key = $Key;
@@ -375,7 +375,7 @@ class Coupon
     }
 
     /**
-     * @return anonymous845
+     * @return anonymous842
      */
     public function getBookingClass()
     {
@@ -383,7 +383,7 @@ class Coupon
     }
 
     /**
-     * @param anonymous845 $BookingClass
+     * @param anonymous842 $BookingClass
      * @return \FilippoToso\Travelport\Rail\Coupon
      */
     public function setBookingClass($BookingClass)
@@ -447,7 +447,7 @@ class Coupon
     }
 
     /**
-     * @return anonymous846
+     * @return anonymous843
      */
     public function getStatus()
     {
@@ -455,7 +455,7 @@ class Coupon
     }
 
     /**
-     * @param anonymous846 $Status
+     * @param anonymous843 $Status
      * @return \FilippoToso\Travelport\Rail\Coupon
      */
     public function setStatus($Status)

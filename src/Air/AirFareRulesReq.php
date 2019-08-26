@@ -59,7 +59,7 @@ class AirFareRulesReq extends BaseReq
      * @param AirFareRulesModifier $AirFareRulesModifier
      * @param typeFareRuleType $FareRuleType
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AirReservationSelector = null, $FareRuleLookup = null, $FareRuleKey = null, $AirFareDisplayRuleKey = null, $AirFareRulesModifier = null, $FareRuleType = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AirReservationSelector, $FareRuleLookup, $FareRuleKey, $AirFareDisplayRuleKey, $AirFareRulesModifier, $FareRuleType)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AirReservationSelector = $AirReservationSelector;

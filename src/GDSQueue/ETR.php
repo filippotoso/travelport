@@ -131,6 +131,11 @@ class ETR
     protected $PseudoCityCode = null;
 
     /**
+     * @var typeCountry $CountryCode
+     */
+    protected $CountryCode = null;
+
+    /**
      * @var typeCarrier $PlatingCarrier
      */
     protected $PlatingCarrier = null;
@@ -221,6 +226,7 @@ class ETR
      * @param typeProviderLocatorCode $ProviderLocatorCode
      * @param typeIATA $IATANumber
      * @param typePCC $PseudoCityCode
+     * @param typeCountry $CountryCode
      * @param typeCarrier $PlatingCarrier
      * @param typeMoney $TotalPrice
      * @param typeMoney $BasePrice
@@ -235,7 +241,7 @@ class ETR
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($AirReservationLocatorCode = null, $AgencyInfo = null, $BookingTraveler = null, $FormOfPayment = null, $Payment = null, $CreditCardAuth = null, $SupplierLocator = null, $FareCalc = null, $Ticket = null, $Commission = null, $AirPricingInfo = null, $AuditData = null, $Restriction = null, $WaiverCode = null, $BaggageAllowances = null, $Key = null, $Refundable = null, $Exchangeable = null, $TourCode = null, $IssuedDate = null, $BulkTicket = null, $ProviderCode = null, $ProviderLocatorCode = null, $IATANumber = null, $PseudoCityCode = null, $PlatingCarrier = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($AirReservationLocatorCode, $AgencyInfo, $BookingTraveler, $FormOfPayment, $Payment, $CreditCardAuth, $SupplierLocator, $FareCalc, $Ticket, $Commission, $AirPricingInfo, $AuditData, $Restriction, $WaiverCode, $BaggageAllowances, $Key, $Refundable, $Exchangeable, $TourCode, $IssuedDate, $BulkTicket, $ProviderCode, $ProviderLocatorCode, $IATANumber, $PseudoCityCode, $CountryCode, $PlatingCarrier, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees, $ElStat, $KeyOverride)
     {
       $this->AirReservationLocatorCode = $AirReservationLocatorCode;
       $this->AgencyInfo = $AgencyInfo;
@@ -262,6 +268,7 @@ class ETR
       $this->ProviderLocatorCode = $ProviderLocatorCode;
       $this->IATANumber = $IATANumber;
       $this->PseudoCityCode = $PseudoCityCode;
+      $this->CountryCode = $CountryCode;
       $this->PlatingCarrier = $PlatingCarrier;
       $this->TotalPrice = $TotalPrice;
       $this->BasePrice = $BasePrice;
@@ -724,6 +731,24 @@ class ETR
     public function setPseudoCityCode($PseudoCityCode)
     {
       $this->PseudoCityCode = $PseudoCityCode;
+      return $this;
+    }
+
+    /**
+     * @return typeCountry
+     */
+    public function getCountryCode()
+    {
+      return $this->CountryCode;
+    }
+
+    /**
+     * @param typeCountry $CountryCode
+     * @return \FilippoToso\Travelport\GDSQueue\ETR
+     */
+    public function setCountryCode($CountryCode)
+    {
+      $this->CountryCode = $CountryCode;
       return $this;
     }
 

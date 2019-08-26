@@ -48,7 +48,7 @@ class AirRefundReq extends BaseReq
      * @param Commission $Commission
      * @param FormOfPayment $FormOfPayment
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AirRefundBundle = null, $TCRRefundBundle = null, $AirRefundModifiers = null, $Commission = null, $FormOfPayment = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AirRefundBundle, $TCRRefundBundle, $AirRefundModifiers, $Commission, $FormOfPayment)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AirRefundBundle = $AirRefundBundle;

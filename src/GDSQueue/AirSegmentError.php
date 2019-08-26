@@ -19,7 +19,7 @@ class AirSegmentError
      * @param typeBaseAirSegment $AirSegment
      * @param string $ErrorMessage
      */
-    public function __construct($AirSegment = null, $ErrorMessage = null)
+    public function __construct($AirSegment, $ErrorMessage)
     {
       $this->AirSegment = $AirSegment;
       $this->ErrorMessage = $ErrorMessage;

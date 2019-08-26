@@ -31,7 +31,7 @@ class AirPricingPayment
      * @param FormOfPaymentRef $FormOfPaymentRef
      * @param AirPricingInfoRef $AirPricingInfoRef
      */
-    public function __construct($Payment = null, $FormOfPayment = null, $FormOfPaymentRef = null, $AirPricingInfoRef = null)
+    public function __construct($Payment, $FormOfPayment, $FormOfPaymentRef, $AirPricingInfoRef)
     {
       $this->Payment = $Payment;
       $this->FormOfPayment = $FormOfPayment;

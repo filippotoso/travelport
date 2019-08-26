@@ -30,7 +30,7 @@ class AirCreateReservationRsp extends BaseRsp
      * @param AirSolutionChangedInfo $AirSolutionChangedInfo
      * @param AirSegmentSellFailureInfo $AirSegmentSellFailureInfo
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $UniversalRecord = null, $AirSolutionChangedInfo = null, $AirSegmentSellFailureInfo = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $UniversalRecord, $AirSolutionChangedInfo, $AirSegmentSellFailureInfo)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->UniversalRecord = $UniversalRecord;

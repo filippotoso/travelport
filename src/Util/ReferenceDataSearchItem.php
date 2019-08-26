@@ -16,14 +16,14 @@ class ReferenceDataSearchItem
     protected $Name = null;
 
     /**
-     * @var anonymous1149 $Type
+     * @var anonymous1147 $Type
      */
     protected $Type = null;
 
     /**
-     * @param anonymous1149 $Type
+     * @param anonymous1147 $Type
      */
-    public function __construct($Type = null)
+    public function __construct($Type)
     {
       $this->Type = $Type;
     }
@@ -65,7 +65,7 @@ class ReferenceDataSearchItem
     }
 
     /**
-     * @return anonymous1149
+     * @return anonymous1147
      */
     public function getType()
     {
@@ -73,7 +73,7 @@ class ReferenceDataSearchItem
     }
 
     /**
-     * @param anonymous1149 $Type
+     * @param anonymous1147 $Type
      * @return \FilippoToso\Travelport\Util\ReferenceDataSearchItem
      */
     public function setType($Type)

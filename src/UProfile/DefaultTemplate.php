@@ -25,7 +25,7 @@ class DefaultTemplate
      * @param typeTemplateID $TemplateID
      * @param typeVersion $TemplateVersion
      */
-    public function __construct($ProfileType = null, $TemplateID = null, $TemplateVersion = null)
+    public function __construct($ProfileType, $TemplateID, $TemplateVersion)
     {
       $this->ProfileType = $ProfileType;
       $this->TemplateID = $TemplateID;

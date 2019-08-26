@@ -36,7 +36,7 @@ class LocationInformation
      * @param typeIATACode $Location
      * @param typeAreaInfo $AreaType
      */
-    public function __construct($LocationType = null, $AreaGroup = null, $Location = null, $AreaType = null)
+    public function __construct($LocationType, $AreaGroup, $Location, $AreaType)
     {
       $this->LocationType = $LocationType;
       $this->AreaGroup = $AreaGroup;

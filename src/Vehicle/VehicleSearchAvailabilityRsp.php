@@ -27,7 +27,7 @@ class VehicleSearchAvailabilityRsp extends BaseVehicleSearchAvailabilityRsp
      * @param MarketingInformation $MarketingInformation
      * @param string $MediaLinksSearchId
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $NextResultReference = null, $VehicleDateLocation = null, $Vehicle = null, $MarketingInformation = null, $MediaLinksSearchId = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $VehicleDateLocation, $Vehicle, $MarketingInformation, $MediaLinksSearchId)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $VehicleDateLocation, $Vehicle);
       $this->MarketingInformation = $MarketingInformation;

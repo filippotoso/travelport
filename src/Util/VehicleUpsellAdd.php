@@ -19,7 +19,7 @@ class VehicleUpsellAdd
      * @param VehicleUpsellQualify $VehicleUpsellQualify
      * @param VehicleUpsellOffer $VehicleUpsellOffer
      */
-    public function __construct($VehicleUpsellQualify = null, $VehicleUpsellOffer = null)
+    public function __construct($VehicleUpsellQualify, $VehicleUpsellOffer)
     {
       $this->VehicleUpsellQualify = $VehicleUpsellQualify;
       $this->VehicleUpsellOffer = $VehicleUpsellOffer;

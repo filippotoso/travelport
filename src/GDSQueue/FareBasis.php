@@ -19,7 +19,7 @@ class FareBasis
      * @param string $Code
      * @param typeRef $SegmentRef
      */
-    public function __construct($Code = null, $SegmentRef = null)
+    public function __construct($Code, $SegmentRef)
     {
       $this->Code = $Code;
       $this->SegmentRef = $SegmentRef;

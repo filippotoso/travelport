@@ -13,7 +13,7 @@ class ProhibitedVendors
     /**
      * @param Vendor $Vendor
      */
-    public function __construct($Vendor = null)
+    public function __construct($Vendor)
     {
       $this->Vendor = $Vendor;
     }

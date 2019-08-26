@@ -49,7 +49,7 @@ class SupportedVersions
      * @param string $railVersion
      * @param string $cruiseVersion
      */
-    public function __construct($urVersion = null, $airVersion = null, $hotelVersion = null, $vehicleVersion = null, $passiveVersion = null, $railVersion = null, $cruiseVersion = null)
+    public function __construct($urVersion, $airVersion, $hotelVersion, $vehicleVersion, $passiveVersion, $railVersion, $cruiseVersion)
     {
       $this->urVersion = $urVersion;
       $this->airVersion = $airVersion;

@@ -23,7 +23,7 @@ class RailLegModifiers
     /**
      * @param string $Class
      */
-    public function __construct($Class = null)
+    public function __construct($Class)
     {
       $this->Class = $Class;
     }

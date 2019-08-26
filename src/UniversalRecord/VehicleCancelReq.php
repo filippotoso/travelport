@@ -66,7 +66,7 @@ class VehicleCancelReq extends BaseReq
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $VehicleDateLocation = null, $Vehicle = null, $FileFinishingInfo = null, $SupplierCode = null, $SupplierLocatorCode = null, $Version = null, $ProviderCode = null, $ProviderLocatorCode = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $VehicleDateLocation, $Vehicle, $FileFinishingInfo, $SupplierCode, $SupplierLocatorCode, $Version, $ProviderCode, $ProviderLocatorCode)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->VehicleDateLocation = $VehicleDateLocation;

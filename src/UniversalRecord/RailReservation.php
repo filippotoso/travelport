@@ -63,7 +63,7 @@ class RailReservation extends BaseReservation
      * @param SupplierLocator $SupplierLocator
      * @param string $BookingStatus
      */
-    public function __construct($AccountingRemark = null, $GeneralRemark = null, $Restriction = null, $PassiveInfo = null, $LocatorCode = null, $CreateDate = null, $ModifiedDate = null, $CustomerNumber = null, $BookingTravelerRef = null, $RailJourney = null, $RailPricingInfo = null, $Payment = null, $RailTicketInfo = null, $RailFareNoteList = null, $SupplierLocator = null, $BookingStatus = null)
+    public function __construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber, $BookingTravelerRef, $RailJourney, $RailPricingInfo, $Payment, $RailTicketInfo, $RailFareNoteList, $SupplierLocator, $BookingStatus)
     {
       parent::__construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber);
       $this->BookingTravelerRef = $BookingTravelerRef;

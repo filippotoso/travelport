@@ -95,7 +95,7 @@ class AggregatorHotelDetails extends typeHotelDetails
      * @param string $AreaCode
      * @param string $CountryCode
      */
-    public function __construct($HotelProperty = null, $HotelDetailItem = null, $HotelRateDetail = null, $MediaItem = null, $Aggregator = null, $AggregatorName = null, $RulesAndRestriction = null, $TermsAndConditions = null, $SupportsPayment = null, $CommissionModel = null, $MultiRoomSupport = null, $SupportsChildren = null, $ChildStartAge = null, $AdultStartAge = null, $MaxChildrenPerRoom = null, $PhoneNumber = null, $AreaCode = null, $CountryCode = null)
+    public function __construct($HotelProperty, $HotelDetailItem, $HotelRateDetail, $MediaItem, $Aggregator, $AggregatorName, $RulesAndRestriction, $TermsAndConditions, $SupportsPayment, $CommissionModel, $MultiRoomSupport, $SupportsChildren, $ChildStartAge, $AdultStartAge, $MaxChildrenPerRoom, $PhoneNumber, $AreaCode, $CountryCode)
     {
       parent::__construct($HotelProperty, $HotelDetailItem, $HotelRateDetail, $MediaItem);
       $this->Aggregator = $Aggregator;

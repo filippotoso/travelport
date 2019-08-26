@@ -37,7 +37,7 @@ class CategoryInfo
      * @param int $Count
      * @param int $TotalCount
      */
-    public function __construct($DateRangeInfo = null, $Title = null, $Category = null, $Count = null, $TotalCount = null)
+    public function __construct($DateRangeInfo, $Title, $Category, $Count, $TotalCount)
     {
       $this->DateRangeInfo = $DateRangeInfo;
       $this->Title = $Title;

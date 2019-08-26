@@ -30,7 +30,7 @@ class AirExchangeMultiQuoteRsp extends BaseRsp
      * @param BrandList $BrandList
      * @param AirExchangeMulitQuoteList $AirExchangeMulitQuoteList
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $AirSegmentList = null, $BrandList = null, $AirExchangeMulitQuoteList = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirSegmentList, $BrandList, $AirExchangeMulitQuoteList)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->AirSegmentList = $AirSegmentList;

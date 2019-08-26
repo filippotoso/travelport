@@ -19,7 +19,7 @@ class BaseInfo
      * @param AgencyBaseInfo $AgencyBaseInfo
      * @param BranchBaseInfo $BranchBaseInfo
      */
-    public function __construct($AgencyBaseInfo = null, $BranchBaseInfo = null)
+    public function __construct($AgencyBaseInfo, $BranchBaseInfo)
     {
       $this->AgencyBaseInfo = $AgencyBaseInfo;
       $this->BranchBaseInfo = $BranchBaseInfo;

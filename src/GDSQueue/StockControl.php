@@ -19,7 +19,7 @@ class StockControl
      * @param string $Type
      * @param string $Number
      */
-    public function __construct($Type = null, $Number = null)
+    public function __construct($Type, $Number)
     {
       $this->Type = $Type;
       $this->Number = $Number;

@@ -31,7 +31,7 @@ class typeProfileParentHistory
      * @param string $ProfileName
      * @param typeProvisioningCode $ProvisioningCode
      */
-    public function __construct($ProfileID = null, $ProfileType = null, $ProfileName = null, $ProvisioningCode = null)
+    public function __construct($ProfileID, $ProfileType, $ProfileName, $ProvisioningCode)
     {
       $this->ProfileID = $ProfileID;
       $this->ProfileType = $ProfileType;

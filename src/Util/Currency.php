@@ -25,7 +25,7 @@ class Currency
      * @param string $Name
      * @param string $Decimal
      */
-    public function __construct($Code = null, $Name = null, $Decimal = null)
+    public function __construct($Code, $Name, $Decimal)
     {
       $this->Code = $Code;
       $this->Name = $Name;

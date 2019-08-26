@@ -19,7 +19,7 @@ class PreferredSupplier
      * @param boolean $Preferred
      * @param typeProfileType $ProfileType
      */
-    public function __construct($Preferred = null, $ProfileType = null)
+    public function __construct($Preferred, $ProfileType)
     {
       $this->Preferred = $Preferred;
       $this->ProfileType = $ProfileType;

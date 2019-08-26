@@ -63,7 +63,7 @@ class Remark extends typeKeyTaggedElement
      * @param typeSupplier $Supplier
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key = null, $TagRef = null, $RemarkText = null, $Type = null, $AccountingRemarkType = null, $Provider = null, $GeneralRemarkType = null, $CategoryType = null, $SupplierType = null, $Supplier = null, $PriorityOrder = null)
+    public function __construct($Key, $TagRef, $RemarkText, $Type, $AccountingRemarkType, $Provider, $GeneralRemarkType, $CategoryType, $SupplierType, $Supplier, $PriorityOrder)
     {
       parent::__construct($Key, $TagRef);
       $this->RemarkText = $RemarkText;

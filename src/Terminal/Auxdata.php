@@ -13,7 +13,7 @@ class Auxdata
     /**
      * @param Entry[] $Entry
      */
-    public function __construct(array $Entry = null)
+    public function __construct(array $Entry)
     {
       $this->Entry = $Entry;
     }

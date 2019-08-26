@@ -13,7 +13,7 @@ class PermittedAggregators
     /**
      * @param Aggregator[] $Aggregator
      */
-    public function __construct(array $Aggregator = null)
+    public function __construct(array $Aggregator)
     {
       $this->Aggregator = $Aggregator;
     }

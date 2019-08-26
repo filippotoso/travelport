@@ -19,7 +19,7 @@ class CorporateDiscountID
      * @param string $_
      * @param boolean $NegotiatedRateCode
      */
-    public function __construct($_ = null, $NegotiatedRateCode = null)
+    public function __construct($_, $NegotiatedRateCode)
     {
       $this->_ = $_;
       $this->NegotiatedRateCode = $NegotiatedRateCode;

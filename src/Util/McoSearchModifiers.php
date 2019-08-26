@@ -16,12 +16,12 @@ class McoSearchModifiers
     protected $Status = null;
 
     /**
-     * @var anonymous1124 $MaxResults
+     * @var anonymous1122 $MaxResults
      */
     protected $MaxResults = null;
 
     /**
-     * @var anonymous1125 $StartFromResult
+     * @var anonymous1123 $StartFromResult
      */
     protected $StartFromResult = null;
 
@@ -33,11 +33,11 @@ class McoSearchModifiers
     /**
      * @param typeMCOType $Type
      * @param typeMCOStatus $Status
-     * @param anonymous1124 $MaxResults
-     * @param anonymous1125 $StartFromResult
+     * @param anonymous1122 $MaxResults
+     * @param anonymous1123 $StartFromResult
      * @param boolean $IncludeName
      */
-    public function __construct($Type = null, $Status = null, $MaxResults = null, $StartFromResult = null, $IncludeName = null)
+    public function __construct($Type, $Status, $MaxResults, $StartFromResult, $IncludeName)
     {
       $this->Type = $Type;
       $this->Status = $Status;
@@ -83,7 +83,7 @@ class McoSearchModifiers
     }
 
     /**
-     * @return anonymous1124
+     * @return anonymous1122
      */
     public function getMaxResults()
     {
@@ -91,7 +91,7 @@ class McoSearchModifiers
     }
 
     /**
-     * @param anonymous1124 $MaxResults
+     * @param anonymous1122 $MaxResults
      * @return \FilippoToso\Travelport\Util\McoSearchModifiers
      */
     public function setMaxResults($MaxResults)
@@ -101,7 +101,7 @@ class McoSearchModifiers
     }
 
     /**
-     * @return anonymous1125
+     * @return anonymous1123
      */
     public function getStartFromResult()
     {
@@ -109,7 +109,7 @@ class McoSearchModifiers
     }
 
     /**
-     * @param anonymous1125 $StartFromResult
+     * @param anonymous1123 $StartFromResult
      * @return \FilippoToso\Travelport\Util\McoSearchModifiers
      */
     public function setStartFromResult($StartFromResult)

@@ -45,7 +45,7 @@ class typeContact extends typeKeyTaggedElement
      * @param StringLength1to128 $Nickname
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key = null, $TagRef = null, $Type = null, $GivenName = null, $Surname = null, $OtherName = null, $Nickname = null, $PriorityOrder = null)
+    public function __construct($Key, $TagRef, $Type, $GivenName, $Surname, $OtherName, $Nickname, $PriorityOrder)
     {
       parent::__construct($Key, $TagRef);
       $this->Type = $Type;

@@ -13,7 +13,7 @@ class AgencyInfo
     /**
      * @param AgentAction $AgentAction
      */
-    public function __construct($AgentAction = null)
+    public function __construct($AgentAction)
     {
       $this->AgentAction = $AgentAction;
     }

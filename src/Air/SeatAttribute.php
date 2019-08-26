@@ -13,7 +13,7 @@ class SeatAttribute
     /**
      * @param anonymous479 $Value
      */
-    public function __construct($Value = null)
+    public function __construct($Value)
     {
       $this->Value = $Value;
     }

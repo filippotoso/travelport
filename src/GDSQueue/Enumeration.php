@@ -13,7 +13,7 @@ class Enumeration
     /**
      * @param SolutionGroup $SolutionGroup
      */
-    public function __construct($SolutionGroup = null)
+    public function __construct($SolutionGroup)
     {
       $this->SolutionGroup = $SolutionGroup;
     }

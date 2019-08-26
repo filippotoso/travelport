@@ -24,7 +24,7 @@ class NumberOfChildren
      * @param int $Count
      * @param typeMoney $Amount
      */
-    public function __construct($Count = null, $Amount = null)
+    public function __construct($Count, $Amount)
     {
       $this->Count = $Count;
       $this->Amount = $Amount;

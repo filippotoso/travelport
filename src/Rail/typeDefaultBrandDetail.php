@@ -31,7 +31,7 @@ class typeDefaultBrandDetail
      * @param typeApplicableSegment $ApplicableSegment
      * @param typeBrandId $BrandID
      */
-    public function __construct($Text = null, $ImageLocation = null, $ApplicableSegment = null, $BrandID = null)
+    public function __construct($Text, $ImageLocation, $ApplicableSegment, $BrandID)
     {
       $this->Text = $Text;
       $this->ImageLocation = $ImageLocation;

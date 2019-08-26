@@ -19,7 +19,7 @@ class HotelUpsellDelete
      * @param typeRef $QualifyRef
      * @param typeRef $OfferRef
      */
-    public function __construct($QualifyRef = null, $OfferRef = null)
+    public function __construct($QualifyRef, $OfferRef)
     {
       $this->QualifyRef = $QualifyRef;
       $this->OfferRef = $OfferRef;

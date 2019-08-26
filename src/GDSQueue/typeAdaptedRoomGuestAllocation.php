@@ -18,7 +18,7 @@ class typeAdaptedRoomGuestAllocation
     /**
      * @param int $NumberOfAdults
      */
-    public function __construct($NumberOfAdults = null)
+    public function __construct($NumberOfAdults)
     {
       $this->NumberOfAdults = $NumberOfAdults;
     }

@@ -19,7 +19,7 @@ class IncludeAddlBookingCodeInfo
      * @param typeCarrierCode $Type
      * @param typeCarrier $SecondaryCarrier
      */
-    public function __construct($Type = null, $SecondaryCarrier = null)
+    public function __construct($Type, $SecondaryCarrier)
     {
       $this->Type = $Type;
       $this->SecondaryCarrier = $SecondaryCarrier;

@@ -67,7 +67,7 @@ class ModifyFieldGroup
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($ModifyField = null, $ID = null, $Action = null, $Force = null, $Name = null, $Description = null, $Protected = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
+    public function __construct($ModifyField, $ID, $Action, $Force, $Name, $Description, $Protected, $Inheritable, $MinOccurs, $MaxOccurs)
     {
       $this->ModifyField = $ModifyField;
       $this->ID = $ID;

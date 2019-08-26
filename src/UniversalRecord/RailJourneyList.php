@@ -13,7 +13,7 @@ class RailJourneyList
     /**
      * @param RailJourney $RailJourney
      */
-    public function __construct($RailJourney = null)
+    public function __construct($RailJourney)
     {
       $this->RailJourney = $RailJourney;
     }

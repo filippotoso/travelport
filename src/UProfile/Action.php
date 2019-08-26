@@ -49,7 +49,7 @@ class Action
      * @param string $TargetService
      * @param string $ProfileActionCode
      */
-    public function __construct($Endpoint = null, $ID = null, $Name = null, $Description = null, $ConsumingSystem = null, $TargetService = null, $ProfileActionCode = null)
+    public function __construct($Endpoint, $ID, $Name, $Description, $ConsumingSystem, $TargetService, $ProfileActionCode)
     {
       $this->Endpoint = $Endpoint;
       $this->ID = $ID;

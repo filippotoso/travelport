@@ -37,7 +37,7 @@ class DocumentSelect
      * @param boolean $IssueElectronicTicket
      * @param boolean $FaxIndicator
      */
-    public function __construct($BackOfficeHandOff = null, $Itinerary = null, $IssueTicketOnly = null, $IssueElectronicTicket = null, $FaxIndicator = null)
+    public function __construct($BackOfficeHandOff, $Itinerary, $IssueTicketOnly, $IssueElectronicTicket, $FaxIndicator)
     {
       $this->BackOfficeHandOff = $BackOfficeHandOff;
       $this->Itinerary = $Itinerary;

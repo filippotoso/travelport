@@ -18,7 +18,7 @@ class VehicleRetrieveRsp extends BaseRsp
      * @param string $CommandHistory
      * @param VehicleReservation $VehicleReservation
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $VehicleReservation = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $VehicleReservation)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->VehicleReservation = $VehicleReservation;

@@ -19,7 +19,7 @@ class ExternalReservationInfo
      * @param typeLocatorCode $LocatorCode
      * @param typeCarrier $Carrier
      */
-    public function __construct($LocatorCode = null, $Carrier = null)
+    public function __construct($LocatorCode, $Carrier)
     {
       $this->LocatorCode = $LocatorCode;
       $this->Carrier = $Carrier;

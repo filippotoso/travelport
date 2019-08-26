@@ -25,7 +25,7 @@ class TicketAdvisory
      * @param typeRef $Key
      * @param language $LanguageCode
      */
-    public function __construct($_ = null, $Key = null, $LanguageCode = null)
+    public function __construct($_, $Key, $LanguageCode)
     {
       $this->_ = $_;
       $this->Key = $Key;

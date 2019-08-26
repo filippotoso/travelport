@@ -26,7 +26,7 @@ class SavedTripSearchModifiers extends BaseSearchModifiers
      * @param string $SavedTripName
      * @param boolean $ExcludeURAssociated
      */
-    public function __construct($IncludeAllNames = null, $IncludeAgentInfo = null, $MaxResults = null, $StartFromResult = null, $ExcludeAir = null, $ExcludeVehicle = null, $ExcludeHotel = null, $SavedTripName = null, $ExcludeURAssociated = null)
+    public function __construct($IncludeAllNames, $IncludeAgentInfo, $MaxResults, $StartFromResult, $ExcludeAir, $ExcludeVehicle, $ExcludeHotel, $SavedTripName, $ExcludeURAssociated)
     {
       parent::__construct($IncludeAllNames, $IncludeAgentInfo, $MaxResults, $StartFromResult, $ExcludeAir, $ExcludeVehicle, $ExcludeHotel);
       $this->SavedTripName = $SavedTripName;

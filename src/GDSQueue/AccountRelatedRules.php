@@ -19,7 +19,7 @@ class AccountRelatedRules
      * @param BookingRules $BookingRules
      * @param RoutingRules $RoutingRules
      */
-    public function __construct($BookingRules = null, $RoutingRules = null)
+    public function __construct($BookingRules, $RoutingRules)
     {
       $this->BookingRules = $BookingRules;
       $this->RoutingRules = $RoutingRules;

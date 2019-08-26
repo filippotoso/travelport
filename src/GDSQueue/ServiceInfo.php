@@ -19,7 +19,7 @@ class ServiceInfo
      * @param string[] $Description
      * @param MediaItem $MediaItem
      */
-    public function __construct(array $Description = null, $MediaItem = null)
+    public function __construct(array $Description, $MediaItem)
     {
       $this->Description = $Description;
       $this->MediaItem = $MediaItem;

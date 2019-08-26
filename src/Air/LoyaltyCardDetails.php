@@ -19,7 +19,7 @@ class LoyaltyCardDetails
      * @param typeCarrier $SupplierCode
      * @param typePriorityCode $PriorityCode
      */
-    public function __construct($SupplierCode = null, $PriorityCode = null)
+    public function __construct($SupplierCode, $PriorityCode)
     {
       $this->SupplierCode = $SupplierCode;
       $this->PriorityCode = $PriorityCode;

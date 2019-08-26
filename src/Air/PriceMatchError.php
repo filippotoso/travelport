@@ -67,7 +67,7 @@ class PriceMatchError
      * @param float $RspTotal
      * @param float $TotalDiff
      */
-    public function __construct($ErrorMessage = null, $VendorCode = null, $HotelChain = null, $HotelCode = null, $ReqBase = null, $RspBase = null, $BaseDiff = null, $ReqTotal = null, $RspTotal = null, $TotalDiff = null)
+    public function __construct($ErrorMessage, $VendorCode, $HotelChain, $HotelCode, $ReqBase, $RspBase, $BaseDiff, $ReqTotal, $RspTotal, $TotalDiff)
     {
       $this->ErrorMessage = $ErrorMessage;
       $this->VendorCode = $VendorCode;

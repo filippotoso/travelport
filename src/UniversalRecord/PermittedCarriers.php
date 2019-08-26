@@ -13,7 +13,7 @@ class PermittedCarriers
     /**
      * @param Carrier $Carrier
      */
-    public function __construct($Carrier = null)
+    public function __construct($Carrier)
     {
       $this->Carrier = $Carrier;
     }

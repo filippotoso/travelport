@@ -67,7 +67,7 @@ class Connection
      * @param int $FlightDetailsIndex
      * @param typeIgnoreStopOver $IncludeStopOverToFareQuote
      */
-    public function __construct($FareNote = null, $ChangeOfPlane = null, $ChangeOfTerminal = null, $ChangeOfAirport = null, $StopOver = null, $MinConnectionTime = null, $Duration = null, $SegmentIndex = null, $FlightDetailsIndex = null, $IncludeStopOverToFareQuote = null)
+    public function __construct($FareNote, $ChangeOfPlane, $ChangeOfTerminal, $ChangeOfAirport, $StopOver, $MinConnectionTime, $Duration, $SegmentIndex, $FlightDetailsIndex, $IncludeStopOverToFareQuote)
     {
       $this->FareNote = $FareNote;
       $this->ChangeOfPlane = $ChangeOfPlane;

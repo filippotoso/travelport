@@ -16,7 +16,7 @@ class typeFarePenalty
     protected $Percentage = null;
 
     /**
-     * @var anonymous885 $PenaltyApplies
+     * @var anonymous883 $PenaltyApplies
      */
     protected $PenaltyApplies = null;
 
@@ -26,10 +26,10 @@ class typeFarePenalty
     protected $NoShow = null;
 
     /**
-     * @param anonymous885 $PenaltyApplies
+     * @param anonymous883 $PenaltyApplies
      * @param boolean $NoShow
      */
-    public function __construct($PenaltyApplies = null, $NoShow = null)
+    public function __construct($PenaltyApplies, $NoShow)
     {
       $this->PenaltyApplies = $PenaltyApplies;
       $this->NoShow = $NoShow;
@@ -72,7 +72,7 @@ class typeFarePenalty
     }
 
     /**
-     * @return anonymous885
+     * @return anonymous883
      */
     public function getPenaltyApplies()
     {
@@ -80,7 +80,7 @@ class typeFarePenalty
     }
 
     /**
-     * @param anonymous885 $PenaltyApplies
+     * @param anonymous883 $PenaltyApplies
      * @return \FilippoToso\Travelport\Rail\typeFarePenalty
      */
     public function setPenaltyApplies($PenaltyApplies)

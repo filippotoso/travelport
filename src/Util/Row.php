@@ -31,7 +31,7 @@ class Row
      * @param int $Number
      * @param typeRef $SearchTravelerRef
      */
-    public function __construct($Facility = null, $Characteristic = null, $Number = null, $SearchTravelerRef = null)
+    public function __construct($Facility, $Characteristic, $Number, $SearchTravelerRef)
     {
       $this->Facility = $Facility;
       $this->Characteristic = $Characteristic;

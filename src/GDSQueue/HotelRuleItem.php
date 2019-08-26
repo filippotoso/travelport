@@ -19,7 +19,7 @@ class HotelRuleItem
      * @param string[] $Text
      * @param string $Name
      */
-    public function __construct(array $Text = null, $Name = null)
+    public function __construct(array $Text, $Name)
     {
       $this->Text = $Text;
       $this->Name = $Name;

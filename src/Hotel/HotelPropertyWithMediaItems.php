@@ -24,7 +24,7 @@ class HotelPropertyWithMediaItems
      * @param HotelProperty $HotelProperty
      * @param MediaItem $MediaItem
      */
-    public function __construct($HotelProperty = null, $MediaItem = null)
+    public function __construct($HotelProperty, $MediaItem)
     {
       $this->HotelProperty = $HotelProperty;
       $this->MediaItem = $MediaItem;

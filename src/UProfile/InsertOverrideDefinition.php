@@ -13,7 +13,7 @@ class InsertOverrideDefinition
     /**
      * @param OverrideDefinition $OverrideDefinition
      */
-    public function __construct($OverrideDefinition = null)
+    public function __construct($OverrideDefinition)
     {
       $this->OverrideDefinition = $OverrideDefinition;
     }

@@ -11,12 +11,12 @@ class ReferenceDataSearchModifiers
     protected $RailStationLocationModifiers = null;
 
     /**
-     * @var anonymous1144 $MaxResults
+     * @var anonymous1142 $MaxResults
      */
     protected $MaxResults = null;
 
     /**
-     * @var anonymous1145 $StartFromResult
+     * @var anonymous1143 $StartFromResult
      */
     protected $StartFromResult = null;
 
@@ -27,11 +27,11 @@ class ReferenceDataSearchModifiers
 
     /**
      * @param RailStationLocationModifiers $RailStationLocationModifiers
-     * @param anonymous1144 $MaxResults
-     * @param anonymous1145 $StartFromResult
+     * @param anonymous1142 $MaxResults
+     * @param anonymous1143 $StartFromResult
      * @param typeProviderCode $ProviderCode
      */
-    public function __construct($RailStationLocationModifiers = null, $MaxResults = null, $StartFromResult = null, $ProviderCode = null)
+    public function __construct($RailStationLocationModifiers, $MaxResults, $StartFromResult, $ProviderCode)
     {
       $this->RailStationLocationModifiers = $RailStationLocationModifiers;
       $this->MaxResults = $MaxResults;
@@ -58,7 +58,7 @@ class ReferenceDataSearchModifiers
     }
 
     /**
-     * @return anonymous1144
+     * @return anonymous1142
      */
     public function getMaxResults()
     {
@@ -66,7 +66,7 @@ class ReferenceDataSearchModifiers
     }
 
     /**
-     * @param anonymous1144 $MaxResults
+     * @param anonymous1142 $MaxResults
      * @return \FilippoToso\Travelport\Util\ReferenceDataSearchModifiers
      */
     public function setMaxResults($MaxResults)
@@ -76,7 +76,7 @@ class ReferenceDataSearchModifiers
     }
 
     /**
-     * @return anonymous1145
+     * @return anonymous1143
      */
     public function getStartFromResult()
     {
@@ -84,7 +84,7 @@ class ReferenceDataSearchModifiers
     }
 
     /**
-     * @param anonymous1145 $StartFromResult
+     * @param anonymous1143 $StartFromResult
      * @return \FilippoToso\Travelport\Util\ReferenceDataSearchModifiers
      */
     public function setStartFromResult($StartFromResult)

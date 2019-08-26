@@ -19,7 +19,7 @@ class typeCommonEditableGroup extends typeCommonEditableField
      * @param boolean $Inheritable
      * @param boolean $Hide
      */
-    public function __construct($ID = null, $MinOccursOverride = null, $MaxOccursOverride = null, $Label = null, $DisplayOrder = null, $Inheritable = null, $Hide = null)
+    public function __construct($ID, $MinOccursOverride, $MaxOccursOverride, $Label, $DisplayOrder, $Inheritable, $Hide)
     {
       parent::__construct($ID, $MinOccursOverride, $MaxOccursOverride, $Label, $DisplayOrder, $Inheritable);
       $this->Hide = $Hide;

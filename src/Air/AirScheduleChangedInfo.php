@@ -13,7 +13,7 @@ class AirScheduleChangedInfo
     /**
      * @param AirPricingSolution $AirPricingSolution
      */
-    public function __construct($AirPricingSolution = null)
+    public function __construct($AirPricingSolution)
     {
       $this->AirPricingSolution = $AirPricingSolution;
     }

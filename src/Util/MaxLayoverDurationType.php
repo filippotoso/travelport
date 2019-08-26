@@ -25,7 +25,7 @@ class MaxLayoverDurationType
      * @param MaxLayoverDurationRangeType $Gateway
      * @param MaxLayoverDurationRangeType $International
      */
-    public function __construct($Domestic = null, $Gateway = null, $International = null)
+    public function __construct($Domestic, $Gateway, $International)
     {
       $this->Domestic = $Domestic;
       $this->Gateway = $Gateway;

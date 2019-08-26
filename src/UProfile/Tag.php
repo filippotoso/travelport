@@ -43,7 +43,7 @@ class Tag
      * @param typeTagKey $ID
      * @param typeProfileID $AgencyID
      */
-    public function __construct($Name = null, $Label = null, $Description = null, $DisplayOrder = null, $ID = null, $AgencyID = null)
+    public function __construct($Name, $Label, $Description, $DisplayOrder, $ID, $AgencyID)
     {
       $this->Name = $Name;
       $this->Label = $Label;

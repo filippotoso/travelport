@@ -31,7 +31,7 @@ class NumberOfAdults
      * @param typeMoney $Amount
      * @param string $Content
      */
-    public function __construct($_ = null, $ExtraAdults = null, $Amount = null, $Content = null)
+    public function __construct($_, $ExtraAdults, $Amount, $Content)
     {
       $this->_ = $_;
       $this->ExtraAdults = $ExtraAdults;

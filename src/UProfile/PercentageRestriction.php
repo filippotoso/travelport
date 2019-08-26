@@ -13,7 +13,7 @@ class PercentageRestriction
     /**
      * @param typeAction $Action
      */
-    public function __construct($Action = null)
+    public function __construct($Action)
     {
       $this->Action = $Action;
     }

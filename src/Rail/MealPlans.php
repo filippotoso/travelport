@@ -30,7 +30,7 @@ class MealPlans
      * @param typeTrinary $Lunch
      * @param typeTrinary $Dinner
      */
-    public function __construct($Breakfast = null, $Lunch = null, $Dinner = null)
+    public function __construct($Breakfast, $Lunch, $Dinner)
     {
       $this->Breakfast = $Breakfast;
       $this->Lunch = $Lunch;

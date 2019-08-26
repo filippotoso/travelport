@@ -14,7 +14,7 @@ class RailCreateReservationRsp extends typeRailCreateReservationRsp
      * @param UniversalRecord $UniversalRecord
      * @param RailSolutionChangedInfo $RailSolutionChangedInfo
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $UniversalRecord = null, $RailSolutionChangedInfo = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $UniversalRecord, $RailSolutionChangedInfo)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $UniversalRecord, $RailSolutionChangedInfo);
     }

@@ -108,7 +108,7 @@ class typeFeeInfo
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($IncludedInBase = null, $BaseAmount = null, $Description = null, $SubCode = null, $Key = null, $Amount = null, $Code = null, $FeeToken = null, $PaymentRef = null, $BookingTravelerRef = null, $PassengerTypeCode = null, $Text = null, $ProviderCode = null, $SupplierCode = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($IncludedInBase, $BaseAmount, $Description, $SubCode, $Key, $Amount, $Code, $FeeToken, $PaymentRef, $BookingTravelerRef, $PassengerTypeCode, $Text, $ProviderCode, $SupplierCode, $ElStat, $KeyOverride)
     {
       $this->IncludedInBase = $IncludedInBase;
       $this->BaseAmount = $BaseAmount;

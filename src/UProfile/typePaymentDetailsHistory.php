@@ -78,7 +78,7 @@ class typePaymentDetailsHistory extends typeKeyElement
      * @param typePriorityOrder $PriorityOrder
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $PaymentPhone = null, $PaymentAddress = null, $Type = null, $IssuedToName = null, $ExtendedPayment = null, $PaymentSupplier = null, $AccountNumber = null, $Description = null, $PriorityOrder = null, $OwnerID = null)
+    public function __construct($Key, $PaymentPhone, $PaymentAddress, $Type, $IssuedToName, $ExtendedPayment, $PaymentSupplier, $AccountNumber, $Description, $PriorityOrder, $OwnerID)
     {
       parent::__construct($Key);
       $this->PaymentPhone = $PaymentPhone;

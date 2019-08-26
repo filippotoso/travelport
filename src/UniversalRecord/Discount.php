@@ -19,7 +19,7 @@ class Discount
      * @param typeMoney $Amount
      * @param StringLength1to13 $Description
      */
-    public function __construct($Amount = null, $Description = null)
+    public function __construct($Amount, $Description)
     {
       $this->Amount = $Amount;
       $this->Description = $Description;

@@ -19,7 +19,7 @@ class HotelUpsellOfferSearchCriteria
      * @param CorporateDiscountID $CorporateDiscountID
      * @param typeRatePlanType $RatePlanType
      */
-    public function __construct($CorporateDiscountID = null, $RatePlanType = null)
+    public function __construct($CorporateDiscountID, $RatePlanType)
     {
       $this->CorporateDiscountID = $CorporateDiscountID;
       $this->RatePlanType = $RatePlanType;

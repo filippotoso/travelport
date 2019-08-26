@@ -61,7 +61,7 @@ class VehicleDetail
     protected $FuelType = null;
 
     /**
-     * @var anonymous1114 $AcrissVehicleCode
+     * @var anonymous1112 $AcrissVehicleCode
      */
     protected $AcrissVehicleCode = null;
 
@@ -82,10 +82,10 @@ class VehicleDetail
      * @param typeVehicleTransmission $Transmission
      * @param string $MakeModel
      * @param typeFuel $FuelType
-     * @param anonymous1114 $AcrissVehicleCode
+     * @param anonymous1112 $AcrissVehicleCode
      * @param boolean $PreferredOption
      */
-    public function __construct($Code = null, $SupplierCode = null, $PassengerCount = null, $NumberOfDoors = null, $BagCount = null, $Class = null, $Category = null, $AirConditioning = null, $Transmission = null, $MakeModel = null, $FuelType = null, $AcrissVehicleCode = null, $PreferredOption = null)
+    public function __construct($Code, $SupplierCode, $PassengerCount, $NumberOfDoors, $BagCount, $Class, $Category, $AirConditioning, $Transmission, $MakeModel, $FuelType, $AcrissVehicleCode, $PreferredOption)
     {
       $this->Code = $Code;
       $this->SupplierCode = $SupplierCode;
@@ -301,7 +301,7 @@ class VehicleDetail
     }
 
     /**
-     * @return anonymous1114
+     * @return anonymous1112
      */
     public function getAcrissVehicleCode()
     {
@@ -309,7 +309,7 @@ class VehicleDetail
     }
 
     /**
-     * @param anonymous1114 $AcrissVehicleCode
+     * @param anonymous1112 $AcrissVehicleCode
      * @return \FilippoToso\Travelport\UniversalRecord\VehicleDetail
      */
     public function setAcrissVehicleCode($AcrissVehicleCode)

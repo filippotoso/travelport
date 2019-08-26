@@ -26,7 +26,7 @@ class FixedGroupUpdate extends typeCommonEditableGroup
      * @param int $MaxOccurs
      * @param int $MinOccurs
      */
-    public function __construct($ID = null, $MinOccursOverride = null, $MaxOccursOverride = null, $Label = null, $DisplayOrder = null, $Inheritable = null, $Hide = null, $MaxOccurs = null, $MinOccurs = null)
+    public function __construct($ID, $MinOccursOverride, $MaxOccursOverride, $Label, $DisplayOrder, $Inheritable, $Hide, $MaxOccurs, $MinOccurs)
     {
       parent::__construct($ID, $MinOccursOverride, $MaxOccursOverride, $Label, $DisplayOrder, $Inheritable, $Hide);
       $this->MaxOccurs = $MaxOccurs;

@@ -162,7 +162,7 @@ class HotelSearchModifiers
      * @param int $NumOfRatePlans
      * @param boolean $ReturnAmenities
      */
-    public function __construct($PermittedProviders = null, $PermittedAggregators = null, $LoyaltyCard = null, $CorporateDiscountID = null, $HotelRating = null, $SearchPriority = null, $HotelBedding = null, $NumberOfChildren = null, $BookingGuestInformation = null, $NumberOfAdults = null, $NumberOfRooms = null, $MaxProperties = null, $IsRelaxed = null, $PreferredCurrency = null, $AvailableHotelsOnly = null, $MaxWait = null, $AggregateResults = null, $ReturnPropertyDescription = null, $NumOfRatePlans = null, $ReturnAmenities = null)
+    public function __construct($PermittedProviders, $PermittedAggregators, $LoyaltyCard, $CorporateDiscountID, $HotelRating, $SearchPriority, $HotelBedding, $NumberOfChildren, $BookingGuestInformation, $NumberOfAdults, $NumberOfRooms, $MaxProperties, $IsRelaxed, $PreferredCurrency, $AvailableHotelsOnly, $MaxWait, $AggregateResults, $ReturnPropertyDescription, $NumOfRatePlans, $ReturnAmenities)
     {
       $this->PermittedProviders = $PermittedProviders;
       $this->PermittedAggregators = $PermittedAggregators;

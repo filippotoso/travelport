@@ -19,7 +19,7 @@ class CoordinateLocation extends Location
      * @param float $latitude
      * @param float $longitude
      */
-    public function __construct($latitude = null, $longitude = null)
+    public function __construct($latitude, $longitude)
     {
       $this->latitude = $latitude;
       $this->longitude = $longitude;

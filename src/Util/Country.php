@@ -43,7 +43,7 @@ class Country
      * @param typeIATACode $IataCode
      * @param string $Continent
      */
-    public function __construct($Code = null, $Name = null, $ExtendedCode = null, $CurrencyCode = null, $IataCode = null, $Continent = null)
+    public function __construct($Code, $Name, $ExtendedCode, $CurrencyCode, $IataCode, $Continent)
     {
       $this->Code = $Code;
       $this->Name = $Name;

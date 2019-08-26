@@ -66,7 +66,7 @@ class PenaltyInformation
     protected $Refundable = null;
 
     /**
-     * @var anonymous1069 $ChangeFeeApplicationCode
+     * @var anonymous1067 $ChangeFeeApplicationCode
      */
     protected $ChangeFeeApplicationCode = null;
 
@@ -83,9 +83,9 @@ class PenaltyInformation
      * @param typeCurrency $FiledCurrency
      * @param float $ConversionRate
      * @param boolean $Refundable
-     * @param anonymous1069 $ChangeFeeApplicationCode
+     * @param anonymous1067 $ChangeFeeApplicationCode
      */
-    public function __construct($_ = null, $Carrier = null, $FareBasis = null, $FareComponent = null, $PriceableUnit = null, $BoardPoint = null, $OffPoint = null, $MinimumChangeFee = null, $MaximumChangeFee = null, $FiledCurrency = null, $ConversionRate = null, $Refundable = null, $ChangeFeeApplicationCode = null)
+    public function __construct($_, $Carrier, $FareBasis, $FareComponent, $PriceableUnit, $BoardPoint, $OffPoint, $MinimumChangeFee, $MaximumChangeFee, $FiledCurrency, $ConversionRate, $Refundable, $ChangeFeeApplicationCode)
     {
       $this->_ = $_;
       $this->Carrier = $Carrier;
@@ -319,7 +319,7 @@ class PenaltyInformation
     }
 
     /**
-     * @return anonymous1069
+     * @return anonymous1067
      */
     public function getChangeFeeApplicationCode()
     {
@@ -327,7 +327,7 @@ class PenaltyInformation
     }
 
     /**
-     * @param anonymous1069 $ChangeFeeApplicationCode
+     * @param anonymous1067 $ChangeFeeApplicationCode
      * @return \FilippoToso\Travelport\Util\PenaltyInformation
      */
     public function setChangeFeeApplicationCode($ChangeFeeApplicationCode)

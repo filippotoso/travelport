@@ -25,7 +25,7 @@ class NameOverride
      * @param anonymous425 $Last
      * @param int $Age
      */
-    public function __construct($First = null, $Last = null, $Age = null)
+    public function __construct($First, $Last, $Age)
     {
       $this->First = $First;
       $this->Last = $Last;

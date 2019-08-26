@@ -35,7 +35,7 @@ class SupplierRate extends typeVehicleRates
      * @param typeMoney $MandatoryChargeTotal
      * @param typeMoney $ApproximateTotal
      */
-    public function __construct($EstimatedTotalAmount = null, $BaseRate = null, $RateForPeriod = null, $DropOffCharge = null, $YoungDriverCharge = null, $SeniorDriverCharge = null, $FuelSurcharge = null, $ExtraMileageCharge = null, $PayNow = null, $PayLater = null, $DiscountAmount = null, $MandatoryChargeTotal = null, $ApproximateTotal = null)
+    public function __construct($EstimatedTotalAmount, $BaseRate, $RateForPeriod, $DropOffCharge, $YoungDriverCharge, $SeniorDriverCharge, $FuelSurcharge, $ExtraMileageCharge, $PayNow, $PayLater, $DiscountAmount, $MandatoryChargeTotal, $ApproximateTotal)
     {
       parent::__construct($EstimatedTotalAmount, $BaseRate, $RateForPeriod, $DropOffCharge, $YoungDriverCharge, $SeniorDriverCharge, $FuelSurcharge, $ExtraMileageCharge, $PayNow, $PayLater);
       $this->DiscountAmount = $DiscountAmount;

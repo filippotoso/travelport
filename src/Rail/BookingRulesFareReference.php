@@ -43,7 +43,7 @@ class BookingRulesFareReference
      * @param boolean $UpgrageAllowed
      * @param typeClassOfService $UpgradeClassOfService
      */
-    public function __construct($_ = null, $ClassOfService = null, $TicketDesignatorCode = null, $AccountCode = null, $UpgrageAllowed = null, $UpgradeClassOfService = null)
+    public function __construct($_, $ClassOfService, $TicketDesignatorCode, $AccountCode, $UpgrageAllowed, $UpgradeClassOfService)
     {
       $this->_ = $_;
       $this->ClassOfService = $ClassOfService;

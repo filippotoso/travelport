@@ -16,7 +16,7 @@ class ProviderReservationDivideReq extends BaseReq
     protected $UniversalRecordLocatorCode = null;
 
     /**
-     * @var anonymous1477 $CreateChildUniversalRecord
+     * @var anonymous1475 $CreateChildUniversalRecord
      */
     protected $CreateChildUniversalRecord = null;
 
@@ -44,11 +44,11 @@ class ProviderReservationDivideReq extends BaseReq
      * @param boolean $RetrieveProviderReservationDetails
      * @param BookingTravelerRef[] $BookingTravelerRef
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @param anonymous1477 $CreateChildUniversalRecord
+     * @param anonymous1475 $CreateChildUniversalRecord
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, array $BookingTravelerRef = null, $UniversalRecordLocatorCode = null, $CreateChildUniversalRecord = null, $ProviderCode = null, $ProviderLocatorCode = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, array $BookingTravelerRef, $UniversalRecordLocatorCode, $CreateChildUniversalRecord, $ProviderCode, $ProviderLocatorCode)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->BookingTravelerRef = $BookingTravelerRef;
@@ -95,7 +95,7 @@ class ProviderReservationDivideReq extends BaseReq
     }
 
     /**
-     * @return anonymous1477
+     * @return anonymous1475
      */
     public function getCreateChildUniversalRecord()
     {
@@ -103,7 +103,7 @@ class ProviderReservationDivideReq extends BaseReq
     }
 
     /**
-     * @param anonymous1477 $CreateChildUniversalRecord
+     * @param anonymous1475 $CreateChildUniversalRecord
      * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideReq
      */
     public function setCreateChildUniversalRecord($CreateChildUniversalRecord)

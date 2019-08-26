@@ -19,7 +19,7 @@ class typeFormOfPaymentPNRReference
      * @param typeRef $Key
      * @param boolean $ProviderReservationLevel
      */
-    public function __construct($Key = null, $ProviderReservationLevel = null)
+    public function __construct($Key, $ProviderReservationLevel)
     {
       $this->Key = $Key;
       $this->ProviderReservationLevel = $ProviderReservationLevel;

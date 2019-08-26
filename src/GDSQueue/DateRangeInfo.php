@@ -25,7 +25,7 @@ class DateRangeInfo
      * @param string $Title
      * @param int $Count
      */
-    public function __construct($DateRange = null, $Title = null, $Count = null)
+    public function __construct($DateRange, $Title, $Count)
     {
       $this->DateRange = $DateRange;
       $this->Title = $Title;

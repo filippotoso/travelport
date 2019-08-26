@@ -13,7 +13,7 @@ class ListRetrieve
     /**
      * @param typeProviderReservationDetail $ProviderReservationDetail
      */
-    public function __construct($ProviderReservationDetail = null)
+    public function __construct($ProviderReservationDetail)
     {
       $this->ProviderReservationDetail = $ProviderReservationDetail;
     }

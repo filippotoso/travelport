@@ -13,7 +13,7 @@ class RuleInfo
     /**
      * @param ChargesRules $ChargesRules
      */
-    public function __construct($ChargesRules = null)
+    public function __construct($ChargesRules)
     {
       $this->ChargesRules = $ChargesRules;
     }

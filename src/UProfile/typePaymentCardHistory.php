@@ -54,7 +54,7 @@ class typePaymentCardHistory
      * @param anonymous904 $CVV
      * @param anonymous905 $ApprovalCode
      */
-    public function __construct($PhoneNumberHistory = null, $Type = null, $Number = null, $ExpDate = null, $Name = null, $CVV = null, $ApprovalCode = null)
+    public function __construct($PhoneNumberHistory, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode)
     {
       $this->PhoneNumberHistory = $PhoneNumberHistory;
       $this->Type = $Type;

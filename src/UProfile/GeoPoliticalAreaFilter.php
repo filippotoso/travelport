@@ -25,7 +25,7 @@ class GeoPoliticalAreaFilter
      * @param typeGeoPoliticalAreaType $GeoPoliticalAreaType
      * @param typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
      */
-    public function __construct($FilterType = null, $GeoPoliticalAreaType = null, $GeoPoliticalAreaCode = null)
+    public function __construct($FilterType, $GeoPoliticalAreaType, $GeoPoliticalAreaCode)
     {
       $this->FilterType = $FilterType;
       $this->GeoPoliticalAreaType = $GeoPoliticalAreaType;

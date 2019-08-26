@@ -13,7 +13,7 @@ class typeTextBlock
     /**
      * @param Text[] $Text
      */
-    public function __construct(array $Text = null)
+    public function __construct(array $Text)
     {
       $this->Text = $Text;
     }

@@ -43,7 +43,7 @@ class RefundFailureInfo
      * @param int $Code
      * @param string $Message
      */
-    public function __construct($TicketNumber = null, $Name = null, $TCRNumber = null, array $BookingTravelerRef = null, $Code = null, $Message = null)
+    public function __construct($TicketNumber, $Name, $TCRNumber, array $BookingTravelerRef, $Code, $Message)
     {
       $this->TicketNumber = $TicketNumber;
       $this->Name = $Name;

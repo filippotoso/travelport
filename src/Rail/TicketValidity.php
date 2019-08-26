@@ -19,7 +19,7 @@ class TicketValidity
      * @param date $NotValidBefore
      * @param date $NotValidAfter
      */
-    public function __construct($NotValidBefore = null, $NotValidAfter = null)
+    public function __construct($NotValidBefore, $NotValidAfter)
     {
       $this->NotValidBefore = $NotValidBefore;
       $this->NotValidAfter = $NotValidAfter;

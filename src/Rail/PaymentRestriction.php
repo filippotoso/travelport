@@ -19,7 +19,7 @@ class PaymentRestriction
      * @param CardRestriction $CardRestriction
      * @param AddressRestriction $AddressRestriction
      */
-    public function __construct($CardRestriction = null, $AddressRestriction = null)
+    public function __construct($CardRestriction, $AddressRestriction)
     {
       $this->CardRestriction = $CardRestriction;
       $this->AddressRestriction = $AddressRestriction;

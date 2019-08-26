@@ -18,7 +18,7 @@ class UniversalRecordCancelRsp extends BaseRsp
      * @param string $CommandHistory
      * @param ProviderReservationStatus $ProviderReservationStatus
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ProviderReservationStatus = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ProviderReservationStatus)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ProviderReservationStatus = $ProviderReservationStatus;

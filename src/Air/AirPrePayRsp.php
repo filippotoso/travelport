@@ -36,7 +36,7 @@ class AirPrePayRsp extends BaseRsp
      * @param boolean $MoreIndicator
      * @param string $MoreDataStartIndex
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $PrePayProfileInfo = null, $MaxResults = null, $MoreIndicator = null, $MoreDataStartIndex = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $PrePayProfileInfo, $MaxResults, $MoreIndicator, $MoreDataStartIndex)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->PrePayProfileInfo = $PrePayProfileInfo;

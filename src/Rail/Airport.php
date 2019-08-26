@@ -13,7 +13,7 @@ class Airport extends Location
     /**
      * @param typeIATACode $Code
      */
-    public function __construct($Code = null)
+    public function __construct($Code)
     {
       $this->Code = $Code;
     }

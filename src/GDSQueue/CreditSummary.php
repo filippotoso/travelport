@@ -25,7 +25,7 @@ class CreditSummary
      * @param float $CurrentBalance
      * @param float $InitialCredit
      */
-    public function __construct($CurrencyCode = null, $CurrentBalance = null, $InitialCredit = null)
+    public function __construct($CurrencyCode, $CurrentBalance, $InitialCredit)
     {
       $this->CurrencyCode = $CurrencyCode;
       $this->CurrentBalance = $CurrentBalance;

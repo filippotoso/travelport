@@ -39,7 +39,7 @@ class HotelUpsellQualifySearchCriteria extends UpsellSearchCriteria
      * @param typeIATACode $HotelLocation
      * @param typeRatePlanType $RatePlanType
      */
-    public function __construct($EffectiveDate = null, $ExpirationDate = null, $CorporateDiscountID = null, $HotelChainCode = null, $HotelCode = null, $HotelLocation = null, $RatePlanType = null)
+    public function __construct($EffectiveDate, $ExpirationDate, $CorporateDiscountID, $HotelChainCode, $HotelCode, $HotelLocation, $RatePlanType)
     {
       parent::__construct($EffectiveDate, $ExpirationDate);
       $this->CorporateDiscountID = $CorporateDiscountID;

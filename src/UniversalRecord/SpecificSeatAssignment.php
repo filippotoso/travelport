@@ -26,7 +26,7 @@ class SpecificSeatAssignment
     protected $SeatId = null;
 
     /**
-     * @var anonymous724 $RailCoachNumber
+     * @var anonymous721 $RailCoachNumber
      */
     protected $RailCoachNumber = null;
 
@@ -35,9 +35,9 @@ class SpecificSeatAssignment
      * @param typeRef $SegmentRef
      * @param typeRef $FlightDetailRef
      * @param string $SeatId
-     * @param anonymous724 $RailCoachNumber
+     * @param anonymous721 $RailCoachNumber
      */
-    public function __construct($BookingTravelerRef = null, $SegmentRef = null, $FlightDetailRef = null, $SeatId = null, $RailCoachNumber = null)
+    public function __construct($BookingTravelerRef, $SegmentRef, $FlightDetailRef, $SeatId, $RailCoachNumber)
     {
       $this->BookingTravelerRef = $BookingTravelerRef;
       $this->SegmentRef = $SegmentRef;
@@ -119,7 +119,7 @@ class SpecificSeatAssignment
     }
 
     /**
-     * @return anonymous724
+     * @return anonymous721
      */
     public function getRailCoachNumber()
     {
@@ -127,7 +127,7 @@ class SpecificSeatAssignment
     }
 
     /**
-     * @param anonymous724 $RailCoachNumber
+     * @param anonymous721 $RailCoachNumber
      * @return \FilippoToso\Travelport\UniversalRecord\SpecificSeatAssignment
      */
     public function setRailCoachNumber($RailCoachNumber)

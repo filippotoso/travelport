@@ -31,7 +31,7 @@ class AirExchangeBundle
      * @param typeTaxInfo $TaxInfo
      * @param Penalty $Penalty
      */
-    public function __construct($AirExchangeInfo = null, $AirPricingInfoRef = null, $TaxInfo = null, $Penalty = null)
+    public function __construct($AirExchangeInfo, $AirPricingInfoRef, $TaxInfo, $Penalty)
     {
       $this->AirExchangeInfo = $AirExchangeInfo;
       $this->AirPricingInfoRef = $AirPricingInfoRef;

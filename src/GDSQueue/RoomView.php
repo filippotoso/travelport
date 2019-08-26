@@ -13,7 +13,7 @@ class RoomView
     /**
      * @param typeOTACode $Code
      */
-    public function __construct($Code = null)
+    public function __construct($Code)
     {
       $this->Code = $Code;
     }

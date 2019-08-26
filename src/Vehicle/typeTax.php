@@ -19,7 +19,7 @@ class typeTax
      * @param typeMoney $Amount
      * @param string $Code
      */
-    public function __construct($Amount = null, $Code = null)
+    public function __construct($Amount, $Code)
     {
       $this->Amount = $Amount;
       $this->Code = $Code;

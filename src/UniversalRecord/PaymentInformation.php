@@ -13,10 +13,10 @@ class PaymentInformation extends typePaymentInformation
     /**
      * @param string $BillingNumber
      * @param string $BillingReferenceNumber
-     * @param anonymous1124 $PrePayment
+     * @param anonymous1122 $PrePayment
      * @param typeRef $Key
      */
-    public function __construct($BillingNumber = null, $BillingReferenceNumber = null, $PrePayment = null, $Key = null)
+    public function __construct($BillingNumber, $BillingReferenceNumber, $PrePayment, $Key)
     {
       parent::__construct($BillingNumber, $BillingReferenceNumber, $PrePayment);
       $this->Key = $Key;

@@ -18,7 +18,7 @@ class TotalPenaltyTaxInfo
     /**
      * @param typeMoney $TotalPenaltyTax
      */
-    public function __construct($TotalPenaltyTax = null)
+    public function __construct($TotalPenaltyTax)
     {
       $this->TotalPenaltyTax = $TotalPenaltyTax;
     }

@@ -47,7 +47,7 @@ class AirReservationCriteria
      * @param typeCarrier $Carrier
      * @param boolean $PassiveOnly
      */
-    public function __construct($Origin = null, $Destination = null, $FlightNumber = null, $Carrier = null, $PassiveOnly = null)
+    public function __construct($Origin, $Destination, $FlightNumber, $Carrier, $PassiveOnly)
     {
       $this->Origin = $Origin;
       $this->Destination = $Destination;

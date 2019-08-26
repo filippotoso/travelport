@@ -31,7 +31,7 @@ class PassengerTypeLevel
      * @param typePercentageWithDecimal $Percentage
      * @param typeMoney $CommissionCap
      */
-    public function __construct($TravelerType = null, $Amount = null, $Percentage = null, $CommissionCap = null)
+    public function __construct($TravelerType, $Amount, $Percentage, $CommissionCap)
     {
       $this->TravelerType = $TravelerType;
       $this->Amount = $Amount;

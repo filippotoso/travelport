@@ -19,7 +19,7 @@ class BaseAsyncProviderSpecificResponse
      * @param typeProviderCode $ProviderCode
      * @param boolean $MoreResults
      */
-    public function __construct($ProviderCode = null, $MoreResults = null)
+    public function __construct($ProviderCode, $MoreResults)
     {
       $this->ProviderCode = $ProviderCode;
       $this->MoreResults = $MoreResults;

@@ -24,7 +24,7 @@ class GdsNextOnQueueRsp extends BaseRsp
      * @param UniversalRecord $UniversalRecord
      * @param string $QueueSessionToken
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $UniversalRecord = null, $QueueSessionToken = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $UniversalRecord, $QueueSessionToken)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->UniversalRecord = $UniversalRecord;

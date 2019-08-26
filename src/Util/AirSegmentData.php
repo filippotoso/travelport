@@ -37,7 +37,7 @@ class AirSegmentData
      * @param string $CabinClass
      * @param typeClassOfService $ClassOfService
      */
-    public function __construct($AirSegmentRef = null, $BaggageAllowance = null, $Brand = null, $CabinClass = null, $ClassOfService = null)
+    public function __construct($AirSegmentRef, $BaggageAllowance, $Brand, $CabinClass, $ClassOfService)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->BaggageAllowance = $BaggageAllowance;

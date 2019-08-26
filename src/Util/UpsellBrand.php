@@ -19,7 +19,7 @@ class UpsellBrand
      * @param string $FareBasis
      * @param string $FareInfoRef
      */
-    public function __construct($FareBasis = null, $FareInfoRef = null)
+    public function __construct($FareBasis, $FareInfoRef)
     {
       $this->FareBasis = $FareBasis;
       $this->FareInfoRef = $FareInfoRef;

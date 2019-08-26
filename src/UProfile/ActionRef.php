@@ -15,7 +15,7 @@ class ActionRef extends typeActionReference
      * @param string $ProfileActionCode
      * @param EndpointRef $EndpointRef
      */
-    public function __construct($ID = null, $ProfileActionCode = null, $EndpointRef = null)
+    public function __construct($ID, $ProfileActionCode, $EndpointRef)
     {
       parent::__construct($ID, $ProfileActionCode);
       $this->EndpointRef = $EndpointRef;

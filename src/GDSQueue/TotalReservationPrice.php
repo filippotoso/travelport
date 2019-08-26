@@ -24,7 +24,7 @@ class TotalReservationPrice
      * @param typeMoney $TotalPrice
      * @param typeMoney $ApproxTotalPrice
      */
-    public function __construct($TotalPrice = null, $ApproxTotalPrice = null)
+    public function __construct($TotalPrice, $ApproxTotalPrice)
     {
       $this->TotalPrice = $TotalPrice;
       $this->ApproxTotalPrice = $ApproxTotalPrice;

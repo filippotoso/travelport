@@ -81,7 +81,7 @@ class BaseAirPriceReq extends BaseCoreReq
     protected $ReturnMM = null;
 
     /**
-     * @var anonymous1147 $NSCC
+     * @var anonymous1145 $NSCC
      */
     protected $NSCC = null;
 
@@ -89,6 +89,11 @@ class BaseAirPriceReq extends BaseCoreReq
      * @var boolean $SplitPricing
      */
     protected $SplitPricing = null;
+
+    /**
+     * @var boolean $IgnoreAvailability
+     */
+    protected $IgnoreAvailability = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo
@@ -115,10 +120,11 @@ class BaseAirPriceReq extends BaseCoreReq
      * @param date $TicketDate
      * @param boolean $CheckFlightDetails
      * @param boolean $ReturnMM
-     * @param anonymous1147 $NSCC
+     * @param anonymous1145 $NSCC
      * @param boolean $SplitPricing
+     * @param boolean $IgnoreAvailability
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $AirItinerary = null, $AirPricingModifiers = null, $SearchPassenger = null, $AirPricingCommand = null, $AirReservationLocatorCode = null, $OptionalServices = null, $FormOfPayment = null, $PCC = null, $SSR = null, $CheckOBFees = null, $FareRuleType = null, $SupplierCode = null, $TicketDate = null, $CheckFlightDetails = null, $ReturnMM = null, $NSCC = null, $SplitPricing = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $AirItinerary, $AirPricingModifiers, $SearchPassenger, $AirPricingCommand, $AirReservationLocatorCode, $OptionalServices, $FormOfPayment, $PCC, $SSR, $CheckOBFees, $FareRuleType, $SupplierCode, $TicketDate, $CheckFlightDetails, $ReturnMM, $NSCC, $SplitPricing, $IgnoreAvailability)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode);
       $this->AirItinerary = $AirItinerary;
@@ -138,6 +144,7 @@ class BaseAirPriceReq extends BaseCoreReq
       $this->ReturnMM = $ReturnMM;
       $this->NSCC = $NSCC;
       $this->SplitPricing = $SplitPricing;
+      $this->IgnoreAvailability = $IgnoreAvailability;
     }
 
     /**
@@ -411,7 +418,7 @@ class BaseAirPriceReq extends BaseCoreReq
     }
 
     /**
-     * @return anonymous1147
+     * @return anonymous1145
      */
     public function getNSCC()
     {
@@ -419,7 +426,7 @@ class BaseAirPriceReq extends BaseCoreReq
     }
 
     /**
-     * @param anonymous1147 $NSCC
+     * @param anonymous1145 $NSCC
      * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
      */
     public function setNSCC($NSCC)
@@ -443,6 +450,24 @@ class BaseAirPriceReq extends BaseCoreReq
     public function setSplitPricing($SplitPricing)
     {
       $this->SplitPricing = $SplitPricing;
+      return $this;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function getIgnoreAvailability()
+    {
+      return $this->IgnoreAvailability;
+    }
+
+    /**
+     * @param boolean $IgnoreAvailability
+     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     */
+    public function setIgnoreAvailability($IgnoreAvailability)
+    {
+      $this->IgnoreAvailability = $IgnoreAvailability;
       return $this;
     }
 

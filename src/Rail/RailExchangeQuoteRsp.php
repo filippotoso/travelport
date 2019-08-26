@@ -54,7 +54,7 @@ class RailExchangeQuoteRsp extends BaseRsp
      * @param RailFareList $RailFareList
      * @param HostTokenList $HostTokenList
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $RailSegmentList = null, $RailJourneyList = null, $RailExchangeSolution = null, $RailFareNoteList = null, $RailFareIDList = null, $RailFareList = null, $HostTokenList = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $RailSegmentList, $RailJourneyList, $RailExchangeSolution, $RailFareNoteList, $RailFareIDList, $RailFareList, $HostTokenList)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->RailSegmentList = $RailSegmentList;

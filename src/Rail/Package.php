@@ -11,7 +11,7 @@ class Package
     protected $Name = null;
 
     /**
-     * @var anonymous1356 $Identifier
+     * @var anonymous1354 $Identifier
      */
     protected $Identifier = null;
 
@@ -27,11 +27,11 @@ class Package
 
     /**
      * @param StringLength1to30 $Name
-     * @param anonymous1356 $Identifier
+     * @param anonymous1354 $Identifier
      * @param int $PassengerCount
      * @param StringLength1to14 $PackageIdentifier
      */
-    public function __construct($Name = null, $Identifier = null, $PassengerCount = null, $PackageIdentifier = null)
+    public function __construct($Name, $Identifier, $PassengerCount, $PackageIdentifier)
     {
       $this->Name = $Name;
       $this->Identifier = $Identifier;
@@ -58,7 +58,7 @@ class Package
     }
 
     /**
-     * @return anonymous1356
+     * @return anonymous1354
      */
     public function getIdentifier()
     {
@@ -66,7 +66,7 @@ class Package
     }
 
     /**
-     * @param anonymous1356 $Identifier
+     * @param anonymous1354 $Identifier
      * @return \FilippoToso\Travelport\Rail\Package
      */
     public function setIdentifier($Identifier)

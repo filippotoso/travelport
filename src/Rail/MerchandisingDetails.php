@@ -19,7 +19,7 @@ class MerchandisingDetails
      * @param AirItineraryDetails $AirItineraryDetails
      * @param AccountCode $AccountCode
      */
-    public function __construct($AirItineraryDetails = null, $AccountCode = null)
+    public function __construct($AirItineraryDetails, $AccountCode)
     {
       $this->AirItineraryDetails = $AirItineraryDetails;
       $this->AccountCode = $AccountCode;

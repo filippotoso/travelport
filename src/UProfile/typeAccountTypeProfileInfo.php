@@ -15,7 +15,7 @@ class typeAccountTypeProfileInfo extends typeProfileInfo
      * @param typeDescription $Description
      * @param StringLength1to255 $MidOfficeID
      */
-    public function __construct($AdditionalIdentifier = null, $Description = null, $MidOfficeID = null)
+    public function __construct($AdditionalIdentifier, $Description, $MidOfficeID)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->MidOfficeID = $MidOfficeID;

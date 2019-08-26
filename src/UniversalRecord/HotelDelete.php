@@ -25,7 +25,7 @@ class HotelDelete
      * @param typeElement $Element
      * @param typeRef $Key
      */
-    public function __construct($ReservationLocatorCode = null, $Element = null, $Key = null)
+    public function __construct($ReservationLocatorCode, $Element, $Key)
     {
       $this->ReservationLocatorCode = $ReservationLocatorCode;
       $this->Element = $Element;

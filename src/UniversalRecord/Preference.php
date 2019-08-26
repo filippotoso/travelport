@@ -6,20 +6,20 @@ class Preference
 {
 
     /**
-     * @var anonymous1453 $Owner
+     * @var anonymous1451 $Owner
      */
     protected $Owner = null;
 
     /**
-     * @param anonymous1453 $Owner
+     * @param anonymous1451 $Owner
      */
-    public function __construct($Owner = null)
+    public function __construct($Owner)
     {
       $this->Owner = $Owner;
     }
 
     /**
-     * @return anonymous1453
+     * @return anonymous1451
      */
     public function getOwner()
     {
@@ -27,7 +27,7 @@ class Preference
     }
 
     /**
-     * @param anonymous1453 $Owner
+     * @param anonymous1451 $Owner
      * @return \FilippoToso\Travelport\UniversalRecord\Preference
      */
     public function setOwner($Owner)

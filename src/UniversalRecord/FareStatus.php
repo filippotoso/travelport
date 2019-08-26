@@ -19,7 +19,7 @@ class FareStatus
      * @param FareStatusFailureInfo $FareStatusFailureInfo
      * @param typeFareStatusCode $Code
      */
-    public function __construct($FareStatusFailureInfo = null, $Code = null)
+    public function __construct($FareStatusFailureInfo, $Code)
     {
       $this->FareStatusFailureInfo = $FareStatusFailureInfo;
       $this->Code = $Code;

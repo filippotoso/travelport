@@ -43,7 +43,7 @@ class DiscountCard
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key = null, $Code = null, $Description = null, $Number = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Key, $Code, $Description, $Number, $ElStat, $KeyOverride)
     {
       $this->Key = $Key;
       $this->Code = $Code;

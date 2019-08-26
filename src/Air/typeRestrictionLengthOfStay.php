@@ -31,7 +31,7 @@ class typeRestrictionLengthOfStay
      * @param date $StayDate
      * @param boolean $MoreRulesPresent
      */
-    public function __construct($Length = null, $StayUnit = null, $StayDate = null, $MoreRulesPresent = null)
+    public function __construct($Length, $StayUnit, $StayDate, $MoreRulesPresent)
     {
       $this->Length = $Length;
       $this->StayUnit = $StayUnit;

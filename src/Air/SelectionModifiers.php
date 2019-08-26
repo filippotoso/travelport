@@ -21,16 +21,16 @@ class SelectionModifiers
     protected $SupplierCode = null;
 
     /**
-     * @var anonymous1076 $RFIC
+     * @var anonymous1074 $RFIC
      */
     protected $RFIC = null;
 
     /**
      * @param AirSegmentRef $AirSegmentRef
      * @param typeCarrier $SupplierCode
-     * @param anonymous1076 $RFIC
+     * @param anonymous1074 $RFIC
      */
-    public function __construct($AirSegmentRef = null, $SupplierCode = null, $RFIC = null)
+    public function __construct($AirSegmentRef, $SupplierCode, $RFIC)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->SupplierCode = $SupplierCode;
@@ -92,7 +92,7 @@ class SelectionModifiers
     }
 
     /**
-     * @return anonymous1076
+     * @return anonymous1074
      */
     public function getRFIC()
     {
@@ -100,7 +100,7 @@ class SelectionModifiers
     }
 
     /**
-     * @param anonymous1076 $RFIC
+     * @param anonymous1074 $RFIC
      * @return \FilippoToso\Travelport\Air\SelectionModifiers
      */
     public function setRFIC($RFIC)

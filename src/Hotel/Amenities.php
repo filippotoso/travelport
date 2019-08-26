@@ -13,7 +13,7 @@ class Amenities
     /**
      * @param Amenity $Amenity
      */
-    public function __construct($Amenity = null)
+    public function __construct($Amenity)
     {
       $this->Amenity = $Amenity;
     }

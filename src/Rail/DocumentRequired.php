@@ -31,7 +31,7 @@ class DocumentRequired
      * @param string $DocId
      * @param string $AllowedIds
      */
-    public function __construct($DocType = null, $IncludeExcludeUseInd = null, $DocId = null, $AllowedIds = null)
+    public function __construct($DocType, $IncludeExcludeUseInd, $DocId, $AllowedIds)
     {
       $this->DocType = $DocType;
       $this->IncludeExcludeUseInd = $IncludeExcludeUseInd;

@@ -13,7 +13,7 @@ class VehicleSearchId
     /**
      * @param string $MediaLinksSearchId
      */
-    public function __construct($MediaLinksSearchId = null)
+    public function __construct($MediaLinksSearchId)
     {
       $this->MediaLinksSearchId = $MediaLinksSearchId;
     }

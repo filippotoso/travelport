@@ -19,7 +19,7 @@ class ProviderLocation
      * @param typeProviderCode $ProviderCode
      * @param anonymous561 $Location
      */
-    public function __construct($ProviderCode = null, $Location = null)
+    public function __construct($ProviderCode, $Location)
     {
       $this->ProviderCode = $ProviderCode;
       $this->Location = $Location;

@@ -19,7 +19,7 @@ class Entry
      * @param string $Reason
      * @param string $Description
      */
-    public function __construct($Reason = null, $Description = null)
+    public function __construct($Reason, $Description)
     {
       $this->Reason = $Reason;
       $this->Description = $Description;

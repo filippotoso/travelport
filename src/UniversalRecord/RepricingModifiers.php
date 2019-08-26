@@ -66,7 +66,7 @@ class RepricingModifiers
     protected $AccountCode = null;
 
     /**
-     * @var anonymous1040 $PenaltyAsTaxCode
+     * @var anonymous1038 $PenaltyAsTaxCode
      */
     protected $PenaltyAsTaxCode = null;
 
@@ -101,12 +101,12 @@ class RepricingModifiers
     protected $JetServiceOnly = null;
 
     /**
-     * @var anonymous1041 $TimeWindow
+     * @var anonymous1039 $TimeWindow
      */
     protected $TimeWindow = null;
 
     /**
-     * @var anonymous1042 $FlightType
+     * @var anonymous1040 $FlightType
      */
     protected $FlightType = null;
 
@@ -130,19 +130,19 @@ class RepricingModifiers
      * @param typeCountry $ReissueLocCountryCode
      * @param boolean $BulkTicket
      * @param string $AccountCode
-     * @param anonymous1040 $PenaltyAsTaxCode
+     * @param anonymous1038 $PenaltyAsTaxCode
      * @param typeRef $AirPricingSolutionRef
      * @param boolean $PenaltyToFare
      * @param boolean $PricePTCOnly
      * @param boolean $BrandDetails
      * @param string $BrandModifier
      * @param boolean $JetServiceOnly
-     * @param anonymous1041 $TimeWindow
-     * @param anonymous1042 $FlightType
+     * @param anonymous1039 $TimeWindow
+     * @param anonymous1040 $FlightType
      * @param boolean $MultiAirportSearch
      * @param typeIATACode $ConnectionPoint
      */
-    public function __construct($FareType = null, $FareTicketDesignator = null, $AirSegmentPricingModifiers = null, $PriceClassOfService = null, $CreateDate = null, $ReissueLocCityCode = null, $ReissueLocCountryCode = null, $BulkTicket = null, $AccountCode = null, $PenaltyAsTaxCode = null, $AirPricingSolutionRef = null, $PenaltyToFare = null, $PricePTCOnly = null, $BrandDetails = null, $BrandModifier = null, $JetServiceOnly = null, $TimeWindow = null, $FlightType = null, $MultiAirportSearch = null, $ConnectionPoint = null)
+    public function __construct($FareType, $FareTicketDesignator, $AirSegmentPricingModifiers, $PriceClassOfService, $CreateDate, $ReissueLocCityCode, $ReissueLocCountryCode, $BulkTicket, $AccountCode, $PenaltyAsTaxCode, $AirPricingSolutionRef, $PenaltyToFare, $PricePTCOnly, $BrandDetails, $BrandModifier, $JetServiceOnly, $TimeWindow, $FlightType, $MultiAirportSearch, $ConnectionPoint)
     {
       $this->FareType = $FareType;
       $this->FareTicketDesignator = $FareTicketDesignator;
@@ -383,7 +383,7 @@ class RepricingModifiers
     }
 
     /**
-     * @return anonymous1040
+     * @return anonymous1038
      */
     public function getPenaltyAsTaxCode()
     {
@@ -391,7 +391,7 @@ class RepricingModifiers
     }
 
     /**
-     * @param anonymous1040 $PenaltyAsTaxCode
+     * @param anonymous1038 $PenaltyAsTaxCode
      * @return \FilippoToso\Travelport\UniversalRecord\RepricingModifiers
      */
     public function setPenaltyAsTaxCode($PenaltyAsTaxCode)
@@ -509,7 +509,7 @@ class RepricingModifiers
     }
 
     /**
-     * @return anonymous1041
+     * @return anonymous1039
      */
     public function getTimeWindow()
     {
@@ -517,7 +517,7 @@ class RepricingModifiers
     }
 
     /**
-     * @param anonymous1041 $TimeWindow
+     * @param anonymous1039 $TimeWindow
      * @return \FilippoToso\Travelport\UniversalRecord\RepricingModifiers
      */
     public function setTimeWindow($TimeWindow)
@@ -527,7 +527,7 @@ class RepricingModifiers
     }
 
     /**
-     * @return anonymous1042
+     * @return anonymous1040
      */
     public function getFlightType()
     {
@@ -535,7 +535,7 @@ class RepricingModifiers
     }
 
     /**
-     * @param anonymous1042 $FlightType
+     * @param anonymous1040 $FlightType
      * @return \FilippoToso\Travelport\UniversalRecord\RepricingModifiers
      */
     public function setFlightType($FlightType)

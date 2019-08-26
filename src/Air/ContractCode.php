@@ -6,7 +6,7 @@ class ContractCode
 {
 
     /**
-     * @var anonymous888 $Code
+     * @var anonymous886 $Code
      */
     protected $Code = null;
 
@@ -26,12 +26,12 @@ class ContractCode
     protected $SupplierCode = null;
 
     /**
-     * @param anonymous888 $Code
+     * @param anonymous886 $Code
      * @param string $CompanyName
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($Code = null, $CompanyName = null, $ProviderCode = null, $SupplierCode = null)
+    public function __construct($Code, $CompanyName, $ProviderCode, $SupplierCode)
     {
       $this->Code = $Code;
       $this->CompanyName = $CompanyName;
@@ -40,7 +40,7 @@ class ContractCode
     }
 
     /**
-     * @return anonymous888
+     * @return anonymous886
      */
     public function getCode()
     {
@@ -48,7 +48,7 @@ class ContractCode
     }
 
     /**
-     * @param anonymous888 $Code
+     * @param anonymous886 $Code
      * @return \FilippoToso\Travelport\Air\ContractCode
      */
     public function setCode($Code)

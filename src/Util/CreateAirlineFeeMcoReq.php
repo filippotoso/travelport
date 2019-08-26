@@ -46,7 +46,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
     protected $LocationCode = null;
 
     /**
-     * @var anonymous1088 $LocatorCode
+     * @var anonymous1086 $LocatorCode
      */
     protected $LocatorCode = null;
 
@@ -75,10 +75,10 @@ class CreateAirlineFeeMcoReq extends BaseReq
      * @param Endorsement $Endorsement
      * @param typeMoney $Amount
      * @param typeAirport $LocationCode
-     * @param anonymous1088 $LocatorCode
+     * @param anonymous1086 $LocatorCode
      * @param string $TicketNumber
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $Name = null, $FormOfPayment = null, $FormOfPaymentRef = null, $GeneralRemark = null, $AccountingRemark = null, $Endorsement = null, $Amount = null, $LocationCode = null, $LocatorCode = null, $TicketNumber = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $Name, $FormOfPayment, $FormOfPaymentRef, $GeneralRemark, $AccountingRemark, $Endorsement, $Amount, $LocationCode, $LocatorCode, $TicketNumber)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->Name = $Name;
@@ -238,7 +238,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
     }
 
     /**
-     * @return anonymous1088
+     * @return anonymous1086
      */
     public function getLocatorCode()
     {
@@ -246,7 +246,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
     }
 
     /**
-     * @param anonymous1088 $LocatorCode
+     * @param anonymous1086 $LocatorCode
      * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setLocatorCode($LocatorCode)

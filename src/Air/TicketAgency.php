@@ -19,7 +19,7 @@ class TicketAgency
      * @param UNKNOWN $ProviderCode
      * @param UNKNOWN $PseudoCityCode
      */
-    public function __construct($ProviderCode = null, $PseudoCityCode = null)
+    public function __construct($ProviderCode, $PseudoCityCode)
     {
       $this->ProviderCode = $ProviderCode;
       $this->PseudoCityCode = $PseudoCityCode;

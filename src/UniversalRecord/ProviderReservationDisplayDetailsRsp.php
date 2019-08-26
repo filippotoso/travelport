@@ -24,7 +24,7 @@ class ProviderReservationDisplayDetailsRsp extends BaseRsp
      * @param DisplayDetails $DisplayDetails
      * @param TravelerNameNum $TravelerNameNum
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $DisplayDetails = null, $TravelerNameNum = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $DisplayDetails, $TravelerNameNum)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->DisplayDetails = $DisplayDetails;

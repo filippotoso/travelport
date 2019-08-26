@@ -19,7 +19,7 @@ class Commission
      * @param typeMoney $Amount
      * @param typePercentageWithDecimal $Percentage
      */
-    public function __construct($Amount = null, $Percentage = null)
+    public function __construct($Amount, $Percentage)
     {
       $this->Amount = $Amount;
       $this->Percentage = $Percentage;

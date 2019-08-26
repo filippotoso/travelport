@@ -24,7 +24,7 @@ class AgencyInformation
      * @param Email $Email
      * @param PhoneNumber $PhoneNumber
      */
-    public function __construct($Email = null, $PhoneNumber = null)
+    public function __construct($Email, $PhoneNumber)
     {
       $this->Email = $Email;
       $this->PhoneNumber = $PhoneNumber;

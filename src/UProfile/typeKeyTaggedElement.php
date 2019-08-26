@@ -14,7 +14,7 @@ class typeKeyTaggedElement extends typeKeyElement
      * @param typeRef $Key
      * @param TagRef $TagRef
      */
-    public function __construct($Key = null, $TagRef = null)
+    public function __construct($Key, $TagRef)
     {
       parent::__construct($Key);
       $this->TagRef = $TagRef;

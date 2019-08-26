@@ -38,7 +38,7 @@ class typeCommonEditableField extends typeFieldRef
      * @param int $DisplayOrder
      * @param boolean $Inheritable
      */
-    public function __construct($ID = null, $MinOccursOverride = null, $MaxOccursOverride = null, $Label = null, $DisplayOrder = null, $Inheritable = null)
+    public function __construct($ID, $MinOccursOverride, $MaxOccursOverride, $Label, $DisplayOrder, $Inheritable)
     {
       parent::__construct($ID);
       $this->MinOccursOverride = $MinOccursOverride;

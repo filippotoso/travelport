@@ -29,7 +29,7 @@ class AirMerchandisingDetailsRsp extends BaseRsp
      * @param OptionalServices $OptionalServices
      * @param Brand $Brand
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $OptionalServices = null, $Brand = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $OptionalServices, $Brand)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->OptionalServices = $OptionalServices;

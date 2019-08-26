@@ -24,7 +24,7 @@ class ProviderReservationDivideRsp extends BaseRsp
      * @param ParentProviderReservationInfo $ParentProviderReservationInfo
      * @param ChildProviderReservationInfo $ChildProviderReservationInfo
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ParentProviderReservationInfo = null, $ChildProviderReservationInfo = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ParentProviderReservationInfo, $ChildProviderReservationInfo)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ParentProviderReservationInfo = $ParentProviderReservationInfo;

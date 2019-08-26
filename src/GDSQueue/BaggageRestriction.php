@@ -24,7 +24,7 @@ class BaggageRestriction
      * @param Dimension $Dimension
      * @param TextInfo $TextInfo
      */
-    public function __construct($Dimension = null, $TextInfo = null)
+    public function __construct($Dimension, $TextInfo)
     {
       $this->Dimension = $Dimension;
       $this->TextInfo = $TextInfo;

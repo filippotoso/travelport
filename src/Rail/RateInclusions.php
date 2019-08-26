@@ -13,7 +13,7 @@ class RateInclusions
     /**
      * @param IncludedItem $IncludedItem
      */
-    public function __construct($IncludedItem = null)
+    public function __construct($IncludedItem)
     {
       $this->IncludedItem = $IncludedItem;
     }

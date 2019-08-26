@@ -13,7 +13,7 @@ class PreferredSuppliers
     /**
      * @param RailSupplier $RailSupplier
      */
-    public function __construct($RailSupplier = null)
+    public function __construct($RailSupplier)
     {
       $this->RailSupplier = $RailSupplier;
     }

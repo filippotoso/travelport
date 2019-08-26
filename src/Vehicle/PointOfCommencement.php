@@ -19,7 +19,7 @@ class PointOfCommencement
      * @param typeIATACode $CityOrAirportCode
      * @param string $Time
      */
-    public function __construct($CityOrAirportCode = null, $Time = null)
+    public function __construct($CityOrAirportCode, $Time)
     {
       $this->CityOrAirportCode = $CityOrAirportCode;
       $this->Time = $Time;

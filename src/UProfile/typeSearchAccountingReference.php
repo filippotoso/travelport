@@ -19,7 +19,7 @@ class typeSearchAccountingReference
      * @param StringLength1to128 $Type
      * @param typeWildcard $Value
      */
-    public function __construct($Type = null, $Value = null)
+    public function __construct($Type, $Value)
     {
       $this->Type = $Type;
       $this->Value = $Value;

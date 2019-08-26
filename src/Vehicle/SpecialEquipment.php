@@ -31,7 +31,7 @@ class SpecialEquipment
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key = null, $Type = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Key, $Type, $ElStat, $KeyOverride)
     {
       $this->Key = $Key;
       $this->Type = $Type;

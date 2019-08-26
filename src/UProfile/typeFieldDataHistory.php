@@ -38,7 +38,7 @@ class typeFieldDataHistory extends typeKeyElement
      * @param StringLength1to255 $Name
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $DisplayOrder = null, $Value = null, $FieldID = null, $Name = null, $OwnerID = null)
+    public function __construct($Key, $DisplayOrder, $Value, $FieldID, $Name, $OwnerID)
     {
       parent::__construct($Key);
       $this->DisplayOrder = $DisplayOrder;

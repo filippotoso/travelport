@@ -25,7 +25,7 @@ class RailBookingInfo
      * @param typeRef $RailJourneyRef
      * @param boolean $OptionalService
      */
-    public function __construct($RailFareRef = null, $RailJourneyRef = null, $OptionalService = null)
+    public function __construct($RailFareRef, $RailJourneyRef, $OptionalService)
     {
       $this->RailFareRef = $RailFareRef;
       $this->RailJourneyRef = $RailJourneyRef;

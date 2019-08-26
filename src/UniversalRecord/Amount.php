@@ -6,7 +6,7 @@ class Amount
 {
 
     /**
-     * @var anonymous1337 $Type
+     * @var anonymous1335 $Type
      */
     protected $Type = null;
 
@@ -16,17 +16,17 @@ class Amount
     protected $AmountDuePaid = null;
 
     /**
-     * @param anonymous1337 $Type
+     * @param anonymous1335 $Type
      * @param typeMoney $AmountDuePaid
      */
-    public function __construct($Type = null, $AmountDuePaid = null)
+    public function __construct($Type, $AmountDuePaid)
     {
       $this->Type = $Type;
       $this->AmountDuePaid = $AmountDuePaid;
     }
 
     /**
-     * @return anonymous1337
+     * @return anonymous1335
      */
     public function getType()
     {
@@ -34,7 +34,7 @@ class Amount
     }
 
     /**
-     * @param anonymous1337 $Type
+     * @param anonymous1335 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\Amount
      */
     public function setType($Type)

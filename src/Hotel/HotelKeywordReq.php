@@ -54,7 +54,7 @@ class HotelKeywordReq extends BaseReq
      * @param typeDate $CheckinDate
      * @param boolean $ReturnKeywordList
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $Keyword = null, $PermittedProviders = null, $HotelChain = null, $HotelCode = null, $CheckinDate = null, $ReturnKeywordList = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $Keyword, $PermittedProviders, $HotelChain, $HotelCode, $CheckinDate, $ReturnKeywordList)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->Keyword = $Keyword;

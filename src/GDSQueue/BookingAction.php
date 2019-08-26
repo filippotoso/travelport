@@ -25,7 +25,7 @@ class BookingAction
      * @param Payment $Payment
      * @param string $Type
      */
-    public function __construct($FormOfPayment = null, $Payment = null, $Type = null)
+    public function __construct($FormOfPayment, $Payment, $Type)
     {
       $this->FormOfPayment = $FormOfPayment;
       $this->Payment = $Payment;

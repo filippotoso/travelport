@@ -18,7 +18,7 @@ class AgencyServiceFeeCreateRsp extends BaseRsp
      * @param string $CommandHistory
      * @param ServiceFeeInfo $ServiceFeeInfo
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ServiceFeeInfo = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ServiceFeeInfo)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ServiceFeeInfo = $ServiceFeeInfo;

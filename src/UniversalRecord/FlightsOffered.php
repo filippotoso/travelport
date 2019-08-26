@@ -61,7 +61,7 @@ class FlightsOffered
      * @param boolean $StopOver
      * @param boolean $Connection
      */
-    public function __construct($Origin = null, $Destination = null, $DepartureTime = null, $TravelOrder = null, $Carrier = null, $FlightNumber = null, $ClassOfService = null, $StopOver = null, $Connection = null)
+    public function __construct($Origin, $Destination, $DepartureTime, $TravelOrder, $Carrier, $FlightNumber, $ClassOfService, $StopOver, $Connection)
     {
       $this->Origin = $Origin;
       $this->Destination = $Destination;

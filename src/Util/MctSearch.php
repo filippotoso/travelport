@@ -91,7 +91,7 @@ class MctSearch
      * @param typeState $NextState
      * @param date $TravelDate
      */
-    public function __construct($ArriveStation = null, $DepartStation = null, $Connection = null, $ArriveCarrier = null, $DepartCarrier = null, $ArriveFlight = null, $DepartFlight = null, $PreviousStation = null, $NextStation = null, $PreviousCountry = null, $NextCountry = null, $PreviousState = null, $NextState = null, $TravelDate = null)
+    public function __construct($ArriveStation, $DepartStation, $Connection, $ArriveCarrier, $DepartCarrier, $ArriveFlight, $DepartFlight, $PreviousStation, $NextStation, $PreviousCountry, $NextCountry, $PreviousState, $NextState, $TravelDate)
     {
       $this->ArriveStation = $ArriveStation;
       $this->DepartStation = $DepartStation;

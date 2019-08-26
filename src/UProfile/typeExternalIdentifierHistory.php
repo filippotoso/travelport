@@ -20,7 +20,7 @@ class typeExternalIdentifierHistory extends typeKeyElement
      * @param StringLength1to255 $ExtID
      * @param StringLength1to128 $Source
      */
-    public function __construct($Key = null, $ExtID = null, $Source = null)
+    public function __construct($Key, $ExtID, $Source)
     {
       parent::__construct($Key);
       $this->ExtID = $ExtID;

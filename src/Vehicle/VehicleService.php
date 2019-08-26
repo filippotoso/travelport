@@ -357,7 +357,7 @@ class VehicleService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/vehicle_v47_0/Vehicle.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/vehicle_v48_0/Vehicle.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

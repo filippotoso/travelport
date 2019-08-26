@@ -13,7 +13,7 @@ class MealRequest
     /**
      * @param anonymous72 $Type
      */
-    public function __construct($Type = null)
+    public function __construct($Type)
     {
       $this->Type = $Type;
     }

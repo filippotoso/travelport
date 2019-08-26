@@ -25,7 +25,7 @@ class AirFareDiscount
      * @param typeMoney $Amount
      * @param typeFareDiscount $DiscountMethod
      */
-    public function __construct($Percentage = null, $Amount = null, $DiscountMethod = null)
+    public function __construct($Percentage, $Amount, $DiscountMethod)
     {
       $this->Percentage = $Percentage;
       $this->Amount = $Amount;

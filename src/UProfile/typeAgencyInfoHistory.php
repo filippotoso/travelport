@@ -45,7 +45,7 @@ class typeAgencyInfoHistory extends typeProfileInfo
      * @param anonymous716 $URSyncData
      * @param boolean $URSyncTo
      */
-    public function __construct($AdditionalIdentifier = null, $Description = null, $Name = null, $IataNumber = null, $AgencyCode = null, $UsesTemplate = null, $URSyncData = null, $URSyncTo = null)
+    public function __construct($AdditionalIdentifier, $Description, $Name, $IataNumber, $AgencyCode, $UsesTemplate, $URSyncData, $URSyncTo)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->Name = $Name;

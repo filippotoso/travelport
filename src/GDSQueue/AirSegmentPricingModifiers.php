@@ -72,7 +72,7 @@ class AirSegmentPricingModifiers
      * @param typeConnectionIndicator $ConnectionIndicator
      * @param StringLength1to10 $BrandTier
      */
-    public function __construct($AirSegmentRef = null, $CabinClass = null, $AccountCode = null, $ProhibitAdvancePurchaseFares = null, $ProhibitNonRefundableFares = null, $ProhibitPenaltyFares = null, $FareBasisCode = null, $FareBreak = null, $ConnectionIndicator = null, $BrandTier = null)
+    public function __construct($AirSegmentRef, $CabinClass, $AccountCode, $ProhibitAdvancePurchaseFares, $ProhibitNonRefundableFares, $ProhibitPenaltyFares, $FareBasisCode, $FareBreak, $ConnectionIndicator, $BrandTier)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->CabinClass = $CabinClass;

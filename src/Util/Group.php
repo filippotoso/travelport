@@ -70,7 +70,7 @@ class Group
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Name = null, $DeliveryInfo = null, $PhoneNumber = null, $Key = null, $TravelerType = null, $GroupSize = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Name, $DeliveryInfo, $PhoneNumber, $Key, $TravelerType, $GroupSize, $ElStat, $KeyOverride)
     {
       $this->Name = $Name;
       $this->DeliveryInfo = $DeliveryInfo;

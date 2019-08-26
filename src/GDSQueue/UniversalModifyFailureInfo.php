@@ -19,7 +19,7 @@ class UniversalModifyFailureInfo
      * @param UniversalModifyCommandError $UniversalModifyCommandError
      * @param AirSegmentSellFailureInfo $AirSegmentSellFailureInfo
      */
-    public function __construct($UniversalModifyCommandError = null, $AirSegmentSellFailureInfo = null)
+    public function __construct($UniversalModifyCommandError, $AirSegmentSellFailureInfo)
     {
       $this->UniversalModifyCommandError = $UniversalModifyCommandError;
       $this->AirSegmentSellFailureInfo = $AirSegmentSellFailureInfo;

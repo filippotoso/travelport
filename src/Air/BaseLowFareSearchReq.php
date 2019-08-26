@@ -71,7 +71,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     protected $PreferCompleteItinerary = null;
 
     /**
-     * @var anonymous1185 $MetaOptionIdentifier
+     * @var anonymous1183 $MetaOptionIdentifier
      */
     protected $MetaOptionIdentifier = null;
 
@@ -106,7 +106,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     protected $CheckOBFees = null;
 
     /**
-     * @var anonymous1186 $NSCC
+     * @var anonymous1184 $NSCC
      */
     protected $NSCC = null;
 
@@ -144,17 +144,17 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
      * @param int $MaxNumberOfExpertSolutions
      * @param boolean $SolutionResult
      * @param boolean $PreferCompleteItinerary
-     * @param anonymous1185 $MetaOptionIdentifier
+     * @param anonymous1183 $MetaOptionIdentifier
      * @param boolean $ReturnUpsellFare
      * @param boolean $IncludeFareInfoMessages
      * @param boolean $ReturnBrandedFares
      * @param boolean $MultiGDSSearch
      * @param boolean $ReturnMM
      * @param string $CheckOBFees
-     * @param anonymous1186 $NSCC
+     * @param anonymous1184 $NSCC
      * @param boolean $FareInfoRules
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $NextResultReference = null, $SearchAirLeg = null, $SearchSpecificAirSegment = null, $AirSearchModifiers = null, $SplitTicketingSearch = null, $JourneyData = null, $SearchPassenger = null, $AirPricingModifiers = null, $Enumeration = null, $AirExchangeModifiers = null, $FlexExploreModifiers = null, $PCC = null, $FareRulesFilterCategory = null, $FormOfPayment = null, $EnablePointToPointSearch = null, $EnablePointToPointAlternates = null, $MaxNumberOfExpertSolutions = null, $SolutionResult = null, $PreferCompleteItinerary = null, $MetaOptionIdentifier = null, $ReturnUpsellFare = null, $IncludeFareInfoMessages = null, $ReturnBrandedFares = null, $MultiGDSSearch = null, $ReturnMM = null, $CheckOBFees = null, $NSCC = null, $FareInfoRules = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $NextResultReference, $SearchAirLeg, $SearchSpecificAirSegment, $AirSearchModifiers, $SplitTicketingSearch, $JourneyData, $SearchPassenger, $AirPricingModifiers, $Enumeration, $AirExchangeModifiers, $FlexExploreModifiers, $PCC, $FareRulesFilterCategory, $FormOfPayment, $EnablePointToPointSearch, $EnablePointToPointAlternates, $MaxNumberOfExpertSolutions, $SolutionResult, $PreferCompleteItinerary, $MetaOptionIdentifier, $ReturnUpsellFare, $IncludeFareInfoMessages, $ReturnBrandedFares, $MultiGDSSearch, $ReturnMM, $CheckOBFees, $NSCC, $FareInfoRules)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $NextResultReference, $SearchAirLeg, $SearchSpecificAirSegment, $AirSearchModifiers, $SplitTicketingSearch, $JourneyData);
       $this->SearchPassenger = $SearchPassenger;
@@ -416,7 +416,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     }
 
     /**
-     * @return anonymous1185
+     * @return anonymous1183
      */
     public function getMetaOptionIdentifier()
     {
@@ -424,7 +424,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     }
 
     /**
-     * @param anonymous1185 $MetaOptionIdentifier
+     * @param anonymous1183 $MetaOptionIdentifier
      * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
      */
     public function setMetaOptionIdentifier($MetaOptionIdentifier)
@@ -542,7 +542,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     }
 
     /**
-     * @return anonymous1186
+     * @return anonymous1184
      */
     public function getNSCC()
     {
@@ -550,7 +550,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     }
 
     /**
-     * @param anonymous1186 $NSCC
+     * @param anonymous1184 $NSCC
      * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
      */
     public function setNSCC($NSCC)

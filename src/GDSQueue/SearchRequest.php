@@ -31,7 +31,7 @@ class SearchRequest
      * @param string $DepartureTime
      * @param typeClassOfService $ClassOfService
      */
-    public function __construct($Origin = null, $Destination = null, $DepartureTime = null, $ClassOfService = null)
+    public function __construct($Origin, $Destination, $DepartureTime, $ClassOfService)
     {
       $this->Origin = $Origin;
       $this->Destination = $Destination;

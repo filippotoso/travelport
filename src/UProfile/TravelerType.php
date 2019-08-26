@@ -13,7 +13,7 @@ class TravelerType
     /**
      * @param typePTC $Code
      */
-    public function __construct($Code = null)
+    public function __construct($Code)
     {
       $this->Code = $Code;
     }

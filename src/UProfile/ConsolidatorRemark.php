@@ -43,7 +43,7 @@ class ConsolidatorRemark
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($PseudoCityCode = null, $Key = null, $ProviderReservationInfoRef = null, $ProviderCode = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($PseudoCityCode, $Key, $ProviderReservationInfoRef, $ProviderCode, $ElStat, $KeyOverride)
     {
       $this->PseudoCityCode = $PseudoCityCode;
       $this->Key = $Key;

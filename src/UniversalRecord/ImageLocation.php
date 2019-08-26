@@ -31,7 +31,7 @@ class ImageLocation
      * @param int $ImageWidth
      * @param int $ImageHeight
      */
-    public function __construct($_ = null, $Type = null, $ImageWidth = null, $ImageHeight = null)
+    public function __construct($_, $Type, $ImageWidth, $ImageHeight)
     {
       $this->_ = $_;
       $this->Type = $Type;

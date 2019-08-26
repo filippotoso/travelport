@@ -14,7 +14,7 @@ class BulkTicket extends typeBulkTicketModifierType
      * @param boolean $SuppressOnFareCalc
      * @param boolean $NonRefundable
      */
-    public function __construct($SuppressOnFareCalc = null, $NonRefundable = null)
+    public function __construct($SuppressOnFareCalc, $NonRefundable)
     {
       parent::__construct($SuppressOnFareCalc);
       $this->NonRefundable = $NonRefundable;

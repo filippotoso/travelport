@@ -47,7 +47,7 @@ class HotelDetailsRsp extends BaseRsp
      * @param HotelAlternateProperties $HotelAlternateProperties
      * @param GuestReviews $GuestReviews
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $NextResultReference = null, $HostToken = null, $RequestedHotelDetails = null, $HotelAlternateProperties = null, $GuestReviews = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $HostToken, $RequestedHotelDetails, $HotelAlternateProperties, $GuestReviews)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->NextResultReference = $NextResultReference;

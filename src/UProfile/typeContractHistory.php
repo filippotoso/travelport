@@ -74,7 +74,7 @@ class typeContractHistory extends typeKeyElement
      * @param StringLength1to255 $Description
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key = null, $Supplier = null, $SupplierType = null, $Provider = null, $StartDate = null, $ExpirationDate = null, $DiscountPercentage = null, $DiscountValue = null, $SupplierContractNumber = null, $PromotionalDesignatorName = null, $Description = null, $PriorityOrder = null)
+    public function __construct($Key, $Supplier, $SupplierType, $Provider, $StartDate, $ExpirationDate, $DiscountPercentage, $DiscountValue, $SupplierContractNumber, $PromotionalDesignatorName, $Description, $PriorityOrder)
     {
       parent::__construct($Key);
       $this->Supplier = $Supplier;

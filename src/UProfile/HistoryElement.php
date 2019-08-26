@@ -59,12 +59,12 @@ class HistoryElement
      * @param anonymous600 $CorrelationElement
      * @param StringLength1to128 $CorrelationValue
      */
-    public function __construct($Action = null, $ModifiedByAgentID = null, $ModifiedByAgentUserName = null, \DateTime $ModifiedDate = null, $Component = null, $CorrelationElement = null, $CorrelationValue = null)
+    public function __construct($Action, $ModifiedByAgentID, $ModifiedByAgentUserName, \DateTime $ModifiedDate, $Component, $CorrelationElement, $CorrelationValue)
     {
       $this->Action = $Action;
       $this->ModifiedByAgentID = $ModifiedByAgentID;
       $this->ModifiedByAgentUserName = $ModifiedByAgentUserName;
-      $this->ModifiedDate = $ModifiedDate ? $ModifiedDate->format(\DateTime::ATOM) : null;
+      $this->ModifiedDate = $ModifiedDate->format(\DateTime::ATOM);
       $this->Component = $Component;
       $this->CorrelationElement = $CorrelationElement;
       $this->CorrelationValue = $CorrelationValue;

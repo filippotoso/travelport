@@ -37,7 +37,7 @@ class ActionDetails
      * @param time $EventTime
      * @param string $Text
      */
-    public function __construct($PseudoCityCode = null, $AgentSine = null, $EventDate = null, $EventTime = null, $Text = null)
+    public function __construct($PseudoCityCode, $AgentSine, $EventDate, $EventTime, $Text)
     {
       $this->PseudoCityCode = $PseudoCityCode;
       $this->AgentSine = $AgentSine;

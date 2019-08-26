@@ -136,7 +136,7 @@ class AirSearchModifiers
     protected $PreferNonStop = null;
 
     /**
-     * @var anonymous617 $OrderBy
+     * @var anonymous618 $OrderBy
      */
     protected $OrderBy = null;
 
@@ -178,13 +178,13 @@ class AirSearchModifiers
      * @param boolean $IncludeExtraSolutions
      * @param boolean $ProhibitMultiAirportConnection
      * @param boolean $PreferNonStop
-     * @param anonymous617 $OrderBy
+     * @param anonymous618 $OrderBy
      * @param boolean $ExcludeOpenJawAirport
      * @param boolean $ExcludeGroundTransportation
      * @param typeMaxJourneyTime $MaxJourneyTime
      * @param boolean $JetServiceOnly
      */
-    public function __construct($PermittedCarriers = null, $ProhibitedCarriers = null, $PreferredCarriers = null, $PermittedCabins = null, $PreferredCabins = null, $PreferredBookingCodes = null, $FlightType = null, $DistanceType = null, $IncludeFlightDetails = null, $AllowChangeOfAirport = null, $ProhibitOvernightLayovers = null, $MaxSolutions = null, $MaxConnectionTime = null, $SearchWeekends = null, $IncludeExtraSolutions = null, $ProhibitMultiAirportConnection = null, $PreferNonStop = null, $OrderBy = null, $ExcludeOpenJawAirport = null, $ExcludeGroundTransportation = null, $MaxJourneyTime = null, $JetServiceOnly = null)
+    public function __construct($PermittedCarriers, $ProhibitedCarriers, $PreferredCarriers, $PermittedCabins, $PreferredCabins, $PreferredBookingCodes, $FlightType, $DistanceType, $IncludeFlightDetails, $AllowChangeOfAirport, $ProhibitOvernightLayovers, $MaxSolutions, $MaxConnectionTime, $SearchWeekends, $IncludeExtraSolutions, $ProhibitMultiAirportConnection, $PreferNonStop, $OrderBy, $ExcludeOpenJawAirport, $ExcludeGroundTransportation, $MaxJourneyTime, $JetServiceOnly)
     {
       $this->PermittedCarriers = $PermittedCarriers;
       $this->ProhibitedCarriers = $ProhibitedCarriers;
@@ -679,7 +679,7 @@ class AirSearchModifiers
     }
 
     /**
-     * @return anonymous617
+     * @return anonymous618
      */
     public function getOrderBy()
     {
@@ -687,7 +687,7 @@ class AirSearchModifiers
     }
 
     /**
-     * @param anonymous617 $OrderBy
+     * @param anonymous618 $OrderBy
      * @return \FilippoToso\Travelport\UniversalRecord\AirSearchModifiers
      */
     public function setOrderBy($OrderBy)

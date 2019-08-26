@@ -37,7 +37,7 @@ class RailFareNote
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($_ = null, $Key = null, $NoteName = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($_, $Key, $NoteName, $ElStat, $KeyOverride)
     {
       $this->_ = $_;
       $this->Key = $Key;

@@ -102,7 +102,7 @@ class AirExchangeReq extends BaseReq
      * @param AddSvc $AddSvc
      * @param boolean $ReturnReservation
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AirReservationLocatorCode = null, $TicketNumber = null, $SpecificSeatAssignment = null, $AirPricingSolution = null, $AirExchangeModifiers = null, $AirExchangeBundleTotal = null, $AirExchangeBundle = null, $HostToken = null, $OptionalServices = null, $FormOfPayment = null, $FormOfPaymentRef = null, $SSRInfo = null, $AddSvc = null, $ReturnReservation = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AirReservationLocatorCode, $TicketNumber, $SpecificSeatAssignment, $AirPricingSolution, $AirExchangeModifiers, $AirExchangeBundleTotal, $AirExchangeBundle, $HostToken, $OptionalServices, $FormOfPayment, $FormOfPaymentRef, $SSRInfo, $AddSvc, $ReturnReservation)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AirReservationLocatorCode = $AirReservationLocatorCode;

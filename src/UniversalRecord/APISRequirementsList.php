@@ -13,7 +13,7 @@ class APISRequirementsList
     /**
      * @param APISRequirements $APISRequirements
      */
-    public function __construct($APISRequirements = null)
+    public function __construct($APISRequirements)
     {
       $this->APISRequirements = $APISRequirements;
     }

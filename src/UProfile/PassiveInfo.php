@@ -47,7 +47,7 @@ class PassiveInfo
      * @param string $SupplierCode
      * @param string $SupplierLocatorCode
      */
-    public function __construct($Commission = null, $ProviderCode = null, $ProviderLocatorCode = null, $SupplierCode = null, $SupplierLocatorCode = null)
+    public function __construct($Commission, $ProviderCode, $ProviderLocatorCode, $SupplierCode, $SupplierLocatorCode)
     {
       $this->Commission = $Commission;
       $this->ProviderCode = $ProviderCode;

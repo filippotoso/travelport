@@ -70,7 +70,7 @@ class ProfileChildSearchReq extends BaseReq
      * @param anonymous978 $HierarchyType
      * @param boolean $IncludeAgentsAndTravelers
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ProfileID = null, $ProvisioningCode = null, $UniqueProfileID = null, $OrganizationName = null, $ProfileSearchModifiers = null, $HierarchyType = null, $IncludeAgentsAndTravelers = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ProfileID, $ProvisioningCode, $UniqueProfileID, $OrganizationName, $ProfileSearchModifiers, $HierarchyType, $IncludeAgentsAndTravelers)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ProfileID = $ProfileID;

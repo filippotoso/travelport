@@ -19,7 +19,7 @@ class typeProfileRef
      * @param string $ProfileEntityID
      * @param typeProfileLevel $ProfileLevel
      */
-    public function __construct($ProfileEntityID = null, $ProfileLevel = null)
+    public function __construct($ProfileEntityID, $ProfileLevel)
     {
       $this->ProfileEntityID = $ProfileEntityID;
       $this->ProfileLevel = $ProfileLevel;

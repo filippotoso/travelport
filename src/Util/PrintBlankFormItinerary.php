@@ -19,7 +19,7 @@ class PrintBlankFormItinerary
      * @param boolean $IncludeDescription
      * @param boolean $IncludeHeader
      */
-    public function __construct($IncludeDescription = null, $IncludeHeader = null)
+    public function __construct($IncludeDescription, $IncludeHeader)
     {
       $this->IncludeDescription = $IncludeDescription;
       $this->IncludeHeader = $IncludeHeader;

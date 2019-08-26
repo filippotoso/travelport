@@ -534,7 +534,7 @@ class UProfileService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/uprofile_v37_0/UProfile.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/uprofile_v37_0/UProfile.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

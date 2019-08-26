@@ -13,7 +13,7 @@ class AvailablePseudoCityCode
     /**
      * @param typePCC $PseudoCityCode
      */
-    public function __construct($PseudoCityCode = null)
+    public function __construct($PseudoCityCode)
     {
       $this->PseudoCityCode = $PseudoCityCode;
     }

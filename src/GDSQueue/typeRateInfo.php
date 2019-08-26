@@ -43,7 +43,7 @@ class typeRateInfo
      * @param typeDistance $Units
      * @param typeMoney $ExtraMileageCharge
      */
-    public function __construct($RateForPeriod = null, $NumberOfPeriods = null, $UnlimitedMileage = null, $MileageAllowance = null, $Units = null, $ExtraMileageCharge = null)
+    public function __construct($RateForPeriod, $NumberOfPeriods, $UnlimitedMileage, $MileageAllowance, $Units, $ExtraMileageCharge)
     {
       $this->RateForPeriod = $RateForPeriod;
       $this->NumberOfPeriods = $NumberOfPeriods;

@@ -30,7 +30,7 @@ class UpsellAdminRsp extends BaseRsp
      * @param VehicleUpsellRule $VehicleUpsellRule
      * @param HotelUpsellRule $HotelUpsellRule
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $AirUpsellRule = null, $VehicleUpsellRule = null, $HotelUpsellRule = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirUpsellRule, $VehicleUpsellRule, $HotelUpsellRule)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->AirUpsellRule = $AirUpsellRule;

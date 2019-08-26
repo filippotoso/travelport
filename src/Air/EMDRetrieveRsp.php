@@ -24,7 +24,7 @@ class EMDRetrieveRsp extends BaseRsp
      * @param EMDInfo $EMDInfo
      * @param EMDSummaryInfo $EMDSummaryInfo
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $EMDInfo = null, $EMDSummaryInfo = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $EMDInfo, $EMDSummaryInfo)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->EMDInfo = $EMDInfo;

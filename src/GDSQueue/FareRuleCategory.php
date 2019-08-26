@@ -6,20 +6,20 @@ class FareRuleCategory
 {
 
     /**
-     * @var anonymous818 $Category
+     * @var anonymous815 $Category
      */
     protected $Category = null;
 
     /**
-     * @param anonymous818 $Category
+     * @param anonymous815 $Category
      */
-    public function __construct($Category = null)
+    public function __construct($Category)
     {
       $this->Category = $Category;
     }
 
     /**
-     * @return anonymous818
+     * @return anonymous815
      */
     public function getCategory()
     {
@@ -27,7 +27,7 @@ class FareRuleCategory
     }
 
     /**
-     * @param anonymous818 $Category
+     * @param anonymous815 $Category
      * @return \FilippoToso\Travelport\GDSQueue\FareRuleCategory
      */
     public function setCategory($Category)

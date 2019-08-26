@@ -18,7 +18,7 @@ class ProfileModifyTagsRsp extends BaseRsp
      * @param string $CommandHistory
      * @param Tag[] $Tag
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, array $Tag = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, array $Tag)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->Tag = $Tag;

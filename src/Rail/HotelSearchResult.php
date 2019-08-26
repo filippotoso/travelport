@@ -57,7 +57,7 @@ class HotelSearchResult extends typeResultMessage
      * @param HotelType $HotelType
      * @param PropertyDescription $PropertyDescription
      */
-    public function __construct($_ = null, $Code = null, $Type = null, $VendorLocation = null, $HotelProperty = null, $CorporateDiscountID = null, $RateInfo = null, $MediaItem = null, $HotelType = null, $PropertyDescription = null)
+    public function __construct($_, $Code, $Type, $VendorLocation, $HotelProperty, $CorporateDiscountID, $RateInfo, $MediaItem, $HotelType, $PropertyDescription)
     {
       parent::__construct($_, $Code, $Type);
       $this->VendorLocation = $VendorLocation;

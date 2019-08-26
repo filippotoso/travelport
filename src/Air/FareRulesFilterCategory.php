@@ -19,7 +19,7 @@ class FareRulesFilterCategory
      * @param anyType[] $CategoryCode
      * @param string $FareInfoRef
      */
-    public function __construct(array $CategoryCode = null, $FareInfoRef = null)
+    public function __construct(array $CategoryCode, $FareInfoRef)
     {
       $this->CategoryCode = $CategoryCode;
       $this->FareInfoRef = $FareInfoRef;

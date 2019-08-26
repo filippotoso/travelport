@@ -54,7 +54,7 @@ class AirExchangeQuoteRsp extends BaseRsp
      * @param OptionalServices $OptionalServices
      * @param FareRule $FareRule
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $TicketNumber = null, $AirPricingSolution = null, $AirExchangeBundleTotal = null, $AirExchangeBundle = null, $HostToken = null, $OptionalServices = null, $FareRule = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $TicketNumber, $AirPricingSolution, $AirExchangeBundleTotal, $AirExchangeBundle, $HostToken, $OptionalServices, $FareRule)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->TicketNumber = $TicketNumber;

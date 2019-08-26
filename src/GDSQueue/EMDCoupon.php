@@ -26,17 +26,17 @@ class EMDCoupon
     protected $ConsumedAtIssuanceInd = null;
 
     /**
-     * @var anonymous1069 $RFIC
+     * @var anonymous1067 $RFIC
      */
     protected $RFIC = null;
 
     /**
-     * @var anonymous1070 $RFISC
+     * @var anonymous1068 $RFISC
      */
     protected $RFISC = null;
 
     /**
-     * @var anonymous1071 $RFIDescription
+     * @var anonymous1069 $RFIDescription
      */
     protected $RFIDescription = null;
 
@@ -56,12 +56,12 @@ class EMDCoupon
     protected $FlightNumber = null;
 
     /**
-     * @var anonymous1072 $PresentTo
+     * @var anonymous1070 $PresentTo
      */
     protected $PresentTo = null;
 
     /**
-     * @var anonymous1073 $PresentAt
+     * @var anonymous1071 $PresentAt
      */
     protected $PresentAt = null;
 
@@ -95,21 +95,21 @@ class EMDCoupon
      * @param string $Status
      * @param string $SvcDescription
      * @param boolean $ConsumedAtIssuanceInd
-     * @param anonymous1069 $RFIC
-     * @param anonymous1070 $RFISC
-     * @param anonymous1071 $RFIDescription
+     * @param anonymous1067 $RFIC
+     * @param anonymous1068 $RFISC
+     * @param anonymous1069 $RFIDescription
      * @param typeIATACode $Origin
      * @param typeIATACode $Destination
      * @param typeFlightNumber $FlightNumber
-     * @param anonymous1072 $PresentTo
-     * @param anonymous1073 $PresentAt
+     * @param anonymous1070 $PresentTo
+     * @param anonymous1071 $PresentAt
      * @param boolean $NonRefundableInd
      * @param typeCarrier $MarketingCarrier
      * @param typeRef $Key
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Number = null, $Status = null, $SvcDescription = null, $ConsumedAtIssuanceInd = null, $RFIC = null, $RFISC = null, $RFIDescription = null, $Origin = null, $Destination = null, $FlightNumber = null, $PresentTo = null, $PresentAt = null, $NonRefundableInd = null, $MarketingCarrier = null, $Key = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Number, $Status, $SvcDescription, $ConsumedAtIssuanceInd, $RFIC, $RFISC, $RFIDescription, $Origin, $Destination, $FlightNumber, $PresentTo, $PresentAt, $NonRefundableInd, $MarketingCarrier, $Key, $ElStat, $KeyOverride)
     {
       $this->Number = $Number;
       $this->Status = $Status;
@@ -203,7 +203,7 @@ class EMDCoupon
     }
 
     /**
-     * @return anonymous1069
+     * @return anonymous1067
      */
     public function getRFIC()
     {
@@ -211,7 +211,7 @@ class EMDCoupon
     }
 
     /**
-     * @param anonymous1069 $RFIC
+     * @param anonymous1067 $RFIC
      * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
      */
     public function setRFIC($RFIC)
@@ -221,7 +221,7 @@ class EMDCoupon
     }
 
     /**
-     * @return anonymous1070
+     * @return anonymous1068
      */
     public function getRFISC()
     {
@@ -229,7 +229,7 @@ class EMDCoupon
     }
 
     /**
-     * @param anonymous1070 $RFISC
+     * @param anonymous1068 $RFISC
      * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
      */
     public function setRFISC($RFISC)
@@ -239,7 +239,7 @@ class EMDCoupon
     }
 
     /**
-     * @return anonymous1071
+     * @return anonymous1069
      */
     public function getRFIDescription()
     {
@@ -247,7 +247,7 @@ class EMDCoupon
     }
 
     /**
-     * @param anonymous1071 $RFIDescription
+     * @param anonymous1069 $RFIDescription
      * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
      */
     public function setRFIDescription($RFIDescription)
@@ -311,7 +311,7 @@ class EMDCoupon
     }
 
     /**
-     * @return anonymous1072
+     * @return anonymous1070
      */
     public function getPresentTo()
     {
@@ -319,7 +319,7 @@ class EMDCoupon
     }
 
     /**
-     * @param anonymous1072 $PresentTo
+     * @param anonymous1070 $PresentTo
      * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
      */
     public function setPresentTo($PresentTo)
@@ -329,7 +329,7 @@ class EMDCoupon
     }
 
     /**
-     * @return anonymous1073
+     * @return anonymous1071
      */
     public function getPresentAt()
     {
@@ -337,7 +337,7 @@ class EMDCoupon
     }
 
     /**
-     * @param anonymous1073 $PresentAt
+     * @param anonymous1071 $PresentAt
      * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
      */
     public function setPresentAt($PresentAt)

@@ -54,7 +54,7 @@ class GdsQueueListReq extends BaseReq
      * @param boolean $RetrieveAll
      * @param string $QueueSessionToken
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $NextResultReference = null, $GdsQueueSelector = null, $ProviderCode = null, $PseudoCityCode = null, $RetrieveAll = null, $QueueSessionToken = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference, $GdsQueueSelector, $ProviderCode, $PseudoCityCode, $RetrieveAll, $QueueSessionToken)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->NextResultReference = $NextResultReference;

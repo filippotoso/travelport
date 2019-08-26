@@ -111,7 +111,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
      * @param typePriorityOrder $PriorityOrder
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $CertificateHistory = null, $TicketNumberHistory = null, $Check = null, $Requisition = null, $MiscFormOfPaymentHistory = null, $AgencyPaymentHistory = null, $UnitedNationsHistory = null, $DirectPayment = null, $AgentVoucherHistory = null, $Type = null, $Description = null, $PriorityOrder = null, $OwnerID = null)
+    public function __construct($Key, $CertificateHistory, $TicketNumberHistory, $Check, $Requisition, $MiscFormOfPaymentHistory, $AgencyPaymentHistory, $UnitedNationsHistory, $DirectPayment, $AgentVoucherHistory, $Type, $Description, $PriorityOrder, $OwnerID)
     {
       parent::__construct($Key);
       $this->CertificateHistory = $CertificateHistory;

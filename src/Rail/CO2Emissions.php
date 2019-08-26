@@ -37,7 +37,7 @@ class CO2Emissions
      * @param StringLength1to64 $Category
      * @param StringLength1to64 $Source
      */
-    public function __construct($CO2Emission = null, $TotalValue = null, $Unit = null, $Category = null, $Source = null)
+    public function __construct($CO2Emission, $TotalValue, $Unit, $Category, $Source)
     {
       $this->CO2Emission = $CO2Emission;
       $this->TotalValue = $TotalValue;

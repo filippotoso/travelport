@@ -79,7 +79,7 @@ class BrandingInfo
      * @param string $CommercialName
      * @param string $Chargeable
      */
-    public function __construct($PriceRange = null, $Text = null, $Title = null, $ImageLocation = null, $ServiceGroup = null, array $AirSegmentRef = null, $Key = null, $ServiceSubCode = null, $ExternalServiceName = null, $ServiceType = null, $CommercialName = null, $Chargeable = null)
+    public function __construct($PriceRange, $Text, $Title, $ImageLocation, $ServiceGroup, array $AirSegmentRef, $Key, $ServiceSubCode, $ExternalServiceName, $ServiceType, $CommercialName, $Chargeable)
     {
       $this->PriceRange = $PriceRange;
       $this->Text = $Text;

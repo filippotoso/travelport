@@ -25,7 +25,7 @@ class FareFamilyCriteria
      * @param typeFareFamily $Label
      * @param typeFareBasisCode $FareBasis
      */
-    public function __construct($Carrier = null, $Label = null, $FareBasis = null)
+    public function __construct($Carrier, $Label, $FareBasis)
     {
       $this->Carrier = $Carrier;
       $this->Label = $Label;

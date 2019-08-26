@@ -26,7 +26,7 @@ class ProviderInfo extends typeKeyElement
      * @param typePCC $PseudoCityCode
      * @param typeIATA $IATACode
      */
-    public function __construct($Key = null, $ProviderCode = null, $PseudoCityCode = null, $IATACode = null)
+    public function __construct($Key, $ProviderCode, $PseudoCityCode, $IATACode)
     {
       parent::__construct($Key);
       $this->ProviderCode = $ProviderCode;

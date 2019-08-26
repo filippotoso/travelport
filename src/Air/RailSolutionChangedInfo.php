@@ -19,7 +19,7 @@ class RailSolutionChangedInfo
      * @param RailPricingSolution $RailPricingSolution
      * @param anonymous598 $ReasonCode
      */
-    public function __construct($RailPricingSolution = null, $ReasonCode = null)
+    public function __construct($RailPricingSolution, $ReasonCode)
     {
       $this->RailPricingSolution = $RailPricingSolution;
       $this->ReasonCode = $ReasonCode;

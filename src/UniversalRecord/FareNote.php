@@ -49,7 +49,7 @@ class FareNote
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($_ = null, $Key = null, $Precedence = null, $NoteName = null, $FareInfoMessageRef = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($_, $Key, $Precedence, $NoteName, $FareInfoMessageRef, $ElStat, $KeyOverride)
     {
       $this->_ = $_;
       $this->Key = $Key;

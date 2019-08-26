@@ -30,7 +30,7 @@ class AirPriceResult
      * @param FareRule $FareRule
      * @param anonymous642 $CommandKey
      */
-    public function __construct($AirPricingSolution = null, $FareRule = null, $CommandKey = null)
+    public function __construct($AirPricingSolution, $FareRule, $CommandKey)
     {
       $this->AirPricingSolution = $AirPricingSolution;
       $this->FareRule = $FareRule;

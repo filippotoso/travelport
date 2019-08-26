@@ -19,7 +19,7 @@ class ProfileSearchModifiers
      * @param typeMaxResults $MaxResults
      * @param typeStartFromResult $StartFromResult
      */
-    public function __construct($MaxResults = null, $StartFromResult = null)
+    public function __construct($MaxResults, $StartFromResult)
     {
       $this->MaxResults = $MaxResults;
       $this->StartFromResult = $StartFromResult;

@@ -11,15 +11,15 @@ class FeeApplication
     protected $_ = null;
 
     /**
-     * @var anonymous915 $Code
+     * @var anonymous913 $Code
      */
     protected $Code = null;
 
     /**
      * @param typeFeeApplication $_
-     * @param anonymous915 $Code
+     * @param anonymous913 $Code
      */
-    public function __construct($_ = null, $Code = null)
+    public function __construct($_, $Code)
     {
       $this->_ = $_;
       $this->Code = $Code;
@@ -44,7 +44,7 @@ class FeeApplication
     }
 
     /**
-     * @return anonymous915
+     * @return anonymous913
      */
     public function getCode()
     {
@@ -52,7 +52,7 @@ class FeeApplication
     }
 
     /**
-     * @param anonymous915 $Code
+     * @param anonymous913 $Code
      * @return \FilippoToso\Travelport\Rail\FeeApplication
      */
     public function setCode($Code)

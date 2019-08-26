@@ -108,7 +108,7 @@ class AirPricePoint
      * @param typeMoney $ApproximateTaxes
      * @param typeMoney $ApproximateFees
      */
-    public function __construct($AirPricingInfo = null, $FeeInfo = null, $FareNote = null, $TaxInfo = null, $Key = null, $CompleteItinerary = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null)
+    public function __construct($AirPricingInfo, $FeeInfo, $FareNote, $TaxInfo, $Key, $CompleteItinerary, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees)
     {
       $this->AirPricingInfo = $AirPricingInfo;
       $this->FeeInfo = $FeeInfo;

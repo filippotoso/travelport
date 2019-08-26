@@ -169,7 +169,7 @@ class AirAdd
      * @param typeRef $BookingTravelerRef
      * @param boolean $RestrictWaitlist
      */
-    public function __construct($AccountingRemark = null, $SupplierLocator = null, $AirSegment = null, $AirPricingInfo = null, $CreditCardAuth = null, $DeliveryInfo = null, $Payment = null, $SSR = null, $LoyaltyCard = null, $AutoSeatAssignment = null, $SpecificSeatAssignment = null, $GeneralRemark = null, $FeeInfo = null, $HostToken = null, $AirPricingTicketingModifiers = null, $OptionalServicesInfo = null, $AirPricingPayment = null, $AssociatedRemark = null, $PocketItineraryRemark = null, $ThirdPartyInformation = null, $AirSegmentPricingModifiers = null, $TravelComplianceData = null, $BrandInfo = null, $InvoluntaryChange = null, $ReservationLocatorCode = null, $BookingTravelerRef = null, $RestrictWaitlist = null)
+    public function __construct($AccountingRemark, $SupplierLocator, $AirSegment, $AirPricingInfo, $CreditCardAuth, $DeliveryInfo, $Payment, $SSR, $LoyaltyCard, $AutoSeatAssignment, $SpecificSeatAssignment, $GeneralRemark, $FeeInfo, $HostToken, $AirPricingTicketingModifiers, $OptionalServicesInfo, $AirPricingPayment, $AssociatedRemark, $PocketItineraryRemark, $ThirdPartyInformation, $AirSegmentPricingModifiers, $TravelComplianceData, $BrandInfo, $InvoluntaryChange, $ReservationLocatorCode, $BookingTravelerRef, $RestrictWaitlist)
     {
       $this->AccountingRemark = $AccountingRemark;
       $this->SupplierLocator = $SupplierLocator;

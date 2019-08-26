@@ -359,6 +359,7 @@ class RailService extends \SoapClient
   'FareRestrictionDaysOfWeek' => 'FilippoToso\\Travelport\\Rail\\FareRestrictionDaysOfWeek',
   'FareRestrictionDate' => 'FilippoToso\\Travelport\\Rail\\FareRestrictionDate',
   'FareRestrictionSaleDate' => 'FilippoToso\\Travelport\\Rail\\FareRestrictionSaleDate',
+  'FareRestrictionSeasonal' => 'FilippoToso\\Travelport\\Rail\\FareRestrictionSeasonal',
   'FarePricing' => 'FilippoToso\\Travelport\\Rail\\FarePricing',
   'FareRuleLookup' => 'FilippoToso\\Travelport\\Rail\\FareRuleLookup',
   'AirExchangeModifiers' => 'FilippoToso\\Travelport\\Rail\\AirExchangeModifiers',
@@ -422,14 +423,10 @@ class RailService extends \SoapClient
   'LegRef' => 'FilippoToso\\Travelport\\Rail\\LegRef',
   'FareBasis' => 'FilippoToso\\Travelport\\Rail\\FareBasis',
   'FareRule' => 'FilippoToso\\Travelport\\Rail\\FareRule',
-  'StructuredFareRules' => 'FilippoToso\\Travelport\\Rail\\StructuredFareRules',
-  'STP' => 'FilippoToso\\Travelport\\Rail\\STP',
-  'CXRApplicationDetailsType' => 'FilippoToso\\Travelport\\Rail\\CXRApplicationDetailsType',
-  'CXRApplication' => 'FilippoToso\\Travelport\\Rail\\CXRApplication',
-  'ADVSFRType' => 'FilippoToso\\Travelport\\Rail\\ADVSFRType',
-  'MINSFRType' => 'FilippoToso\\Travelport\\Rail\\MINSFRType',
-  'MAXSFRType' => 'FilippoToso\\Travelport\\Rail\\MAXSFRType',
-  'CHGSFRType' => 'FilippoToso\\Travelport\\Rail\\CHGSFRType',
+  'StructuredFareRulesType' => 'FilippoToso\\Travelport\\Rail\\StructuredFareRulesType',
+  'FareRuleCategoryTypes' => 'FilippoToso\\Travelport\\Rail\\FareRuleCategoryTypes',
+  'ValueDetails' => 'FilippoToso\\Travelport\\Rail\\ValueDetails',
+  'CategoryDetailsType' => 'FilippoToso\\Travelport\\Rail\\CategoryDetailsType',
   'FareSurcharge' => 'FilippoToso\\Travelport\\Rail\\FareSurcharge',
   'FareRuleShortRef' => 'FilippoToso\\Travelport\\Rail\\FareRuleShortRef',
   'FareRuleLongRef' => 'FilippoToso\\Travelport\\Rail\\FareRuleLongRef',
@@ -955,7 +952,7 @@ class RailService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/rail_v47_0/Rail.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/rail_v48_0/Rail.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

@@ -11,7 +11,7 @@ class RailSearchModifiers
     protected $PreferredSuppliers = null;
 
     /**
-     * @var anonymous1314 $MaxChanges
+     * @var anonymous1312 $MaxChanges
      */
     protected $MaxChanges = null;
 
@@ -31,12 +31,12 @@ class RailSearchModifiers
     protected $MaxSolutions = null;
 
     /**
-     * @param anonymous1314 $MaxChanges
+     * @param anonymous1312 $MaxChanges
      * @param typeRailDirection $Direction
      * @param string $Class
      * @param int $MaxSolutions
      */
-    public function __construct($MaxChanges = null, $Direction = null, $Class = null, $MaxSolutions = null)
+    public function __construct($MaxChanges, $Direction, $Class, $MaxSolutions)
     {
       $this->MaxChanges = $MaxChanges;
       $this->Direction = $Direction;
@@ -63,7 +63,7 @@ class RailSearchModifiers
     }
 
     /**
-     * @return anonymous1314
+     * @return anonymous1312
      */
     public function getMaxChanges()
     {
@@ -71,7 +71,7 @@ class RailSearchModifiers
     }
 
     /**
-     * @param anonymous1314 $MaxChanges
+     * @param anonymous1312 $MaxChanges
      * @return \FilippoToso\Travelport\UniversalRecord\RailSearchModifiers
      */
     public function setMaxChanges($MaxChanges)

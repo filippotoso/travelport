@@ -31,7 +31,7 @@ class CreateTag
      * @param StringLength1to255 $Description
      * @param int $DisplayOrder
      */
-    public function __construct($Name = null, $Label = null, $Description = null, $DisplayOrder = null)
+    public function __construct($Name, $Label, $Description, $DisplayOrder)
     {
       $this->Name = $Name;
       $this->Label = $Label;

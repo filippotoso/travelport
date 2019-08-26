@@ -43,7 +43,7 @@ class OptionalServiceModifier
      * @param date $TravelDate
      * @param string $Description
      */
-    public function __construct($Type = null, $SecondaryType = null, $SupplierCode = null, $ServiceSubCode = null, $TravelDate = null, $Description = null)
+    public function __construct($Type, $SecondaryType, $SupplierCode, $ServiceSubCode, $TravelDate, $Description)
     {
       $this->Type = $Type;
       $this->SecondaryType = $SecondaryType;

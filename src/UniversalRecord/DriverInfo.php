@@ -6,20 +6,20 @@ class DriverInfo
 {
 
     /**
-     * @var anonymous1154 $Age
+     * @var anonymous1152 $Age
      */
     protected $Age = null;
 
     /**
-     * @param anonymous1154 $Age
+     * @param anonymous1152 $Age
      */
-    public function __construct($Age = null)
+    public function __construct($Age)
     {
       $this->Age = $Age;
     }
 
     /**
-     * @return anonymous1154
+     * @return anonymous1152
      */
     public function getAge()
     {
@@ -27,7 +27,7 @@ class DriverInfo
     }
 
     /**
-     * @param anonymous1154 $Age
+     * @param anonymous1152 $Age
      * @return \FilippoToso\Travelport\UniversalRecord\DriverInfo
      */
     public function setAge($Age)

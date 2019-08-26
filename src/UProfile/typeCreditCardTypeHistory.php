@@ -62,7 +62,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
      * @param boolean $ExtractIndicator
      * @param boolean $Active
      */
-    public function __construct($PhoneNumberHistory = null, $Type = null, $Number = null, $ExpDate = null, $Name = null, $CVV = null, $ApprovalCode = null, $ExtendedPayment = null, $CustomerReference = null, $AcceptanceOverride = null, $ThirdPartyPayment = null, $BankName = null, $BankCountryCode = null, $ExtractIndicator = null, $Active = null)
+    public function __construct($PhoneNumberHistory, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode, $ExtendedPayment, $CustomerReference, $AcceptanceOverride, $ThirdPartyPayment, $BankName, $BankCountryCode, $ExtractIndicator, $Active)
     {
       parent::__construct($PhoneNumberHistory, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode);
       $this->ExtendedPayment = $ExtendedPayment;

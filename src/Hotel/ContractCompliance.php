@@ -19,7 +19,7 @@ class ContractCompliance
      * @param boolean $InContract
      * @param StringLength1to128 $ContractToken
      */
-    public function __construct($InContract = null, $ContractToken = null)
+    public function __construct($InContract, $ContractToken)
     {
       $this->InContract = $InContract;
       $this->ContractToken = $ContractToken;

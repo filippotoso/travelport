@@ -31,7 +31,7 @@ class Variance
      * @param typeVarianceIndicator $Indicator
      * @param string $Reason
      */
-    public function __construct($Type = null, $Time = null, $Indicator = null, $Reason = null)
+    public function __construct($Type, $Time, $Indicator, $Reason)
     {
       $this->Type = $Type;
       $this->Time = $Time;

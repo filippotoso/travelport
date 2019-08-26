@@ -13,7 +13,7 @@ class typeEndpointRef
     /**
      * @param typeEndpointID $ID
      */
-    public function __construct($ID = null)
+    public function __construct($ID)
     {
       $this->ID = $ID;
     }

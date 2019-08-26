@@ -19,7 +19,7 @@ class ProfileLinkAdd
      * @param typeProfileID $TravelerID
      * @param typeProfileLinkRelationship $Relationship
      */
-    public function __construct($TravelerID = null, $Relationship = null)
+    public function __construct($TravelerID, $Relationship)
     {
       $this->TravelerID = $TravelerID;
       $this->Relationship = $Relationship;

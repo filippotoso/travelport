@@ -13,7 +13,7 @@ class MarketingInformation
     /**
      * @param anyType[] $Text
      */
-    public function __construct(array $Text = null)
+    public function __construct(array $Text)
     {
       $this->Text = $Text;
     }

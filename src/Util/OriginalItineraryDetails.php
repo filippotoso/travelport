@@ -49,7 +49,7 @@ class OriginalItineraryDetails
      * @param typeTourCode $TourCode
      * @param date $TicketingDate
      */
-    public function __construct($ItineraryType = null, $BulkTicket = null, $TicketingPCC = null, $TicketingIATA = null, $TicketingCountry = null, $TourCode = null, $TicketingDate = null)
+    public function __construct($ItineraryType, $BulkTicket, $TicketingPCC, $TicketingIATA, $TicketingCountry, $TourCode, $TicketingDate)
     {
       $this->ItineraryType = $ItineraryType;
       $this->BulkTicket = $BulkTicket;

@@ -18,7 +18,7 @@ class BrandedFareAdminRsp extends BaseRsp
      * @param string $CommandHistory
      * @param FareFamily $FareFamily
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $FareFamily = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $FareFamily)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->FareFamily = $FareFamily;

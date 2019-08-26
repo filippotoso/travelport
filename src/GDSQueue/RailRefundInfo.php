@@ -43,7 +43,7 @@ class RailRefundInfo
      * @param typeMoney $RetainAmount
      * @param typeMoney $NetAmount
      */
-    public function __construct($RefundAmount = null, $CancellationFee = null, $Refund = null, $Retain = null, $RetainAmount = null, $NetAmount = null)
+    public function __construct($RefundAmount, $CancellationFee, $Refund, $Retain, $RetainAmount, $NetAmount)
     {
       $this->RefundAmount = $RefundAmount;
       $this->CancellationFee = $CancellationFee;

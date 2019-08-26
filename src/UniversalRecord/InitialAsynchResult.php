@@ -13,7 +13,7 @@ class InitialAsynchResult
     /**
      * @param int $MaxWait
      */
-    public function __construct($MaxWait = null)
+    public function __construct($MaxWait)
     {
       $this->MaxWait = $MaxWait;
     }

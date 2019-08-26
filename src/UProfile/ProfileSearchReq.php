@@ -60,7 +60,7 @@ class ProfileSearchReq extends BaseReq
      * @param boolean $ReturnParentSummary
      * @param StringLength1to128 $SearchToken
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ProfileTypeSearch = null, $ProfileSearch = null, $ProfileSearchModifiers = null, $ProfileType = null, $ProfileParentID = null, $ReturnParentSummary = null, $SearchToken = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ProfileTypeSearch, $ProfileSearch, $ProfileSearchModifiers, $ProfileType, $ProfileParentID, $ReturnParentSummary, $SearchToken)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ProfileTypeSearch = $ProfileTypeSearch;

@@ -31,7 +31,7 @@ class EnettVan
      * @param typeDurationYearInDays $ExpiryDays
      * @param boolean $MultiUse
      */
-    public function __construct($MinPercentage = null, $MaxPercentage = null, $ExpiryDays = null, $MultiUse = null)
+    public function __construct($MinPercentage, $MaxPercentage, $ExpiryDays, $MultiUse)
     {
       $this->MinPercentage = $MinPercentage;
       $this->MaxPercentage = $MaxPercentage;

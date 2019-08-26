@@ -31,7 +31,7 @@ class AutoPricingInfo
     protected $Key = null;
 
     /**
-     * @var anonymous1063 $PricingType
+     * @var anonymous1061 $PricingType
      */
     protected $PricingType = null;
 
@@ -56,12 +56,12 @@ class AutoPricingInfo
      * @param AirPricingModifiers $AirPricingModifiers
      * @param AirSegmentPricingModifiers $AirSegmentPricingModifiers
      * @param typeRef $Key
-     * @param anonymous1063 $PricingType
+     * @param anonymous1061 $PricingType
      * @param typeCarrier $PlatingCarrier
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($AirSegmentRef = null, $BookingTravelerRef = null, $AirPricingModifiers = null, $AirSegmentPricingModifiers = null, $Key = null, $PricingType = null, $PlatingCarrier = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($AirSegmentRef, $BookingTravelerRef, $AirPricingModifiers, $AirSegmentPricingModifiers, $Key, $PricingType, $PlatingCarrier, $ElStat, $KeyOverride)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->BookingTravelerRef = $BookingTravelerRef;
@@ -165,7 +165,7 @@ class AutoPricingInfo
     }
 
     /**
-     * @return anonymous1063
+     * @return anonymous1061
      */
     public function getPricingType()
     {
@@ -173,7 +173,7 @@ class AutoPricingInfo
     }
 
     /**
-     * @param anonymous1063 $PricingType
+     * @param anonymous1061 $PricingType
      * @return \FilippoToso\Travelport\Rail\AutoPricingInfo
      */
     public function setPricingType($PricingType)

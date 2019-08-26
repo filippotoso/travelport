@@ -101,7 +101,7 @@ class HotelProperty
     protected $MoreRates = null;
 
     /**
-     * @var anonymous1156 $MoreRatesToken
+     * @var anonymous1154 $MoreRatesToken
      */
     protected $MoreRatesToken = null;
 
@@ -134,11 +134,11 @@ class HotelProperty
      * @param typeRef $Key
      * @param boolean $PreferredOption
      * @param boolean $MoreRates
-     * @param anonymous1156 $MoreRatesToken
+     * @param anonymous1154 $MoreRatesToken
      * @param typeNetTransCommission $NetTransCommissionInd
      * @param int $NumOfRatePlans
      */
-    public function __construct($PhoneNumber = null, $CoordinateLocation = null, $Distance = null, $HotelRating = null, $Amenities = null, $MarketingMessage = null, $HotelChain = null, $HotelCode = null, $HotelLocation = null, $Name = null, $VendorLocationKey = null, $HotelTransportation = null, $ReserveRequirement = null, $ParticipationLevel = null, $Availability = null, $Key = null, $PreferredOption = null, $MoreRates = null, $MoreRatesToken = null, $NetTransCommissionInd = null, $NumOfRatePlans = null)
+    public function __construct($PhoneNumber, $CoordinateLocation, $Distance, $HotelRating, $Amenities, $MarketingMessage, $HotelChain, $HotelCode, $HotelLocation, $Name, $VendorLocationKey, $HotelTransportation, $ReserveRequirement, $ParticipationLevel, $Availability, $Key, $PreferredOption, $MoreRates, $MoreRatesToken, $NetTransCommissionInd, $NumOfRatePlans)
     {
       $this->PhoneNumber = $PhoneNumber;
       $this->CoordinateLocation = $CoordinateLocation;
@@ -506,7 +506,7 @@ class HotelProperty
     }
 
     /**
-     * @return anonymous1156
+     * @return anonymous1154
      */
     public function getMoreRatesToken()
     {
@@ -514,7 +514,7 @@ class HotelProperty
     }
 
     /**
-     * @param anonymous1156 $MoreRatesToken
+     * @param anonymous1154 $MoreRatesToken
      * @return \FilippoToso\Travelport\GDSQueue\HotelProperty
      */
     public function setMoreRatesToken($MoreRatesToken)

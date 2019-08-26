@@ -19,7 +19,7 @@ class VoluntaryRefunds
      * @param Penalty $Penalty
      * @param boolean $VolChangeInd
      */
-    public function __construct($Penalty = null, $VolChangeInd = null)
+    public function __construct($Penalty, $VolChangeInd)
     {
       $this->Penalty = $Penalty;
       $this->VolChangeInd = $VolChangeInd;

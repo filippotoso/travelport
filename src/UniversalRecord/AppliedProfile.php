@@ -61,7 +61,7 @@ class AppliedProfile
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key = null, $TravelerID = null, $TravelerName = null, $AccountID = null, $AccountName = null, $ImmediateParentID = null, $ImmediateParentName = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Key, $TravelerID, $TravelerName, $AccountID, $AccountName, $ImmediateParentID, $ImmediateParentName, $ElStat, $KeyOverride)
     {
       $this->Key = $Key;
       $this->TravelerID = $TravelerID;

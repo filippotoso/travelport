@@ -13,7 +13,7 @@ class PreferredAlliances
     /**
      * @param Alliance $Alliance
      */
-    public function __construct($Alliance = null)
+    public function __construct($Alliance)
     {
       $this->Alliance = $Alliance;
     }

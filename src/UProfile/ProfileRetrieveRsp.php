@@ -18,7 +18,7 @@ class ProfileRetrieveRsp extends BaseRsp
      * @param string $CommandHistory
      * @param Profile $Profile
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $Profile = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $Profile)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->Profile = $Profile;

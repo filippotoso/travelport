@@ -19,7 +19,7 @@ class typeAssociatedRemarkWithSegmentRef extends typeAssociatedRemark
      * @param boolean $KeyOverride
      * @param typeRef $SegmentRef
      */
-    public function __construct($RemarkData = null, $ProviderReservationInfoRef = null, $ProviderCode = null, $Key = null, $ElStat = null, $KeyOverride = null, $SegmentRef = null)
+    public function __construct($RemarkData, $ProviderReservationInfoRef, $ProviderCode, $Key, $ElStat, $KeyOverride, $SegmentRef)
     {
       parent::__construct($RemarkData, $ProviderReservationInfoRef, $ProviderCode, $Key, $ElStat, $KeyOverride);
       $this->SegmentRef = $SegmentRef;

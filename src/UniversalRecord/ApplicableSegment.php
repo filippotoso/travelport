@@ -25,7 +25,7 @@ class ApplicableSegment
      * @param typeRef $OptionalServiceRef
      * @param typeRef $Key
      */
-    public function __construct($ResponseMessage = null, $OptionalServiceRef = null, $Key = null)
+    public function __construct($ResponseMessage, $OptionalServiceRef, $Key)
     {
       $this->ResponseMessage = $ResponseMessage;
       $this->OptionalServiceRef = $OptionalServiceRef;

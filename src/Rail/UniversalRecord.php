@@ -241,7 +241,7 @@ class UniversalRecord
      * @param typeURVersion $Version
      * @param typeURStatus $Status
      */
-    public function __construct($LinkedUniversalRecord = null, $Group = null, $BookingTraveler = null, $ServiceFeeInfo = null, $OSI = null, $ActionStatus = null, $ProviderReservationInfo = null, $AirReservation = null, $HotelReservation = null, $VehicleReservation = null, $PassiveReservation = null, $RailReservation = null, $CruiseReservation = null, $EMDSummaryInfo = null, $ProviderARNKSegment = null, $SegmentContinuityInfo = null, $XMLRemark = null, $GeneralRemark = null, $AccountingRemark = null, $UnassociatedRemark = null, $Postscript = null, $AgencyInfo = null, $AppliedProfile = null, $AgencyContactInfo = null, $CustomerID = null, $CommissionRemark = null, $ConsolidatorRemark = null, $UnmaskedDataRemark = null, $InvoiceRemark = null, $ReviewBooking = null, $SSR = null, $InvoiceData = null, $FormOfPayment = null, $LocatorCode = null, $SavedTripLocatorCode = null, $LockReason = null, \DateTime $CreateDate = null, $Version = null, $Status = null)
+    public function __construct($LinkedUniversalRecord, $Group, $BookingTraveler, $ServiceFeeInfo, $OSI, $ActionStatus, $ProviderReservationInfo, $AirReservation, $HotelReservation, $VehicleReservation, $PassiveReservation, $RailReservation, $CruiseReservation, $EMDSummaryInfo, $ProviderARNKSegment, $SegmentContinuityInfo, $XMLRemark, $GeneralRemark, $AccountingRemark, $UnassociatedRemark, $Postscript, $AgencyInfo, $AppliedProfile, $AgencyContactInfo, $CustomerID, $CommissionRemark, $ConsolidatorRemark, $UnmaskedDataRemark, $InvoiceRemark, $ReviewBooking, $SSR, $InvoiceData, $FormOfPayment, $LocatorCode, $SavedTripLocatorCode, $LockReason, \DateTime $CreateDate, $Version, $Status)
     {
       $this->LinkedUniversalRecord = $LinkedUniversalRecord;
       $this->Group = $Group;
@@ -279,7 +279,7 @@ class UniversalRecord
       $this->LocatorCode = $LocatorCode;
       $this->SavedTripLocatorCode = $SavedTripLocatorCode;
       $this->LockReason = $LockReason;
-      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
+      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
       $this->Version = $Version;
       $this->Status = $Status;
     }

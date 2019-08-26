@@ -109,7 +109,7 @@ class SSR
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key = null, $SegmentRef = null, $PassiveSegmentRef = null, $ProviderReservationInfoRef = null, $Type = null, $Status = null, $FreeText = null, $Carrier = null, $CarrierSpecificText = null, $Description = null, $ProviderDefinedType = null, $SSRRuleRef = null, $URL = null, $ProfileID = null, $ProfileSecureFlightDocKey = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Key, $SegmentRef, $PassiveSegmentRef, $ProviderReservationInfoRef, $Type, $Status, $FreeText, $Carrier, $CarrierSpecificText, $Description, $ProviderDefinedType, $SSRRuleRef, $URL, $ProfileID, $ProfileSecureFlightDocKey, $ElStat, $KeyOverride)
     {
       $this->Key = $Key;
       $this->SegmentRef = $SegmentRef;

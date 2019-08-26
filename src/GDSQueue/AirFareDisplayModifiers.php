@@ -21,6 +21,11 @@ class AirFareDisplayModifiers
     protected $PenaltyFareInformation = null;
 
     /**
+     * @var typeFareSearchOption[] $FareSearchOption
+     */
+    protected $FareSearchOption = null;
+
+    /**
      * @var int $MaxResponses
      */
     protected $MaxResponses = null;
@@ -138,7 +143,7 @@ class AirFareDisplayModifiers
      * @param boolean $ProhibitTravelRestrictedFares
      * @param typeCurrency $FiledCurrency
      */
-    public function __construct($CabinClass = null, $PenaltyFareInformation = null, $MaxResponses = null, $DepartureDate = null, $TicketingDate = null, $ReturnDate = null, $BaseFareOnly = null, $UnrestrictedFaresOnly = null, $FaresIndicator = null, $CurrencyType = null, $IncludeTaxes = null, $IncludeEstimatedTaxes = null, $IncludeSurcharges = null, $GlobalIndicator = null, $ProhibitMinStayFares = null, $ProhibitMaxStayFares = null, $ProhibitAdvancePurchaseFares = null, $ProhibitNonRefundableFares = null, $ValidatedFaresOnly = null, $ProhibitTravelRestrictedFares = null, $FiledCurrency = null)
+    public function __construct($CabinClass, $PenaltyFareInformation, $MaxResponses, $DepartureDate, $TicketingDate, $ReturnDate, $BaseFareOnly, $UnrestrictedFaresOnly, $FaresIndicator, $CurrencyType, $IncludeTaxes, $IncludeEstimatedTaxes, $IncludeSurcharges, $GlobalIndicator, $ProhibitMinStayFares, $ProhibitMaxStayFares, $ProhibitAdvancePurchaseFares, $ProhibitNonRefundableFares, $ValidatedFaresOnly, $ProhibitTravelRestrictedFares, $FiledCurrency)
     {
       $this->CabinClass = $CabinClass;
       $this->PenaltyFareInformation = $PenaltyFareInformation;
@@ -214,6 +219,24 @@ class AirFareDisplayModifiers
     public function setPenaltyFareInformation($PenaltyFareInformation)
     {
       $this->PenaltyFareInformation = $PenaltyFareInformation;
+      return $this;
+    }
+
+    /**
+     * @return typeFareSearchOption[]
+     */
+    public function getFareSearchOption()
+    {
+      return $this->FareSearchOption;
+    }
+
+    /**
+     * @param typeFareSearchOption[] $FareSearchOption
+     * @return \FilippoToso\Travelport\GDSQueue\AirFareDisplayModifiers
+     */
+    public function setFareSearchOption(array $FareSearchOption = null)
+    {
+      $this->FareSearchOption = $FareSearchOption;
       return $this;
     }
 

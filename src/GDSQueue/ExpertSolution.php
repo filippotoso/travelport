@@ -37,7 +37,7 @@ class ExpertSolution
      * @param typeMoney $ApproximateTotalPrice
      * @param date $CreatedDate
      */
-    public function __construct($LegPrice = null, $Key = null, $TotalPrice = null, $ApproximateTotalPrice = null, $CreatedDate = null)
+    public function __construct($LegPrice, $Key, $TotalPrice, $ApproximateTotalPrice, $CreatedDate)
     {
       $this->LegPrice = $LegPrice;
       $this->Key = $Key;

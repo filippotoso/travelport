@@ -49,7 +49,7 @@ class typeProfileLinkHistory
      * @param StringLength1to128 $Nickname
      * @param StringLength1to128 $ElectronicAddress
      */
-    public function __construct($TravelerID = null, $Relationship = null, $GivenName = null, $OtherName = null, $Surname = null, $Nickname = null, $ElectronicAddress = null)
+    public function __construct($TravelerID, $Relationship, $GivenName, $OtherName, $Surname, $Nickname, $ElectronicAddress)
     {
       $this->TravelerID = $TravelerID;
       $this->Relationship = $Relationship;

@@ -12,7 +12,7 @@ class ShippingAddress extends typeStructuredAddress
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($State = null, $ProviderReservationInfoRef = null, $Key = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($State, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride)
     {
       parent::__construct($State, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride);
     }

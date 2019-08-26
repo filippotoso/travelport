@@ -25,7 +25,7 @@ class VehiclePickupLocation
      * @param VehicleModifier $VehicleModifier
      * @param typeIATACode $PickUpLocation
      */
-    public function __construct($Vendor = null, $VehicleModifier = null, $PickUpLocation = null)
+    public function __construct($Vendor, $VehicleModifier, $PickUpLocation)
     {
       $this->Vendor = $Vendor;
       $this->VehicleModifier = $VehicleModifier;

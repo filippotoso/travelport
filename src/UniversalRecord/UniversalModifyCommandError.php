@@ -19,7 +19,7 @@ class UniversalModifyCommandError
      * @param string $_
      * @param typeRef $UniversalModifyCmdKey
      */
-    public function __construct($_ = null, $UniversalModifyCmdKey = null)
+    public function __construct($_, $UniversalModifyCmdKey)
     {
       $this->_ = $_;
       $this->UniversalModifyCmdKey = $UniversalModifyCmdKey;

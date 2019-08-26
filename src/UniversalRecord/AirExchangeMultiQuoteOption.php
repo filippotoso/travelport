@@ -25,7 +25,7 @@ class AirExchangeMultiQuoteOption
      * @param AirExchangeBundleTotal $AirExchangeBundleTotal
      * @param AirExchangeBundleList $AirExchangeBundleList
      */
-    public function __construct($AirSegmentData = null, $AirExchangeBundleTotal = null, $AirExchangeBundleList = null)
+    public function __construct($AirSegmentData, $AirExchangeBundleTotal, $AirExchangeBundleList)
     {
       $this->AirSegmentData = $AirSegmentData;
       $this->AirExchangeBundleTotal = $AirExchangeBundleTotal;

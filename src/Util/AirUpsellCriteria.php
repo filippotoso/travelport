@@ -25,7 +25,7 @@ class AirUpsellCriteria
      * @param AirUpsellUpdate $AirUpsellUpdate
      * @param AirUpsellDelete $AirUpsellDelete
      */
-    public function __construct($AirUpsellAdd = null, $AirUpsellUpdate = null, $AirUpsellDelete = null)
+    public function __construct($AirUpsellAdd, $AirUpsellUpdate, $AirUpsellDelete)
     {
       $this->AirUpsellAdd = $AirUpsellAdd;
       $this->AirUpsellUpdate = $AirUpsellUpdate;

@@ -36,7 +36,7 @@ class AirExchangeTicketingRsp extends BaseRsp
      * @param TicketFailureInfo $TicketFailureInfo
      * @param DetailedBillingInformation $DetailedBillingInformation
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $AirSolutionChangedInfo = null, $ETR = null, $TicketFailureInfo = null, $DetailedBillingInformation = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirSolutionChangedInfo, $ETR, $TicketFailureInfo, $DetailedBillingInformation)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->AirSolutionChangedInfo = $AirSolutionChangedInfo;

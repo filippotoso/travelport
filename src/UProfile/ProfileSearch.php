@@ -43,7 +43,7 @@ class ProfileSearch
     /**
      * @param FieldDataSearch $FieldDataSearch
      */
-    public function __construct($FieldDataSearch = null)
+    public function __construct($FieldDataSearch)
     {
       $this->FieldDataSearch = $FieldDataSearch;
     }

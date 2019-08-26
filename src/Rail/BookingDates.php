@@ -19,7 +19,7 @@ class BookingDates
      * @param typeDate $CheckInDate
      * @param typeDate $CheckOutDate
      */
-    public function __construct($CheckInDate = null, $CheckOutDate = null)
+    public function __construct($CheckInDate, $CheckOutDate)
     {
       $this->CheckInDate = $CheckInDate;
       $this->CheckOutDate = $CheckOutDate;

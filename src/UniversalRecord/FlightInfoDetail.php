@@ -66,7 +66,7 @@ class FlightInfoDetail
     protected $OriginTerminal = null;
 
     /**
-     * @var anonymous920 $OriginGate
+     * @var anonymous918 $OriginGate
      */
     protected $OriginGate = null;
 
@@ -76,7 +76,7 @@ class FlightInfoDetail
     protected $DestinationTerminal = null;
 
     /**
-     * @var anonymous921 $DestinationGate
+     * @var anonymous919 $DestinationGate
      */
     protected $DestinationGate = null;
 
@@ -98,12 +98,12 @@ class FlightInfoDetail
      * @param typeEticketability $ETicketability
      * @param typeEquipment $Equipment
      * @param string $OriginTerminal
-     * @param anonymous920 $OriginGate
+     * @param anonymous918 $OriginGate
      * @param string $DestinationTerminal
-     * @param anonymous921 $DestinationGate
+     * @param anonymous919 $DestinationGate
      * @param boolean $AutomatedCheckin
      */
-    public function __construct($CodeshareInfo = null, $Meals = null, $InFlightServices = null, $Variance = null, $Origin = null, $Destination = null, $ScheduledDepartureTime = null, $ScheduledArrivalTime = null, $TravelTime = null, $ETicketability = null, $Equipment = null, $OriginTerminal = null, $OriginGate = null, $DestinationTerminal = null, $DestinationGate = null, $AutomatedCheckin = null)
+    public function __construct($CodeshareInfo, $Meals, $InFlightServices, $Variance, $Origin, $Destination, $ScheduledDepartureTime, $ScheduledArrivalTime, $TravelTime, $ETicketability, $Equipment, $OriginTerminal, $OriginGate, $DestinationTerminal, $DestinationGate, $AutomatedCheckin)
     {
       $this->CodeshareInfo = $CodeshareInfo;
       $this->Meals = $Meals;
@@ -340,7 +340,7 @@ class FlightInfoDetail
     }
 
     /**
-     * @return anonymous920
+     * @return anonymous918
      */
     public function getOriginGate()
     {
@@ -348,7 +348,7 @@ class FlightInfoDetail
     }
 
     /**
-     * @param anonymous920 $OriginGate
+     * @param anonymous918 $OriginGate
      * @return \FilippoToso\Travelport\UniversalRecord\FlightInfoDetail
      */
     public function setOriginGate($OriginGate)
@@ -376,7 +376,7 @@ class FlightInfoDetail
     }
 
     /**
-     * @return anonymous921
+     * @return anonymous919
      */
     public function getDestinationGate()
     {
@@ -384,7 +384,7 @@ class FlightInfoDetail
     }
 
     /**
-     * @param anonymous921 $DestinationGate
+     * @param anonymous919 $DestinationGate
      * @return \FilippoToso\Travelport\UniversalRecord\FlightInfoDetail
      */
     public function setDestinationGate($DestinationGate)

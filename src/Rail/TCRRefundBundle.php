@@ -41,12 +41,12 @@ class TCRRefundBundle
     protected $TCRNumber = null;
 
     /**
-     * @var anonymous738 $RefundType
+     * @var anonymous739 $RefundType
      */
     protected $RefundType = null;
 
     /**
-     * @var anonymous721 $RefundAccessCode
+     * @var anonymous722 $RefundAccessCode
      */
     protected $RefundAccessCode = null;
 
@@ -58,10 +58,10 @@ class TCRRefundBundle
      * @param typeTaxInfo $TaxInfo
      * @param HostToken $HostToken
      * @param typeTCRNumber $TCRNumber
-     * @param anonymous738 $RefundType
-     * @param anonymous721 $RefundAccessCode
+     * @param anonymous739 $RefundType
+     * @param anonymous722 $RefundAccessCode
      */
-    public function __construct($AirRefundInfo = null, $WaiverCode = null, $AirSegment = null, $FeeInfo = null, $TaxInfo = null, $HostToken = null, $TCRNumber = null, $RefundType = null, $RefundAccessCode = null)
+    public function __construct($AirRefundInfo, $WaiverCode, $AirSegment, $FeeInfo, $TaxInfo, $HostToken, $TCRNumber, $RefundType, $RefundAccessCode)
     {
       $this->AirRefundInfo = $AirRefundInfo;
       $this->WaiverCode = $WaiverCode;
@@ -201,7 +201,7 @@ class TCRRefundBundle
     }
 
     /**
-     * @return anonymous738
+     * @return anonymous739
      */
     public function getRefundType()
     {
@@ -209,7 +209,7 @@ class TCRRefundBundle
     }
 
     /**
-     * @param anonymous738 $RefundType
+     * @param anonymous739 $RefundType
      * @return \FilippoToso\Travelport\Rail\TCRRefundBundle
      */
     public function setRefundType($RefundType)
@@ -219,7 +219,7 @@ class TCRRefundBundle
     }
 
     /**
-     * @return anonymous721
+     * @return anonymous722
      */
     public function getRefundAccessCode()
     {
@@ -227,7 +227,7 @@ class TCRRefundBundle
     }
 
     /**
-     * @param anonymous721 $RefundAccessCode
+     * @param anonymous722 $RefundAccessCode
      * @return \FilippoToso\Travelport\Rail\TCRRefundBundle
      */
     public function setRefundAccessCode($RefundAccessCode)

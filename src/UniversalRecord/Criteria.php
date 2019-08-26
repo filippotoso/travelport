@@ -6,27 +6,27 @@ class Criteria
 {
 
     /**
-     * @var anonymous1191 $Order
+     * @var anonymous1189 $Order
      */
     protected $Order = null;
 
     /**
-     * @var anonymous1192 $Type
+     * @var anonymous1190 $Type
      */
     protected $Type = null;
 
     /**
-     * @param anonymous1191 $Order
-     * @param anonymous1192 $Type
+     * @param anonymous1189 $Order
+     * @param anonymous1190 $Type
      */
-    public function __construct($Order = null, $Type = null)
+    public function __construct($Order, $Type)
     {
       $this->Order = $Order;
       $this->Type = $Type;
     }
 
     /**
-     * @return anonymous1191
+     * @return anonymous1189
      */
     public function getOrder()
     {
@@ -34,7 +34,7 @@ class Criteria
     }
 
     /**
-     * @param anonymous1191 $Order
+     * @param anonymous1189 $Order
      * @return \FilippoToso\Travelport\UniversalRecord\Criteria
      */
     public function setOrder($Order)
@@ -44,7 +44,7 @@ class Criteria
     }
 
     /**
-     * @return anonymous1192
+     * @return anonymous1190
      */
     public function getType()
     {
@@ -52,7 +52,7 @@ class Criteria
     }
 
     /**
-     * @param anonymous1192 $Type
+     * @param anonymous1190 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\Criteria
      */
     public function setType($Type)

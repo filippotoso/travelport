@@ -48,7 +48,7 @@ class RailFareComponent
      * @param string $SupplierPassengerType
      * @param int $Quantity
      */
-    public function __construct($Key = null, $Amount = null, $Age = null, $PassengerTypeCode = null, $SupplierPassengerType = null, $Quantity = null)
+    public function __construct($Key, $Amount, $Age, $PassengerTypeCode, $SupplierPassengerType, $Quantity)
     {
       $this->Key = $Key;
       $this->Amount = $Amount;

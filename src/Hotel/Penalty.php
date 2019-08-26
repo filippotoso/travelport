@@ -67,7 +67,7 @@ class Penalty
      * @param boolean $ChargePortion
      * @param typeMoney $PenaltyAmount
      */
-    public function __construct($CancelRefund = null, $NonRefundable = null, $NonExchangeable = null, $CancelationPenalty = null, $ReissuePenalty = null, $NonReissuePenalty = null, $TicketRefundPenalty = null, $ChargeApplicable = null, $ChargePortion = null, $PenaltyAmount = null)
+    public function __construct($CancelRefund, $NonRefundable, $NonExchangeable, $CancelationPenalty, $ReissuePenalty, $NonReissuePenalty, $TicketRefundPenalty, $ChargeApplicable, $ChargePortion, $PenaltyAmount)
     {
       $this->CancelRefund = $CancelRefund;
       $this->NonRefundable = $NonRefundable;

@@ -30,7 +30,7 @@ class Phone extends typeTaggablePhone
      * @param boolean $Provisioned
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $Type = null, $Country = null, $AreaCode = null, $LocalNumber = null, $Extension = null, $Description = null, $Location = null, $TagRef = null, $Purpose = null, $PriorityOrder = null, $Provisioned = null, $OwnerID = null)
+    public function __construct($Key, $Type, $Country, $AreaCode, $LocalNumber, $Extension, $Description, $Location, $TagRef, $Purpose, $PriorityOrder, $Provisioned, $OwnerID)
     {
       parent::__construct($Key, $Type, $Country, $AreaCode, $LocalNumber, $Extension, $Description, $Location, $TagRef, $Purpose, $PriorityOrder);
       $this->Provisioned = $Provisioned;

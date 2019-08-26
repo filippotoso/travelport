@@ -18,7 +18,7 @@ class HotelRetrieveRsp extends BaseRsp
      * @param string $CommandHistory
      * @param HotelReservation $HotelReservation
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $HotelReservation = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $HotelReservation)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->HotelReservation = $HotelReservation;

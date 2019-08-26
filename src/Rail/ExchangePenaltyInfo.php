@@ -31,7 +31,7 @@ class ExchangePenaltyInfo
      * @param typeMoney $MinimumChangeFee
      * @param typeMoney $MaximumChangeFee
      */
-    public function __construct($PenaltyInformation = null, $PTC = null, $MinimumChangeFee = null, $MaximumChangeFee = null)
+    public function __construct($PenaltyInformation, $PTC, $MinimumChangeFee, $MaximumChangeFee)
     {
       $this->PenaltyInformation = $PenaltyInformation;
       $this->PTC = $PTC;

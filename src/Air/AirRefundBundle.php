@@ -36,7 +36,7 @@ class AirRefundBundle
     protected $PTC = null;
 
     /**
-     * @var anonymous728 $RefundType
+     * @var anonymous729 $RefundType
      */
     protected $RefundType = null;
 
@@ -47,9 +47,9 @@ class AirRefundBundle
      * @param WaiverCode $WaiverCode
      * @param string $TicketNumber
      * @param UNKNOWN $PTC
-     * @param anonymous728 $RefundType
+     * @param anonymous729 $RefundType
      */
-    public function __construct($AirRefundInfo = null, $Name = null, $TaxInfo = null, $WaiverCode = null, $TicketNumber = null, $PTC = null, $RefundType = null)
+    public function __construct($AirRefundInfo, $Name, $TaxInfo, $WaiverCode, $TicketNumber, $PTC, $RefundType)
     {
       $this->AirRefundInfo = $AirRefundInfo;
       $this->Name = $Name;
@@ -169,7 +169,7 @@ class AirRefundBundle
     }
 
     /**
-     * @return anonymous728
+     * @return anonymous729
      */
     public function getRefundType()
     {
@@ -177,7 +177,7 @@ class AirRefundBundle
     }
 
     /**
-     * @param anonymous728 $RefundType
+     * @param anonymous729 $RefundType
      * @return \FilippoToso\Travelport\Air\AirRefundBundle
      */
     public function setRefundType($RefundType)

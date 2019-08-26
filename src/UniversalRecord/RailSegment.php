@@ -153,7 +153,7 @@ class RailSegment extends Segment
      * @param typeRailLocationCode $RailLocOrigin
      * @param typeRailLocationCode $RailLocDestination
      */
-    public function __construct($SegmentRemark = null, $Key = null, $Status = null, $Passive = null, $TravelOrder = null, $ProviderSegmentOrder = null, $ElStat = null, $KeyOverride = null, $RailSegmentInfo = null, $OperatingCompany = null, $RailAvailInfo = null, $FulFillmentType = null, $TrainNumber = null, $TrainType = null, $TrainTypeCode = null, $TransportMode = null, $SeatAssignable = null, $TransportCode = null, $ReservationRequired = null, $TravelTime = null, $HostTokenRef = null, $CabinClass = null, $ClassCode = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $OriginStationName = null, $DestinationStationName = null, $RailLocOrigin = null, $RailLocDestination = null)
+    public function __construct($SegmentRemark, $Key, $Status, $Passive, $TravelOrder, $ProviderSegmentOrder, $ElStat, $KeyOverride, $RailSegmentInfo, $OperatingCompany, $RailAvailInfo, $FulFillmentType, $TrainNumber, $TrainType, $TrainTypeCode, $TransportMode, $SeatAssignable, $TransportCode, $ReservationRequired, $TravelTime, $HostTokenRef, $CabinClass, $ClassCode, $Origin, $Destination, $DepartureTime, $ArrivalTime, $OriginStationName, $DestinationStationName, $RailLocOrigin, $RailLocDestination)
     {
       parent::__construct($SegmentRemark, $Key, $Status, $Passive, $TravelOrder, $ProviderSegmentOrder, $ElStat, $KeyOverride);
       $this->RailSegmentInfo = $RailSegmentInfo;

@@ -13,7 +13,7 @@ class SearchPriority
     /**
      * @param Criteria[] $Criteria
      */
-    public function __construct(array $Criteria = null)
+    public function __construct(array $Criteria)
     {
       $this->Criteria = $Criteria;
     }

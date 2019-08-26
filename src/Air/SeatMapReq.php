@@ -66,7 +66,7 @@ class SeatMapReq extends BaseReq
      * @param boolean $ReturnSeatPricing
      * @param boolean $ReturnBrandingInfo
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AgencySellInfo = null, $AirSegment = null, $HostToken = null, $SearchTraveler = null, $HostReservation = null, $MerchandisingPricingModifiers = null, $ReturnSeatPricing = null, $ReturnBrandingInfo = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AgencySellInfo, $AirSegment, $HostToken, $SearchTraveler, $HostReservation, $MerchandisingPricingModifiers, $ReturnSeatPricing, $ReturnBrandingInfo)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AgencySellInfo = $AgencySellInfo;

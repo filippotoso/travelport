@@ -121,7 +121,7 @@ class FlightDetails
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Connection = null, $Meals = null, $InFlightServices = null, $Key = null, $Equipment = null, $OnTimePerformance = null, $OriginTerminal = null, $DestinationTerminal = null, $GroundTime = null, $AutomatedCheckin = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $FlightTime = null, $TravelTime = null, $Distance = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Connection, $Meals, $InFlightServices, $Key, $Equipment, $OnTimePerformance, $OriginTerminal, $DestinationTerminal, $GroundTime, $AutomatedCheckin, $Origin, $Destination, $DepartureTime, $ArrivalTime, $FlightTime, $TravelTime, $Distance, $ElStat, $KeyOverride)
     {
       $this->Connection = $Connection;
       $this->Meals = $Meals;

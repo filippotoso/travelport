@@ -6,7 +6,7 @@ class typeRentalPeriod
 {
 
     /**
-     * @var anonymous1128 $RentalUnit
+     * @var anonymous1126 $RentalUnit
      */
     protected $RentalUnit = null;
 
@@ -21,11 +21,11 @@ class typeRentalPeriod
     protected $RequirementPassed = null;
 
     /**
-     * @param anonymous1128 $RentalUnit
+     * @param anonymous1126 $RentalUnit
      * @param int $Length
      * @param boolean $RequirementPassed
      */
-    public function __construct($RentalUnit = null, $Length = null, $RequirementPassed = null)
+    public function __construct($RentalUnit, $Length, $RequirementPassed)
     {
       $this->RentalUnit = $RentalUnit;
       $this->Length = $Length;
@@ -33,7 +33,7 @@ class typeRentalPeriod
     }
 
     /**
-     * @return anonymous1128
+     * @return anonymous1126
      */
     public function getRentalUnit()
     {
@@ -41,7 +41,7 @@ class typeRentalPeriod
     }
 
     /**
-     * @param anonymous1128 $RentalUnit
+     * @param anonymous1126 $RentalUnit
      * @return \FilippoToso\Travelport\UniversalRecord\typeRentalPeriod
      */
     public function setRentalUnit($RentalUnit)

@@ -111,7 +111,7 @@ class AirLegModifiers
     protected $PreferNonStop = null;
 
     /**
-     * @var anonymous734 $OrderBy
+     * @var anonymous735 $OrderBy
      */
     protected $OrderBy = null;
 
@@ -134,10 +134,10 @@ class AirLegModifiers
      * @param boolean $AllowDirectAccess
      * @param boolean $ProhibitMultiAirportConnection
      * @param boolean $PreferNonStop
-     * @param anonymous734 $OrderBy
+     * @param anonymous735 $OrderBy
      * @param typeMaxJourneyTime $MaxJourneyTime
      */
-    public function __construct($PermittedCabins = null, $PreferredCabins = null, $PermittedCarriers = null, $ProhibitedCarriers = null, $PreferredCarriers = null, $PreferredBookingCodes = null, $FlightType = null, $ProhibitOvernightLayovers = null, $MaxConnectionTime = null, $ReturnFirstAvailableOnly = null, $AllowDirectAccess = null, $ProhibitMultiAirportConnection = null, $PreferNonStop = null, $OrderBy = null, $MaxJourneyTime = null)
+    public function __construct($PermittedCabins, $PreferredCabins, $PermittedCarriers, $ProhibitedCarriers, $PreferredCarriers, $PreferredBookingCodes, $FlightType, $ProhibitOvernightLayovers, $MaxConnectionTime, $ReturnFirstAvailableOnly, $AllowDirectAccess, $ProhibitMultiAirportConnection, $PreferNonStop, $OrderBy, $MaxJourneyTime)
     {
       $this->PermittedCabins = $PermittedCabins;
       $this->PreferredCabins = $PreferredCabins;
@@ -535,7 +535,7 @@ class AirLegModifiers
     }
 
     /**
-     * @return anonymous734
+     * @return anonymous735
      */
     public function getOrderBy()
     {
@@ -543,7 +543,7 @@ class AirLegModifiers
     }
 
     /**
-     * @param anonymous734 $OrderBy
+     * @param anonymous735 $OrderBy
      * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
      */
     public function setOrderBy($OrderBy)

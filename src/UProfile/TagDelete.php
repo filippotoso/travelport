@@ -25,7 +25,7 @@ class TagDelete
      * @param typeRef $Key
      * @param typeTagID $TagID
      */
-    public function __construct($Element = null, $Key = null, $TagID = null)
+    public function __construct($Element, $Key, $TagID)
     {
       $this->Element = $Element;
       $this->Key = $Key;

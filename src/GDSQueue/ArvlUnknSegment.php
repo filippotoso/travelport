@@ -36,7 +36,7 @@ class ArvlUnknSegment
      * @param typeIATACode $Destination
      * @param int $TravelOrder
      */
-    public function __construct($Key = null, $Origin = null, $Destination = null, $TravelOrder = null)
+    public function __construct($Key, $Origin, $Destination, $TravelOrder)
     {
       $this->Key = $Key;
       $this->Origin = $Origin;

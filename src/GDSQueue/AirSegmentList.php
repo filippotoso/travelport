@@ -13,7 +13,7 @@ class AirSegmentList
     /**
      * @param typeBaseAirSegment $AirSegment
      */
-    public function __construct($AirSegment = null)
+    public function __construct($AirSegment)
     {
       $this->AirSegment = $AirSegment;
     }

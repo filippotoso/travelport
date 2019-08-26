@@ -31,7 +31,7 @@ class Option
      * @param typeRef $Key
      * @param duration $TravelTime
      */
-    public function __construct($BookingInfo = null, $Connection = null, $Key = null, $TravelTime = null)
+    public function __construct($BookingInfo, $Connection, $Key, $TravelTime)
     {
       $this->BookingInfo = $BookingInfo;
       $this->Connection = $Connection;

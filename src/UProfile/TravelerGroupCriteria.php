@@ -15,7 +15,7 @@ class TravelerGroupCriteria extends typeAccountTypeProfileSearchCriteria
      * @param typeWildcard $MidOfficeID
      * @param typeWildcard $Name
      */
-    public function __construct($AdditionalIdentifier = null, $MidOfficeID = null, $Name = null)
+    public function __construct($AdditionalIdentifier, $MidOfficeID, $Name)
     {
       parent::__construct($AdditionalIdentifier, $MidOfficeID);
       $this->Name = $Name;

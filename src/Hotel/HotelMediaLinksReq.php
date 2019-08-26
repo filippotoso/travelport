@@ -54,7 +54,7 @@ class HotelMediaLinksReq extends BaseReq
      * @param boolean $RichMedia
      * @param boolean $Gallery
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $PermittedProviders = null, $HotelProperty = null, $SecureLinks = null, $SizeCode = null, $RichMedia = null, $Gallery = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $PermittedProviders, $HotelProperty, $SecureLinks, $SizeCode, $RichMedia, $Gallery)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->PermittedProviders = $PermittedProviders;

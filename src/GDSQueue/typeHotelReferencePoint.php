@@ -25,7 +25,7 @@ class typeHotelReferencePoint
      * @param typeCountry $Country
      * @param typeState $State
      */
-    public function __construct($_ = null, $Country = null, $State = null)
+    public function __construct($_, $Country, $State)
     {
       $this->_ = $_;
       $this->Country = $Country;

@@ -18,7 +18,7 @@ class PenaltyFareInformation
     /**
      * @param boolean $ProhibitPenaltyFares
      */
-    public function __construct($ProhibitPenaltyFares = null)
+    public function __construct($ProhibitPenaltyFares)
     {
       $this->ProhibitPenaltyFares = $ProhibitPenaltyFares;
     }

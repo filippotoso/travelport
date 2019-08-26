@@ -43,7 +43,7 @@ class HostReservation
      * @param typeLocatorCode $UniversalLocatorCode
      * @param boolean $ETicket
      */
-    public function __construct($Carrier = null, $CarrierLocatorCode = null, $ProviderCode = null, $ProviderLocatorCode = null, $UniversalLocatorCode = null, $ETicket = null)
+    public function __construct($Carrier, $CarrierLocatorCode, $ProviderCode, $ProviderLocatorCode, $UniversalLocatorCode, $ETicket)
     {
       $this->Carrier = $Carrier;
       $this->CarrierLocatorCode = $CarrierLocatorCode;

@@ -37,7 +37,7 @@ class ModifyTag
      * @param StringLength1to255 $Description
      * @param int $DisplayOrder
      */
-    public function __construct($ID = null, $Name = null, $Label = null, $Description = null, $DisplayOrder = null)
+    public function __construct($ID, $Name, $Label, $Description, $DisplayOrder)
     {
       $this->ID = $ID;
       $this->Name = $Name;

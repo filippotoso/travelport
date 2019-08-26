@@ -31,7 +31,7 @@ class FareDetails
      * @param typeRef $PassengerDetailRef
      * @param typeFareBasisCode $FareBasis
      */
-    public function __construct($FareTicketDesignator = null, $Key = null, $PassengerDetailRef = null, $FareBasis = null)
+    public function __construct($FareTicketDesignator, $Key, $PassengerDetailRef, $FareBasis)
     {
       $this->FareTicketDesignator = $FareTicketDesignator;
       $this->Key = $Key;

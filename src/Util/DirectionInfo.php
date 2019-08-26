@@ -11,15 +11,15 @@ class DirectionInfo
     protected $LocationCode = null;
 
     /**
-     * @var anonymous972 $Direction
+     * @var anonymous970 $Direction
      */
     protected $Direction = null;
 
     /**
      * @param typeIATACode $LocationCode
-     * @param anonymous972 $Direction
+     * @param anonymous970 $Direction
      */
-    public function __construct($LocationCode = null, $Direction = null)
+    public function __construct($LocationCode, $Direction)
     {
       $this->LocationCode = $LocationCode;
       $this->Direction = $Direction;
@@ -44,7 +44,7 @@ class DirectionInfo
     }
 
     /**
-     * @return anonymous972
+     * @return anonymous970
      */
     public function getDirection()
     {
@@ -52,7 +52,7 @@ class DirectionInfo
     }
 
     /**
-     * @param anonymous972 $Direction
+     * @param anonymous970 $Direction
      * @return \FilippoToso\Travelport\Util\DirectionInfo
      */
     public function setDirection($Direction)

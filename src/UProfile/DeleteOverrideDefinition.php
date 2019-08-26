@@ -19,7 +19,7 @@ class DeleteOverrideDefinition
      * @param typeID $TemplateFieldID
      * @param typeCustomFieldOrGroupType $TemplateFieldType
      */
-    public function __construct($TemplateFieldID = null, $TemplateFieldType = null)
+    public function __construct($TemplateFieldID, $TemplateFieldType)
     {
       $this->TemplateFieldID = $TemplateFieldID;
       $this->TemplateFieldType = $TemplateFieldType;

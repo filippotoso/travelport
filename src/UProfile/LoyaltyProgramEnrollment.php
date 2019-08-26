@@ -45,7 +45,7 @@ class LoyaltyProgramEnrollment extends typeKeyTaggedElement
      * @param StringLength1to128 $Status
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key = null, $TagRef = null, $SupplierType = null, $Supplier = null, $Number = null, $ProgramName = null, $Status = null, $PriorityOrder = null)
+    public function __construct($Key, $TagRef, $SupplierType, $Supplier, $Number, $ProgramName, $Status, $PriorityOrder)
     {
       parent::__construct($Key, $TagRef);
       $this->SupplierType = $SupplierType;

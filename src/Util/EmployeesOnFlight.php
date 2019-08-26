@@ -49,7 +49,7 @@ class EmployeesOnFlight
      * @param string $FlightNumber
      * @param typeCarrier $Carrier
      */
-    public function __construct($Name = null, $UniversalRecordLocator = null, $Destination = null, $Origin = null, $DepartureDate = null, $FlightNumber = null, $Carrier = null)
+    public function __construct($Name, $UniversalRecordLocator, $Destination, $Origin, $DepartureDate, $FlightNumber, $Carrier)
     {
       $this->Name = $Name;
       $this->UniversalRecordLocator = $UniversalRecordLocator;

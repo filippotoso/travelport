@@ -16,7 +16,7 @@ class AirSeatAssignment extends SeatAssignment
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key = null, $Status = null, $Seat = null, $SeatTypeCode = null, $SegmentRef = null, $FlightDetailsRef = null, $RailCoachNumber = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Key, $Status, $Seat, $SeatTypeCode, $SegmentRef, $FlightDetailsRef, $RailCoachNumber, $ElStat, $KeyOverride)
     {
       parent::__construct($Key, $Status, $Seat, $SeatTypeCode, $SegmentRef, $FlightDetailsRef, $RailCoachNumber, $ElStat, $KeyOverride);
     }

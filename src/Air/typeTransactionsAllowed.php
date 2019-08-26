@@ -20,7 +20,7 @@ class typeTransactionsAllowed extends typeBookingTransactionsAllowed
      * @param boolean $ShoppingEnabled
      * @param boolean $PricingEnabled
      */
-    public function __construct($BookingEnabled = null, $ShoppingEnabled = null, $PricingEnabled = null)
+    public function __construct($BookingEnabled, $ShoppingEnabled, $PricingEnabled)
     {
       parent::__construct($BookingEnabled);
       $this->ShoppingEnabled = $ShoppingEnabled;

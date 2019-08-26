@@ -25,7 +25,7 @@ class RailAvailInfo
      * @param int $Quantity
      * @param typeRailCabin $CabinClass
      */
-    public function __construct($ClassCode = null, $Quantity = null, $CabinClass = null)
+    public function __construct($ClassCode, $Quantity, $CabinClass)
     {
       $this->ClassCode = $ClassCode;
       $this->Quantity = $Quantity;

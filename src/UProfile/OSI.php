@@ -55,7 +55,7 @@ class OSI
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key = null, $Carrier = null, $Code = null, $Text = null, $ProviderReservationInfoRef = null, $ProviderCode = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Key, $Carrier, $Code, $Text, $ProviderReservationInfoRef, $ProviderCode, $ElStat, $KeyOverride)
     {
       $this->Key = $Key;
       $this->Carrier = $Carrier;

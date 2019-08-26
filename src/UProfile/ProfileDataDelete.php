@@ -19,7 +19,7 @@ class ProfileDataDelete
      * @param typeProfileDataElementType $Element
      * @param typeRef $Key
      */
-    public function __construct($Element = null, $Key = null)
+    public function __construct($Element, $Key)
     {
       $this->Element = $Element;
       $this->Key = $Key;

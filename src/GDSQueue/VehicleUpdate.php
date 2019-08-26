@@ -115,7 +115,7 @@ class VehicleUpdate
      * @param typeLocatorCode $ReservationLocatorCode
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($LoyaltyCard = null, $DriversLicense = null, $Guarantee = null, $BookingSource = null, $VehicleRateInfo = null, $PaymentInformation = null, $AssociatedRemark = null, $VehicleSpecialRequest = null, $DeliveryAddress = null, $CollectionAddress = null, $VehicleReturnDateLocation = null, $VehiclePickupDateLocation = null, $ThirdPartyInformation = null, $TravelComplianceData = null, $VehicleTypeIdentifier = null, $FlightArrivalInformation = null, $ReservationLocatorCode = null, $BookingTravelerRef = null)
+    public function __construct($LoyaltyCard, $DriversLicense, $Guarantee, $BookingSource, $VehicleRateInfo, $PaymentInformation, $AssociatedRemark, $VehicleSpecialRequest, $DeliveryAddress, $CollectionAddress, $VehicleReturnDateLocation, $VehiclePickupDateLocation, $ThirdPartyInformation, $TravelComplianceData, $VehicleTypeIdentifier, $FlightArrivalInformation, $ReservationLocatorCode, $BookingTravelerRef)
     {
       $this->LoyaltyCard = $LoyaltyCard;
       $this->DriversLicense = $DriversLicense;

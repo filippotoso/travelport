@@ -79,7 +79,7 @@ class VehicleUpsellOffer
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($AirConditioning = null, $TransmissionType = null, $VehicleClass = null, $Category = null, $DoorCount = null, $RateCode = null, $RateCategory = null, $DiscountNumber = null, $FuelType = null, $Key = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($AirConditioning, $TransmissionType, $VehicleClass, $Category, $DoorCount, $RateCode, $RateCategory, $DiscountNumber, $FuelType, $Key, $ElStat, $KeyOverride)
     {
       $this->AirConditioning = $AirConditioning;
       $this->TransmissionType = $TransmissionType;

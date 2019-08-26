@@ -13,7 +13,7 @@ class AlternateRouteList
     /**
      * @param AlternateRoute $AlternateRoute
      */
-    public function __construct($AlternateRoute = null)
+    public function __construct($AlternateRoute)
     {
       $this->AlternateRoute = $AlternateRoute;
     }

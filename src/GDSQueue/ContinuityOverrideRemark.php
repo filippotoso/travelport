@@ -11,15 +11,15 @@ class ContinuityOverrideRemark
     protected $_ = null;
 
     /**
-     * @var anonymous1404 $Category
+     * @var anonymous1402 $Category
      */
     protected $Category = null;
 
     /**
      * @param string $_
-     * @param anonymous1404 $Category
+     * @param anonymous1402 $Category
      */
-    public function __construct($_ = null, $Category = null)
+    public function __construct($_, $Category)
     {
       $this->_ = $_;
       $this->Category = $Category;
@@ -44,7 +44,7 @@ class ContinuityOverrideRemark
     }
 
     /**
-     * @return anonymous1404
+     * @return anonymous1402
      */
     public function getCategory()
     {
@@ -52,7 +52,7 @@ class ContinuityOverrideRemark
     }
 
     /**
-     * @param anonymous1404 $Category
+     * @param anonymous1402 $Category
      * @return \FilippoToso\Travelport\GDSQueue\ContinuityOverrideRemark
      */
     public function setCategory($Category)

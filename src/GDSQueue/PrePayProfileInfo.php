@@ -49,7 +49,7 @@ class PrePayProfileInfo
      * @param string $StatusCode
      * @param typeCardNumber $CreatorID
      */
-    public function __construct($PrePayId = null, $PrePayCustomer = null, $PrePayAccount = null, $Affiliations = null, $AccountRelatedRules = null, $StatusCode = null, $CreatorID = null)
+    public function __construct($PrePayId, $PrePayCustomer, $PrePayAccount, $Affiliations, $AccountRelatedRules, $StatusCode, $CreatorID)
     {
       $this->PrePayId = $PrePayId;
       $this->PrePayCustomer = $PrePayCustomer;

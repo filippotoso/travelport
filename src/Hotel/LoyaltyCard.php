@@ -96,7 +96,7 @@ class LoyaltyCard
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($CardNumber = null, $Status = null, $MembershipStatus = null, $FreeText = null, $SupplierType = null, $Level = null, $PriorityCode = null, $VendorLocationRef = null, $Key = null, $SupplierCode = null, $AllianceLevel = null, $MembershipProgram = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($CardNumber, $Status, $MembershipStatus, $FreeText, $SupplierType, $Level, $PriorityCode, $VendorLocationRef, $Key, $SupplierCode, $AllianceLevel, $MembershipProgram, $ElStat, $KeyOverride)
     {
       $this->CardNumber = $CardNumber;
       $this->Status = $Status;

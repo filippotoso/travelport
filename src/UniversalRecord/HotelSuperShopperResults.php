@@ -30,7 +30,7 @@ class HotelSuperShopperResults
      * @param HotelDetailItem $HotelDetailItem
      * @param HotelRateDetail $HotelRateDetail
      */
-    public function __construct($HotelProperty = null, $HotelDetailItem = null, $HotelRateDetail = null)
+    public function __construct($HotelProperty, $HotelDetailItem, $HotelRateDetail)
     {
       $this->HotelProperty = $HotelProperty;
       $this->HotelDetailItem = $HotelDetailItem;

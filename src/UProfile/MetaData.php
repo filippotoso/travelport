@@ -19,7 +19,7 @@ class MetaData
      * @param anonymous176 $Key
      * @param anonymous177 $Value
      */
-    public function __construct($Key = null, $Value = null)
+    public function __construct($Key, $Value)
     {
       $this->Key = $Key;
       $this->Value = $Value;

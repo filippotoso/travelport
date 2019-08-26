@@ -6,20 +6,20 @@ class typeSavedTripNote
 {
 
     /**
-     * @var anonymous1422 $Text
+     * @var anonymous1420 $Text
      */
     protected $Text = null;
 
     /**
-     * @param anonymous1422 $Text
+     * @param anonymous1420 $Text
      */
-    public function __construct($Text = null)
+    public function __construct($Text)
     {
       $this->Text = $Text;
     }
 
     /**
-     * @return anonymous1422
+     * @return anonymous1420
      */
     public function getText()
     {
@@ -27,7 +27,7 @@ class typeSavedTripNote
     }
 
     /**
-     * @param anonymous1422 $Text
+     * @param anonymous1420 $Text
      * @return \FilippoToso\Travelport\UniversalRecord\typeSavedTripNote
      */
     public function setText($Text)

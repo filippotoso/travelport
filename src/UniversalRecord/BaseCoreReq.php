@@ -61,7 +61,7 @@ class BaseCoreReq
      * @param typeLoggingLevel $OverrideLogging
      * @param language $LanguageCode
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode)
     {
       $this->BillingPointOfSaleInfo = $BillingPointOfSaleInfo;
       $this->AgentIDOverride = $AgentIDOverride;

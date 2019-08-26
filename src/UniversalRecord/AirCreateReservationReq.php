@@ -76,7 +76,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     protected $RetainReservation = null;
 
     /**
-     * @var anonymous1520 $Source
+     * @var anonymous1518 $Source
      */
     protected $Source = null;
 
@@ -96,17 +96,17 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     protected $CreatePassiveForHold = null;
 
     /**
-     * @var anonymous1521 $ChannelId
+     * @var anonymous1519 $ChannelId
      */
     protected $ChannelId = null;
 
     /**
-     * @var anonymous1522 $NSCC
+     * @var anonymous1520 $NSCC
      */
     protected $NSCC = null;
 
     /**
-     * @var anonymous1523 $CheckPriceVarianceType
+     * @var anonymous1521 $CheckPriceVarianceType
      */
     protected $CheckPriceVarianceType = null;
 
@@ -177,18 +177,18 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
      * @param ReviewBooking $ReviewBooking
      * @param AirPricingTicketingModifiers $AirPricingTicketingModifiers
      * @param typeRetainReservation $RetainReservation
-     * @param anonymous1520 $Source
+     * @param anonymous1518 $Source
      * @param boolean $OverrideMCT
      * @param boolean $RestrictWaitlist
      * @param boolean $CreatePassiveForHold
-     * @param anonymous1521 $ChannelId
-     * @param anonymous1522 $NSCC
-     * @param anonymous1523 $CheckPriceVarianceType
+     * @param anonymous1519 $ChannelId
+     * @param anonymous1520 $NSCC
+     * @param anonymous1521 $CheckPriceVarianceType
      * @param float $CheckPriceVarianceValue
      * @param boolean $SplitReservation
      * @param boolean $PreferCompleteItinerary
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $LinkedUniversalRecord = null, $BookingTraveler = null, $OSI = null, $AccountingRemark = null, $GeneralRemark = null, $XMLRemark = null, $UnassociatedRemark = null, $Postscript = null, $PassiveInfo = null, $ContinuityCheckOverride = null, $AgencyContactInfo = null, $CustomerID = null, $FileFinishingInfo = null, $CommissionRemark = null, $ConsolidatorRemark = null, $InvoiceRemark = null, $SSR = null, $EmailNotification = null, $QueuePlace = null, $RuleName = null, $UniversalRecordLocatorCode = null, $ProviderLocatorCode = null, $ProviderCode = null, $CustomerNumber = null, $Version = null, $FormOfPayment = null, $SupplierLocator = null, $ThirdPartyInformation = null, $PointOfSale = null, $AirPricingSolution = null, $ActionStatus = null, $Payment = null, $DeliveryInfo = null, $AutoSeatAssignment = null, $SpecificSeatAssignment = null, $AssociatedRemark = null, $PocketItineraryRemark = null, $ReviewBooking = null, $AirPricingTicketingModifiers = null, $RetainReservation = null, $Source = null, $OverrideMCT = null, $RestrictWaitlist = null, $CreatePassiveForHold = null, $ChannelId = null, $NSCC = null, $CheckPriceVarianceType = null, $CheckPriceVarianceValue = null, $SplitReservation = null, $PreferCompleteItinerary = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $LinkedUniversalRecord, $BookingTraveler, $OSI, $AccountingRemark, $GeneralRemark, $XMLRemark, $UnassociatedRemark, $Postscript, $PassiveInfo, $ContinuityCheckOverride, $AgencyContactInfo, $CustomerID, $FileFinishingInfo, $CommissionRemark, $ConsolidatorRemark, $InvoiceRemark, $SSR, $EmailNotification, $QueuePlace, $RuleName, $UniversalRecordLocatorCode, $ProviderLocatorCode, $ProviderCode, $CustomerNumber, $Version, $FormOfPayment, $SupplierLocator, $ThirdPartyInformation, $PointOfSale, $AirPricingSolution, $ActionStatus, $Payment, $DeliveryInfo, $AutoSeatAssignment, $SpecificSeatAssignment, $AssociatedRemark, $PocketItineraryRemark, $ReviewBooking, $AirPricingTicketingModifiers, $RetainReservation, $Source, $OverrideMCT, $RestrictWaitlist, $CreatePassiveForHold, $ChannelId, $NSCC, $CheckPriceVarianceType, $CheckPriceVarianceValue, $SplitReservation, $PreferCompleteItinerary)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $LinkedUniversalRecord, $BookingTraveler, $OSI, $AccountingRemark, $GeneralRemark, $XMLRemark, $UnassociatedRemark, $Postscript, $PassiveInfo, $ContinuityCheckOverride, $AgencyContactInfo, $CustomerID, $FileFinishingInfo, $CommissionRemark, $ConsolidatorRemark, $InvoiceRemark, $SSR, $EmailNotification, $QueuePlace, $RuleName, $UniversalRecordLocatorCode, $ProviderLocatorCode, $ProviderCode, $CustomerNumber, $Version, $FormOfPayment);
       $this->SupplierLocator = $SupplierLocator;
@@ -470,7 +470,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @return anonymous1520
+     * @return anonymous1518
      */
     public function getSource()
     {
@@ -478,7 +478,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @param anonymous1520 $Source
+     * @param anonymous1518 $Source
      * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setSource($Source)
@@ -542,7 +542,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @return anonymous1521
+     * @return anonymous1519
      */
     public function getChannelId()
     {
@@ -550,7 +550,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @param anonymous1521 $ChannelId
+     * @param anonymous1519 $ChannelId
      * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setChannelId($ChannelId)
@@ -560,7 +560,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @return anonymous1522
+     * @return anonymous1520
      */
     public function getNSCC()
     {
@@ -568,7 +568,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @param anonymous1522 $NSCC
+     * @param anonymous1520 $NSCC
      * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setNSCC($NSCC)
@@ -578,7 +578,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @return anonymous1523
+     * @return anonymous1521
      */
     public function getCheckPriceVarianceType()
     {
@@ -586,7 +586,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @param anonymous1523 $CheckPriceVarianceType
+     * @param anonymous1521 $CheckPriceVarianceType
      * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setCheckPriceVarianceType($CheckPriceVarianceType)

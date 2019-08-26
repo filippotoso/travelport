@@ -311,6 +311,7 @@ class UniversalRecordService extends \SoapClient
   'FareRestrictionDaysOfWeek' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRestrictionDaysOfWeek',
   'FareRestrictionDate' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRestrictionDate',
   'FareRestrictionSaleDate' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRestrictionSaleDate',
+  'FareRestrictionSeasonal' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRestrictionSeasonal',
   'FarePricing' => 'FilippoToso\\Travelport\\UniversalRecord\\FarePricing',
   'FareRuleLookup' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRuleLookup',
   'AirExchangeModifiers' => 'FilippoToso\\Travelport\\UniversalRecord\\AirExchangeModifiers',
@@ -374,14 +375,10 @@ class UniversalRecordService extends \SoapClient
   'LegRef' => 'FilippoToso\\Travelport\\UniversalRecord\\LegRef',
   'FareBasis' => 'FilippoToso\\Travelport\\UniversalRecord\\FareBasis',
   'FareRule' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRule',
-  'StructuredFareRules' => 'FilippoToso\\Travelport\\UniversalRecord\\StructuredFareRules',
-  'STP' => 'FilippoToso\\Travelport\\UniversalRecord\\STP',
-  'CXRApplicationDetailsType' => 'FilippoToso\\Travelport\\UniversalRecord\\CXRApplicationDetailsType',
-  'CXRApplication' => 'FilippoToso\\Travelport\\UniversalRecord\\CXRApplication',
-  'ADVSFRType' => 'FilippoToso\\Travelport\\UniversalRecord\\ADVSFRType',
-  'MINSFRType' => 'FilippoToso\\Travelport\\UniversalRecord\\MINSFRType',
-  'MAXSFRType' => 'FilippoToso\\Travelport\\UniversalRecord\\MAXSFRType',
-  'CHGSFRType' => 'FilippoToso\\Travelport\\UniversalRecord\\CHGSFRType',
+  'StructuredFareRulesType' => 'FilippoToso\\Travelport\\UniversalRecord\\StructuredFareRulesType',
+  'FareRuleCategoryTypes' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRuleCategoryTypes',
+  'ValueDetails' => 'FilippoToso\\Travelport\\UniversalRecord\\ValueDetails',
+  'CategoryDetailsType' => 'FilippoToso\\Travelport\\UniversalRecord\\CategoryDetailsType',
   'FareSurcharge' => 'FilippoToso\\Travelport\\UniversalRecord\\FareSurcharge',
   'FareRuleShortRef' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRuleShortRef',
   'FareRuleLongRef' => 'FilippoToso\\Travelport\\UniversalRecord\\FareRuleLongRef',
@@ -999,7 +996,7 @@ class UniversalRecordService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/universal_v47_0/UniversalRecord.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/universal_v48_0/UniversalRecord.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

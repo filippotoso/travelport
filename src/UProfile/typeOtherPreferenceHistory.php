@@ -110,7 +110,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
      * @param typeCurrency $Currency
      * @param StringLength1to255 $GeneralPreference
      */
-    public function __construct($Key = null, $Purpose = null, $PriorityOrder = null, $TripApproval = null, $Inclusive = null, $OtherSupplierType = null, $BookingStartDate = null, $BookingEndDate = null, $UsageStartDate = null, $UsageEndDate = null, $SupplierName = null, $GeoPoliticalAreaType = null, $GeoPoliticalAreaCode = null, $PreferencePaymentMethod = null, $PaymentDetailsRef = null, $MaxCostAmount = null, $Currency = null, $GeneralPreference = null)
+    public function __construct($Key, $Purpose, $PriorityOrder, $TripApproval, $Inclusive, $OtherSupplierType, $BookingStartDate, $BookingEndDate, $UsageStartDate, $UsageEndDate, $SupplierName, $GeoPoliticalAreaType, $GeoPoliticalAreaCode, $PreferencePaymentMethod, $PaymentDetailsRef, $MaxCostAmount, $Currency, $GeneralPreference)
     {
       parent::__construct($Key);
       $this->Purpose = $Purpose;

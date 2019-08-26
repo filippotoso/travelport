@@ -18,7 +18,7 @@ class GdsQueueCountRsp extends BaseRsp
      * @param string $CommandHistory
      * @param QueueInfo $QueueInfo
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $QueueInfo = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $QueueInfo)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->QueueInfo = $QueueInfo;

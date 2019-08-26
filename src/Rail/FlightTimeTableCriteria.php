@@ -19,7 +19,7 @@ class FlightTimeTableCriteria
      * @param GeneralTimeTable $GeneralTimeTable
      * @param SpecificTimeTable $SpecificTimeTable
      */
-    public function __construct($GeneralTimeTable = null, $SpecificTimeTable = null)
+    public function __construct($GeneralTimeTable, $SpecificTimeTable)
     {
       $this->GeneralTimeTable = $GeneralTimeTable;
       $this->SpecificTimeTable = $SpecificTimeTable;

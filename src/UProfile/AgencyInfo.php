@@ -87,7 +87,7 @@ class AgencyInfo extends typeProfileInfo
      * @param boolean $ProfileSyncTo
      * @param boolean $ProfileSyncFrom
      */
-    public function __construct($AdditionalIdentifier = null, $Description = null, $Advisory = null, $Address = null, $Phone = null, $ElectronicAddress = null, $ExternalIdentifier = null, $Name = null, $IataNumber = null, $AgencyCode = null, $UsesTemplate = null, $URSyncData = null, $URSyncTo = null, $ProfileSyncTo = null, $ProfileSyncFrom = null)
+    public function __construct($AdditionalIdentifier, $Description, $Advisory, $Address, $Phone, $ElectronicAddress, $ExternalIdentifier, $Name, $IataNumber, $AgencyCode, $UsesTemplate, $URSyncData, $URSyncTo, $ProfileSyncTo, $ProfileSyncFrom)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->Advisory = $Advisory;

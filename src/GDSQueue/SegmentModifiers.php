@@ -30,7 +30,7 @@ class SegmentModifiers
      * @param TicketValidity $TicketValidity
      * @param BaggageAllowance $BaggageAllowance
      */
-    public function __construct($AirSegmentRef = null, $TicketValidity = null, $BaggageAllowance = null)
+    public function __construct($AirSegmentRef, $TicketValidity, $BaggageAllowance)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->TicketValidity = $TicketValidity;

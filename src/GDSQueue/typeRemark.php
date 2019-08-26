@@ -25,7 +25,7 @@ class typeRemark
      * @param typeRef $ProviderReservationInfoRef
      * @param typeProviderCode $ProviderCode
      */
-    public function __construct($_ = null, $ProviderReservationInfoRef = null, $ProviderCode = null)
+    public function __construct($_, $ProviderReservationInfoRef, $ProviderCode)
     {
       $this->_ = $_;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;

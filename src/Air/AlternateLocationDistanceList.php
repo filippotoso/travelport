@@ -13,7 +13,7 @@ class AlternateLocationDistanceList
     /**
      * @param AlternateLocationDistance $AlternateLocationDistance
      */
-    public function __construct($AlternateLocationDistance = null)
+    public function __construct($AlternateLocationDistance)
     {
       $this->AlternateLocationDistance = $AlternateLocationDistance;
     }

@@ -13,7 +13,7 @@ class FixedFieldGroupRef
     /**
      * @param typeID $ID
      */
-    public function __construct($ID = null)
+    public function __construct($ID)
     {
       $this->ID = $ID;
     }

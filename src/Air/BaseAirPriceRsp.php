@@ -24,7 +24,7 @@ class BaseAirPriceRsp extends BaseRsp
      * @param AirItinerary $AirItinerary
      * @param AirPriceResult $AirPriceResult
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $AirItinerary = null, $AirPriceResult = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirItinerary, $AirPriceResult)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->AirItinerary = $AirItinerary;

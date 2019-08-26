@@ -30,7 +30,7 @@ class typeTaxInfoWithPaymentRef extends typeTaxInfo
      * @param typeRef $FareInfoRef
      * @param PaymentRef $PaymentRef
      */
-    public function __construct($TaxDetail = null, $IncludedInBase = null, $Key = null, $Category = null, $CarrierDefinedCategory = null, $SegmentRef = null, $FlightDetailsRef = null, $CouponRef = null, $TaxExempted = null, $ProviderCode = null, $SupplierCode = null, $Text = null, $Amount = null, $OriginAirport = null, $DestinationAirport = null, $CountryCode = null, $FareInfoRef = null, $PaymentRef = null)
+    public function __construct($TaxDetail, $IncludedInBase, $Key, $Category, $CarrierDefinedCategory, $SegmentRef, $FlightDetailsRef, $CouponRef, $TaxExempted, $ProviderCode, $SupplierCode, $Text, $Amount, $OriginAirport, $DestinationAirport, $CountryCode, $FareInfoRef, $PaymentRef)
     {
       parent::__construct($TaxDetail, $IncludedInBase, $Key, $Category, $CarrierDefinedCategory, $SegmentRef, $FlightDetailsRef, $CouponRef, $TaxExempted, $ProviderCode, $SupplierCode, $Text, $Amount, $OriginAirport, $DestinationAirport, $CountryCode, $FareInfoRef);
       $this->PaymentRef = $PaymentRef;

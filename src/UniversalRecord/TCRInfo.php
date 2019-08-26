@@ -31,10 +31,10 @@ class TCRInfo
      * @param typeTCRNumber $TCRNumber
      * @param typeRef $ProviderReservationInfoRef
      */
-    public function __construct($Status = null, \DateTime $Date = null, $TCRNumber = null, $ProviderReservationInfoRef = null)
+    public function __construct($Status, \DateTime $Date, $TCRNumber, $ProviderReservationInfoRef)
     {
       $this->Status = $Status;
-      $this->Date = $Date ? $Date->format(\DateTime::ATOM) : null;
+      $this->Date = $Date->format(\DateTime::ATOM);
       $this->TCRNumber = $TCRNumber;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
     }

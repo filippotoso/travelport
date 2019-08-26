@@ -24,7 +24,7 @@ class typeSubKey
      * @param string $Name
      * @param string $Description
      */
-    public function __construct($Name = null, $Description = null)
+    public function __construct($Name, $Description)
     {
       $this->Name = $Name;
       $this->Description = $Description;

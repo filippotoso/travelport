@@ -54,7 +54,7 @@ class AirCancelReq extends BaseReq
      * @param FileFinishingInfo $FileFinishingInfo
      * @param typeURVersion $Version
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ContinuityCheckOverride = null, $AirReservationLocatorCode = null, $AirSegment = null, $AirSegmentRef = null, $FileFinishingInfo = null, $Version = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ContinuityCheckOverride, $AirReservationLocatorCode, $AirSegment, $AirSegmentRef, $FileFinishingInfo, $Version)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ContinuityCheckOverride = $ContinuityCheckOverride;

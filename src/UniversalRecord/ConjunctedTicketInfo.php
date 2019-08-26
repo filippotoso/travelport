@@ -21,9 +21,14 @@ class ConjunctedTicketInfo
     protected $TicketIssueDate = null;
 
     /**
-     * @var anonymous792 $TicketingAgentSignOn
+     * @var anonymous789 $TicketingAgentSignOn
      */
     protected $TicketingAgentSignOn = null;
+
+    /**
+     * @var typeCountry $CountryCode
+     */
+    protected $CountryCode = null;
 
     /**
      * @var typeTicketStatus $Status
@@ -34,15 +39,17 @@ class ConjunctedTicketInfo
      * @param string $Number
      * @param typeIATA $IATANumber
      * @param \DateTime $TicketIssueDate
-     * @param anonymous792 $TicketingAgentSignOn
+     * @param anonymous789 $TicketingAgentSignOn
+     * @param typeCountry $CountryCode
      * @param typeTicketStatus $Status
      */
-    public function __construct($Number = null, $IATANumber = null, \DateTime $TicketIssueDate = null, $TicketingAgentSignOn = null, $Status = null)
+    public function __construct($Number, $IATANumber, \DateTime $TicketIssueDate, $TicketingAgentSignOn, $CountryCode, $Status)
     {
       $this->Number = $Number;
       $this->IATANumber = $IATANumber;
-      $this->TicketIssueDate = $TicketIssueDate ? $TicketIssueDate->format(\DateTime::ATOM) : null;
+      $this->TicketIssueDate = $TicketIssueDate->format(\DateTime::ATOM);
       $this->TicketingAgentSignOn = $TicketingAgentSignOn;
+      $this->CountryCode = $CountryCode;
       $this->Status = $Status;
     }
 
@@ -109,7 +116,7 @@ class ConjunctedTicketInfo
     }
 
     /**
-     * @return anonymous792
+     * @return anonymous789
      */
     public function getTicketingAgentSignOn()
     {
@@ -117,12 +124,30 @@ class ConjunctedTicketInfo
     }
 
     /**
-     * @param anonymous792 $TicketingAgentSignOn
+     * @param anonymous789 $TicketingAgentSignOn
      * @return \FilippoToso\Travelport\UniversalRecord\ConjunctedTicketInfo
      */
     public function setTicketingAgentSignOn($TicketingAgentSignOn)
     {
       $this->TicketingAgentSignOn = $TicketingAgentSignOn;
+      return $this;
+    }
+
+    /**
+     * @return typeCountry
+     */
+    public function getCountryCode()
+    {
+      return $this->CountryCode;
+    }
+
+    /**
+     * @param typeCountry $CountryCode
+     * @return \FilippoToso\Travelport\UniversalRecord\ConjunctedTicketInfo
+     */
+    public function setCountryCode($CountryCode)
+    {
+      $this->CountryCode = $CountryCode;
       return $this;
     }
 

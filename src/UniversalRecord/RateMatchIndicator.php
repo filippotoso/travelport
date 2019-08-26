@@ -6,12 +6,12 @@ class RateMatchIndicator
 {
 
     /**
-     * @var anonymous1230 $Type
+     * @var anonymous1228 $Type
      */
     protected $Type = null;
 
     /**
-     * @var anonymous1231 $Status
+     * @var anonymous1229 $Status
      */
     protected $Status = null;
 
@@ -21,11 +21,11 @@ class RateMatchIndicator
     protected $Value = null;
 
     /**
-     * @param anonymous1230 $Type
-     * @param anonymous1231 $Status
+     * @param anonymous1228 $Type
+     * @param anonymous1229 $Status
      * @param string $Value
      */
-    public function __construct($Type = null, $Status = null, $Value = null)
+    public function __construct($Type, $Status, $Value)
     {
       $this->Type = $Type;
       $this->Status = $Status;
@@ -33,7 +33,7 @@ class RateMatchIndicator
     }
 
     /**
-     * @return anonymous1230
+     * @return anonymous1228
      */
     public function getType()
     {
@@ -41,7 +41,7 @@ class RateMatchIndicator
     }
 
     /**
-     * @param anonymous1230 $Type
+     * @param anonymous1228 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\RateMatchIndicator
      */
     public function setType($Type)
@@ -51,7 +51,7 @@ class RateMatchIndicator
     }
 
     /**
-     * @return anonymous1231
+     * @return anonymous1229
      */
     public function getStatus()
     {
@@ -59,7 +59,7 @@ class RateMatchIndicator
     }
 
     /**
-     * @param anonymous1231 $Status
+     * @param anonymous1229 $Status
      * @return \FilippoToso\Travelport\UniversalRecord\RateMatchIndicator
      */
     public function setStatus($Status)

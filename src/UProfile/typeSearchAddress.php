@@ -37,7 +37,7 @@ class typeSearchAddress
      * @param anonymous834 $PostalCode
      * @param anonymous835 $Country
      */
-    public function __construct($AddressLine = null, $City = null, $StateProvince = null, $PostalCode = null, $Country = null)
+    public function __construct($AddressLine, $City, $StateProvince, $PostalCode, $Country)
     {
       $this->AddressLine = $AddressLine;
       $this->City = $City;

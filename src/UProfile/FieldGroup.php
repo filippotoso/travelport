@@ -73,7 +73,7 @@ class FieldGroup
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($Field = null, $ID = null, $ProfileID = null, $ProfileType = null, $IsUsed = null, $Name = null, $Description = null, $Protected = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
+    public function __construct($Field, $ID, $ProfileID, $ProfileType, $IsUsed, $Name, $Description, $Protected, $Inheritable, $MinOccurs, $MaxOccurs)
     {
       $this->Field = $Field;
       $this->ID = $ID;

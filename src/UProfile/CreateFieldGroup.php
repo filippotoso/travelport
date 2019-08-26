@@ -49,7 +49,7 @@ class CreateFieldGroup
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($CreateField = null, $Name = null, $Description = null, $Protected = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
+    public function __construct($CreateField, $Name, $Description, $Protected, $Inheritable, $MinOccurs, $MaxOccurs)
     {
       $this->CreateField = $CreateField;
       $this->Name = $Name;

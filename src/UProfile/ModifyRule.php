@@ -43,7 +43,7 @@ class ModifyRule
      * @param boolean $Refundable
      * @param string $ProviderDefinedModificationType
      */
-    public function __construct($Modification = null, $AutomaticallyAppliedOnAdd = null, $CanDelete = null, $CanAdd = null, $Refundable = null, $ProviderDefinedModificationType = null)
+    public function __construct($Modification, $AutomaticallyAppliedOnAdd, $CanDelete, $CanAdd, $Refundable, $ProviderDefinedModificationType)
     {
       $this->Modification = $Modification;
       $this->AutomaticallyAppliedOnAdd = $AutomaticallyAppliedOnAdd;

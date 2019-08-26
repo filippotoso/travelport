@@ -25,7 +25,7 @@ class UniversalModifyErrorInfo extends typeErrorInfo
      * @param UniversalModifyCommandError $UniversalModifyCommandError
      * @param AirSegmentError $AirSegmentError
      */
-    public function __construct($Code = null, $Service = null, $Type = null, $Description = null, $TransactionId = null, $Auxdata = null, $UniversalModifyCommandError = null, $AirSegmentError = null)
+    public function __construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata, $UniversalModifyCommandError, $AirSegmentError)
     {
       parent::__construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata);
       $this->UniversalModifyCommandError = $UniversalModifyCommandError;

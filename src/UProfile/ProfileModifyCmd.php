@@ -67,7 +67,7 @@ class ProfileModifyCmd
      * @param TagAdd $TagAdd
      * @param TagDelete $TagDelete
      */
-    public function __construct($ProfileStatusUpdate = null, $ProfileLinkAdd = null, $ProfileLinkDelete = null, $ProfileParentAdd = null, $ProfileParentDelete = null, $ProfileDataAdd = null, $ProfileDataUpdate = null, $ProfileDataDelete = null, $TagAdd = null, $TagDelete = null)
+    public function __construct($ProfileStatusUpdate, $ProfileLinkAdd, $ProfileLinkDelete, $ProfileParentAdd, $ProfileParentDelete, $ProfileDataAdd, $ProfileDataUpdate, $ProfileDataDelete, $TagAdd, $TagDelete)
     {
       $this->ProfileStatusUpdate = $ProfileStatusUpdate;
       $this->ProfileLinkAdd = $ProfileLinkAdd;

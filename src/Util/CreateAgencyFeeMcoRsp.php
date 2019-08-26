@@ -18,7 +18,7 @@ class CreateAgencyFeeMcoRsp extends BaseRsp
      * @param string $CommandHistory
      * @param MCO $MCO
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $MCO = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $MCO)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->MCO = $MCO;

@@ -13,7 +13,7 @@ class ProhibitedConnectionPoints
     /**
      * @param typeLocation $ConnectionPoint
      */
-    public function __construct($ConnectionPoint = null)
+    public function __construct($ConnectionPoint)
     {
       $this->ConnectionPoint = $ConnectionPoint;
     }

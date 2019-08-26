@@ -37,7 +37,7 @@ class HotelUpsellOffer
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($CorporateDiscountID = null, $RatePlanType = null, $Key = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($CorporateDiscountID, $RatePlanType, $Key, $ElStat, $KeyOverride)
     {
       $this->CorporateDiscountID = $CorporateDiscountID;
       $this->RatePlanType = $RatePlanType;

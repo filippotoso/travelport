@@ -25,7 +25,7 @@ class typeSearchPhone
      * @param anonymous839 $AreaCode
      * @param anonymous840 $LocalNumber
      */
-    public function __construct($CountryCode = null, $AreaCode = null, $LocalNumber = null)
+    public function __construct($CountryCode, $AreaCode, $LocalNumber)
     {
       $this->CountryCode = $CountryCode;
       $this->AreaCode = $AreaCode;

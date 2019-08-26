@@ -43,7 +43,7 @@ class RateModifiers
      * @param string $VendorLocationRef
      * @param string $TourCode
      */
-    public function __construct($RateCode = null, $DiscountNumber = null, $VendorCode = null, $PromotionalCode = null, $VendorLocationRef = null, $TourCode = null)
+    public function __construct($RateCode, $DiscountNumber, $VendorCode, $PromotionalCode, $VendorLocationRef, $TourCode)
     {
       $this->RateCode = $RateCode;
       $this->DiscountNumber = $DiscountNumber;

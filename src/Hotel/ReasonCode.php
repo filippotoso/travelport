@@ -23,7 +23,7 @@ class ReasonCode
     /**
      * @param Remark $Remark
      */
-    public function __construct($Remark = null)
+    public function __construct($Remark)
     {
       $this->Remark = $Remark;
     }

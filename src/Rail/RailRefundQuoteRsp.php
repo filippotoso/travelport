@@ -18,7 +18,7 @@ class RailRefundQuoteRsp extends BaseRsp
      * @param string $CommandHistory
      * @param RailRefundInfo $RailRefundInfo
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $RailRefundInfo = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $RailRefundInfo)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->RailRefundInfo = $RailRefundInfo;

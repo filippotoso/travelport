@@ -16,16 +16,16 @@ class SponsoredFltInfo
     protected $NeutralLNB = null;
 
     /**
-     * @var anonymous840 $FltKey
+     * @var anonymous837 $FltKey
      */
     protected $FltKey = null;
 
     /**
      * @param int $SponsoredLNB
      * @param int $NeutralLNB
-     * @param anonymous840 $FltKey
+     * @param anonymous837 $FltKey
      */
-    public function __construct($SponsoredLNB = null, $NeutralLNB = null, $FltKey = null)
+    public function __construct($SponsoredLNB, $NeutralLNB, $FltKey)
     {
       $this->SponsoredLNB = $SponsoredLNB;
       $this->NeutralLNB = $NeutralLNB;
@@ -69,7 +69,7 @@ class SponsoredFltInfo
     }
 
     /**
-     * @return anonymous840
+     * @return anonymous837
      */
     public function getFltKey()
     {
@@ -77,7 +77,7 @@ class SponsoredFltInfo
     }
 
     /**
-     * @param anonymous840 $FltKey
+     * @param anonymous837 $FltKey
      * @return \FilippoToso\Travelport\GDSQueue\SponsoredFltInfo
      */
     public function setFltKey($FltKey)

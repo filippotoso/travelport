@@ -67,12 +67,12 @@ class ReviewBooking
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key = null, $Queue = null, $QueueCategory = null, \DateTime $DateTime = null, $PseudoCityCode = null, $ProviderCode = null, $ProviderReservationInfoRef = null, $Remarks = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Key, $Queue, $QueueCategory, \DateTime $DateTime, $PseudoCityCode, $ProviderCode, $ProviderReservationInfoRef, $Remarks, $ElStat, $KeyOverride)
     {
       $this->Key = $Key;
       $this->Queue = $Queue;
       $this->QueueCategory = $QueueCategory;
-      $this->DateTime = $DateTime ? $DateTime->format(\DateTime::ATOM) : null;
+      $this->DateTime = $DateTime->format(\DateTime::ATOM);
       $this->PseudoCityCode = $PseudoCityCode;
       $this->ProviderCode = $ProviderCode;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;

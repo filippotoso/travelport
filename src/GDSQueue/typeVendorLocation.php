@@ -43,7 +43,7 @@ class typeVendorLocation
      * @param typeRef $Key
      * @param anonymous5 $MoreRatesToken
      */
-    public function __construct($ProviderCode = null, $VendorCode = null, $PreferredOption = null, $VendorLocationID = null, $Key = null, $MoreRatesToken = null)
+    public function __construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken)
     {
       $this->ProviderCode = $ProviderCode;
       $this->VendorCode = $VendorCode;

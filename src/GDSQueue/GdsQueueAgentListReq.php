@@ -6,7 +6,7 @@ class GdsQueueAgentListReq extends BaseReq
 {
 
     /**
-     * @var anonymous1491 $AgentID
+     * @var anonymous1489 $AgentID
      */
     protected $AgentID = null;
 
@@ -22,16 +22,16 @@ class GdsQueueAgentListReq extends BaseReq
      * @param language $LanguageCode
      * @param OverridePCC $OverridePCC
      * @param boolean $RetrieveProviderReservationDetails
-     * @param anonymous1491 $AgentID
+     * @param anonymous1489 $AgentID
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AgentID = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AgentID)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AgentID = $AgentID;
     }
 
     /**
-     * @return anonymous1491
+     * @return anonymous1489
      */
     public function getAgentID()
     {
@@ -39,7 +39,7 @@ class GdsQueueAgentListReq extends BaseReq
     }
 
     /**
-     * @param anonymous1491 $AgentID
+     * @param anonymous1489 $AgentID
      * @return \FilippoToso\Travelport\GDSQueue\GdsQueueAgentListReq
      */
     public function setAgentID($AgentID)

@@ -13,7 +13,7 @@ class ServiceSubGroup
     /**
      * @param string $Code
      */
-    public function __construct($Code = null)
+    public function __construct($Code)
     {
       $this->Code = $Code;
     }

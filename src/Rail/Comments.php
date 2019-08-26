@@ -49,7 +49,7 @@ class Comments
      * @param string $CommentSourceName
      * @param string $Commenter
      */
-    public function __construct($_ = null, $CommentId = null, $Date = null, $CommenterLanguage = null, $Source = null, $CommentSourceName = null, $Commenter = null)
+    public function __construct($_, $CommentId, $Date, $CommenterLanguage, $Source, $CommentSourceName, $Commenter)
     {
       $this->_ = $_;
       $this->CommentId = $CommentId;

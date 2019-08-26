@@ -13,7 +13,7 @@ class EmbargoList
     /**
      * @param Embargo $Embargo
      */
-    public function __construct($Embargo = null)
+    public function __construct($Embargo)
     {
       $this->Embargo = $Embargo;
     }

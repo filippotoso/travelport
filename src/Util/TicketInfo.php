@@ -36,9 +36,14 @@ class TicketInfo
     protected $TicketIssueDate = null;
 
     /**
-     * @var anonymous776 $TicketingAgentSignOn
+     * @var anonymous773 $TicketingAgentSignOn
      */
     protected $TicketingAgentSignOn = null;
+
+    /**
+     * @var typeCountry $CountryCode
+     */
+    protected $CountryCode = null;
 
     /**
      * @var typeTicketStatus $Status
@@ -67,21 +72,23 @@ class TicketInfo
      * @param string $Number
      * @param typeIATA $IATANumber
      * @param \DateTime $TicketIssueDate
-     * @param anonymous776 $TicketingAgentSignOn
+     * @param anonymous773 $TicketingAgentSignOn
+     * @param typeCountry $CountryCode
      * @param typeTicketStatus $Status
      * @param boolean $BulkTicket
      * @param typeRef $BookingTravelerRef
      * @param typeRef $AirPricingInfoRef
      */
-    public function __construct($Name = null, $ConjunctedTicketInfo = null, $ExchangedTicketInfo = null, $Number = null, $IATANumber = null, \DateTime $TicketIssueDate = null, $TicketingAgentSignOn = null, $Status = null, $BulkTicket = null, $BookingTravelerRef = null, $AirPricingInfoRef = null)
+    public function __construct($Name, $ConjunctedTicketInfo, $ExchangedTicketInfo, $Number, $IATANumber, \DateTime $TicketIssueDate, $TicketingAgentSignOn, $CountryCode, $Status, $BulkTicket, $BookingTravelerRef, $AirPricingInfoRef)
     {
       $this->Name = $Name;
       $this->ConjunctedTicketInfo = $ConjunctedTicketInfo;
       $this->ExchangedTicketInfo = $ExchangedTicketInfo;
       $this->Number = $Number;
       $this->IATANumber = $IATANumber;
-      $this->TicketIssueDate = $TicketIssueDate ? $TicketIssueDate->format(\DateTime::ATOM) : null;
+      $this->TicketIssueDate = $TicketIssueDate->format(\DateTime::ATOM);
       $this->TicketingAgentSignOn = $TicketingAgentSignOn;
+      $this->CountryCode = $CountryCode;
       $this->Status = $Status;
       $this->BulkTicket = $BulkTicket;
       $this->BookingTravelerRef = $BookingTravelerRef;
@@ -205,7 +212,7 @@ class TicketInfo
     }
 
     /**
-     * @return anonymous776
+     * @return anonymous773
      */
     public function getTicketingAgentSignOn()
     {
@@ -213,12 +220,30 @@ class TicketInfo
     }
 
     /**
-     * @param anonymous776 $TicketingAgentSignOn
+     * @param anonymous773 $TicketingAgentSignOn
      * @return \FilippoToso\Travelport\Util\TicketInfo
      */
     public function setTicketingAgentSignOn($TicketingAgentSignOn)
     {
       $this->TicketingAgentSignOn = $TicketingAgentSignOn;
+      return $this;
+    }
+
+    /**
+     * @return typeCountry
+     */
+    public function getCountryCode()
+    {
+      return $this->CountryCode;
+    }
+
+    /**
+     * @param typeCountry $CountryCode
+     * @return \FilippoToso\Travelport\Util\TicketInfo
+     */
+    public function setCountryCode($CountryCode)
+    {
+      $this->CountryCode = $CountryCode;
       return $this;
     }
 

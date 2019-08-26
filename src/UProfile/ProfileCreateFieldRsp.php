@@ -24,7 +24,7 @@ class ProfileCreateFieldRsp extends BaseRsp
      * @param Field $Field
      * @param FieldGroup $FieldGroup
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $Field = null, $FieldGroup = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $Field, $FieldGroup)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->Field = $Field;

@@ -11,7 +11,7 @@ class typeDepositGuarantee
     protected $Purpose = null;
 
     /**
-     * @var anonymous1130 $Type
+     * @var anonymous1128 $Type
      */
     protected $Type = null;
 
@@ -36,7 +36,7 @@ class typeDepositGuarantee
     protected $NumberOfDays = null;
 
     /**
-     * @var anonymous1131 $OptionType
+     * @var anonymous1129 $OptionType
      */
     protected $OptionType = null;
 
@@ -52,16 +52,16 @@ class typeDepositGuarantee
 
     /**
      * @param typeReserveRequirement $Purpose
-     * @param anonymous1130 $Type
+     * @param anonymous1128 $Type
      * @param typeMoney $Amount
      * @param float $Percent
      * @param date $DueDate
      * @param int $NumberOfDays
-     * @param anonymous1131 $OptionType
+     * @param anonymous1129 $OptionType
      * @param boolean $Required
      * @param boolean $RequirementPassed
      */
-    public function __construct($Purpose = null, $Type = null, $Amount = null, $Percent = null, $DueDate = null, $NumberOfDays = null, $OptionType = null, $Required = null, $RequirementPassed = null)
+    public function __construct($Purpose, $Type, $Amount, $Percent, $DueDate, $NumberOfDays, $OptionType, $Required, $RequirementPassed)
     {
       $this->Purpose = $Purpose;
       $this->Type = $Type;
@@ -93,7 +93,7 @@ class typeDepositGuarantee
     }
 
     /**
-     * @return anonymous1130
+     * @return anonymous1128
      */
     public function getType()
     {
@@ -101,7 +101,7 @@ class typeDepositGuarantee
     }
 
     /**
-     * @param anonymous1130 $Type
+     * @param anonymous1128 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\typeDepositGuarantee
      */
     public function setType($Type)
@@ -183,7 +183,7 @@ class typeDepositGuarantee
     }
 
     /**
-     * @return anonymous1131
+     * @return anonymous1129
      */
     public function getOptionType()
     {
@@ -191,7 +191,7 @@ class typeDepositGuarantee
     }
 
     /**
-     * @param anonymous1131 $OptionType
+     * @param anonymous1129 $OptionType
      * @return \FilippoToso\Travelport\UniversalRecord\typeDepositGuarantee
      */
     public function setOptionType($OptionType)

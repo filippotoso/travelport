@@ -32,7 +32,7 @@ class DebitCard extends typePaymentCard
      * @param string $ProfileID
      * @param typeRef $Key
      */
-    public function __construct($PhoneNumber = null, $Type = null, $Number = null, $ExpDate = null, $Name = null, $CVV = null, $ApprovalCode = null, $IssueNumber = null, $ProfileID = null, $Key = null)
+    public function __construct($PhoneNumber, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode, $IssueNumber, $ProfileID, $Key)
     {
       parent::__construct($PhoneNumber, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode);
       $this->IssueNumber = $IssueNumber;

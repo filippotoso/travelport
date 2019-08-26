@@ -13,7 +13,7 @@ class FlightDestination
     /**
      * @param Airport $Airport
      */
-    public function __construct($Airport = null)
+    public function __construct($Airport)
     {
       $this->Airport = $Airport;
     }

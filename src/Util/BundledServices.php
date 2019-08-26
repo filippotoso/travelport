@@ -13,7 +13,7 @@ class BundledServices
     /**
      * @param BundledService $BundledService
      */
-    public function __construct($BundledService = null)
+    public function __construct($BundledService)
     {
       $this->BundledService = $BundledService;
     }

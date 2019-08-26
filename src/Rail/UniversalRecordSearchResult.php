@@ -58,7 +58,7 @@ class UniversalRecordSearchResult extends typeProductInfo
      * @param typeRecordStatus $RecordStatus
      * @param URTicketStatus $TicketStatus
      */
-    public function __construct($ProductType = null, $VendorCode = null, $ProviderCode = null, $ProviderLocatorCode = null, $UniversalRecordLocatorCode = null, $EarliestTravelDate = null, $CreatedDate = null, $SavedTripLocatorCode = null, $Ticketed = null, $RecordStatus = null, $TicketStatus = null)
+    public function __construct($ProductType, $VendorCode, $ProviderCode, $ProviderLocatorCode, $UniversalRecordLocatorCode, $EarliestTravelDate, $CreatedDate, $SavedTripLocatorCode, $Ticketed, $RecordStatus, $TicketStatus)
     {
       parent::__construct($ProductType, $VendorCode, $ProviderCode, $ProviderLocatorCode);
       $this->UniversalRecordLocatorCode = $UniversalRecordLocatorCode;

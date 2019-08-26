@@ -30,12 +30,13 @@ class AirPriceReq extends BaseAirPriceReq
      * @param date $TicketDate
      * @param boolean $CheckFlightDetails
      * @param boolean $ReturnMM
-     * @param anonymous1147 $NSCC
+     * @param anonymous1145 $NSCC
      * @param boolean $SplitPricing
+     * @param boolean $IgnoreAvailability
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $AirItinerary = null, $AirPricingModifiers = null, $SearchPassenger = null, $AirPricingCommand = null, $AirReservationLocatorCode = null, $OptionalServices = null, $FormOfPayment = null, $PCC = null, $SSR = null, $CheckOBFees = null, $FareRuleType = null, $SupplierCode = null, $TicketDate = null, $CheckFlightDetails = null, $ReturnMM = null, $NSCC = null, $SplitPricing = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $AirItinerary, $AirPricingModifiers, $SearchPassenger, $AirPricingCommand, $AirReservationLocatorCode, $OptionalServices, $FormOfPayment, $PCC, $SSR, $CheckOBFees, $FareRuleType, $SupplierCode, $TicketDate, $CheckFlightDetails, $ReturnMM, $NSCC, $SplitPricing, $IgnoreAvailability)
     {
-      parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $AirItinerary, $AirPricingModifiers, $SearchPassenger, $AirPricingCommand, $AirReservationLocatorCode, $OptionalServices, $FormOfPayment, $PCC, $SSR, $CheckOBFees, $FareRuleType, $SupplierCode, $TicketDate, $CheckFlightDetails, $ReturnMM, $NSCC, $SplitPricing);
+      parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $AirItinerary, $AirPricingModifiers, $SearchPassenger, $AirPricingCommand, $AirReservationLocatorCode, $OptionalServices, $FormOfPayment, $PCC, $SSR, $CheckOBFees, $FareRuleType, $SupplierCode, $TicketDate, $CheckFlightDetails, $ReturnMM, $NSCC, $SplitPricing, $IgnoreAvailability);
     }
 
 }

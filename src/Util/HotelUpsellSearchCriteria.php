@@ -19,7 +19,7 @@ class HotelUpsellSearchCriteria
      * @param HotelUpsellOfferSearchCriteria $HotelUpsellOfferSearchCriteria
      * @param HotelUpsellQualifySearchCriteria $HotelUpsellQualifySearchCriteria
      */
-    public function __construct($HotelUpsellOfferSearchCriteria = null, $HotelUpsellQualifySearchCriteria = null)
+    public function __construct($HotelUpsellOfferSearchCriteria, $HotelUpsellQualifySearchCriteria)
     {
       $this->HotelUpsellOfferSearchCriteria = $HotelUpsellOfferSearchCriteria;
       $this->HotelUpsellQualifySearchCriteria = $HotelUpsellQualifySearchCriteria;

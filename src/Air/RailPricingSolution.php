@@ -26,7 +26,7 @@ class RailPricingSolution extends typeRailPricingSolution
      * @param typeMoney $ApproximateTaxes
      * @param typeMoney $ApproximateFees
      */
-    public function __construct($RailJourney = null, $RailJourneyRef = null, $RailPricingInfo = null, $Key = null, $OfferId = null, $ProviderCode = null, $SupplierCode = null, $HostTokenRef = null, $Reference = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null)
+    public function __construct($RailJourney, $RailJourneyRef, $RailPricingInfo, $Key, $OfferId, $ProviderCode, $SupplierCode, $HostTokenRef, $Reference, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees)
     {
       parent::__construct($RailJourney, $RailJourneyRef, $RailPricingInfo, $Key, $OfferId, $ProviderCode, $SupplierCode, $HostTokenRef, $Reference, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees);
     }

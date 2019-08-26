@@ -277,7 +277,7 @@ class TerminalService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\new-builder/../src/Wsdls/terminal_v33_0/Terminal.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/terminal_v33_0/Terminal.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

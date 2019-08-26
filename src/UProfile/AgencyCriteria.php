@@ -26,7 +26,7 @@ class AgencyCriteria extends typeProfileSearchCriteria
      * @param typeWildcard $AgencyCode
      * @param typeWildcard $IataNumber
      */
-    public function __construct($AdditionalIdentifier = null, $Name = null, $AgencyCode = null, $IataNumber = null)
+    public function __construct($AdditionalIdentifier, $Name, $AgencyCode, $IataNumber)
     {
       parent::__construct($AdditionalIdentifier);
       $this->Name = $Name;

@@ -25,7 +25,7 @@ class Document
      * @param string $Type
      * @param string $Level
      */
-    public function __construct($Sequence = null, $Type = null, $Level = null)
+    public function __construct($Sequence, $Type, $Level)
     {
       $this->Sequence = $Sequence;
       $this->Type = $Type;

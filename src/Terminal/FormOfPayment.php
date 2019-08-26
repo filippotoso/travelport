@@ -185,7 +185,7 @@ class FormOfPayment
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($CreditCard = null, $DebitCard = null, $EnettVan = null, $Certificate = null, $TicketNumber = null, $Check = null, $Requisition = null, $MiscFormOfPayment = null, $AgencyPayment = null, $UnitedNations = null, $DirectPayment = null, $AgentVoucher = null, $PaymentAdvice = null, $Key = null, $Type = null, $FulfillmentType = null, $FulfillmentLocation = null, $FulfillmentIDType = null, $FulfillmentIDNumber = null, $IsAgentType = null, $AgentText = null, $ReuseFOP = null, $ExternalReference = null, $Reusable = null, $ProfileID = null, $ProfileKey = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($CreditCard, $DebitCard, $EnettVan, $Certificate, $TicketNumber, $Check, $Requisition, $MiscFormOfPayment, $AgencyPayment, $UnitedNations, $DirectPayment, $AgentVoucher, $PaymentAdvice, $Key, $Type, $FulfillmentType, $FulfillmentLocation, $FulfillmentIDType, $FulfillmentIDNumber, $IsAgentType, $AgentText, $ReuseFOP, $ExternalReference, $Reusable, $ProfileID, $ProfileKey, $ElStat, $KeyOverride)
     {
       $this->CreditCard = $CreditCard;
       $this->DebitCard = $DebitCard;

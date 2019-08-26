@@ -57,7 +57,7 @@ class CruiseReservation extends BaseReservation
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
      * @param Payment $Payment
      */
-    public function __construct($AccountingRemark = null, $GeneralRemark = null, $Restriction = null, $PassiveInfo = null, $LocatorCode = null, $CreateDate = null, $ModifiedDate = null, $CustomerNumber = null, $CruiseSegment = null, $CruiseItinerary = null, $CruisePricingInfo = null, $OptionalService = null, $BookingTravelerRef = null, $ProviderReservationInfoRef = null, $Payment = null)
+    public function __construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber, $CruiseSegment, $CruiseItinerary, $CruisePricingInfo, $OptionalService, $BookingTravelerRef, $ProviderReservationInfoRef, $Payment)
     {
       parent::__construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber);
       $this->CruiseSegment = $CruiseSegment;

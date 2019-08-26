@@ -49,7 +49,7 @@ class LoyaltyProgram
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Level = null, $Key = null, $SupplierCode = null, $AllianceLevel = null, $MembershipProgram = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($Level, $Key, $SupplierCode, $AllianceLevel, $MembershipProgram, $ElStat, $KeyOverride)
     {
       $this->Level = $Level;
       $this->Key = $Key;

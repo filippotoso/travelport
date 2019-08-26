@@ -81,7 +81,7 @@ class typeAddressHistory extends typeKeyTaggedElement
      * @param StringLength1to255 $DeliveryDescription
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $TagRef = null, $AddressLine = null, $City = null, $State = null, $OtherStateProvince = null, $Country = null, $Postal = null, $Type = null, $Purpose = null, $Provisioned = null, $PriorityOrder = null, $DeliveryDescription = null, $OwnerID = null)
+    public function __construct($Key, $TagRef, $AddressLine, $City, $State, $OtherStateProvince, $Country, $Postal, $Type, $Purpose, $Provisioned, $PriorityOrder, $DeliveryDescription, $OwnerID)
     {
       parent::__construct($Key, $TagRef);
       $this->AddressLine = $AddressLine;

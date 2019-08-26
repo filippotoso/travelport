@@ -18,7 +18,7 @@ class AirFareRulesRsp extends BaseRsp
      * @param string $CommandHistory
      * @param FareRule $FareRule
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $FareRule = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $FareRule)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->FareRule = $FareRule;

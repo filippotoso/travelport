@@ -19,7 +19,7 @@ class PricedEquip
      * @param Equipment $Equipment
      * @param Charge $Charge
      */
-    public function __construct($Equipment = null, $Charge = null)
+    public function __construct($Equipment, $Charge)
     {
       $this->Equipment = $Equipment;
       $this->Charge = $Charge;

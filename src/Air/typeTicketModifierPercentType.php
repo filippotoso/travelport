@@ -13,7 +13,7 @@ class typeTicketModifierPercentType
     /**
      * @param typePercentageWithDecimal $Percent
      */
-    public function __construct($Percent = null)
+    public function __construct($Percent)
     {
       $this->Percent = $Percent;
     }

@@ -30,7 +30,7 @@ class ProfileSearchFieldRsp extends BaseRsp
      * @param FieldGroup $FieldGroup
      * @param typeMoreResults $MoreResults
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $Field = null, $FieldGroup = null, $MoreResults = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $Field, $FieldGroup, $MoreResults)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->Field = $Field;

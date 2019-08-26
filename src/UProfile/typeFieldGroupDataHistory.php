@@ -25,7 +25,7 @@ class typeFieldGroupDataHistory extends typeKeyElement
      * @param typeFieldID $FieldGroupID
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key = null, $FieldGroupID = null, $OwnerID = null)
+    public function __construct($Key, $FieldGroupID, $OwnerID)
     {
       parent::__construct($Key);
       $this->FieldGroupID = $FieldGroupID;

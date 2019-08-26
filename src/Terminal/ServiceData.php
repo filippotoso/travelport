@@ -66,7 +66,7 @@ class ServiceData
      * @param typeRef $EMDSummaryRef
      * @param typeRef $EMDCouponRef
      */
-    public function __construct($SeatAttributes = null, $CabinClass = null, $Data = null, $AirSegmentRef = null, $BookingTravelerRef = null, $StopOver = null, $TravelerType = null, $EMDSummaryRef = null, $EMDCouponRef = null)
+    public function __construct($SeatAttributes, $CabinClass, $Data, $AirSegmentRef, $BookingTravelerRef, $StopOver, $TravelerType, $EMDSummaryRef, $EMDCouponRef)
     {
       $this->SeatAttributes = $SeatAttributes;
       $this->CabinClass = $CabinClass;

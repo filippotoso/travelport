@@ -43,7 +43,7 @@ class FlightCriteria
      * @param typeIATACode $Origin
      * @param typeIATACode $Destination
      */
-    public function __construct($_ = null, $Carrier = null, $FlightNumber = null, $DepartureDate = null, $Origin = null, $Destination = null)
+    public function __construct($_, $Carrier, $FlightNumber, $DepartureDate, $Origin, $Destination)
     {
       $this->_ = $_;
       $this->Carrier = $Carrier;

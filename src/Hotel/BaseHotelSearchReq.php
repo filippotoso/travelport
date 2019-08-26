@@ -49,7 +49,7 @@ class BaseHotelSearchReq extends BaseSearchReq
      * @param PointOfSale $PointOfSale
      * @param typePolicyReference $PolicyReference
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $NextResultReference = null, $HotelSearchLocation = null, $HotelSearchModifiers = null, $HotelStay = null, $PointOfSale = null, $PolicyReference = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference, $HotelSearchLocation, $HotelSearchModifiers, $HotelStay, $PointOfSale, $PolicyReference)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference);
       $this->HotelSearchLocation = $HotelSearchLocation;

@@ -25,7 +25,7 @@ class EMDCommission
      * @param float $Value
      * @param typeCurrency $CurrencyCode
      */
-    public function __construct($Type = null, $Value = null, $CurrencyCode = null)
+    public function __construct($Type, $Value, $CurrencyCode)
     {
       $this->Type = $Type;
       $this->Value = $Value;

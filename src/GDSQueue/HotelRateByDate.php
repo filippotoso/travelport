@@ -61,7 +61,7 @@ class HotelRateByDate
      * @param typeMoney $Total
      * @param typeMoney $Surcharge
      */
-    public function __construct($EffectiveDate = null, $ExpireDate = null, $ApproximateBase = null, $ApproximateTotal = null, $Contents = null, $Base = null, $Tax = null, $Total = null, $Surcharge = null)
+    public function __construct($EffectiveDate, $ExpireDate, $ApproximateBase, $ApproximateTotal, $Contents, $Base, $Tax, $Total, $Surcharge)
     {
       $this->EffectiveDate = $EffectiveDate;
       $this->ExpireDate = $ExpireDate;

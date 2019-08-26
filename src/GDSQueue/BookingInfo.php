@@ -55,7 +55,7 @@ class BookingInfo
      * @param typeRef $AirItinerarySolutionRef
      * @param typeRef $HostTokenRef
      */
-    public function __construct($BookingCode = null, $BookingCount = null, $CabinClass = null, $FareInfoRef = null, $SegmentRef = null, $CouponRef = null, $AirItinerarySolutionRef = null, $HostTokenRef = null)
+    public function __construct($BookingCode, $BookingCount, $CabinClass, $FareInfoRef, $SegmentRef, $CouponRef, $AirItinerarySolutionRef, $HostTokenRef)
     {
       $this->BookingCode = $BookingCode;
       $this->BookingCount = $BookingCount;

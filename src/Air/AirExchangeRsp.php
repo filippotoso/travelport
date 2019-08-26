@@ -34,7 +34,7 @@ class AirExchangeRsp extends BaseRsp
      * @param StringLength1to13 $TicketNumber
      * @param BookingTraveler $BookingTraveler
      */
-    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $TicketNumber = null, $BookingTraveler = null)
+    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $TicketNumber, $BookingTraveler)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->TicketNumber = $TicketNumber;

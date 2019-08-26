@@ -109,7 +109,7 @@ class ServiceFeeInfo
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($FormOfPayment = null, $ServiceFeeTaxInfo = null, $CreditCardAuth = null, $Payment = null, $Status = null, $Description = null, $Key = null, $Confirmation = null, $TicketNumber = null, $BookingTravelerRef = null, $ProviderReservationInfoRef = null, $PassiveProviderReservationInfoRef = null, $TotalAmount = null, $BaseAmount = null, $Taxes = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($FormOfPayment, $ServiceFeeTaxInfo, $CreditCardAuth, $Payment, $Status, $Description, $Key, $Confirmation, $TicketNumber, $BookingTravelerRef, $ProviderReservationInfoRef, $PassiveProviderReservationInfoRef, $TotalAmount, $BaseAmount, $Taxes, $ElStat, $KeyOverride)
     {
       $this->FormOfPayment = $FormOfPayment;
       $this->ServiceFeeTaxInfo = $ServiceFeeTaxInfo;

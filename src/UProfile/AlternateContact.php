@@ -25,7 +25,7 @@ class AlternateContact
      * @param typeTaggablePhone $Phone
      * @param typeTaggableElectronicAddress $ElectronicAddress
      */
-    public function __construct($Address = null, $Phone = null, $ElectronicAddress = null)
+    public function __construct($Address, $Phone, $ElectronicAddress)
     {
       $this->Address = $Address;
       $this->Phone = $Phone;

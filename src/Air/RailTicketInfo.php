@@ -67,7 +67,7 @@ class RailTicketInfo
      * @param StringLength1to255 $TicketType
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($RailJourneyRef = null, $TicketAdvisory = null, $Number = null, $IssueLocation = null, $TicketStatus = null, $TicketFormType = null, $TrafficType = null, \DateTime $IssuedDate = null, $TicketType = null, $BookingTravelerRef = null)
+    public function __construct($RailJourneyRef, $TicketAdvisory, $Number, $IssueLocation, $TicketStatus, $TicketFormType, $TrafficType, \DateTime $IssuedDate, $TicketType, $BookingTravelerRef)
     {
       $this->RailJourneyRef = $RailJourneyRef;
       $this->TicketAdvisory = $TicketAdvisory;
@@ -76,7 +76,7 @@ class RailTicketInfo
       $this->TicketStatus = $TicketStatus;
       $this->TicketFormType = $TicketFormType;
       $this->TrafficType = $TrafficType;
-      $this->IssuedDate = $IssuedDate ? $IssuedDate->format(\DateTime::ATOM) : null;
+      $this->IssuedDate = $IssuedDate->format(\DateTime::ATOM);
       $this->TicketType = $TicketType;
       $this->BookingTravelerRef = $BookingTravelerRef;
     }

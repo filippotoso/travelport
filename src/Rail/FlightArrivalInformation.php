@@ -25,7 +25,7 @@ class FlightArrivalInformation
      * @param anonymous599 $FlightNumber
      * @param typeRef $Key
      */
-    public function __construct($Carrier = null, $FlightNumber = null, $Key = null)
+    public function __construct($Carrier, $FlightNumber, $Key)
     {
       $this->Carrier = $Carrier;
       $this->FlightNumber = $FlightNumber;

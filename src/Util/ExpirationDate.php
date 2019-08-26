@@ -19,7 +19,7 @@ class ExpirationDate
      * @param typeDate $EarliestDate
      * @param typeDate $LatestDate
      */
-    public function __construct($EarliestDate = null, $LatestDate = null)
+    public function __construct($EarliestDate, $LatestDate)
     {
       $this->EarliestDate = $EarliestDate;
       $this->LatestDate = $LatestDate;

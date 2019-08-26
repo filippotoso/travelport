@@ -25,7 +25,7 @@ class QueueSelector
      * @param string $Category
      * @param string $DateRange
      */
-    public function __construct($Queue = null, $Category = null, $DateRange = null)
+    public function __construct($Queue, $Category, $DateRange)
     {
       $this->Queue = $Queue;
       $this->Category = $Category;

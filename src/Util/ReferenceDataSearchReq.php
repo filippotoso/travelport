@@ -30,7 +30,7 @@ class ReferenceDataSearchReq extends BaseReq
      * @param ReferenceDataSearchModifiers $ReferenceDataSearchModifiers
      * @param ReferenceDataSearchItem $ReferenceDataSearchItem
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ReferenceDataSearchModifiers = null, $ReferenceDataSearchItem = null)
+    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ReferenceDataSearchModifiers, $ReferenceDataSearchItem)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ReferenceDataSearchModifiers = $ReferenceDataSearchModifiers;

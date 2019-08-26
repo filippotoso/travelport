@@ -19,7 +19,7 @@ class ContinuityCheckOverride
      * @param typeNonBlanks $_
      * @param typeRef $Key
      */
-    public function __construct($_ = null, $Key = null)
+    public function __construct($_, $Key)
     {
       $this->_ = $_;
       $this->Key = $Key;

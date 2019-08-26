@@ -109,7 +109,7 @@ class HotelUpdate
      * @param typeLocatorCode $ReservationLocatorCode
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($LoyaltyCard = null, $Guarantee = null, $GuestInformation = null, $AssociatedRemark = null, $BookingSource = null, $HotelSpecialRequest = null, $HotelRateInfo = null, $HotelStay = null, $HotelCommission = null, $CorporateDiscountID = null, $ReservationName = null, $ThirdPartyInformation = null, $TravelComplianceData = null, $HotelBedding = null, $BookingConfirmation = null, $ReservationLocatorCode = null, $BookingTravelerRef = null)
+    public function __construct($LoyaltyCard, $Guarantee, $GuestInformation, $AssociatedRemark, $BookingSource, $HotelSpecialRequest, $HotelRateInfo, $HotelStay, $HotelCommission, $CorporateDiscountID, $ReservationName, $ThirdPartyInformation, $TravelComplianceData, $HotelBedding, $BookingConfirmation, $ReservationLocatorCode, $BookingTravelerRef)
     {
       $this->LoyaltyCard = $LoyaltyCard;
       $this->Guarantee = $Guarantee;

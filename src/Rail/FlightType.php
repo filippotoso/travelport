@@ -11,12 +11,12 @@ class FlightType
     protected $RequireSingleCarrier = null;
 
     /**
-     * @var anonymous696 $MaxConnections
+     * @var anonymous697 $MaxConnections
      */
     protected $MaxConnections = null;
 
     /**
-     * @var anonymous697 $MaxStops
+     * @var anonymous698 $MaxStops
      */
     protected $MaxStops = null;
 
@@ -62,8 +62,8 @@ class FlightType
 
     /**
      * @param boolean $RequireSingleCarrier
-     * @param anonymous696 $MaxConnections
-     * @param anonymous697 $MaxStops
+     * @param anonymous697 $MaxConnections
+     * @param anonymous698 $MaxStops
      * @param boolean $NonStopDirects
      * @param boolean $StopDirects
      * @param boolean $SingleOnlineCon
@@ -73,7 +73,7 @@ class FlightType
      * @param boolean $DoubleInterlineCon
      * @param boolean $TripleInterlineCon
      */
-    public function __construct($RequireSingleCarrier = null, $MaxConnections = null, $MaxStops = null, $NonStopDirects = null, $StopDirects = null, $SingleOnlineCon = null, $DoubleOnlineCon = null, $TripleOnlineCon = null, $SingleInterlineCon = null, $DoubleInterlineCon = null, $TripleInterlineCon = null)
+    public function __construct($RequireSingleCarrier, $MaxConnections, $MaxStops, $NonStopDirects, $StopDirects, $SingleOnlineCon, $DoubleOnlineCon, $TripleOnlineCon, $SingleInterlineCon, $DoubleInterlineCon, $TripleInterlineCon)
     {
       $this->RequireSingleCarrier = $RequireSingleCarrier;
       $this->MaxConnections = $MaxConnections;
@@ -107,7 +107,7 @@ class FlightType
     }
 
     /**
-     * @return anonymous696
+     * @return anonymous697
      */
     public function getMaxConnections()
     {
@@ -115,7 +115,7 @@ class FlightType
     }
 
     /**
-     * @param anonymous696 $MaxConnections
+     * @param anonymous697 $MaxConnections
      * @return \FilippoToso\Travelport\Rail\FlightType
      */
     public function setMaxConnections($MaxConnections)
@@ -125,7 +125,7 @@ class FlightType
     }
 
     /**
-     * @return anonymous697
+     * @return anonymous698
      */
     public function getMaxStops()
     {
@@ -133,7 +133,7 @@ class FlightType
     }
 
     /**
-     * @param anonymous697 $MaxStops
+     * @param anonymous698 $MaxStops
      * @return \FilippoToso\Travelport\Rail\FlightType
      */
     public function setMaxStops($MaxStops)

@@ -31,7 +31,7 @@ class ListSearch
      * @param typeStartFromResult $StartFromResult
      * @param typeMaxResults $MaxResults
      */
-    public function __construct($PersonNameSearch = null, $LoyaltyCard = null, $StartFromResult = null, $MaxResults = null)
+    public function __construct($PersonNameSearch, $LoyaltyCard, $StartFromResult, $MaxResults)
     {
       $this->PersonNameSearch = $PersonNameSearch;
       $this->LoyaltyCard = $LoyaltyCard;

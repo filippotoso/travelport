@@ -13,7 +13,7 @@ class BrandID
     /**
      * @param string $Id
      */
-    public function __construct($Id = null)
+    public function __construct($Id)
     {
       $this->Id = $Id;
     }

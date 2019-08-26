@@ -13,7 +13,7 @@ class GroupedOption
     /**
      * @param typeRef $OptionalServiceRef
      */
-    public function __construct($OptionalServiceRef = null)
+    public function __construct($OptionalServiceRef)
     {
       $this->OptionalServiceRef = $OptionalServiceRef;
     }
