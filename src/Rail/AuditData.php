@@ -79,7 +79,7 @@ class AuditData
      * @param typeMoney $ApproximateTaxes
      * @param typeMoney $ApproximateFees
      */
-    public function __construct($TaxInfo, $Key, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees)
+    public function __construct($TaxInfo = null, $Key = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null)
     {
       $this->TaxInfo = $TaxInfo;
       $this->Key = $Key;

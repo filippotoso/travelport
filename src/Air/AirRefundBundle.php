@@ -49,7 +49,7 @@ class AirRefundBundle
      * @param UNKNOWN $PTC
      * @param anonymous729 $RefundType
      */
-    public function __construct($AirRefundInfo, $Name, $TaxInfo, $WaiverCode, $TicketNumber, $PTC, $RefundType)
+    public function __construct($AirRefundInfo = null, $Name = null, $TaxInfo = null, $WaiverCode = null, $TicketNumber = null, $PTC = null, $RefundType = null)
     {
       $this->AirRefundInfo = $AirRefundInfo;
       $this->Name = $Name;

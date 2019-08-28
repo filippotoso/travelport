@@ -139,7 +139,7 @@ class MctException
      * @param date $EffectiveDate
      * @param date $DiscontinueDate
      */
-    public function __construct($Time, $ArriveStation, $DepartStation, $Connection, $ArriveCarrier, $DepartCarrier, $ArriveFlightRangeBegin, $ArriveFlightRangeEnd, $DepartFlightRangeBegin, $DepartFlightRangeEnd, $ArriveEquipment, $DepartEquipment, $PreviousStation, $NextStation, $PreviousCountry, $NextCountry, $PreviousState, $NextState, $ArriveTerminal, $DepartTerminal, $EffectiveDate, $DiscontinueDate)
+    public function __construct($Time = null, $ArriveStation = null, $DepartStation = null, $Connection = null, $ArriveCarrier = null, $DepartCarrier = null, $ArriveFlightRangeBegin = null, $ArriveFlightRangeEnd = null, $DepartFlightRangeBegin = null, $DepartFlightRangeEnd = null, $ArriveEquipment = null, $DepartEquipment = null, $PreviousStation = null, $NextStation = null, $PreviousCountry = null, $NextCountry = null, $PreviousState = null, $NextState = null, $ArriveTerminal = null, $DepartTerminal = null, $EffectiveDate = null, $DiscontinueDate = null)
     {
       $this->Time = $Time;
       $this->ArriveStation = $ArriveStation;

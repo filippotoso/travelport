@@ -108,7 +108,7 @@ class AirUpsellQualify
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($FlightSpec, $OperatingFlightSpec, $AccountCode, $Carrier, $EffectiveDate, $ExpirationDate, $ProviderCode, $Origin, $Destination, $ClassOfService, $OperatingCarrier, $OfferRef, $Key, $FareBasis, $ElStat, $KeyOverride)
+    public function __construct($FlightSpec = null, $OperatingFlightSpec = null, $AccountCode = null, $Carrier = null, $EffectiveDate = null, $ExpirationDate = null, $ProviderCode = null, $Origin = null, $Destination = null, $ClassOfService = null, $OperatingCarrier = null, $OfferRef = null, $Key = null, $FareBasis = null, $ElStat = null, $KeyOverride = null)
     {
       $this->FlightSpec = $FlightSpec;
       $this->OperatingFlightSpec = $OperatingFlightSpec;

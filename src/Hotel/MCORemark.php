@@ -19,7 +19,7 @@ class MCORemark
      * @param string $_
      * @param boolean $AdditionalRmk
      */
-    public function __construct($_, $AdditionalRmk)
+    public function __construct($_ = null, $AdditionalRmk = null)
     {
       $this->_ = $_;
       $this->AdditionalRmk = $AdditionalRmk;

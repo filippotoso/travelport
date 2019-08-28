@@ -19,7 +19,7 @@ class QuickResponse
      * @param boolean $FastResult
      * @param string $MoreToken
      */
-    public function __construct($FastResult, $MoreToken)
+    public function __construct($FastResult = null, $MoreToken = null)
     {
       $this->FastResult = $FastResult;
       $this->MoreToken = $MoreToken;

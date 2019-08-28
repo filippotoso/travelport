@@ -30,7 +30,7 @@ class FareRemark
      * @param typeRef $Key
      * @param string $Name
      */
-    public function __construct($URL, $Key, $Name)
+    public function __construct($URL = null, $Key = null, $Name = null)
     {
       $this->URL = $URL;
       $this->Key = $Key;

@@ -241,7 +241,7 @@ class ETR
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($AirReservationLocatorCode, $AgencyInfo, $BookingTraveler, $FormOfPayment, $Payment, $CreditCardAuth, $SupplierLocator, $FareCalc, $Ticket, $Commission, $AirPricingInfo, $AuditData, $Restriction, $WaiverCode, $BaggageAllowances, $Key, $Refundable, $Exchangeable, $TourCode, $IssuedDate, $BulkTicket, $ProviderCode, $ProviderLocatorCode, $IATANumber, $PseudoCityCode, $CountryCode, $PlatingCarrier, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees, $ElStat, $KeyOverride)
+    public function __construct($AirReservationLocatorCode = null, $AgencyInfo = null, $BookingTraveler = null, $FormOfPayment = null, $Payment = null, $CreditCardAuth = null, $SupplierLocator = null, $FareCalc = null, $Ticket = null, $Commission = null, $AirPricingInfo = null, $AuditData = null, $Restriction = null, $WaiverCode = null, $BaggageAllowances = null, $Key = null, $Refundable = null, $Exchangeable = null, $TourCode = null, $IssuedDate = null, $BulkTicket = null, $ProviderCode = null, $ProviderLocatorCode = null, $IATANumber = null, $PseudoCityCode = null, $CountryCode = null, $PlatingCarrier = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null, $ElStat = null, $KeyOverride = null)
     {
       $this->AirReservationLocatorCode = $AirReservationLocatorCode;
       $this->AgencyInfo = $AgencyInfo;

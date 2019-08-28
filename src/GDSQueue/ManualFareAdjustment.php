@@ -43,7 +43,7 @@ class ManualFareAdjustment
      * @param typeTicketDesignator $TicketDesignator
      * @param typeFareTypeCode $FareType
      */
-    public function __construct($AppliedOn, $AdjustmentType, $Value, $PassengerRef, $TicketDesignator, $FareType)
+    public function __construct($AppliedOn = null, $AdjustmentType = null, $Value = null, $PassengerRef = null, $TicketDesignator = null, $FareType = null)
     {
       $this->AppliedOn = $AppliedOn;
       $this->AdjustmentType = $AdjustmentType;

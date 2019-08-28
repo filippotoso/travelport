@@ -18,7 +18,7 @@ class MirReportRetrieveRsp extends BaseRsp
      * @param string $CommandHistory
      * @param string $Report
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $Report)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $Report = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->Report = $Report;

@@ -13,7 +13,7 @@ class FareRemarkList
     /**
      * @param FareRemark $FareRemark
      */
-    public function __construct($FareRemark)
+    public function __construct($FareRemark = null)
     {
       $this->FareRemark = $FareRemark;
     }

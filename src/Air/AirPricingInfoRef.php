@@ -19,7 +19,7 @@ class AirPricingInfoRef
      * @param BookingTravelerRef $BookingTravelerRef
      * @param typeRef $Key
      */
-    public function __construct($BookingTravelerRef, $Key)
+    public function __construct($BookingTravelerRef = null, $Key = null)
     {
       $this->BookingTravelerRef = $BookingTravelerRef;
       $this->Key = $Key;

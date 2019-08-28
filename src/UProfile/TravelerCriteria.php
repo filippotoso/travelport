@@ -21,7 +21,7 @@ class TravelerCriteria extends typeAccountTypeProfileSearchCriteria
      * @param typeWildcard $GivenName
      * @param typeWildcard $Surname
      */
-    public function __construct($AdditionalIdentifier, $MidOfficeID, $GivenName, $Surname)
+    public function __construct($AdditionalIdentifier = null, $MidOfficeID = null, $GivenName = null, $Surname = null)
     {
       parent::__construct($AdditionalIdentifier, $MidOfficeID);
       $this->GivenName = $GivenName;

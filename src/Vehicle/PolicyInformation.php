@@ -35,7 +35,7 @@ class PolicyInformation
      * @param UNKNOWN $Name
      * @param typeRef $SegmentRef
      */
-    public function __construct($Type, $Name, $SegmentRef)
+    public function __construct($Type = null, $Name = null, $SegmentRef = null)
     {
       $this->Type = $Type;
       $this->Name = $Name;

@@ -19,7 +19,7 @@ class NameCriteria
      * @param anonymous1407 $FirstName
      * @param anonymous1408 $LastName
      */
-    public function __construct($FirstName, $LastName)
+    public function __construct($FirstName = null, $LastName = null)
     {
       $this->FirstName = $FirstName;
       $this->LastName = $LastName;

@@ -30,7 +30,7 @@ class Routing
      * @param string $Number
      * @param string $RoutingRestriction
      */
-    public function __construct($RoutingConstructedInd, $Number, $RoutingRestriction)
+    public function __construct($RoutingConstructedInd = null, $Number = null, $RoutingRestriction = null)
     {
       $this->RoutingConstructedInd = $RoutingConstructedInd;
       $this->Number = $Number;

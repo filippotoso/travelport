@@ -29,7 +29,7 @@ class typeFarePenalty
      * @param anonymous875 $PenaltyApplies
      * @param boolean $NoShow
      */
-    public function __construct($PenaltyApplies, $NoShow)
+    public function __construct($PenaltyApplies = null, $NoShow = null)
     {
       $this->PenaltyApplies = $PenaltyApplies;
       $this->NoShow = $NoShow;

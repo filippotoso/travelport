@@ -25,7 +25,7 @@ class typeApplicableSegment
      * @param typeRef $AirItineraryDetailsRef
      * @param string $BookingCounts
      */
-    public function __construct($Key, $AirItineraryDetailsRef, $BookingCounts)
+    public function __construct($Key = null, $AirItineraryDetailsRef = null, $BookingCounts = null)
     {
       $this->Key = $Key;
       $this->AirItineraryDetailsRef = $AirItineraryDetailsRef;

@@ -131,7 +131,7 @@ class AirFareDisplayReq extends BaseReq
      * @param anonymous1169 $NSCC
      * @param boolean $ReturnMM
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $FareType, $BookingCode, $IncludeAddlBookingCodeInfo, $FareBasis, $Carrier, $AccountCode, $ContractCode, $AirFareDisplayModifiers, $PointOfSale, $AirFareDisplayRuleKey, $Origin, $Destination, $ProviderCode, $IncludeMileRouteInformation, $UnSaleableFaresOnly, $ChannelId, $NSCC, $ReturnMM)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $FareType = null, $BookingCode = null, $IncludeAddlBookingCodeInfo = null, $FareBasis = null, $Carrier = null, $AccountCode = null, $ContractCode = null, $AirFareDisplayModifiers = null, $PointOfSale = null, $AirFareDisplayRuleKey = null, $Origin = null, $Destination = null, $ProviderCode = null, $IncludeMileRouteInformation = null, $UnSaleableFaresOnly = null, $ChannelId = null, $NSCC = null, $ReturnMM = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->FareType = $FareType;

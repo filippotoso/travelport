@@ -54,7 +54,7 @@ class ThirdPartyInformation
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($ThirdPartyCode, $ThirdPartyLocatorCode, $ThirdPartyName, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride)
+    public function __construct($ThirdPartyCode = null, $ThirdPartyLocatorCode = null, $ThirdPartyName = null, $ProviderReservationInfoRef = null, $Key = null, $ElStat = null, $KeyOverride = null)
     {
       $this->ThirdPartyCode = $ThirdPartyCode;
       $this->ThirdPartyLocatorCode = $ThirdPartyLocatorCode;

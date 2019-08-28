@@ -19,7 +19,7 @@ class LanguageOption
      * @param typeLanguage $Language
      * @param typeCountry $Country
      */
-    public function __construct($Language, $Country)
+    public function __construct($Language = null, $Country = null)
     {
       $this->Language = $Language;
       $this->Country = $Country;

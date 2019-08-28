@@ -232,7 +232,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($SuppressOnFareCalc, $Commission, $TourCode, $TicketEndorsement, $DocumentSelect, $DocumentOptions, $SegmentSelect, $SegmentModifiers, $SupplierLocator, $DestinationPurposeCode, $LanguageOption, $LandCharges, $PrintBlankFormItinerary, $ExcludeTicketing, $ExemptOBFee, $IsPrimaryDI, $DocumentInstructionNumber, $Reference, $Status, $FreeText, $NameNumber, $TicketRecord, $PlatingCarrier, $ExemptVAT, $NetRemitApplied, $FreeTicket, $CurrencyOverrideCode, $Key, $ElStat, $KeyOverride)
+    public function __construct($SuppressOnFareCalc = null, $Commission = null, $TourCode = null, $TicketEndorsement = null, $DocumentSelect = null, $DocumentOptions = null, $SegmentSelect = null, $SegmentModifiers = null, $SupplierLocator = null, $DestinationPurposeCode = null, $LanguageOption = null, $LandCharges = null, $PrintBlankFormItinerary = null, $ExcludeTicketing = null, $ExemptOBFee = null, $IsPrimaryDI = null, $DocumentInstructionNumber = null, $Reference = null, $Status = null, $FreeText = null, $NameNumber = null, $TicketRecord = null, $PlatingCarrier = null, $ExemptVAT = null, $NetRemitApplied = null, $FreeTicket = null, $CurrencyOverrideCode = null, $Key = null, $ElStat = null, $KeyOverride = null)
     {
       parent::__construct($SuppressOnFareCalc);
       $this->Commission = $Commission;

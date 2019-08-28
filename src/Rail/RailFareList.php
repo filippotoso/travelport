@@ -13,7 +13,7 @@ class RailFareList
     /**
      * @param RailFare $RailFare
      */
-    public function __construct($RailFare)
+    public function __construct($RailFare = null)
     {
       $this->RailFare = $RailFare;
     }

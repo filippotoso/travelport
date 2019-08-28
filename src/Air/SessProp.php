@@ -19,7 +19,7 @@ class SessProp
      * @param string $nm
      * @param string $val
      */
-    public function __construct($nm, $val)
+    public function __construct($nm = null, $val = null)
     {
       $this->nm = $nm;
       $this->val = $val;

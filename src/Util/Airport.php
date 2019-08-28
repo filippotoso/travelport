@@ -31,7 +31,7 @@ class Airport
      * @param typeIATACode $CityCode
      * @param typeCountry $CountryCode
      */
-    public function __construct($Code, $Name, $CityCode, $CountryCode)
+    public function __construct($Code = null, $Name = null, $CityCode = null, $CountryCode = null)
     {
       $this->Code = $Code;
       $this->Name = $Name;

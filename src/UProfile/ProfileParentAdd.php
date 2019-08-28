@@ -25,7 +25,7 @@ class ProfileParentAdd
      * @param ProvisioningCode $ProvisioningCode
      * @param UniqueProfileID $UniqueProfileID
      */
-    public function __construct($ProfileID, $ProvisioningCode, $UniqueProfileID)
+    public function __construct($ProfileID = null, $ProvisioningCode = null, $UniqueProfileID = null)
     {
       $this->ProfileID = $ProfileID;
       $this->ProvisioningCode = $ProvisioningCode;

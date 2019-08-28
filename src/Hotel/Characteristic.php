@@ -31,7 +31,7 @@ class Characteristic
      * @param anonymous148 $SeatValue
      * @param anonymous149 $SeatValueDescription
      */
-    public function __construct($SeatType, $SeatDescription, $SeatValue, $SeatValueDescription)
+    public function __construct($SeatType = null, $SeatDescription = null, $SeatValue = null, $SeatValueDescription = null)
     {
       $this->SeatType = $SeatType;
       $this->SeatDescription = $SeatDescription;

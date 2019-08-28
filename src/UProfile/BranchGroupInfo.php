@@ -63,7 +63,7 @@ class BranchGroupInfo extends typeProfileInfo
      * @param boolean $ProfileSyncTo
      * @param boolean $ProfileSyncFrom
      */
-    public function __construct($AdditionalIdentifier, $Description, $Address, $Phone, $ElectronicAddress, $ExternalIdentifier, $Name, $BranchGroupCode, $URSyncTo, $ProfileSyncTo, $ProfileSyncFrom)
+    public function __construct($AdditionalIdentifier = null, $Description = null, $Address = null, $Phone = null, $ElectronicAddress = null, $ExternalIdentifier = null, $Name = null, $BranchGroupCode = null, $URSyncTo = null, $ProfileSyncTo = null, $ProfileSyncFrom = null)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->Address = $Address;

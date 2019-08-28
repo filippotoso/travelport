@@ -19,7 +19,7 @@ class typeFailureInfo
      * @param int $Code
      * @param string $Message
      */
-    public function __construct($Code, $Message)
+    public function __construct($Code = null, $Message = null)
     {
       $this->Code = $Code;
       $this->Message = $Message;

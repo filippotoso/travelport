@@ -83,7 +83,7 @@ class FareRule
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($FareRuleLong, $FareRuleShort, $RuleAdvancedPurchase, $RuleLengthOfStay, $RuleCharges, $FareInfoRef, $RuleNumber, $Source, $TariffNumber, $ProviderCode, $SupplierCode)
+    public function __construct($FareRuleLong = null, $FareRuleShort = null, $RuleAdvancedPurchase = null, $RuleLengthOfStay = null, $RuleCharges = null, $FareInfoRef = null, $RuleNumber = null, $Source = null, $TariffNumber = null, $ProviderCode = null, $SupplierCode = null)
     {
       $this->FareRuleLong = $FareRuleLong;
       $this->FareRuleShort = $FareRuleShort;

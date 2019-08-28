@@ -85,7 +85,7 @@ class ActionStatus
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Remark, $Type, $TicketDate, $Key, $ProviderReservationInfoRef, $QueueCategory, $AirportCode, $PseudoCityCode, $AccountCode, $ProviderCode, $SupplierCode, $ElStat, $KeyOverride)
+    public function __construct($Remark = null, $Type = null, $TicketDate = null, $Key = null, $ProviderReservationInfoRef = null, $QueueCategory = null, $AirportCode = null, $PseudoCityCode = null, $AccountCode = null, $ProviderCode = null, $SupplierCode = null, $ElStat = null, $KeyOverride = null)
     {
       $this->Remark = $Remark;
       $this->Type = $Type;

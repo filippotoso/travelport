@@ -25,7 +25,7 @@ class AirItineraryDetails
      * @param PassengerDetails $PassengerDetails
      * @param typeRef $Key
      */
-    public function __construct($AirSegmentDetails, $PassengerDetails, $Key)
+    public function __construct($AirSegmentDetails = null, $PassengerDetails = null, $Key = null)
     {
       $this->AirSegmentDetails = $AirSegmentDetails;
       $this->PassengerDetails = $PassengerDetails;

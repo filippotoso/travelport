@@ -25,7 +25,7 @@ class CodeshareInfo
      * @param typeCarrier $OperatingCarrier
      * @param typeFlightNumber $OperatingFlightNumber
      */
-    public function __construct($_, $OperatingCarrier, $OperatingFlightNumber)
+    public function __construct($_ = null, $OperatingCarrier = null, $OperatingFlightNumber = null)
     {
       $this->_ = $_;
       $this->OperatingCarrier = $OperatingCarrier;

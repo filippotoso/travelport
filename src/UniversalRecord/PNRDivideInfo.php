@@ -25,7 +25,7 @@ class PNRDivideInfo
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($BookingTravelerName, $ProviderCode, $ProviderLocatorCode)
+    public function __construct($BookingTravelerName = null, $ProviderCode = null, $ProviderLocatorCode = null)
     {
       $this->BookingTravelerName = $BookingTravelerName;
       $this->ProviderCode = $ProviderCode;

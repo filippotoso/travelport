@@ -31,7 +31,7 @@ class PrePayPriceInfo
      * @param typeMoney $TotalFare
      * @param typeMoney $TotalTax
      */
-    public function __construct($TaxInfo, $BaseFare, $TotalFare, $TotalTax)
+    public function __construct($TaxInfo = null, $BaseFare = null, $TotalFare = null, $TotalTax = null)
     {
       $this->TaxInfo = $TaxInfo;
       $this->BaseFare = $BaseFare;

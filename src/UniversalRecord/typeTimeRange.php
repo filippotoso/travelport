@@ -19,7 +19,7 @@ class typeTimeRange
      * @param string $EarliestTime
      * @param string $LatestTime
      */
-    public function __construct($EarliestTime, $LatestTime)
+    public function __construct($EarliestTime = null, $LatestTime = null)
     {
       $this->EarliestTime = $EarliestTime;
       $this->LatestTime = $LatestTime;

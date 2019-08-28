@@ -13,7 +13,7 @@ class typeUnstructuredAddress
     /**
      * @param Address[] $Address
      */
-    public function __construct(array $Address)
+    public function __construct(array $Address = null)
     {
       $this->Address = $Address;
     }

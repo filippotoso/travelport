@@ -13,7 +13,7 @@ class AddressRestriction
     /**
      * @param RequiredField $RequiredField
      */
-    public function __construct($RequiredField)
+    public function __construct($RequiredField = null)
     {
       $this->RequiredField = $RequiredField;
     }

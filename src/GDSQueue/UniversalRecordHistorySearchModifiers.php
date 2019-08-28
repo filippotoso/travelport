@@ -48,7 +48,7 @@ class UniversalRecordHistorySearchModifiers
      * @param UNKNOWN $ModifiedBy
      * @param boolean $DebugMode
      */
-    public function __construct($ModifiedDate, $ModifiedRange, $MaxResults, $StartFromResult, $ModifiedBy, $DebugMode)
+    public function __construct($ModifiedDate = null, $ModifiedRange = null, $MaxResults = null, $StartFromResult = null, $ModifiedBy = null, $DebugMode = null)
     {
       $this->ModifiedDate = $ModifiedDate;
       $this->ModifiedRange = $ModifiedRange;

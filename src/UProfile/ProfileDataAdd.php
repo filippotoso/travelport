@@ -181,7 +181,7 @@ class ProfileDataAdd
      * @param ProviderInfo $ProviderInfo
      * @param ProprietaryData $ProprietaryData
      */
-    public function __construct($Address, $Phone, $ElectronicAddress, $TravelerIdentityInformation, $ExternalIdentifier, $TravelDocument, $AccountingReference, $PolicyReference, $LoyaltyProgramEnrollment, $Commission, $Contract, $ServiceFee, $FormOfPayment, $AirPreference, $HotelPreference, $OtherPreference, $Remark, $FieldData, $AlternateContact, $AlternateContactAddress, $AlternateContactPhone, $AlternateContactElectronicAddress, $FieldGroupData, $VehiclePreference, $Advisory, $CommissionReference, $RailPreference, $ProviderInfo, $ProprietaryData)
+    public function __construct($Address = null, $Phone = null, $ElectronicAddress = null, $TravelerIdentityInformation = null, $ExternalIdentifier = null, $TravelDocument = null, $AccountingReference = null, $PolicyReference = null, $LoyaltyProgramEnrollment = null, $Commission = null, $Contract = null, $ServiceFee = null, $FormOfPayment = null, $AirPreference = null, $HotelPreference = null, $OtherPreference = null, $Remark = null, $FieldData = null, $AlternateContact = null, $AlternateContactAddress = null, $AlternateContactPhone = null, $AlternateContactElectronicAddress = null, $FieldGroupData = null, $VehiclePreference = null, $Advisory = null, $CommissionReference = null, $RailPreference = null, $ProviderInfo = null, $ProprietaryData = null)
     {
       $this->Address = $Address;
       $this->Phone = $Phone;

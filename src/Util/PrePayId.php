@@ -25,7 +25,7 @@ class PrePayId
      * @param typeCardNumber $Id
      * @param string $Type
      */
-    public function __construct($CompanyName, $Id, $Type)
+    public function __construct($CompanyName = null, $Id = null, $Type = null)
     {
       $this->CompanyName = $CompanyName;
       $this->Id = $Id;

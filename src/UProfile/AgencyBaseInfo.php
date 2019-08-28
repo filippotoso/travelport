@@ -13,7 +13,7 @@ class AgencyBaseInfo
     /**
      * @param Phone $Phone
      */
-    public function __construct($Phone)
+    public function __construct($Phone = null)
     {
       $this->Phone = $Phone;
     }

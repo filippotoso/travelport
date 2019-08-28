@@ -36,7 +36,7 @@ class GdsQueueListRsp extends BaseRsp
      * @param boolean $MorePNRExists
      * @param string $QueueSessionToken
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $QueueElement, $MorePNRExists, $QueueSessionToken)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $NextResultReference = null, $QueueElement = null, $MorePNRExists = null, $QueueSessionToken = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->NextResultReference = $NextResultReference;

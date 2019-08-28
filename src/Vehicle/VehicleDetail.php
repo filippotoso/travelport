@@ -85,7 +85,7 @@ class VehicleDetail
      * @param anonymous575 $AcrissVehicleCode
      * @param boolean $PreferredOption
      */
-    public function __construct($Code, $SupplierCode, $PassengerCount, $NumberOfDoors, $BagCount, $Class, $Category, $AirConditioning, $Transmission, $MakeModel, $FuelType, $AcrissVehicleCode, $PreferredOption)
+    public function __construct($Code = null, $SupplierCode = null, $PassengerCount = null, $NumberOfDoors = null, $BagCount = null, $Class = null, $Category = null, $AirConditioning = null, $Transmission = null, $MakeModel = null, $FuelType = null, $AcrissVehicleCode = null, $PreferredOption = null)
     {
       $this->Code = $Code;
       $this->SupplierCode = $SupplierCode;

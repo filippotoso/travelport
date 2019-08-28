@@ -31,7 +31,7 @@ class HotelBedding
      * @param typeMoney $Amount
      * @param string $Content
      */
-    public function __construct($Type, $NumberOfBeds, $Amount, $Content)
+    public function __construct($Type = null, $NumberOfBeds = null, $Amount = null, $Content = null)
     {
       $this->Type = $Type;
       $this->NumberOfBeds = $NumberOfBeds;

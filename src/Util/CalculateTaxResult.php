@@ -31,7 +31,7 @@ class CalculateTaxResult
      * @param typeMoney $TotalTax
      * @param typeMoney $TotalFare
      */
-    public function __construct($TaxCalcInfo, $TotalBaseFare, $TotalTax, $TotalFare)
+    public function __construct($TaxCalcInfo = null, $TotalBaseFare = null, $TotalTax = null, $TotalFare = null)
     {
       $this->TaxCalcInfo = $TaxCalcInfo;
       $this->TotalBaseFare = $TotalBaseFare;

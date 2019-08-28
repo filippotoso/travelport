@@ -57,7 +57,7 @@ class PassiveReservation extends BaseReservation
      * @param AssociatedRemark $AssociatedRemark
      * @param typeRef $ProviderReservationInfoRef
      */
-    public function __construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber, $SupplierLocator, $ThirdPartyInformation, $BookingTravelerRef, $PassiveSegment, $PassiveRemark, $AssociatedRemark, $ProviderReservationInfoRef)
+    public function __construct($AccountingRemark = null, $GeneralRemark = null, $Restriction = null, $PassiveInfo = null, $LocatorCode = null, $CreateDate = null, $ModifiedDate = null, $CustomerNumber = null, $SupplierLocator = null, $ThirdPartyInformation = null, $BookingTravelerRef = null, $PassiveSegment = null, $PassiveRemark = null, $AssociatedRemark = null, $ProviderReservationInfoRef = null)
     {
       parent::__construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber);
       $this->SupplierLocator = $SupplierLocator;

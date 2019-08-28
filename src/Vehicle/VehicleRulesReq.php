@@ -31,7 +31,7 @@ class VehicleRulesReq extends BaseSearchReq
      * @param typeLocatorCode $VehicleReservationLocatorCode
      * @param VehicleRulesLookup $VehicleRulesLookup
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference, $VehicleReservationLocatorCode, $VehicleRulesLookup)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $NextResultReference = null, $VehicleReservationLocatorCode = null, $VehicleRulesLookup = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference);
       $this->VehicleReservationLocatorCode = $VehicleReservationLocatorCode;

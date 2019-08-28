@@ -18,7 +18,7 @@ class TerminalRsp extends BaseRsp
      * @param string $CommandHistory
      * @param typeTextBlock $TerminalCommandResponse
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $TerminalCommandResponse)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $TerminalCommandResponse = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->TerminalCommandResponse = $TerminalCommandResponse;

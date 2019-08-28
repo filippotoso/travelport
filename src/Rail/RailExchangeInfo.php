@@ -49,7 +49,7 @@ class RailExchangeInfo
      * @param typeMoney $ApproximateExchangeAmount
      * @param typeMoney $RetainAmount
      */
-    public function __construct($RefundAmount, $CancellationFee, $ExchangeAmount, $ApproximateRefundAmount, $ApproximateCancellationFee, $ApproximateExchangeAmount, $RetainAmount)
+    public function __construct($RefundAmount = null, $CancellationFee = null, $ExchangeAmount = null, $ApproximateRefundAmount = null, $ApproximateCancellationFee = null, $ApproximateExchangeAmount = null, $RetainAmount = null)
     {
       $this->RefundAmount = $RefundAmount;
       $this->CancellationFee = $CancellationFee;

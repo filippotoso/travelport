@@ -19,7 +19,7 @@ class Characteristic
      * @param boolean $Smoking
      * @param typeCoachClassType $Class
      */
-    public function __construct($Smoking, $Class)
+    public function __construct($Smoking = null, $Class = null)
     {
       $this->Smoking = $Smoking;
       $this->Class = $Class;

@@ -156,7 +156,7 @@ class FlightTimeDetail
      * @param anonymous1008 $SecureSell
      * @param typeAvailabilitySource $AvailabilitySource
      */
-    public function __construct($Connection, $Key, $VendorCode, $FlightNumber, $Origin, $Destination, $DepartureTime, $ArrivalTime, $StopCount, $Equipment, $ScheduleStartDate, $ScheduleEndDate, $DisplayOption, $OnTimePerformance, $DayChange, $JourneyTime, $FlightTime, $StartTerminal, $EndTerminal, $FirstIntermediateStop, $LastIntermediateStop, $InsideAvailability, $SecureSell, $AvailabilitySource)
+    public function __construct($Connection = null, $Key = null, $VendorCode = null, $FlightNumber = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $StopCount = null, $Equipment = null, $ScheduleStartDate = null, $ScheduleEndDate = null, $DisplayOption = null, $OnTimePerformance = null, $DayChange = null, $JourneyTime = null, $FlightTime = null, $StartTerminal = null, $EndTerminal = null, $FirstIntermediateStop = null, $LastIntermediateStop = null, $InsideAvailability = null, $SecureSell = null, $AvailabilitySource = null)
     {
       $this->Connection = $Connection;
       $this->Key = $Key;

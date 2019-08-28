@@ -38,7 +38,7 @@ class typePolicyReferenceHistory extends typeKeyElement
      * @param typePriorityOrder $PriorityOrder
      * @param StringLength1to255 $Desc
      */
-    public function __construct($Key, $Type, $Value, $ControllingProfileID, $PriorityOrder, $Desc)
+    public function __construct($Key = null, $Type = null, $Value = null, $ControllingProfileID = null, $PriorityOrder = null, $Desc = null)
     {
       parent::__construct($Key);
       $this->Type = $Type;

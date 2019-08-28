@@ -35,7 +35,7 @@ class ExemptTaxes
      * @param anonymous737 $TaxTerritory
      * @param anonymous738 $CompanyName
      */
-    public function __construct($AllTaxes, $TaxTerritory, $CompanyName)
+    public function __construct($AllTaxes = null, $TaxTerritory = null, $CompanyName = null)
     {
       $this->AllTaxes = $AllTaxes;
       $this->TaxTerritory = $TaxTerritory;

@@ -19,7 +19,7 @@ class RestrictionPassengerTypes
      * @param string $MaxNbrTravelers
      * @param string $TotalNbrPTC
      */
-    public function __construct($MaxNbrTravelers, $TotalNbrPTC)
+    public function __construct($MaxNbrTravelers = null, $TotalNbrPTC = null)
     {
       $this->MaxNbrTravelers = $MaxNbrTravelers;
       $this->TotalNbrPTC = $TotalNbrPTC;

@@ -37,7 +37,7 @@ class ProfileSummary
      * @param typeProfileID $ProfileID
      * @param typeProfileType $ProfileType
      */
-    public function __construct($Name, $Description, $ProvisioningCode, $ProfileID, $ProfileType)
+    public function __construct($Name = null, $Description = null, $ProvisioningCode = null, $ProfileID = null, $ProfileType = null)
     {
       $this->Name = $Name;
       $this->Description = $Description;

@@ -19,7 +19,7 @@ class Amenity
      * @param typeAmenity $Code
      * @param anonymous1230 $AmenityType
      */
-    public function __construct($Code, $AmenityType)
+    public function __construct($Code = null, $AmenityType = null)
     {
       $this->Code = $Code;
       $this->AmenityType = $AmenityType;

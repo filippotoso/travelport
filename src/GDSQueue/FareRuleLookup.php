@@ -61,7 +61,7 @@ class FareRuleLookup
      * @param date $DepartureDate
      * @param date $TicketingDate
      */
-    public function __construct($AccountCode, $PointOfSale, $Origin, $Destination, $Carrier, $FareBasis, $ProviderCode, $DepartureDate, $TicketingDate)
+    public function __construct($AccountCode = null, $PointOfSale = null, $Origin = null, $Destination = null, $Carrier = null, $FareBasis = null, $ProviderCode = null, $DepartureDate = null, $TicketingDate = null)
     {
       $this->AccountCode = $AccountCode;
       $this->PointOfSale = $PointOfSale;

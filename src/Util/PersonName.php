@@ -25,7 +25,7 @@ class PersonName
      * @param StringLength1to64 $Last
      * @param StringLength1to16 $Prefix
      */
-    public function __construct($First, $Last, $Prefix)
+    public function __construct($First = null, $Last = null, $Prefix = null)
     {
       $this->First = $First;
       $this->Last = $Last;

@@ -19,7 +19,7 @@ class IncludedItem
      * @param string $Code
      * @param string $Description
      */
-    public function __construct($Code, $Description)
+    public function __construct($Code = null, $Description = null)
     {
       $this->Code = $Code;
       $this->Description = $Description;

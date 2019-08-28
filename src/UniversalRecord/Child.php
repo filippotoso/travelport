@@ -14,7 +14,7 @@ class Child extends typeGuestChildInformation
      * @param int $Age
      * @param BookingTravelerRef $BookingTravelerRef
      */
-    public function __construct($Age, $BookingTravelerRef)
+    public function __construct($Age = null, $BookingTravelerRef = null)
     {
       parent::__construct($Age);
       $this->BookingTravelerRef = $BookingTravelerRef;

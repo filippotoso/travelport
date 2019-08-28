@@ -19,7 +19,7 @@ class typeFlightNumberRange
      * @param typeFlightNumber $FlightNumberRangeStart
      * @param typeFlightNumber $FlightNumberRangeEnd
      */
-    public function __construct($FlightNumberRangeStart, $FlightNumberRangeEnd)
+    public function __construct($FlightNumberRangeStart = null, $FlightNumberRangeEnd = null)
     {
       $this->FlightNumberRangeStart = $FlightNumberRangeStart;
       $this->FlightNumberRangeEnd = $FlightNumberRangeEnd;

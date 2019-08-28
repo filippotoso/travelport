@@ -13,7 +13,7 @@ class HotelAlternateProperties
     /**
      * @param HotelProperty $HotelProperty
      */
-    public function __construct($HotelProperty)
+    public function __construct($HotelProperty = null)
     {
       $this->HotelProperty = $HotelProperty;
     }

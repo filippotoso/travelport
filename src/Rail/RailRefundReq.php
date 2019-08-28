@@ -42,7 +42,7 @@ class RailRefundReq extends BaseReq
      * @param typeLocatorCode $LocatorCode
      * @param anonymous1472 $RefundOption
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ContinuityCheckOverride, $FormOfPayment, $LocatorCode, $RefundOption)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ContinuityCheckOverride = null, $FormOfPayment = null, $LocatorCode = null, $RefundOption = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ContinuityCheckOverride = $ContinuityCheckOverride;

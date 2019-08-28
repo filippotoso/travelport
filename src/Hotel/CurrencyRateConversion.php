@@ -31,7 +31,7 @@ class CurrencyRateConversion
      * @param typeCurrency $RequestedCurrencyCode
      * @param int $DecimalPlaces
      */
-    public function __construct($RateConversion, $SourceCurrencyCode, $RequestedCurrencyCode, $DecimalPlaces)
+    public function __construct($RateConversion = null, $SourceCurrencyCode = null, $RequestedCurrencyCode = null, $DecimalPlaces = null)
     {
       $this->RateConversion = $RateConversion;
       $this->SourceCurrencyCode = $SourceCurrencyCode;

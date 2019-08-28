@@ -48,7 +48,7 @@ class SingleProfileMigrationReq extends BaseReq
      * @param StringLength1to50 $AccountProfileTitle
      * @param StringLength1to50 $TravelerProfileTitle
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ExternalSystem, $ProfileType, $PCC, $AccountProfileTitle, $TravelerProfileTitle)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ExternalSystem = null, $ProfileType = null, $PCC = null, $AccountProfileTitle = null, $TravelerProfileTitle = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ExternalSystem = $ExternalSystem;

@@ -24,7 +24,7 @@ class RailRefundRsp extends BaseRsp
      * @param Payment $Payment
      * @param MCO $MCO
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $Payment, $MCO)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $Payment = null, $MCO = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->Payment = $Payment;

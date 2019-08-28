@@ -25,7 +25,7 @@ class FieldModifyErrorInfo extends typeErrorInfo
      * @param ProfileTemplateSummary $ProfileTemplateSummary
      * @param int $TemplateCount
      */
-    public function __construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata, $ProfileTemplateSummary, $TemplateCount)
+    public function __construct($Code = null, $Service = null, $Type = null, $Description = null, $TransactionId = null, $Auxdata = null, $ProfileTemplateSummary = null, $TemplateCount = null)
     {
       parent::__construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata);
       $this->ProfileTemplateSummary = $ProfileTemplateSummary;

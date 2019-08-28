@@ -53,7 +53,7 @@ class UniversalRecordHistorySearchResult
      * @param string $TransactionId
      * @param anonymous518 $AgentOverride
      */
-    public function __construct($ModifiedBy, $ModifiedDate, $ElementType, $Action, $TransactionId, $AgentOverride)
+    public function __construct($ModifiedBy = null, $ModifiedDate = null, $ElementType = null, $Action = null, $TransactionId = null, $AgentOverride = null)
     {
       $this->ModifiedBy = $ModifiedBy;
       $this->ModifiedDate = $ModifiedDate;

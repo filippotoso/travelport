@@ -55,7 +55,7 @@ class ProviderReservationDetails
      * @param boolean $Cruise
      * @param boolean $RailSegment
      */
-    public function __construct($ProviderReservationDetail, $CustomCheck, $ProviderProfile, $DivideDetails, $EnhancedItinModifiers, $IntegratedContent, $Cruise, $RailSegment)
+    public function __construct($ProviderReservationDetail = null, $CustomCheck = null, $ProviderProfile = null, $DivideDetails = null, $EnhancedItinModifiers = null, $IntegratedContent = null, $Cruise = null, $RailSegment = null)
     {
       $this->ProviderReservationDetail = $ProviderReservationDetail;
       $this->CustomCheck = $CustomCheck;

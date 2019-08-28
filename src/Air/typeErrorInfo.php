@@ -58,7 +58,7 @@ class typeErrorInfo
      * @param string $TransactionId
      * @param Auxdata $Auxdata
      */
-    public function __construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata)
+    public function __construct($Code = null, $Service = null, $Type = null, $Description = null, $TransactionId = null, $Auxdata = null)
     {
       $this->Code = $Code;
       $this->Service = $Service;

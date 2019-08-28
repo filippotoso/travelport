@@ -56,7 +56,7 @@ class typeAdvisoryHistory extends typeKeyElement
      * @param typeGeoPoliticalAreaType $GeoPoliticalAreaType
      * @param typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
      */
-    public function __construct($Key, $Type, $StartDate, $EndDate, $Summary, $Description, $PriorityOrder, $GeoPoliticalAreaType, $GeoPoliticalAreaCode)
+    public function __construct($Key = null, $Type = null, $StartDate = null, $EndDate = null, $Summary = null, $Description = null, $PriorityOrder = null, $GeoPoliticalAreaType = null, $GeoPoliticalAreaCode = null)
     {
       parent::__construct($Key);
       $this->Type = $Type;

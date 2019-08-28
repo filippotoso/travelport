@@ -25,7 +25,7 @@ class Commission
      * @param typeMoney $MiscellaneousAmount
      * @param StringLength1to13 $MiscellaneousDescription
      */
-    public function __construct($Amount, $MiscellaneousAmount, $MiscellaneousDescription)
+    public function __construct($Amount = null, $MiscellaneousAmount = null, $MiscellaneousDescription = null)
     {
       $this->Amount = $Amount;
       $this->MiscellaneousAmount = $MiscellaneousAmount;

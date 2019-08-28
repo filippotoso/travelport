@@ -37,7 +37,7 @@ class BookingTravelerName
      * @param typeTravelerLastName $Last
      * @param anonymous91 $Suffix
      */
-    public function __construct($Prefix, $First, $Middle, $Last, $Suffix)
+    public function __construct($Prefix = null, $First = null, $Middle = null, $Last = null, $Suffix = null)
     {
       $this->Prefix = $Prefix;
       $this->First = $First;

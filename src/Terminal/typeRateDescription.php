@@ -19,7 +19,7 @@ class typeRateDescription
      * @param Text[] $Text
      * @param string $Name
      */
-    public function __construct(array $Text, $Name)
+    public function __construct(array $Text = null, $Name = null)
     {
       $this->Text = $Text;
       $this->Name = $Name;

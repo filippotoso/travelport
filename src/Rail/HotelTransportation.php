@@ -13,7 +13,7 @@ class HotelTransportation
     /**
      * @param typeOTACode $Type
      */
-    public function __construct($Type)
+    public function __construct($Type = null)
     {
       $this->Type = $Type;
     }

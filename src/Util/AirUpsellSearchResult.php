@@ -19,7 +19,7 @@ class AirUpsellSearchResult
      * @param AirUpsellQualify $AirUpsellQualify
      * @param AirUpsellOffer $AirUpsellOffer
      */
-    public function __construct($AirUpsellQualify, $AirUpsellOffer)
+    public function __construct($AirUpsellQualify = null, $AirUpsellOffer = null)
     {
       $this->AirUpsellQualify = $AirUpsellQualify;
       $this->AirUpsellOffer = $AirUpsellOffer;

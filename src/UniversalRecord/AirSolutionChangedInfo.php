@@ -19,7 +19,7 @@ class AirSolutionChangedInfo
      * @param AirPricingSolution $AirPricingSolution
      * @param anonymous574 $ReasonCode
      */
-    public function __construct($AirPricingSolution, $ReasonCode)
+    public function __construct($AirPricingSolution = null, $ReasonCode = null)
     {
       $this->AirPricingSolution = $AirPricingSolution;
       $this->ReasonCode = $ReasonCode;

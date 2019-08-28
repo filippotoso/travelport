@@ -43,7 +43,7 @@ class PaymentAddress
      * @param StringLength1to128 $OtherStateProvince
      * @param StringLength1to255 $City
      */
-    public function __construct($AddressLine, $Postal, $Country, $State, $OtherStateProvince, $City)
+    public function __construct($AddressLine = null, $Postal = null, $Country = null, $State = null, $OtherStateProvince = null, $City = null)
     {
       $this->AddressLine = $AddressLine;
       $this->Postal = $Postal;

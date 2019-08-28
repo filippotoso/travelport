@@ -19,7 +19,7 @@ class typeEmailAddress
      * @param Email $Email
      * @param string $SimpleName
      */
-    public function __construct($Email, $SimpleName)
+    public function __construct($Email = null, $SimpleName = null)
     {
       $this->Email = $Email;
       $this->SimpleName = $SimpleName;

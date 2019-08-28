@@ -31,7 +31,7 @@ class Address extends typeTaggableAddress
      * @param boolean $Provisioned
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key, $AddressLine, $City, $State, $OtherStateProvince, $Country, $Postal, $Type, $TagRef, $DeliveryDescription, $Purpose, $PriorityOrder, $Provisioned, $OwnerID)
+    public function __construct($Key = null, $AddressLine = null, $City = null, $State = null, $OtherStateProvince = null, $Country = null, $Postal = null, $Type = null, $TagRef = null, $DeliveryDescription = null, $Purpose = null, $PriorityOrder = null, $Provisioned = null, $OwnerID = null)
     {
       parent::__construct($Key, $AddressLine, $City, $State, $OtherStateProvince, $Country, $Postal, $Type, $TagRef, $DeliveryDescription, $Purpose, $PriorityOrder);
       $this->Provisioned = $Provisioned;

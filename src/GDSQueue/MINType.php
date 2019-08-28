@@ -55,7 +55,7 @@ class MINType
      * @param int $FareComponent
      * @param int $NumOccurMin
      */
-    public function __construct($HoursMin, $DaysMin, $MonthsMin, $OccurIndMin, $SameDayMin, $TmDOWMin, $FareComponent, $NumOccurMin)
+    public function __construct($HoursMin = null, $DaysMin = null, $MonthsMin = null, $OccurIndMin = null, $SameDayMin = null, $TmDOWMin = null, $FareComponent = null, $NumOccurMin = null)
     {
       $this->HoursMin = $HoursMin;
       $this->DaysMin = $DaysMin;

@@ -19,7 +19,7 @@ class Rows
      * @param Row $Row
      * @param typeRef $SegmentRef
      */
-    public function __construct($Row, $SegmentRef)
+    public function __construct($Row = null, $SegmentRef = null)
     {
       $this->Row = $Row;
       $this->SegmentRef = $SegmentRef;

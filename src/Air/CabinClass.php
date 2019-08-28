@@ -13,7 +13,7 @@ class CabinClass
     /**
      * @param string $Type
      */
-    public function __construct($Type)
+    public function __construct($Type = null)
     {
       $this->Type = $Type;
     }

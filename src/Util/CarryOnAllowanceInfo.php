@@ -17,7 +17,7 @@ class CarryOnAllowanceInfo extends BaseBaggageAllowanceInfo
      * @param typeIATACode $Destination
      * @param typeCarrier $Carrier
      */
-    public function __construct($URLInfo, $TextInfo, $Origin, $Destination, $Carrier)
+    public function __construct($URLInfo = null, $TextInfo = null, $Origin = null, $Destination = null, $Carrier = null)
     {
       parent::__construct($URLInfo, $TextInfo, $Origin, $Destination, $Carrier);
     }

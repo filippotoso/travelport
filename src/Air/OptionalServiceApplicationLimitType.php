@@ -31,7 +31,7 @@ class OptionalServiceApplicationLimitType
      * @param int $MaximumQuantity
      * @param int $MinimumQuantity
      */
-    public function __construct($ApplicableLevel, $ProviderDefinedApplicableLevels, $MaximumQuantity, $MinimumQuantity)
+    public function __construct($ApplicableLevel = null, $ProviderDefinedApplicableLevels = null, $MaximumQuantity = null, $MinimumQuantity = null)
     {
       $this->ApplicableLevel = $ApplicableLevel;
       $this->ProviderDefinedApplicableLevels = $ProviderDefinedApplicableLevels;

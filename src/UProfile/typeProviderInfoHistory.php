@@ -26,7 +26,7 @@ class typeProviderInfoHistory extends typeKeyElement
      * @param typePCC $PseudoCityCode
      * @param typeIATA $IATACode
      */
-    public function __construct($Key, $ProviderCode, $PseudoCityCode, $IATACode)
+    public function __construct($Key = null, $ProviderCode = null, $PseudoCityCode = null, $IATACode = null)
     {
       parent::__construct($Key);
       $this->ProviderCode = $ProviderCode;

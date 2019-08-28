@@ -37,7 +37,7 @@ class RuleCharges
      * @param float $Percent
      * @param boolean $MoreRulesPresent
      */
-    public function __construct($PenaltyType, $DepartureStatus, $Amount, $Percent, $MoreRulesPresent)
+    public function __construct($PenaltyType = null, $DepartureStatus = null, $Amount = null, $Percent = null, $MoreRulesPresent = null)
     {
       $this->PenaltyType = $PenaltyType;
       $this->DepartureStatus = $DepartureStatus;

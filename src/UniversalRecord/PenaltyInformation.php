@@ -85,7 +85,7 @@ class PenaltyInformation
      * @param boolean $Refundable
      * @param anonymous1070 $ChangeFeeApplicationCode
      */
-    public function __construct($_, $Carrier, $FareBasis, $FareComponent, $PriceableUnit, $BoardPoint, $OffPoint, $MinimumChangeFee, $MaximumChangeFee, $FiledCurrency, $ConversionRate, $Refundable, $ChangeFeeApplicationCode)
+    public function __construct($_ = null, $Carrier = null, $FareBasis = null, $FareComponent = null, $PriceableUnit = null, $BoardPoint = null, $OffPoint = null, $MinimumChangeFee = null, $MaximumChangeFee = null, $FiledCurrency = null, $ConversionRate = null, $Refundable = null, $ChangeFeeApplicationCode = null)
     {
       $this->_ = $_;
       $this->Carrier = $Carrier;

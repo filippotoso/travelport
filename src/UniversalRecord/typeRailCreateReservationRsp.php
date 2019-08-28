@@ -24,7 +24,7 @@ abstract class typeRailCreateReservationRsp extends BaseRsp
      * @param UniversalRecord $UniversalRecord
      * @param RailSolutionChangedInfo $RailSolutionChangedInfo
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $UniversalRecord, $RailSolutionChangedInfo)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $UniversalRecord = null, $RailSolutionChangedInfo = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->UniversalRecord = $UniversalRecord;

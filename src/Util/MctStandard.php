@@ -19,7 +19,7 @@ class MctStandard
      * @param typeMctConnection $Type
      * @param int $Time
      */
-    public function __construct($Type, $Time)
+    public function __construct($Type = null, $Time = null)
     {
       $this->Type = $Type;
       $this->Time = $Time;

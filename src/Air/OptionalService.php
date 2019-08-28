@@ -445,7 +445,7 @@ class OptionalService
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($ServiceData, $ServiceInfo, $Remark, $TaxInfo, $FeeInfo, $EMD, $BundledServices, $AdditionalInfo, $FeeApplication, $Text, $PriceRange, $TourCode, $BrandingInfo, $Title, $OptionalServicesRuleRef, $Type, $Confirmation, $SecondaryType, $PurchaseWindow, $Priority, $Available, $Entitled, $PerTraveler, \DateTime $CreateDate, $PaymentRef, $ServiceStatus, $Quantity, $SequenceNumber, $ServiceSubCode, $SSRCode, $IssuanceReason, $ProviderDefinedType, $Key, $AssessIndicator, $Mileage, $ApplicableFFLevel, $Private, $SSRFreeText, $IsPricingApproximate, $Chargeable, $InclusiveOfTax, $InterlineSettlementAllowed, $GeographySpecification, $ExcessWeightRate, $Source, $ViewableOnly, $DisplayText, $WeightInExcess, $TotalWeight, $BaggageUnitPrice, $FirstPiece, $LastPiece, $Restricted, $IsRepriceRequired, $BookedQuantity, $Group, $PseudoCityCode, $Tag, $DisplayOrder, $ProviderCode, $SupplierCode, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees, $ElStat, $KeyOverride)
+    public function __construct($ServiceData = null, $ServiceInfo = null, $Remark = null, $TaxInfo = null, $FeeInfo = null, $EMD = null, $BundledServices = null, $AdditionalInfo = null, $FeeApplication = null, $Text = null, $PriceRange = null, $TourCode = null, $BrandingInfo = null, $Title = null, $OptionalServicesRuleRef = null, $Type = null, $Confirmation = null, $SecondaryType = null, $PurchaseWindow = null, $Priority = null, $Available = null, $Entitled = null, $PerTraveler = null, \DateTime $CreateDate = null, $PaymentRef = null, $ServiceStatus = null, $Quantity = null, $SequenceNumber = null, $ServiceSubCode = null, $SSRCode = null, $IssuanceReason = null, $ProviderDefinedType = null, $Key = null, $AssessIndicator = null, $Mileage = null, $ApplicableFFLevel = null, $Private = null, $SSRFreeText = null, $IsPricingApproximate = null, $Chargeable = null, $InclusiveOfTax = null, $InterlineSettlementAllowed = null, $GeographySpecification = null, $ExcessWeightRate = null, $Source = null, $ViewableOnly = null, $DisplayText = null, $WeightInExcess = null, $TotalWeight = null, $BaggageUnitPrice = null, $FirstPiece = null, $LastPiece = null, $Restricted = null, $IsRepriceRequired = null, $BookedQuantity = null, $Group = null, $PseudoCityCode = null, $Tag = null, $DisplayOrder = null, $ProviderCode = null, $SupplierCode = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null, $ElStat = null, $KeyOverride = null)
     {
       $this->ServiceData = $ServiceData;
       $this->ServiceInfo = $ServiceInfo;
@@ -470,7 +470,7 @@ class OptionalService
       $this->Available = $Available;
       $this->Entitled = $Entitled;
       $this->PerTraveler = $PerTraveler;
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
       $this->PaymentRef = $PaymentRef;
       $this->ServiceStatus = $ServiceStatus;
       $this->Quantity = $Quantity;

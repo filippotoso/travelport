@@ -19,7 +19,7 @@ class ExtraChild
      * @param int $Count
      * @param string $Content
      */
-    public function __construct($Count, $Content)
+    public function __construct($Count = null, $Content = null)
     {
       $this->Count = $Count;
       $this->Content = $Content;

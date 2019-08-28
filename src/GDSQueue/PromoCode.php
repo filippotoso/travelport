@@ -25,7 +25,7 @@ class PromoCode
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($Code, $ProviderCode, $SupplierCode)
+    public function __construct($Code = null, $ProviderCode = null, $SupplierCode = null)
     {
       $this->Code = $Code;
       $this->ProviderCode = $ProviderCode;

@@ -13,7 +13,7 @@ class Preference
     /**
      * @param anonymous1448 $Owner
      */
-    public function __construct($Owner)
+    public function __construct($Owner = null)
     {
       $this->Owner = $Owner;
     }

@@ -163,7 +163,7 @@ class AirExchangeInfo
      * @param typeFarePull $FarePull
      * @param typeMoney $Refund
      */
-    public function __construct($ExchangeAmount, $BaseFare, $EquivalentBaseFare, $Taxes, $ChangeFee, $ForfeitAmount, $Refundable, $Exchangeable, $FirstClassUpgrade, $TicketByDate, $PricingTag, $EquivalentChangeFee, $EquivalentExchangeAmount, $AddCollection, $ResidualValue, $TotalResidualValue, $OriginalFlightValue, $FlownSegmentValue, $BulkTicketAdvisory, $FarePull, $Refund)
+    public function __construct($ExchangeAmount = null, $BaseFare = null, $EquivalentBaseFare = null, $Taxes = null, $ChangeFee = null, $ForfeitAmount = null, $Refundable = null, $Exchangeable = null, $FirstClassUpgrade = null, $TicketByDate = null, $PricingTag = null, $EquivalentChangeFee = null, $EquivalentExchangeAmount = null, $AddCollection = null, $ResidualValue = null, $TotalResidualValue = null, $OriginalFlightValue = null, $FlownSegmentValue = null, $BulkTicketAdvisory = null, $FarePull = null, $Refund = null)
     {
       $this->ExchangeAmount = $ExchangeAmount;
       $this->BaseFare = $BaseFare;

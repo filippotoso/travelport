@@ -13,7 +13,7 @@ class PreferredConnectionPoints
     /**
      * @param typeLocation $ConnectionPoint
      */
-    public function __construct($ConnectionPoint)
+    public function __construct($ConnectionPoint = null)
     {
       $this->ConnectionPoint = $ConnectionPoint;
     }

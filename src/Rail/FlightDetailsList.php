@@ -13,7 +13,7 @@ class FlightDetailsList
     /**
      * @param FlightDetails $FlightDetails
      */
-    public function __construct($FlightDetails)
+    public function __construct($FlightDetails = null)
     {
       $this->FlightDetails = $FlightDetails;
     }

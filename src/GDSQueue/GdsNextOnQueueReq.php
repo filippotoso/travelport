@@ -54,7 +54,7 @@ class GdsNextOnQueueReq extends BaseReq
      * @param typeProviderCode $ProviderCode
      * @param boolean $RemoveCurrent
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $QueuePseudoCitySelector, $ProviderLocatorCode, $QueueSessionToken, $QueueContinue, $ProviderCode, $RemoveCurrent)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $QueuePseudoCitySelector = null, $ProviderLocatorCode = null, $QueueSessionToken = null, $QueueContinue = null, $ProviderCode = null, $RemoveCurrent = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->QueuePseudoCitySelector = $QueuePseudoCitySelector;

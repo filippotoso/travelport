@@ -101,7 +101,7 @@ class CruiseStay
      * @param date $CancellationDate
      * @param time $CancellationTime
      */
-    public function __construct($CabinInfo, $ShipName, $DurationOfStay, $UnitOfStay, $BookingDate, $BookingAgent, $BookingCredit, $OtherPartyConfNbr, $PassengerOrigin, $ConfirmationNumber, $LinkedConfNumber, $CancellationNumber, $CancellationDate, $CancellationTime)
+    public function __construct($CabinInfo = null, $ShipName = null, $DurationOfStay = null, $UnitOfStay = null, $BookingDate = null, $BookingAgent = null, $BookingCredit = null, $OtherPartyConfNbr = null, $PassengerOrigin = null, $ConfirmationNumber = null, $LinkedConfNumber = null, $CancellationNumber = null, $CancellationDate = null, $CancellationTime = null)
     {
       $this->CabinInfo = $CabinInfo;
       $this->ShipName = $ShipName;

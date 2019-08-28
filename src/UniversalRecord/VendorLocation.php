@@ -19,7 +19,7 @@ class VendorLocation extends typeVendorLocation
      * @param anonymous8 $MoreRatesToken
      * @param Distance $Distance
      */
-    public function __construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken, $Distance)
+    public function __construct($ProviderCode = null, $VendorCode = null, $PreferredOption = null, $VendorLocationID = null, $Key = null, $MoreRatesToken = null, $Distance = null)
     {
       parent::__construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken);
       $this->Distance = $Distance;

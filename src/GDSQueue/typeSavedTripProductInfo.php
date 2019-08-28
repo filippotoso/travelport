@@ -25,7 +25,7 @@ class typeSavedTripProductInfo
      * @param string $VendorCode
      * @param string $ProviderCode
      */
-    public function __construct($ProductType, $VendorCode, $ProviderCode)
+    public function __construct($ProductType = null, $VendorCode = null, $ProviderCode = null)
     {
       $this->ProductType = $ProductType;
       $this->VendorCode = $VendorCode;

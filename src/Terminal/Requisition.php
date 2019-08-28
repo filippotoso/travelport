@@ -25,7 +25,7 @@ class Requisition
      * @param anonymous30 $Category
      * @param anonymous31 $Type
      */
-    public function __construct($Number, $Category, $Type)
+    public function __construct($Number = null, $Category = null, $Type = null)
     {
       $this->Number = $Number;
       $this->Category = $Category;

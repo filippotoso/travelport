@@ -13,7 +13,7 @@ class AdaptedRoomGuestAllocation
     /**
      * @param typeAdaptedRoomGuestAllocation[] $Room
      */
-    public function __construct(array $Room)
+    public function __construct(array $Room = null)
     {
       $this->Room = $Room;
     }

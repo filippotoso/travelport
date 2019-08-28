@@ -55,7 +55,7 @@ class ProfileParentSearchSummary
      * @param typeProfileID $ProfileID
      * @param typeProfileType $ProfileType
      */
-    public function __construct($ProvisioningCode, $Name, $Version, $HierarchyLevelID, $Status, $ImmediateParentRef, $ProfileID, $ProfileType)
+    public function __construct($ProvisioningCode = null, $Name = null, $Version = null, $HierarchyLevelID = null, $Status = null, $ImmediateParentRef = null, $ProfileID = null, $ProfileType = null)
     {
       $this->ProvisioningCode = $ProvisioningCode;
       $this->Name = $Name;

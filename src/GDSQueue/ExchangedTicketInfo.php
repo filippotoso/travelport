@@ -13,7 +13,7 @@ class ExchangedTicketInfo
     /**
      * @param typeTicketNumber $Number
      */
-    public function __construct($Number)
+    public function __construct($Number = null)
     {
       $this->Number = $Number;
     }

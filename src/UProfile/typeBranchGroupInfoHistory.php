@@ -27,7 +27,7 @@ class typeBranchGroupInfoHistory extends typeProfileInfo
      * @param typeProvisioningCode $BranchGroupCode
      * @param boolean $URSyncTo
      */
-    public function __construct($AdditionalIdentifier, $Description, $Name, $BranchGroupCode, $URSyncTo)
+    public function __construct($AdditionalIdentifier = null, $Description = null, $Name = null, $BranchGroupCode = null, $URSyncTo = null)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->Name = $Name;

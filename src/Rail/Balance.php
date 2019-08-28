@@ -31,7 +31,7 @@ class Balance
      * @param date $DueDate
      * @param date $ReceivedDate
      */
-    public function __construct($CreditCardDueAmount, $CheckDueAmount, $DueDate, $ReceivedDate)
+    public function __construct($CreditCardDueAmount = null, $CheckDueAmount = null, $DueDate = null, $ReceivedDate = null)
     {
       $this->CreditCardDueAmount = $CreditCardDueAmount;
       $this->CheckDueAmount = $CheckDueAmount;

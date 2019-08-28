@@ -31,7 +31,7 @@ class AirExchangeTicketBundle
      * @param FormOfPaymentRef $FormOfPaymentRef
      * @param WaiverCode $WaiverCode
      */
-    public function __construct($TicketNumber, $FormOfPayment, $FormOfPaymentRef, $WaiverCode)
+    public function __construct($TicketNumber = null, $FormOfPayment = null, $FormOfPaymentRef = null, $WaiverCode = null)
     {
       $this->TicketNumber = $TicketNumber;
       $this->FormOfPayment = $FormOfPayment;

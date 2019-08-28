@@ -25,7 +25,7 @@ class SegmentContinuityInfo
      * @param ContinuityOverrideRemark $ContinuityOverrideRemark
      * @param int $ArrivalUnknownSegmentCount
      */
-    public function __construct($ArvlUnknSegment, $ContinuityOverrideRemark, $ArrivalUnknownSegmentCount)
+    public function __construct($ArvlUnknSegment = null, $ContinuityOverrideRemark = null, $ArrivalUnknownSegmentCount = null)
     {
       $this->ArvlUnknSegment = $ArvlUnknSegment;
       $this->ContinuityOverrideRemark = $ContinuityOverrideRemark;

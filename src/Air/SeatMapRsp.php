@@ -77,7 +77,7 @@ class SeatMapRsp extends BaseRsp
      * @param SeatInformation $SeatInformation
      * @param typeMoney $GroupSeatPrice
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $HostToken, $CabinClass, $AirSegment, $SearchTraveler, $OptionalServices, $Remark, $Rows, $PaymentRestriction, $SeatInformation, $GroupSeatPrice)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $HostToken = null, $CabinClass = null, $AirSegment = null, $SearchTraveler = null, $OptionalServices = null, $Remark = null, $Rows = null, $PaymentRestriction = null, $SeatInformation = null, $GroupSeatPrice = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->HostToken = $HostToken;

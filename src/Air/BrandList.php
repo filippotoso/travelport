@@ -13,7 +13,7 @@ class BrandList
     /**
      * @param Brand $Brand
      */
-    public function __construct($Brand)
+    public function __construct($Brand = null)
     {
       $this->Brand = $Brand;
     }

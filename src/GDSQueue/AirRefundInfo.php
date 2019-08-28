@@ -79,7 +79,7 @@ class AirRefundInfo
      * @param boolean $Retain
      * @param boolean $Refund
      */
-    public function __construct($RefundRemark, $RefundAmount, $RetainAmount, $RefundFee, $RefundableTaxes, $FiledCurrency, $ConversionRate, $Taxes, $OriginalTicketTotal, $ForfeitAmount, $Retain, $Refund)
+    public function __construct($RefundRemark = null, $RefundAmount = null, $RetainAmount = null, $RefundFee = null, $RefundableTaxes = null, $FiledCurrency = null, $ConversionRate = null, $Taxes = null, $OriginalTicketTotal = null, $ForfeitAmount = null, $Retain = null, $Refund = null)
     {
       $this->RefundRemark = $RefundRemark;
       $this->RefundAmount = $RefundAmount;

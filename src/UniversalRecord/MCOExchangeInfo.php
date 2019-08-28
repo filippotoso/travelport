@@ -43,7 +43,7 @@ class MCOExchangeInfo
      * @param typeDate $OriginalTicketDate
      * @param typeIATA $IATACode
      */
-    public function __construct($FormOfPayment, $ExchangedCoupon, $OriginalTicketNumber, $OriginalCityCode, $OriginalTicketDate, $IATACode)
+    public function __construct($FormOfPayment = null, $ExchangedCoupon = null, $OriginalTicketNumber = null, $OriginalCityCode = null, $OriginalTicketDate = null, $IATACode = null)
     {
       $this->FormOfPayment = $FormOfPayment;
       $this->ExchangedCoupon = $ExchangedCoupon;

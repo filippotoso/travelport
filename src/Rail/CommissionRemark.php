@@ -49,7 +49,7 @@ class CommissionRemark
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($ProviderReservationLevel, array $PassengerTypeLevel, $Key, $ProviderReservationInfoRef, $ProviderCode, $ElStat, $KeyOverride)
+    public function __construct($ProviderReservationLevel = null, array $PassengerTypeLevel = null, $Key = null, $ProviderReservationInfoRef = null, $ProviderCode = null, $ElStat = null, $KeyOverride = null)
     {
       $this->ProviderReservationLevel = $ProviderReservationLevel;
       $this->PassengerTypeLevel = $PassengerTypeLevel;

@@ -123,7 +123,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
      * @param StringLength1to128 $LocalLanguageSurname
      * @param StringLength1to128 $LocalLanguageUsername
      */
-    public function __construct($AdditionalIdentifier, $Description, $MidOfficeID, $ProprietaryData, $GivenName, $Surname, $UniqueProfileID, $Title, $Nickname, $OtherName, $Suffix, $BirthDate, $Gender, $VipStatus, $JobTitle, $Disability, $HomeCityOrAirport, $LocalLanguage, $LocalLanguageGivenName, $LocalLanguageSurname, $LocalLanguageUsername)
+    public function __construct($AdditionalIdentifier = null, $Description = null, $MidOfficeID = null, $ProprietaryData = null, $GivenName = null, $Surname = null, $UniqueProfileID = null, $Title = null, $Nickname = null, $OtherName = null, $Suffix = null, $BirthDate = null, $Gender = null, $VipStatus = null, $JobTitle = null, $Disability = null, $HomeCityOrAirport = null, $LocalLanguage = null, $LocalLanguageGivenName = null, $LocalLanguageSurname = null, $LocalLanguageUsername = null)
     {
       parent::__construct($AdditionalIdentifier, $Description, $MidOfficeID);
       $this->ProprietaryData = $ProprietaryData;

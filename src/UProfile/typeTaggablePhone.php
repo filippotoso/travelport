@@ -33,7 +33,7 @@ class typeTaggablePhone extends typePhone
      * @param typeContactPurpose $Purpose
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key, $Type, $Country, $AreaCode, $LocalNumber, $Extension, $Description, $Location, $TagRef, $Purpose, $PriorityOrder)
+    public function __construct($Key = null, $Type = null, $Country = null, $AreaCode = null, $LocalNumber = null, $Extension = null, $Description = null, $Location = null, $TagRef = null, $Purpose = null, $PriorityOrder = null)
     {
       parent::__construct($Key, $Type, $Country, $AreaCode, $LocalNumber, $Extension, $Description, $Location);
       $this->TagRef = $TagRef;

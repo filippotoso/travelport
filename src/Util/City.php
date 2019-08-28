@@ -31,7 +31,7 @@ class City
      * @param string $StateCode
      * @param typeCountry $CountryCode
      */
-    public function __construct($Code, $Name, $StateCode, $CountryCode)
+    public function __construct($Code = null, $Name = null, $StateCode = null, $CountryCode = null)
     {
       $this->Code = $Code;
       $this->Name = $Name;

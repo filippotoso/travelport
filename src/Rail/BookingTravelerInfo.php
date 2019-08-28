@@ -93,7 +93,7 @@ class BookingTravelerInfo
      * @param typePTC $TravelerType
      * @param typeGender $Gender
      */
-    public function __construct($BookingTravelerName, $NameRemark, $TravelInfo, $Email, $PhoneNumber, $DeliveryInfo, $CustomizedNameData, $AppliedProfile, $Key, $TravelerType, $Gender)
+    public function __construct($BookingTravelerName = null, $NameRemark = null, $TravelInfo = null, $Email = null, $PhoneNumber = null, $DeliveryInfo = null, $CustomizedNameData = null, $AppliedProfile = null, $Key = null, $TravelerType = null, $Gender = null)
     {
       $this->BookingTravelerName = $BookingTravelerName;
       $this->NameRemark = $NameRemark;

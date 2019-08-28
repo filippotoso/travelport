@@ -19,7 +19,7 @@ class AirSegmentSpecialUpdate
      * @param typeBaseAirSegment $AirSegment
      * @param anonymous1385 $Action
      */
-    public function __construct($AirSegment, $Action)
+    public function __construct($AirSegment = null, $Action = null)
     {
       $this->AirSegment = $AirSegment;
       $this->Action = $Action;

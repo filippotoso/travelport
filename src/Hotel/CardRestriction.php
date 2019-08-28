@@ -25,7 +25,7 @@ class CardRestriction
      * @param typeCardMerchantType $Code
      * @param string $Name
      */
-    public function __construct($RequiredField, $Code, $Name)
+    public function __construct($RequiredField = null, $Code = null, $Name = null)
     {
       $this->RequiredField = $RequiredField;
       $this->Code = $Code;

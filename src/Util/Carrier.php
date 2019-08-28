@@ -25,7 +25,7 @@ class Carrier
      * @param string $Name
      * @param string $Type
      */
-    public function __construct($Code, $Name, $Type)
+    public function __construct($Code = null, $Name = null, $Type = null)
     {
       $this->Code = $Code;
       $this->Name = $Name;

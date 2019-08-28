@@ -13,7 +13,7 @@ class ContractCodes
     /**
      * @param ContractCode $ContractCode
      */
-    public function __construct($ContractCode)
+    public function __construct($ContractCode = null)
     {
       $this->ContractCode = $ContractCode;
     }

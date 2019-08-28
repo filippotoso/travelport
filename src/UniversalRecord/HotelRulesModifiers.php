@@ -55,7 +55,7 @@ class HotelRulesModifiers
      * @param int $TotalOccupants
      * @param typeRef $Key
      */
-    public function __construct($PermittedProviders, $NumberOfChildren, $HotelBedding, $CorporateDiscountID, $NumberOfAdults, $NumberOfRooms, $TotalOccupants, $Key)
+    public function __construct($PermittedProviders = null, $NumberOfChildren = null, $HotelBedding = null, $CorporateDiscountID = null, $NumberOfAdults = null, $NumberOfRooms = null, $TotalOccupants = null, $Key = null)
     {
       $this->PermittedProviders = $PermittedProviders;
       $this->NumberOfChildren = $NumberOfChildren;

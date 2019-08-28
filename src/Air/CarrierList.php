@@ -19,7 +19,7 @@ class CarrierList
      * @param CarrierCode $CarrierCode
      * @param boolean $IncludeCarrier
      */
-    public function __construct($CarrierCode, $IncludeCarrier)
+    public function __construct($CarrierCode = null, $IncludeCarrier = null)
     {
       $this->CarrierCode = $CarrierCode;
       $this->IncludeCarrier = $IncludeCarrier;

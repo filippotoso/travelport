@@ -44,7 +44,7 @@ class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
      * @param StringLength1to128 $Status
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key, $SupplierType, $Supplier, $Number, $ProgramName, $Status, $PriorityOrder)
+    public function __construct($Key = null, $SupplierType = null, $Supplier = null, $Number = null, $ProgramName = null, $Status = null, $PriorityOrder = null)
     {
       parent::__construct($Key);
       $this->SupplierType = $SupplierType;

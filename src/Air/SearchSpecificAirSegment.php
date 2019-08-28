@@ -43,7 +43,7 @@ class SearchSpecificAirSegment
      * @param typeIATACode $Destination
      * @param int $SegmentIndex
      */
-    public function __construct($DepartureTime, $Carrier, $FlightNumber, $Origin, $Destination, $SegmentIndex)
+    public function __construct($DepartureTime = null, $Carrier = null, $FlightNumber = null, $Origin = null, $Destination = null, $SegmentIndex = null)
     {
       $this->DepartureTime = $DepartureTime;
       $this->Carrier = $Carrier;

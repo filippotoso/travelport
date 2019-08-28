@@ -19,7 +19,7 @@ class SearchAccount
      * @param string $ClientID
      * @param typeBranchId $BranchID
      */
-    public function __construct($ClientID, $BranchID)
+    public function __construct($ClientID = null, $BranchID = null)
     {
       $this->ClientID = $ClientID;
       $this->BranchID = $BranchID;

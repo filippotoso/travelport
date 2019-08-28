@@ -25,7 +25,7 @@ class MCOFeeInfo
      * @param typeMoney $Amount
      * @param typePercentageWithDecimal $Percentage
      */
-    public function __construct($FeeAppliesToInd, $Amount, $Percentage)
+    public function __construct($FeeAppliesToInd = null, $Amount = null, $Percentage = null)
     {
       $this->FeeAppliesToInd = $FeeAppliesToInd;
       $this->Amount = $Amount;

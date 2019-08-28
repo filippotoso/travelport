@@ -19,7 +19,7 @@ class typeTicketModifierValueType
      * @param string $Value
      * @param boolean $NetFareValue
      */
-    public function __construct($Value, $NetFareValue)
+    public function __construct($Value = null, $NetFareValue = null)
     {
       $this->Value = $Value;
       $this->NetFareValue = $NetFareValue;

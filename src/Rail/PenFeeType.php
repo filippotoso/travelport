@@ -85,7 +85,7 @@ class PenFeeType
      * @param string $Type
      * @param string $Currency
      */
-    public function __construct($DepRequired, $DepNonRef, $TkNonRef, $AirVFee, $Cancellation, $FailConfirmSpace, $ItinChg, $ReplaceTk, $Applicable, $ApplicableTo, $Amt, $Type, $Currency)
+    public function __construct($DepRequired = null, $DepNonRef = null, $TkNonRef = null, $AirVFee = null, $Cancellation = null, $FailConfirmSpace = null, $ItinChg = null, $ReplaceTk = null, $Applicable = null, $ApplicableTo = null, $Amt = null, $Type = null, $Currency = null)
     {
       $this->DepRequired = $DepRequired;
       $this->DepNonRef = $DepNonRef;

@@ -35,7 +35,7 @@ class MCOPriceData
      * @param typeMoney $MCOEquivalentFare
      * @param typeMoney $MCOTotalAmount
      */
-    public function __construct($MCOAmount, $MCOEquivalentFare, $MCOTotalAmount)
+    public function __construct($MCOAmount = null, $MCOEquivalentFare = null, $MCOTotalAmount = null)
     {
       $this->MCOAmount = $MCOAmount;
       $this->MCOEquivalentFare = $MCOEquivalentFare;

@@ -19,7 +19,7 @@ class HotelLocation
      * @param typeIATACode $Location
      * @param typeHotelLocation $LocationType
      */
-    public function __construct($Location, $LocationType)
+    public function __construct($Location = null, $LocationType = null)
     {
       $this->Location = $Location;
       $this->LocationType = $LocationType;

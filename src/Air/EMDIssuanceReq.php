@@ -60,7 +60,7 @@ class EMDIssuanceReq extends BaseReq
      * @param boolean $ShowDetails
      * @param boolean $IssueAllOpenSVC
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ProviderReservationDetail, $TicketNumber, $IssuanceModifiers, $SelectionModifiers, $UniversalRecordLocatorCode, $ShowDetails, $IssueAllOpenSVC)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ProviderReservationDetail = null, $TicketNumber = null, $IssuanceModifiers = null, $SelectionModifiers = null, $UniversalRecordLocatorCode = null, $ShowDetails = null, $IssueAllOpenSVC = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ProviderReservationDetail = $ProviderReservationDetail;

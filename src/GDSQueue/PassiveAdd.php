@@ -55,7 +55,7 @@ class PassiveAdd
      * @param typeLocatorCode $ReservationLocatorCode
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($PassiveSegment, $PassiveRemark, $AssociatedRemark, $SupplierLocator, $ThirdPartyInformation, $TravelComplianceData, $ReservationLocatorCode, $BookingTravelerRef)
+    public function __construct($PassiveSegment = null, $PassiveRemark = null, $AssociatedRemark = null, $SupplierLocator = null, $ThirdPartyInformation = null, $TravelComplianceData = null, $ReservationLocatorCode = null, $BookingTravelerRef = null)
     {
       $this->PassiveSegment = $PassiveSegment;
       $this->PassiveRemark = $PassiveRemark;

@@ -133,7 +133,7 @@ class AirUpdate
      * @param typeRef $BookingTravelerRef
      * @param boolean $RestrictWaitlist
      */
-    public function __construct($AccountingRemark, $AirSegment, $CreditCardAuth, $AirPricingAdjustment, $AirPricingTicketingModifiers, $DeliveryInfo, $AirSegmentSpecialUpdate, $LoyaltyCard, $SSR, $GeneralRemark, $AutoSeatAssignment, $SpecificSeatAssignment, $AirPricingPayment, $AssociatedRemark, $PocketItineraryRemark, $OptionalServicesInfo, $ThirdPartyInformation, $TravelComplianceData, $ReservationLocatorCode, $BookingTravelerRef, $RestrictWaitlist)
+    public function __construct($AccountingRemark = null, $AirSegment = null, $CreditCardAuth = null, $AirPricingAdjustment = null, $AirPricingTicketingModifiers = null, $DeliveryInfo = null, $AirSegmentSpecialUpdate = null, $LoyaltyCard = null, $SSR = null, $GeneralRemark = null, $AutoSeatAssignment = null, $SpecificSeatAssignment = null, $AirPricingPayment = null, $AssociatedRemark = null, $PocketItineraryRemark = null, $OptionalServicesInfo = null, $ThirdPartyInformation = null, $TravelComplianceData = null, $ReservationLocatorCode = null, $BookingTravelerRef = null, $RestrictWaitlist = null)
     {
       $this->AccountingRemark = $AccountingRemark;
       $this->AirSegment = $AirSegment;

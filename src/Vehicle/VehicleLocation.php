@@ -31,7 +31,7 @@ class VehicleLocation
      * @param CoordinateLocation $CoordinateLocation
      * @param LocationInformation $LocationInformation
      */
-    public function __construct($VendorLocation, $Distance, $CoordinateLocation, $LocationInformation)
+    public function __construct($VendorLocation = null, $Distance = null, $CoordinateLocation = null, $LocationInformation = null)
     {
       $this->VendorLocation = $VendorLocation;
       $this->Distance = $Distance;

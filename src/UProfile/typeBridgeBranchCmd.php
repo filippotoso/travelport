@@ -19,7 +19,7 @@ class typeBridgeBranchCmd
      * @param typeProfileID $BranchID
      * @param typeProvisioningCode $BranchCode
      */
-    public function __construct($BranchID, $BranchCode)
+    public function __construct($BranchID = null, $BranchCode = null)
     {
       $this->BranchID = $BranchID;
       $this->BranchCode = $BranchCode;

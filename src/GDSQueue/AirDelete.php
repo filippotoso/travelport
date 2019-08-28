@@ -31,7 +31,7 @@ class AirDelete
      * @param typeRef $Key
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($ReservationLocatorCode, $Element, $Key, $BookingTravelerRef)
+    public function __construct($ReservationLocatorCode = null, $Element = null, $Key = null, $BookingTravelerRef = null)
     {
       $this->ReservationLocatorCode = $ReservationLocatorCode;
       $this->Element = $Element;

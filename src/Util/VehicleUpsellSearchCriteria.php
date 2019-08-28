@@ -19,7 +19,7 @@ class VehicleUpsellSearchCriteria
      * @param VehicleUpsellOfferSearchCriteria $VehicleUpsellOfferSearchCriteria
      * @param VehicleUpsellQualifySearchCriteria $VehicleUpsellQualifySearchCriteria
      */
-    public function __construct($VehicleUpsellOfferSearchCriteria, $VehicleUpsellQualifySearchCriteria)
+    public function __construct($VehicleUpsellOfferSearchCriteria = null, $VehicleUpsellQualifySearchCriteria = null)
     {
       $this->VehicleUpsellOfferSearchCriteria = $VehicleUpsellOfferSearchCriteria;
       $this->VehicleUpsellQualifySearchCriteria = $VehicleUpsellQualifySearchCriteria;

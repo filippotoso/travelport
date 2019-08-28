@@ -25,7 +25,7 @@ class VehicleRateInfo
      * @param typeDiscountNumber $DiscountNumber
      * @param string $PromotionalCode
      */
-    public function __construct($TourCode, $DiscountNumber, $PromotionalCode)
+    public function __construct($TourCode = null, $DiscountNumber = null, $PromotionalCode = null)
     {
       $this->TourCode = $TourCode;
       $this->DiscountNumber = $DiscountNumber;

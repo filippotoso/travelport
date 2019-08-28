@@ -25,7 +25,7 @@ class DiningInfo
      * @param typeStatusCode $Status
      * @param int $TableSize
      */
-    public function __construct($Seating, $Status, $TableSize)
+    public function __construct($Seating = null, $Status = null, $TableSize = null)
     {
       $this->Seating = $Seating;
       $this->Status = $Status;

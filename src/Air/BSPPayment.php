@@ -19,7 +19,7 @@ class BSPPayment
      * @param anonymous50 $BSPIdentifier
      * @param anonymous51 $BSPPassword
      */
-    public function __construct($BSPIdentifier, $BSPPassword)
+    public function __construct($BSPIdentifier = null, $BSPPassword = null)
     {
       $this->BSPIdentifier = $BSPIdentifier;
       $this->BSPPassword = $BSPPassword;

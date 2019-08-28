@@ -38,7 +38,7 @@ class TravelSegment extends Segment
      * @param string $DepartureTime
      * @param string $ArrivalTime
      */
-    public function __construct($SegmentRemark, $Key, $Status, $Passive, $TravelOrder, $ElStat, $KeyOverride, $Origin, $Destination, $DepartureTime, $ArrivalTime)
+    public function __construct($SegmentRemark = null, $Key = null, $Status = null, $Passive = null, $TravelOrder = null, $ElStat = null, $KeyOverride = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null)
     {
       parent::__construct($SegmentRemark, $Key, $Status, $Passive, $TravelOrder, $ElStat, $KeyOverride);
       $this->Origin = $Origin;

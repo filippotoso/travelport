@@ -43,7 +43,7 @@ class NameRemark
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RemarkData, $ProviderReservationInfoRef, $Key, $Category, $ElStat, $KeyOverride)
+    public function __construct($RemarkData = null, $ProviderReservationInfoRef = null, $Key = null, $Category = null, $ElStat = null, $KeyOverride = null)
     {
       $this->RemarkData = $RemarkData;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;

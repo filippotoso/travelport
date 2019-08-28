@@ -30,7 +30,7 @@ class FlexExploreModifiers
      * @param int $Radius
      * @param anonymous672 $GroupName
      */
-    public function __construct($Type, $Radius, $GroupName)
+    public function __construct($Type = null, $Radius = null, $GroupName = null)
     {
       $this->Type = $Type;
       $this->Radius = $Radius;

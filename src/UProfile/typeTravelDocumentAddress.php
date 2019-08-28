@@ -43,7 +43,7 @@ class typeTravelDocumentAddress
      * @param anonymous853 $Country
      * @param anonymous854 $Postal
      */
-    public function __construct($AddressLine, $City, $State, $OtherStateProvince, $Country, $Postal)
+    public function __construct($AddressLine = null, $City = null, $State = null, $OtherStateProvince = null, $Country = null, $Postal = null)
     {
       $this->AddressLine = $AddressLine;
       $this->City = $City;

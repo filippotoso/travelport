@@ -19,7 +19,7 @@ class AirExchangeBundleTotal
      * @param AirExchangeInfo $AirExchangeInfo
      * @param Penalty $Penalty
      */
-    public function __construct($AirExchangeInfo, $Penalty)
+    public function __construct($AirExchangeInfo = null, $Penalty = null)
     {
       $this->AirExchangeInfo = $AirExchangeInfo;
       $this->Penalty = $Penalty;

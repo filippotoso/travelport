@@ -36,7 +36,7 @@ class RailSearchModifiers
      * @param string $Class
      * @param int $MaxSolutions
      */
-    public function __construct($MaxChanges, $Direction, $Class, $MaxSolutions)
+    public function __construct($MaxChanges = null, $Direction = null, $Class = null, $MaxSolutions = null)
     {
       $this->MaxChanges = $MaxChanges;
       $this->Direction = $Direction;

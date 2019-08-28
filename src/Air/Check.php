@@ -31,7 +31,7 @@ class Check
      * @param string $AccountNumber
      * @param string $CheckNumber
      */
-    public function __construct($MICRNumber, $RoutingNumber, $AccountNumber, $CheckNumber)
+    public function __construct($MICRNumber = null, $RoutingNumber = null, $AccountNumber = null, $CheckNumber = null)
     {
       $this->MICRNumber = $MICRNumber;
       $this->RoutingNumber = $RoutingNumber;

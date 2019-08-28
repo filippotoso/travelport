@@ -43,7 +43,7 @@ class FileFinishingInfo
      * @param TravelerInformation $TravelerInformation
      * @param CustomProfileInformation $CustomProfileInformation
      */
-    public function __construct($ShopInformation, $PolicyInformation, $AccountInformation, $AgencyInformation, $TravelerInformation, $CustomProfileInformation)
+    public function __construct($ShopInformation = null, $PolicyInformation = null, $AccountInformation = null, $AgencyInformation = null, $TravelerInformation = null, $CustomProfileInformation = null)
     {
       $this->ShopInformation = $ShopInformation;
       $this->PolicyInformation = $PolicyInformation;

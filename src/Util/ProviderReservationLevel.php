@@ -25,7 +25,7 @@ class ProviderReservationLevel
      * @param typePercentageWithDecimal $Percentage
      * @param typeMoney $CommissionCap
      */
-    public function __construct($Amount, $Percentage, $CommissionCap)
+    public function __construct($Amount = null, $Percentage = null, $CommissionCap = null)
     {
       $this->Amount = $Amount;
       $this->Percentage = $Percentage;

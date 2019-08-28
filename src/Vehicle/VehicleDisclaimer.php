@@ -31,7 +31,7 @@ class VehicleDisclaimer
      * @param string $SubType
      * @param string $Description
      */
-    public function __construct($_, $Type, $SubType, $Description)
+    public function __construct($_ = null, $Type = null, $SubType = null, $Description = null)
     {
       $this->_ = $_;
       $this->Type = $Type;

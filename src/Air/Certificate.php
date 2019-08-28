@@ -43,7 +43,7 @@ class Certificate
      * @param date $NotValidBefore
      * @param date $NotValidAfter
      */
-    public function __construct($Number, $Amount, $DiscountAmount, $DiscountPercentage, $NotValidBefore, $NotValidAfter)
+    public function __construct($Number = null, $Amount = null, $DiscountAmount = null, $DiscountPercentage = null, $NotValidBefore = null, $NotValidAfter = null)
     {
       $this->Number = $Number;
       $this->Amount = $Amount;

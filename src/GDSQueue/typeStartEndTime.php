@@ -61,7 +61,7 @@ class typeStartEndTime
      * @param boolean $Sat
      * @param boolean $Sun
      */
-    public function __construct($Time, $RequirementPassed, $Mon, $Tue, $Wed, $Thu, $Fri, $Sat, $Sun)
+    public function __construct($Time = null, $RequirementPassed = null, $Mon = null, $Tue = null, $Wed = null, $Thu = null, $Fri = null, $Sat = null, $Sun = null)
     {
       $this->Time = $Time;
       $this->RequirementPassed = $RequirementPassed;

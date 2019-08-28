@@ -30,7 +30,7 @@ class ApplicationLevel
      * @param anonymous321 $ApplicableLevels
      * @param string $ProviderDefinedApplicableLevels
      */
-    public function __construct($ServiceData, $ApplicableLevels, $ProviderDefinedApplicableLevels)
+    public function __construct($ServiceData = null, $ApplicableLevels = null, $ProviderDefinedApplicableLevels = null)
     {
       $this->ServiceData = $ServiceData;
       $this->ApplicableLevels = $ApplicableLevels;

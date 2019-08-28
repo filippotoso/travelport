@@ -26,7 +26,7 @@ class ProprietaryData extends typeKeyElement
      * @param StringLength1to255 $Value
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key, $ProprietaryDataType, $Value, $OwnerID)
+    public function __construct($Key = null, $ProprietaryDataType = null, $Value = null, $OwnerID = null)
     {
       parent::__construct($Key);
       $this->ProprietaryDataType = $ProprietaryDataType;

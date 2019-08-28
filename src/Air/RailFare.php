@@ -169,7 +169,7 @@ class RailFare
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RailFareNoteRef, $RailFareID, $RailFareIDRef, $FareValidity, $HostToken, $FulFillmentType, $RailFareComponent, $Key, $FareBasis, $CabinClass, $PassengerTypeCode, $Origin, $Destination, $EffectiveDate, $Amount, $RouteDescription, $TicketTypeCode, $FareReference, $CrossCityFare, $OriginStationName, $DestinationStationName, $ReservationRequired, $JourneyDirection, $RailLocOrigin, $RailLocDestination, $ElStat, $KeyOverride)
+    public function __construct($RailFareNoteRef = null, $RailFareID = null, $RailFareIDRef = null, $FareValidity = null, $HostToken = null, $FulFillmentType = null, $RailFareComponent = null, $Key = null, $FareBasis = null, $CabinClass = null, $PassengerTypeCode = null, $Origin = null, $Destination = null, $EffectiveDate = null, $Amount = null, $RouteDescription = null, $TicketTypeCode = null, $FareReference = null, $CrossCityFare = null, $OriginStationName = null, $DestinationStationName = null, $ReservationRequired = null, $JourneyDirection = null, $RailLocOrigin = null, $RailLocDestination = null, $ElStat = null, $KeyOverride = null)
     {
       $this->RailFareNoteRef = $RailFareNoteRef;
       $this->RailFareID = $RailFareID;

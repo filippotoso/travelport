@@ -37,7 +37,7 @@ class Leg
      * @param typeRailLocationCode $Origin
      * @param typeRailLocationCode $Destination
      */
-    public function __construct($LegDetail, $Key, $Group, $Origin, $Destination)
+    public function __construct($LegDetail = null, $Key = null, $Group = null, $Origin = null, $Destination = null)
     {
       $this->LegDetail = $LegDetail;
       $this->Key = $Key;

@@ -37,7 +37,7 @@ class MultiGDSSearchIndicator
      * @param string $PrivateFareCode
      * @param boolean $PrivateFareCodeOnly
      */
-    public function __construct($Type, $ProviderCode, $DefaultProvider, $PrivateFareCode, $PrivateFareCodeOnly)
+    public function __construct($Type = null, $ProviderCode = null, $DefaultProvider = null, $PrivateFareCode = null, $PrivateFareCodeOnly = null)
     {
       $this->Type = $Type;
       $this->ProviderCode = $ProviderCode;

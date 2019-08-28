@@ -19,7 +19,7 @@ class AirPricingTicketingModifiers
      * @param AirPricingInfoRef $AirPricingInfoRef
      * @param TicketingModifiers $TicketingModifiers
      */
-    public function __construct($AirPricingInfoRef, $TicketingModifiers)
+    public function __construct($AirPricingInfoRef = null, $TicketingModifiers = null)
     {
       $this->AirPricingInfoRef = $AirPricingInfoRef;
       $this->TicketingModifiers = $TicketingModifiers;

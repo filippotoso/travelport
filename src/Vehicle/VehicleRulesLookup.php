@@ -19,7 +19,7 @@ class VehicleRulesLookup
      * @param VehicleDateLocation $VehicleDateLocation
      * @param VehicleSearchModifiers $VehicleSearchModifiers
      */
-    public function __construct($VehicleDateLocation, $VehicleSearchModifiers)
+    public function __construct($VehicleDateLocation = null, $VehicleSearchModifiers = null)
     {
       $this->VehicleDateLocation = $VehicleDateLocation;
       $this->VehicleSearchModifiers = $VehicleSearchModifiers;

@@ -38,7 +38,7 @@ class PolicyReference extends typeKeyElement
      * @param typeProfileID $ControllingPolicyID
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key, $Type, $Value, $Desc, $ControllingPolicyID, $PriorityOrder)
+    public function __construct($Key = null, $Type = null, $Value = null, $Desc = null, $ControllingPolicyID = null, $PriorityOrder = null)
     {
       parent::__construct($Key);
       $this->Type = $Type;

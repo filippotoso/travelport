@@ -25,7 +25,7 @@ class PassengerInfo
      * @param typeRef $BookingTravelerRef
      * @param typePTC $PassengerType
      */
-    public function __construct($Name, $BookingTravelerRef, $PassengerType)
+    public function __construct($Name = null, $BookingTravelerRef = null, $PassengerType = null)
     {
       $this->Name = $Name;
       $this->BookingTravelerRef = $BookingTravelerRef;

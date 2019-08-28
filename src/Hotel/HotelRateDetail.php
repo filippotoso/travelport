@@ -199,7 +199,7 @@ class HotelRateDetail
      * @param typeMoney $Total
      * @param typeMoney $Surcharge
      */
-    public function __construct($HotelRateByDate, $CorporateDiscountID, $AcceptedPayment, $Commission, $RateMatchIndicator, $TaxDetails, $CancelInfo, $GuaranteeInfo, $RatePlanType, $ApproximateBase, $ApproximateTax, $ApproximateTotal, $ApproximateSurcharge, $RateGuaranteed, $ApproximateRateGuaranteed, $RateCategory, $Key, $RateSupplier, $BookableQuantity, $RateOfferId, $InPolicy, $RateChangeIndicator, $ExtraFeesIncluded, $Base, $Tax, $Total, $Surcharge)
+    public function __construct($HotelRateByDate = null, $CorporateDiscountID = null, $AcceptedPayment = null, $Commission = null, $RateMatchIndicator = null, $TaxDetails = null, $CancelInfo = null, $GuaranteeInfo = null, $RatePlanType = null, $ApproximateBase = null, $ApproximateTax = null, $ApproximateTotal = null, $ApproximateSurcharge = null, $RateGuaranteed = null, $ApproximateRateGuaranteed = null, $RateCategory = null, $Key = null, $RateSupplier = null, $BookableQuantity = null, $RateOfferId = null, $InPolicy = null, $RateChangeIndicator = null, $ExtraFeesIncluded = null, $Base = null, $Tax = null, $Total = null, $Surcharge = null)
     {
       $this->HotelRateByDate = $HotelRateByDate;
       $this->CorporateDiscountID = $CorporateDiscountID;

@@ -13,7 +13,7 @@ class FareFamilyDisplay
     /**
      * @param string $ModifierType
      */
-    public function __construct($ModifierType)
+    public function __construct($ModifierType = null)
     {
       $this->ModifierType = $ModifierType;
     }

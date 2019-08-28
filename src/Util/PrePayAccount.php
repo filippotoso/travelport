@@ -49,7 +49,7 @@ class PrePayAccount
      * @param date $EffectiveDate
      * @param date $ExpireDate
      */
-    public function __construct($CreditSummary, $PrePayPriceInfo, $ProgramTitle, $CertificateNumber, $ProgramName, $EffectiveDate, $ExpireDate)
+    public function __construct($CreditSummary = null, $PrePayPriceInfo = null, $ProgramTitle = null, $CertificateNumber = null, $ProgramName = null, $EffectiveDate = null, $ExpireDate = null)
     {
       $this->CreditSummary = $CreditSummary;
       $this->PrePayPriceInfo = $PrePayPriceInfo;

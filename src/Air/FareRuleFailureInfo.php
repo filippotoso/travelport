@@ -13,7 +13,7 @@ class FareRuleFailureInfo
     /**
      * @param typeFareRuleFailureInfoReason[] $Reason
      */
-    public function __construct(array $Reason)
+    public function __construct(array $Reason = null)
     {
       $this->Reason = $Reason;
     }

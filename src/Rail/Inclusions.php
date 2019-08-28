@@ -29,7 +29,7 @@ class Inclusions
      * @param RoomView $RoomView
      * @param typeTrinary $SmokingRoomIndicator
      */
-    public function __construct($RoomView, $SmokingRoomIndicator)
+    public function __construct($RoomView = null, $SmokingRoomIndicator = null)
     {
       $this->RoomView = $RoomView;
       $this->SmokingRoomIndicator = $SmokingRoomIndicator;

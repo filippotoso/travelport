@@ -36,7 +36,7 @@ class APIProvider
      * @param typeSupplierCode $SupplierCode
      * @param typeIATA $IATACode
      */
-    public function __construct($TransactionType, $ProviderCode, $SupplierCode, $IATACode)
+    public function __construct($TransactionType = null, $ProviderCode = null, $SupplierCode = null, $IATACode = null)
     {
       $this->TransactionType = $TransactionType;
       $this->ProviderCode = $ProviderCode;

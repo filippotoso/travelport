@@ -153,7 +153,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
      * @param StringLength1to128 $LocalLanguageSurname
      * @param StringLength1to128 $LocalLanguageUsername
      */
-    public function __construct($AdditionalIdentifier, $Description, $MidOfficeID, $Address, $Phone, $ElectronicAddress, $TravelerIdentityInformation, $ProprietaryData, $ExternalIdentifier, $GivenName, $Surname, $UniqueProfileID, $Title, $Nickname, $OtherName, $Suffix, $BirthDate, $Gender, $VipStatus, $JobTitle, $Disability, $HomeCityOrAirport, $LocalLanguage, $LocalLanguageGivenName, $LocalLanguageSurname, $LocalLanguageUsername)
+    public function __construct($AdditionalIdentifier = null, $Description = null, $MidOfficeID = null, $Address = null, $Phone = null, $ElectronicAddress = null, $TravelerIdentityInformation = null, $ProprietaryData = null, $ExternalIdentifier = null, $GivenName = null, $Surname = null, $UniqueProfileID = null, $Title = null, $Nickname = null, $OtherName = null, $Suffix = null, $BirthDate = null, $Gender = null, $VipStatus = null, $JobTitle = null, $Disability = null, $HomeCityOrAirport = null, $LocalLanguage = null, $LocalLanguageGivenName = null, $LocalLanguageSurname = null, $LocalLanguageUsername = null)
     {
       parent::__construct($AdditionalIdentifier, $Description, $MidOfficeID);
       $this->Address = $Address;

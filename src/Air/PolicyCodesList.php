@@ -13,7 +13,7 @@ class PolicyCodesList
     /**
      * @param typePolicyCode[] $PolicyCode
      */
-    public function __construct(array $PolicyCode)
+    public function __construct(array $PolicyCode = null)
     {
       $this->PolicyCode = $PolicyCode;
     }

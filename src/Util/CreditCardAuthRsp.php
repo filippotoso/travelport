@@ -18,7 +18,7 @@ class CreditCardAuthRsp extends BaseRsp
      * @param string $CommandHistory
      * @param CreditCardAuth $CreditCardAuth
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $CreditCardAuth)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $CreditCardAuth = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->CreditCardAuth = $CreditCardAuth;

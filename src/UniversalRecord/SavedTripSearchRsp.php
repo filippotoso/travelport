@@ -18,7 +18,7 @@ class SavedTripSearchRsp extends BaseRsp
      * @param string $CommandHistory
      * @param SavedTripSearchResult $SavedTripSearchResult
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $SavedTripSearchResult)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $SavedTripSearchResult = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->SavedTripSearchResult = $SavedTripSearchResult;

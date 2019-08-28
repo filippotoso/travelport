@@ -19,7 +19,7 @@ class FeeApplication
      * @param typeFeeApplication $_
      * @param anonymous905 $Code
      */
-    public function __construct($_, $Code)
+    public function __construct($_ = null, $Code = null)
     {
       $this->_ = $_;
       $this->Code = $Code;

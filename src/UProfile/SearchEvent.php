@@ -15,7 +15,7 @@ class SearchEvent extends typeTimeRange
      * @param string $LatestTime
      * @param typeEventType $Type
      */
-    public function __construct($EarliestTime, $LatestTime, $Type)
+    public function __construct($EarliestTime = null, $LatestTime = null, $Type = null)
     {
       parent::__construct($EarliestTime, $LatestTime);
       $this->Type = $Type;

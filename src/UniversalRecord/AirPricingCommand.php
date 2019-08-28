@@ -31,7 +31,7 @@ class AirPricingCommand
      * @param anonymous557 $CommandKey
      * @param string $CabinClass
      */
-    public function __construct($AirPricingModifiers, $AirSegmentPricingModifiers, $CommandKey, $CabinClass)
+    public function __construct($AirPricingModifiers = null, $AirSegmentPricingModifiers = null, $CommandKey = null, $CabinClass = null)
     {
       $this->AirPricingModifiers = $AirPricingModifiers;
       $this->AirSegmentPricingModifiers = $AirSegmentPricingModifiers;

@@ -47,7 +47,7 @@ class typeVehicleCharge
      * @param anonymous1132 $Type
      * @param anonymous1133 $IncludedInRate
      */
-    public function __construct($Category, $Name, $Description, $Type, $IncludedInRate)
+    public function __construct($Category = null, $Name = null, $Description = null, $Type = null, $IncludedInRate = null)
     {
       $this->Category = $Category;
       $this->Name = $Name;

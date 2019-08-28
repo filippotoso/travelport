@@ -13,7 +13,7 @@ class CarrierCode
     /**
      * @param typeCarrier $_
      */
-    public function __construct($_)
+    public function __construct($_ = null)
     {
       $this->_ = $_;
     }

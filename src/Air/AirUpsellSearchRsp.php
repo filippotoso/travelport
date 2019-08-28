@@ -14,7 +14,7 @@ class AirUpsellSearchRsp extends BaseAirPriceRsp
      * @param AirItinerary $AirItinerary
      * @param AirPriceResult $AirPriceResult
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirItinerary, $AirPriceResult)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $AirItinerary = null, $AirPriceResult = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirItinerary, $AirPriceResult);
     }

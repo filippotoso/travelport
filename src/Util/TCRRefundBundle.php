@@ -61,7 +61,7 @@ class TCRRefundBundle
      * @param anonymous662 $RefundType
      * @param anonymous645 $RefundAccessCode
      */
-    public function __construct($AirRefundInfo, $WaiverCode, $AirSegment, $FeeInfo, $TaxInfo, $HostToken, $TCRNumber, $RefundType, $RefundAccessCode)
+    public function __construct($AirRefundInfo = null, $WaiverCode = null, $AirSegment = null, $FeeInfo = null, $TaxInfo = null, $HostToken = null, $TCRNumber = null, $RefundType = null, $RefundAccessCode = null)
     {
       $this->AirRefundInfo = $AirRefundInfo;
       $this->WaiverCode = $WaiverCode;

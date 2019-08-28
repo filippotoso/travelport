@@ -61,7 +61,7 @@ class Guarantee
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($CreditCard, $OtherGuaranteeInfo, $Type, $Key, $ReuseFOP, $ExternalReference, $Reusable, $ElStat, $KeyOverride)
+    public function __construct($CreditCard = null, $OtherGuaranteeInfo = null, $Type = null, $Key = null, $ReuseFOP = null, $ExternalReference = null, $Reusable = null, $ElStat = null, $KeyOverride = null)
     {
       $this->CreditCard = $CreditCard;
       $this->OtherGuaranteeInfo = $OtherGuaranteeInfo;

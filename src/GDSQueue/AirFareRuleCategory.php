@@ -19,7 +19,7 @@ class AirFareRuleCategory
      * @param typeFareRuleCategoryCode[] $CategoryCode
      * @param typeRef $FareInfoRef
      */
-    public function __construct(array $CategoryCode, $FareInfoRef)
+    public function __construct(array $CategoryCode = null, $FareInfoRef = null)
     {
       $this->CategoryCode = $CategoryCode;
       $this->FareInfoRef = $FareInfoRef;

@@ -26,7 +26,7 @@ class typeElectronicAddress extends typeKeyElement
      * @param typeEmailType $Type
      * @param typeEmailFormat $Format
      */
-    public function __construct($Key, $Name, $Type, $Format)
+    public function __construct($Key = null, $Name = null, $Type = null, $Format = null)
     {
       parent::__construct($Key);
       $this->Name = $Name;

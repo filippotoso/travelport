@@ -91,7 +91,7 @@ class SvcSegment
      * @param typeMoney $Fee
      * @param typeEMDNumber $EMDNumber
      */
-    public function __construct($Key, $Carrier, $Status, $NumberOfItems, $Origin, $Destination, $StartDate, $TravelOrder, $BookingTravelerRef, $RFIC, $RFISC, $SvcDescription, $Fee, $EMDNumber)
+    public function __construct($Key = null, $Carrier = null, $Status = null, $NumberOfItems = null, $Origin = null, $Destination = null, $StartDate = null, $TravelOrder = null, $BookingTravelerRef = null, $RFIC = null, $RFISC = null, $SvcDescription = null, $Fee = null, $EMDNumber = null)
     {
       $this->Key = $Key;
       $this->Carrier = $Carrier;

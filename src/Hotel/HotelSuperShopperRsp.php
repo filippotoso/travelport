@@ -37,7 +37,7 @@ class HotelSuperShopperRsp extends BaseSearchRsp
      * @param HotelSuperShopperResults $HotelSuperShopperResults
      * @param QuickResponse $QuickResponse
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $VendorLocation, $CurrencyRateConversion, $HotelSuperShopperResults, $QuickResponse)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $NextResultReference = null, $VendorLocation = null, $CurrencyRateConversion = null, $HotelSuperShopperResults = null, $QuickResponse = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference);
       $this->VendorLocation = $VendorLocation;

@@ -13,7 +13,7 @@ class FlightOptionsList
     /**
      * @param FlightOption $FlightOption
      */
-    public function __construct($FlightOption)
+    public function __construct($FlightOption = null)
     {
       $this->FlightOption = $FlightOption;
     }

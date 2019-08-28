@@ -13,7 +13,7 @@ class AirSegmentSellFailureInfo
     /**
      * @param AirSegmentError $AirSegmentError
      */
-    public function __construct($AirSegmentError)
+    public function __construct($AirSegmentError = null)
     {
       $this->AirSegmentError = $AirSegmentError;
     }

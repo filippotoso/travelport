@@ -25,7 +25,7 @@ class typeSearchElectronicAddress
      * @param typeEmailType $Type
      * @param typeContactPurpose $Purpose
      */
-    public function __construct($Address, $Type, $Purpose)
+    public function __construct($Address = null, $Type = null, $Purpose = null)
     {
       $this->Address = $Address;
       $this->Type = $Type;

@@ -13,7 +13,7 @@ class FareFamilyAdd
     /**
      * @param FareFamily $FareFamily
      */
-    public function __construct($FareFamily)
+    public function __construct($FareFamily = null)
     {
       $this->FareFamily = $FareFamily;
     }

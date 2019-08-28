@@ -29,7 +29,7 @@ class OptionalServices
      * @param OptionalService $OptionalService
      * @param GroupedOptionInfo $GroupedOptionInfo
      */
-    public function __construct($OptionalService, $GroupedOptionInfo)
+    public function __construct($OptionalService = null, $GroupedOptionInfo = null)
     {
       $this->OptionalService = $OptionalService;
       $this->GroupedOptionInfo = $GroupedOptionInfo;

@@ -79,7 +79,7 @@ class EMD
      * @param anonymous853 $DisplayCategory
      * @param boolean $Reusable
      */
-    public function __construct($FulfillmentType, $FulfillmentTypeDescription, $AssociatedItem, $AvailabilityChargeIndicator, $RefundReissueIndicator, $Commissionable, $MileageIndicator, $Location, $Date, $Booking, $DisplayCategory, $Reusable)
+    public function __construct($FulfillmentType = null, $FulfillmentTypeDescription = null, $AssociatedItem = null, $AvailabilityChargeIndicator = null, $RefundReissueIndicator = null, $Commissionable = null, $MileageIndicator = null, $Location = null, $Date = null, $Booking = null, $DisplayCategory = null, $Reusable = null)
     {
       $this->FulfillmentType = $FulfillmentType;
       $this->FulfillmentTypeDescription = $FulfillmentTypeDescription;

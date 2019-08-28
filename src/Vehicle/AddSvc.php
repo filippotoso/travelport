@@ -43,7 +43,7 @@ class AddSvc
      * @param typeIATACode $Destination
      * @param date $StartDate
      */
-    public function __construct($RFIC, $RFISC, $SvcDescription, $Origin, $Destination, $StartDate)
+    public function __construct($RFIC = null, $RFISC = null, $SvcDescription = null, $Origin = null, $Destination = null, $StartDate = null)
     {
       $this->RFIC = $RFIC;
       $this->RFISC = $RFISC;

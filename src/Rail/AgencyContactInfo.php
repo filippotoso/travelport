@@ -19,7 +19,7 @@ class AgencyContactInfo
      * @param PhoneNumber $PhoneNumber
      * @param typeRef $Key
      */
-    public function __construct($PhoneNumber, $Key)
+    public function __construct($PhoneNumber = null, $Key = null)
     {
       $this->PhoneNumber = $PhoneNumber;
       $this->Key = $Key;

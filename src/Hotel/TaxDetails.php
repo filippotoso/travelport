@@ -13,7 +13,7 @@ class TaxDetails
     /**
      * @param Tax $Tax
      */
-    public function __construct($Tax)
+    public function __construct($Tax = null)
     {
       $this->Tax = $Tax;
     }

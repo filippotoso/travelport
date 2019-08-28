@@ -43,7 +43,7 @@ class Commission
      * @param typeMoney $CommissionOnSurcharges
      * @param typeMoney $ApproxCommissionOnSurcharges
      */
-    public function __construct($Indicator, $Percent, $CommissionAmount, $ApproxCommissionAmount, $CommissionOnSurcharges, $ApproxCommissionOnSurcharges)
+    public function __construct($Indicator = null, $Percent = null, $CommissionAmount = null, $ApproxCommissionAmount = null, $CommissionOnSurcharges = null, $ApproxCommissionOnSurcharges = null)
     {
       $this->Indicator = $Indicator;
       $this->Percent = $Percent;

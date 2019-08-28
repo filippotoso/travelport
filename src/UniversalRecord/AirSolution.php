@@ -31,7 +31,7 @@ class AirSolution
      * @param HostToken $HostToken
      * @param FareBasis $FareBasis
      */
-    public function __construct($SearchTraveler, $AirSegment, $HostToken, $FareBasis)
+    public function __construct($SearchTraveler = null, $AirSegment = null, $HostToken = null, $FareBasis = null)
     {
       $this->SearchTraveler = $SearchTraveler;
       $this->AirSegment = $AirSegment;

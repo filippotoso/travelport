@@ -30,7 +30,7 @@ class SingleProfileMigrationRsp extends BaseRsp
      * @param StringLength1to128 $Status
      * @param typeProfileType $ProfileType
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ProfileID, $Status, $ProfileType)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ProfileID = null, $Status = null, $ProfileType = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ProfileID = $ProfileID;

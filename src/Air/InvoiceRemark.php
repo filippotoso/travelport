@@ -33,7 +33,7 @@ class InvoiceRemark extends typeAssociatedRemark
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RemarkData, $ProviderReservationInfoRef, $ProviderCode, $Key, $ElStat, $KeyOverride)
+    public function __construct($RemarkData = null, $ProviderReservationInfoRef = null, $ProviderCode = null, $Key = null, $ElStat = null, $KeyOverride = null)
     {
       parent::__construct($RemarkData, $ProviderReservationInfoRef, $ProviderCode, $Key, $ElStat, $KeyOverride);
     }

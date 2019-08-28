@@ -19,7 +19,7 @@ class AirSegmentTicketingModifiers
      * @param typeRef $AirSegmentRef
      * @param StringLength1to10 $BrandTier
      */
-    public function __construct($AirSegmentRef, $BrandTier)
+    public function __construct($AirSegmentRef = null, $BrandTier = null)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->BrandTier = $BrandTier;

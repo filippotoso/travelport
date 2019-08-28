@@ -50,7 +50,7 @@ class typeAddress extends typeKeyElement
      * @param anonymous804 $Postal
      * @param StringLength1to128 $Type
      */
-    public function __construct($Key, $AddressLine, $City, $State, $OtherStateProvince, $Country, $Postal, $Type)
+    public function __construct($Key = null, $AddressLine = null, $City = null, $State = null, $OtherStateProvince = null, $Country = null, $Postal = null, $Type = null)
     {
       parent::__construct($Key);
       $this->AddressLine = $AddressLine;

@@ -13,7 +13,7 @@ class Carrier
     /**
      * @param typeCarrier $Code
      */
-    public function __construct($Code)
+    public function __construct($Code = null)
     {
       $this->Code = $Code;
     }

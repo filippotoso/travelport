@@ -13,7 +13,7 @@ class RoomConfirmationCodes
     /**
      * @param string[] $ConfirmationCode
      */
-    public function __construct(array $ConfirmationCode)
+    public function __construct(array $ConfirmationCode = null)
     {
       $this->ConfirmationCode = $ConfirmationCode;
     }

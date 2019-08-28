@@ -13,7 +13,7 @@ class DisfavoredCarriers
     /**
      * @param Carrier $Carrier
      */
-    public function __construct($Carrier)
+    public function __construct($Carrier = null)
     {
       $this->Carrier = $Carrier;
     }

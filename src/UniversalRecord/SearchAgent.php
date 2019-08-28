@@ -31,7 +31,7 @@ class SearchAgent
      * @param string $ModifiedByAgent
      * @param string $TicketedByAgent
      */
-    public function __construct($BranchId, $CreatedByAgent, $ModifiedByAgent, $TicketedByAgent)
+    public function __construct($BranchId = null, $CreatedByAgent = null, $ModifiedByAgent = null, $TicketedByAgent = null)
     {
       $this->BranchId = $BranchId;
       $this->CreatedByAgent = $CreatedByAgent;

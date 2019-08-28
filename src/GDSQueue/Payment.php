@@ -67,7 +67,7 @@ class Payment
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key, $Type, $FormOfPaymentRef, $BookingTravelerRef, $Amount, $AmountType, $ApproximateAmount, $Status, $ElStat, $KeyOverride)
+    public function __construct($Key = null, $Type = null, $FormOfPaymentRef = null, $BookingTravelerRef = null, $Amount = null, $AmountType = null, $ApproximateAmount = null, $Status = null, $ElStat = null, $KeyOverride = null)
     {
       $this->Key = $Key;
       $this->Type = $Type;

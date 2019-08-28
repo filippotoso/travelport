@@ -13,7 +13,7 @@ class PermittedVendors
     /**
      * @param Vendor $Vendor
      */
-    public function __construct($Vendor)
+    public function __construct($Vendor = null)
     {
       $this->Vendor = $Vendor;
     }

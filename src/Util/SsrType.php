@@ -49,7 +49,7 @@ class SsrType
      * @param string $Pattern
      * @param string $HelpText
      */
-    public function __construct($Code, $Description, $Providers, $Level, $FreeTextRequired, $Pattern, $HelpText)
+    public function __construct($Code = null, $Description = null, $Providers = null, $Level = null, $FreeTextRequired = null, $Pattern = null, $HelpText = null)
     {
       $this->Code = $Code;
       $this->Description = $Description;

@@ -57,7 +57,7 @@ class SegmentSelect
      * @param boolean $AllVehicle
      * @param boolean $AllPassive
      */
-    public function __construct($AllConfirmedAir, $AllWaitlistedAir, $AllHotel, $AllVehicle, $AllPassive)
+    public function __construct($AllConfirmedAir = null, $AllWaitlistedAir = null, $AllHotel = null, $AllVehicle = null, $AllPassive = null)
     {
       $this->AllConfirmedAir = $AllConfirmedAir;
       $this->AllWaitlistedAir = $AllWaitlistedAir;

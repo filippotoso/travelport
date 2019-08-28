@@ -19,7 +19,7 @@ class OtherGuaranteeInfo
      * @param string $_
      * @param anonymous309 $Type
      */
-    public function __construct($_, $Type)
+    public function __construct($_ = null, $Type = null)
     {
       $this->_ = $_;
       $this->Type = $Type;

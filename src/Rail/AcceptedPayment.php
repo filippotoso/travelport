@@ -13,7 +13,7 @@ class AcceptedPayment
     /**
      * @param typeCardMerchantType $PaymentCode
      */
-    public function __construct($PaymentCode)
+    public function __construct($PaymentCode = null)
     {
       $this->PaymentCode = $PaymentCode;
     }

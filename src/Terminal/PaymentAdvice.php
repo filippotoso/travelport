@@ -37,7 +37,7 @@ class PaymentAdvice
      * @param typeIATACode $IssueCity
      * @param anonymous474 $OriginalFOP
      */
-    public function __construct($Type, $DocumentNumber, $IssueDate, $IssueCity, $OriginalFOP)
+    public function __construct($Type = null, $DocumentNumber = null, $IssueDate = null, $IssueCity = null, $OriginalFOP = null)
     {
       $this->Type = $Type;
       $this->DocumentNumber = $DocumentNumber;

@@ -13,7 +13,7 @@ class RequestAmenity
     /**
      * @param anonymous1104 $Type
      */
-    public function __construct($Type)
+    public function __construct($Type = null)
     {
       $this->Type = $Type;
     }

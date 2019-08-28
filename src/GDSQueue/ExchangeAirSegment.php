@@ -25,7 +25,7 @@ class ExchangeAirSegment
      * @param CabinClass $CabinClass
      * @param string $FareBasisCode
      */
-    public function __construct($AirSegment, $CabinClass, $FareBasisCode)
+    public function __construct($AirSegment = null, $CabinClass = null, $FareBasisCode = null)
     {
       $this->AirSegment = $AirSegment;
       $this->CabinClass = $CabinClass;

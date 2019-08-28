@@ -55,7 +55,7 @@ class Segment
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($SegmentRemark, $Key, $Status, $Passive, $TravelOrder, $ProviderSegmentOrder, $ElStat, $KeyOverride)
+    public function __construct($SegmentRemark = null, $Key = null, $Status = null, $Passive = null, $TravelOrder = null, $ProviderSegmentOrder = null, $ElStat = null, $KeyOverride = null)
     {
       $this->SegmentRemark = $SegmentRemark;
       $this->Key = $Key;

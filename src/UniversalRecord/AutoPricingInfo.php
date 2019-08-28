@@ -61,7 +61,7 @@ class AutoPricingInfo
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($AirSegmentRef, $BookingTravelerRef, $AirPricingModifiers, $AirSegmentPricingModifiers, $Key, $PricingType, $PlatingCarrier, $ElStat, $KeyOverride)
+    public function __construct($AirSegmentRef = null, $BookingTravelerRef = null, $AirPricingModifiers = null, $AirSegmentPricingModifiers = null, $Key = null, $PricingType = null, $PlatingCarrier = null, $ElStat = null, $KeyOverride = null)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->BookingTravelerRef = $BookingTravelerRef;

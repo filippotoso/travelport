@@ -73,7 +73,7 @@ class FlightType
      * @param boolean $DoubleInterlineCon
      * @param boolean $TripleInterlineCon
      */
-    public function __construct($RequireSingleCarrier, $MaxConnections, $MaxStops, $NonStopDirects, $StopDirects, $SingleOnlineCon, $DoubleOnlineCon, $TripleOnlineCon, $SingleInterlineCon, $DoubleInterlineCon, $TripleInterlineCon)
+    public function __construct($RequireSingleCarrier = null, $MaxConnections = null, $MaxStops = null, $NonStopDirects = null, $StopDirects = null, $SingleOnlineCon = null, $DoubleOnlineCon = null, $TripleOnlineCon = null, $SingleInterlineCon = null, $DoubleInterlineCon = null, $TripleInterlineCon = null)
     {
       $this->RequireSingleCarrier = $RequireSingleCarrier;
       $this->MaxConnections = $MaxConnections;

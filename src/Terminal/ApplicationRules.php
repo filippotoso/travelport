@@ -37,7 +37,7 @@ class ApplicationRules
      * @param boolean $UnselectedOptionRequired
      * @param boolean $SecondaryOptionCodeRequired
      */
-    public function __construct($RequiredForAllTravelers, $RequiredForAllSegments, $RequiredForAllSegmentsInOD, $UnselectedOptionRequired, $SecondaryOptionCodeRequired)
+    public function __construct($RequiredForAllTravelers = null, $RequiredForAllSegments = null, $RequiredForAllSegmentsInOD = null, $UnselectedOptionRequired = null, $SecondaryOptionCodeRequired = null)
     {
       $this->RequiredForAllTravelers = $RequiredForAllTravelers;
       $this->RequiredForAllSegments = $RequiredForAllSegments;

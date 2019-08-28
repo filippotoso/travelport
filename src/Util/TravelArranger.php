@@ -25,7 +25,7 @@ class TravelArranger
      * @param string $CompanyShortName
      * @param string $Code
      */
-    public function __construct($_, $CompanyShortName, $Code)
+    public function __construct($_ = null, $CompanyShortName = null, $Code = null)
     {
       $this->_ = $_;
       $this->CompanyShortName = $CompanyShortName;

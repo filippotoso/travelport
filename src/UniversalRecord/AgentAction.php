@@ -49,14 +49,14 @@ class AgentAction
      * @param \DateTime $EventTime
      * @param anonymous518 $AgentOverride
      */
-    public function __construct($ActionType, $AgentCode, $BranchCode, $AgencyCode, $AgentSine, \DateTime $EventTime, $AgentOverride)
+    public function __construct($ActionType = null, $AgentCode = null, $BranchCode = null, $AgencyCode = null, $AgentSine = null, \DateTime $EventTime = null, $AgentOverride = null)
     {
       $this->ActionType = $ActionType;
       $this->AgentCode = $AgentCode;
       $this->BranchCode = $BranchCode;
       $this->AgencyCode = $AgencyCode;
       $this->AgentSine = $AgentSine;
-      $this->EventTime = $EventTime->format(\DateTime::ATOM);
+      $this->EventTime = $EventTime ? $EventTime->format(\DateTime::ATOM) : null;
       $this->AgentOverride = $AgentOverride;
     }
 

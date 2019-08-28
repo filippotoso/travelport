@@ -13,7 +13,7 @@ class AgentVoucher
     /**
      * @param string $Number
      */
-    public function __construct($Number)
+    public function __construct($Number = null)
     {
       $this->Number = $Number;
     }

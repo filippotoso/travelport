@@ -109,7 +109,7 @@ class EMDCoupon
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Number, $Status, $SvcDescription, $ConsumedAtIssuanceInd, $RFIC, $RFISC, $RFIDescription, $Origin, $Destination, $FlightNumber, $PresentTo, $PresentAt, $NonRefundableInd, $MarketingCarrier, $Key, $ElStat, $KeyOverride)
+    public function __construct($Number = null, $Status = null, $SvcDescription = null, $ConsumedAtIssuanceInd = null, $RFIC = null, $RFISC = null, $RFIDescription = null, $Origin = null, $Destination = null, $FlightNumber = null, $PresentTo = null, $PresentAt = null, $NonRefundableInd = null, $MarketingCarrier = null, $Key = null, $ElStat = null, $KeyOverride = null)
     {
       $this->Number = $Number;
       $this->Status = $Status;

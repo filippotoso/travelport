@@ -30,7 +30,7 @@ class GdsEnterQueueRsp extends BaseRsp
      * @param string $Title
      * @param string $QueueSessionToken
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $UniversalRecord, $Title, $QueueSessionToken)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $UniversalRecord = null, $Title = null, $QueueSessionToken = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->UniversalRecord = $UniversalRecord;

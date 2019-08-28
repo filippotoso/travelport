@@ -18,7 +18,7 @@ class RoomCapacity
     /**
      * @param boolean $IsPackage
      */
-    public function __construct($IsPackage)
+    public function __construct($IsPackage = null)
     {
       $this->IsPackage = $IsPackage;
     }

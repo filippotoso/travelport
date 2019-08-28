@@ -32,7 +32,7 @@ class AgentCriteria extends typeProfileSearchCriteria
      * @param typeWildcard $Surname
      * @param typeAlternateAgentID $AlternateAgentID
      */
-    public function __construct($AdditionalIdentifier, $Username, $GivenName, $Surname, $AlternateAgentID)
+    public function __construct($AdditionalIdentifier = null, $Username = null, $GivenName = null, $Surname = null, $AlternateAgentID = null)
     {
       parent::__construct($AdditionalIdentifier);
       $this->Username = $Username;

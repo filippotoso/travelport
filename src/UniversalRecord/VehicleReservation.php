@@ -147,7 +147,7 @@ class VehicleReservation extends BaseReservation
      * @param int $TravelOrder
      * @param anonymous1078 $ProviderSegmentOrder
      */
-    public function __construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber, $BookingTravelerRef, $ReservationName, $VehicleDateLocation, $Vehicle, $SpecialEquipment, $VehicleSpecialRequest, $PaymentInformation, $DeliveryAddress, $CollectionAddress, $FlightArrivalInformation, $Guarantee, $AssociatedRemark, $BookingSource, $ThirdPartyInformation, $SellMessage, $SupplierCode, $BookingConfirmation, $Status, $ProviderReservationInfoRef, $PassiveProviderReservationInfoRef, $TravelOrder, $ProviderSegmentOrder)
+    public function __construct($AccountingRemark = null, $GeneralRemark = null, $Restriction = null, $PassiveInfo = null, $LocatorCode = null, $CreateDate = null, $ModifiedDate = null, $CustomerNumber = null, $BookingTravelerRef = null, $ReservationName = null, $VehicleDateLocation = null, $Vehicle = null, $SpecialEquipment = null, $VehicleSpecialRequest = null, $PaymentInformation = null, $DeliveryAddress = null, $CollectionAddress = null, $FlightArrivalInformation = null, $Guarantee = null, $AssociatedRemark = null, $BookingSource = null, $ThirdPartyInformation = null, $SellMessage = null, $SupplierCode = null, $BookingConfirmation = null, $Status = null, $ProviderReservationInfoRef = null, $PassiveProviderReservationInfoRef = null, $TravelOrder = null, $ProviderSegmentOrder = null)
     {
       parent::__construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber);
       $this->BookingTravelerRef = $BookingTravelerRef;

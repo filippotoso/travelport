@@ -19,7 +19,7 @@ class AirReservationSelector
      * @param FareInfoRef $FareInfoRef
      * @param typeLocatorCode $AirReservationLocatorCode
      */
-    public function __construct($FareInfoRef, $AirReservationLocatorCode)
+    public function __construct($FareInfoRef = null, $AirReservationLocatorCode = null)
     {
       $this->FareInfoRef = $FareInfoRef;
       $this->AirReservationLocatorCode = $AirReservationLocatorCode;

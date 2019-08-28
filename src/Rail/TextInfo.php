@@ -18,7 +18,7 @@ class TextInfo
     /**
      * @param string $Title
      */
-    public function __construct($Title)
+    public function __construct($Title = null)
     {
       $this->Title = $Title;
     }

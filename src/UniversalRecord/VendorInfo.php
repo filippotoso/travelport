@@ -19,7 +19,7 @@ class VendorInfo
      * @param typeSupplierCode $Code
      * @param string $Name
      */
-    public function __construct($Code, $Name)
+    public function __construct($Code = null, $Name = null)
     {
       $this->Code = $Code;
       $this->Name = $Name;

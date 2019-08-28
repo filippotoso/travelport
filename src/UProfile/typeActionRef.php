@@ -13,7 +13,7 @@ class typeActionRef
     /**
      * @param typeActionID $ID
      */
-    public function __construct($ID)
+    public function __construct($ID = null)
     {
       $this->ID = $ID;
     }

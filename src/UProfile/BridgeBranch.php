@@ -31,7 +31,7 @@ class BridgeBranch
      * @param StringLength1to128 $Name
      * @param boolean $Default
      */
-    public function __construct($ProfileID, $BranchCode, $Name, $Default)
+    public function __construct($ProfileID = null, $BranchCode = null, $Name = null, $Default = null)
     {
       $this->ProfileID = $ProfileID;
       $this->BranchCode = $BranchCode;

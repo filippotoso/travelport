@@ -43,7 +43,7 @@ class TaxCalcInfo
      * @param typeMoney $StopOverFee
      * @param typeMoney $Tax
      */
-    public function __construct($Origin, $Destination, $BaseFare, $QSurcharge, $StopOverFee, $Tax)
+    public function __construct($Origin = null, $Destination = null, $BaseFare = null, $QSurcharge = null, $StopOverFee = null, $Tax = null)
     {
       $this->Origin = $Origin;
       $this->Destination = $Destination;

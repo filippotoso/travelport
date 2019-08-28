@@ -22,7 +22,7 @@ class HotelSearchError extends typeResultMessage
      * @param typeResultMessage $_
      * @param typeThirdPartySupplier $RateSupplier
      */
-    public function __construct($_, $Code, $Type, $RateSupplier)
+    public function __construct($_ = null, $Code = null, $Type = null, $RateSupplier = null)
     {
       parent::__construct($_, $Code, $Type);
       $this->_ = $_;

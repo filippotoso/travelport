@@ -61,7 +61,7 @@ class FarePricing
      * @param typeMoney $Taxes
      * @param typeRef $MMid
      */
-    public function __construct($PassengerType, $TotalFareAmount, $PrivateFare, $NegotiatedFare, $AutoPriceable, $TotalNetFareAmount, $BaseFare, $Taxes, $MMid)
+    public function __construct($PassengerType = null, $TotalFareAmount = null, $PrivateFare = null, $NegotiatedFare = null, $AutoPriceable = null, $TotalNetFareAmount = null, $BaseFare = null, $Taxes = null, $MMid = null)
     {
       $this->PassengerType = $PassengerType;
       $this->TotalFareAmount = $TotalFareAmount;

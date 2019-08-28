@@ -49,7 +49,7 @@ class BundledService
      * @param anonymous839 $Booking
      * @param int $Occurrence
      */
-    public function __construct($Carrier, $CarrierSubCode, $ServiceType, $ServiceSubCode, $Name, $Booking, $Occurrence)
+    public function __construct($Carrier = null, $CarrierSubCode = null, $ServiceType = null, $ServiceSubCode = null, $Name = null, $Booking = null, $Occurrence = null)
     {
       $this->Carrier = $Carrier;
       $this->CarrierSubCode = $CarrierSubCode;

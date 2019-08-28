@@ -42,7 +42,7 @@ class HotelReservationCriteria
      * @param typeIATACode $Location
      * @param boolean $PassiveOnly
      */
-    public function __construct($HotelChainCode, $HotelCode, $HotelConfirmation, $Location, $PassiveOnly)
+    public function __construct($HotelChainCode = null, $HotelCode = null, $HotelConfirmation = null, $Location = null, $PassiveOnly = null)
     {
       $this->HotelChainCode = $HotelChainCode;
       $this->HotelCode = $HotelCode;

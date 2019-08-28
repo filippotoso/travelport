@@ -13,7 +13,7 @@ class FareType
     /**
      * @param typeFareTypeCode $Code
      */
-    public function __construct($Code)
+    public function __construct($Code = null)
     {
       $this->Code = $Code;
     }

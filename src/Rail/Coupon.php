@@ -133,7 +133,7 @@ class Coupon
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($TicketDesignator, $Key, $CouponNumber, $OperatingCarrier, $OperatingFlightNumber, $MarketingCarrier, $MarketingFlightNumber, $Origin, $Destination, $DepartureTime, $ArrivalTime, $StopoverCode, $BookingClass, $FareBasis, $NotValidBefore, $NotValidAfter, $Status, $SegmentGroup, $MarriageGroup, $ElStat, $KeyOverride)
+    public function __construct($TicketDesignator = null, $Key = null, $CouponNumber = null, $OperatingCarrier = null, $OperatingFlightNumber = null, $MarketingCarrier = null, $MarketingFlightNumber = null, $Origin = null, $Destination = null, $DepartureTime = null, $ArrivalTime = null, $StopoverCode = null, $BookingClass = null, $FareBasis = null, $NotValidBefore = null, $NotValidAfter = null, $Status = null, $SegmentGroup = null, $MarriageGroup = null, $ElStat = null, $KeyOverride = null)
     {
       $this->TicketDesignator = $TicketDesignator;
       $this->Key = $Key;

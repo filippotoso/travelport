@@ -19,7 +19,7 @@ class FareRestrictionSaleDate
      * @param date $StartDate
      * @param date $EndDate
      */
-    public function __construct($StartDate, $EndDate)
+    public function __construct($StartDate = null, $EndDate = null)
     {
       $this->StartDate = $StartDate;
       $this->EndDate = $EndDate;

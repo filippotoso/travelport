@@ -31,7 +31,7 @@ class RoleInfo
      * @param string $Source
      * @param anonymous190 $Description
      */
-    public function __construct($Id, $Name, $Source, $Description)
+    public function __construct($Id = null, $Name = null, $Source = null, $Description = null)
     {
       $this->Id = $Id;
       $this->Name = $Name;

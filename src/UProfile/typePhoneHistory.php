@@ -75,7 +75,7 @@ class typePhoneHistory extends typeKeyTaggedElement
      * @param anonymous898 $Extension
      * @param typeCityOrAirport $Location
      */
-    public function __construct($Key, $TagRef, $Type, $Description, $Purpose, $Provisioned, $PriorityOrder, $OwnerID, $Country, $AreaCode, $LocalNumber, $Extension, $Location)
+    public function __construct($Key = null, $TagRef = null, $Type = null, $Description = null, $Purpose = null, $Provisioned = null, $PriorityOrder = null, $OwnerID = null, $Country = null, $AreaCode = null, $LocalNumber = null, $Extension = null, $Location = null)
     {
       parent::__construct($Key, $TagRef);
       $this->Type = $Type;

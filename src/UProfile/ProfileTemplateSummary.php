@@ -25,7 +25,7 @@ class ProfileTemplateSummary
      * @param UNKNOWN $Name
      * @param UNKNOWN $Version
      */
-    public function __construct($ID, $Name, $Version)
+    public function __construct($ID = null, $Name = null, $Version = null)
     {
       $this->ID = $ID;
       $this->Name = $Name;

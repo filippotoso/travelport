@@ -25,7 +25,7 @@ class KeyMapping
      * @param string $OriginalKey
      * @param string $NewKey
      */
-    public function __construct($ElementName, $OriginalKey, $NewKey)
+    public function __construct($ElementName = null, $OriginalKey = null, $NewKey = null)
     {
       $this->ElementName = $ElementName;
       $this->OriginalKey = $OriginalKey;

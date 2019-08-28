@@ -13,7 +13,7 @@ class OperatedBy
     /**
      * @param typeNonBlanks $_
      */
-    public function __construct($_)
+    public function __construct($_ = null)
     {
       $this->_ = $_;
     }

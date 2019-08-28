@@ -169,7 +169,7 @@ class BookingTraveler
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($BookingTravelerName, $DeliveryInfo, $PhoneNumber, $Email, $LoyaltyCard, $DiscountCard, $SSR, $NameRemark, $AirSeatAssignment, $RailSeatAssignment, $EmergencyInfo, $Address, $DriversLicense, $AppliedProfile, $CustomizedNameData, $TravelComplianceData, $TravelInfo, $NameNumber, $Key, $TravelerType, $Age, $VIP, $DOB, $Gender, $Nationality, $ElStat, $KeyOverride)
+    public function __construct($BookingTravelerName = null, $DeliveryInfo = null, $PhoneNumber = null, $Email = null, $LoyaltyCard = null, $DiscountCard = null, $SSR = null, $NameRemark = null, $AirSeatAssignment = null, $RailSeatAssignment = null, $EmergencyInfo = null, $Address = null, $DriversLicense = null, $AppliedProfile = null, $CustomizedNameData = null, $TravelComplianceData = null, $TravelInfo = null, $NameNumber = null, $Key = null, $TravelerType = null, $Age = null, $VIP = null, $DOB = null, $Gender = null, $Nationality = null, $ElStat = null, $KeyOverride = null)
     {
       $this->BookingTravelerName = $BookingTravelerName;
       $this->DeliveryInfo = $DeliveryInfo;

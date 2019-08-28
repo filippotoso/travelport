@@ -13,7 +13,7 @@ class BasicDetailsOnly
     /**
      * @param boolean $ReturnBasicDetails
      */
-    public function __construct($ReturnBasicDetails)
+    public function __construct($ReturnBasicDetails = null)
     {
       $this->ReturnBasicDetails = $ReturnBasicDetails;
     }

@@ -13,7 +13,7 @@ class GroupedOptionInfo
     /**
      * @param GroupedOption $GroupedOption
      */
-    public function __construct($GroupedOption)
+    public function __construct($GroupedOption = null)
     {
       $this->GroupedOption = $GroupedOption;
     }

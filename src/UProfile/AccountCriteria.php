@@ -15,7 +15,7 @@ class AccountCriteria extends typeAccountTypeProfileSearchCriteria
      * @param typeWildcard $MidOfficeID
      * @param typeWildcard $Name
      */
-    public function __construct($AdditionalIdentifier, $MidOfficeID, $Name)
+    public function __construct($AdditionalIdentifier = null, $MidOfficeID = null, $Name = null)
     {
       parent::__construct($AdditionalIdentifier, $MidOfficeID);
       $this->Name = $Name;

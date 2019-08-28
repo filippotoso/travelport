@@ -25,7 +25,7 @@ class RecordIdentifier
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($UniversalLocatorCode, $ProviderCode, $ProviderLocatorCode)
+    public function __construct($UniversalLocatorCode = null, $ProviderCode = null, $ProviderLocatorCode = null)
     {
       $this->UniversalLocatorCode = $UniversalLocatorCode;
       $this->ProviderCode = $ProviderCode;

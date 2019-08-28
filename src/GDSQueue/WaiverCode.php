@@ -25,7 +25,7 @@ class WaiverCode
      * @param typeTicketDesignator $TicketDesignator
      * @param anonymous791 $Endorsement
      */
-    public function __construct($TourCode, $TicketDesignator, $Endorsement)
+    public function __construct($TourCode = null, $TicketDesignator = null, $Endorsement = null)
     {
       $this->TourCode = $TourCode;
       $this->TicketDesignator = $TicketDesignator;

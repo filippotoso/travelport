@@ -108,7 +108,7 @@ class HotelDetailsModifiers
      * @param boolean $ProcessAllNegoRatesInd
      * @param int $MaxWait
      */
-    public function __construct($PermittedProviders, $LoyaltyCard, $CorporateDiscountID, $HotelStay, $NumberOfChildren, $HotelBedding, $PermittedAggregators, $BookingGuestInformation, $NumberOfAdults, $RateRuleDetail, $NumberOfRooms, $Key, $PreferredCurrency, $TotalOccupants, $ProcessAllNegoRatesInd, $MaxWait)
+    public function __construct($PermittedProviders = null, $LoyaltyCard = null, $CorporateDiscountID = null, $HotelStay = null, $NumberOfChildren = null, $HotelBedding = null, $PermittedAggregators = null, $BookingGuestInformation = null, $NumberOfAdults = null, $RateRuleDetail = null, $NumberOfRooms = null, $Key = null, $PreferredCurrency = null, $TotalOccupants = null, $ProcessAllNegoRatesInd = null, $MaxWait = null)
     {
       $this->PermittedProviders = $PermittedProviders;
       $this->LoyaltyCard = $LoyaltyCard;

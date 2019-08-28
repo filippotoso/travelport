@@ -186,7 +186,7 @@ class FareDisplay
      * @param string $FareTicketingCode
      * @param typeTicketDesignator $FareTicketingDesignator
      */
-    public function __construct($FareDisplayRule, $FarePricing, $FareRestriction, $FareRoutingInformation, $FareMileageInformation, $AirFareDisplayRuleKey, $BookingCode, $AccountCode, $AddlBookingCodeInformation, $FareRuleFailureInfo, $Carrier, $FareBasis, $Amount, $TripType, $FareTypeCode, $SpecialFare, $InstantPurchase, $EligibilityRestricted, $FlightRestricted, $StopoversRestricted, $TransfersRestricted, $BlackoutsExist, $AccompaniedTravel, $MileOrRouteBasedFare, $GlobalIndicator, $Origin, $Destination, $FareTicketingCode, $FareTicketingDesignator)
+    public function __construct($FareDisplayRule = null, $FarePricing = null, $FareRestriction = null, $FareRoutingInformation = null, $FareMileageInformation = null, $AirFareDisplayRuleKey = null, $BookingCode = null, $AccountCode = null, $AddlBookingCodeInformation = null, $FareRuleFailureInfo = null, $Carrier = null, $FareBasis = null, $Amount = null, $TripType = null, $FareTypeCode = null, $SpecialFare = null, $InstantPurchase = null, $EligibilityRestricted = null, $FlightRestricted = null, $StopoversRestricted = null, $TransfersRestricted = null, $BlackoutsExist = null, $AccompaniedTravel = null, $MileOrRouteBasedFare = null, $GlobalIndicator = null, $Origin = null, $Destination = null, $FareTicketingCode = null, $FareTicketingDesignator = null)
     {
       $this->FareDisplayRule = $FareDisplayRule;
       $this->FarePricing = $FarePricing;

@@ -61,7 +61,7 @@ class MAXType
      * @param int $TmDOWMax
      * @param int $NumOccurMax
      */
-    public function __construct($HoursMax, $DaysMax, $MonthsMax, $OccurIndMax, $SameDayMax, $StartIndMax, $CompletionInd, $TmDOWMax, $NumOccurMax)
+    public function __construct($HoursMax = null, $DaysMax = null, $MonthsMax = null, $OccurIndMax = null, $SameDayMax = null, $StartIndMax = null, $CompletionInd = null, $TmDOWMax = null, $NumOccurMax = null)
     {
       $this->HoursMax = $HoursMax;
       $this->DaysMax = $DaysMax;

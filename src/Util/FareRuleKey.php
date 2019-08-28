@@ -25,7 +25,7 @@ class FareRuleKey
      * @param string $FareInfoRef
      * @param typeProviderCode $ProviderCode
      */
-    public function __construct($_, $FareInfoRef, $ProviderCode)
+    public function __construct($_ = null, $FareInfoRef = null, $ProviderCode = null)
     {
       $this->_ = $_;
       $this->FareInfoRef = $FareInfoRef;

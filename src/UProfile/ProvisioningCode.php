@@ -19,7 +19,7 @@ class ProvisioningCode
      * @param StringLength1to128 $_
      * @param anonymous876 $ProfileType
      */
-    public function __construct($_, $ProfileType)
+    public function __construct($_ = null, $ProfileType = null)
     {
       $this->_ = $_;
       $this->ProfileType = $ProfileType;

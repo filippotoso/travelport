@@ -77,7 +77,7 @@ class ProfileCreateReq extends BaseReq
      * @param boolean $ReturnProfile
      * @param boolean $ShowDataUnmasked
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ProfileData, $ProfileLink, $ProfileType, $Status, $TemplateID, $TemplateVersion, $HierarchyLevelID, $ReturnProfile, $ShowDataUnmasked)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ProfileData = null, $ProfileLink = null, $ProfileType = null, $Status = null, $TemplateID = null, $TemplateVersion = null, $HierarchyLevelID = null, $ReturnProfile = null, $ShowDataUnmasked = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ProfileData = $ProfileData;

@@ -31,7 +31,7 @@ class FieldDataSearch
      * @param anonymous566 $Value
      * @param typeFieldID $FieldGroupID
      */
-    public function __construct($FieldID, $Name, $Value, $FieldGroupID)
+    public function __construct($FieldID = null, $Name = null, $Value = null, $FieldGroupID = null)
     {
       $this->FieldID = $FieldID;
       $this->Name = $Name;

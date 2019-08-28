@@ -199,7 +199,7 @@ class ADVType
      * @param date $LatestRsvnDt
      * @param date $LatestTkDt
      */
-    public function __construct($AdvRsvnOnlyIfTk, $AdvRsvnAnyTm, $AdvRsvnHrs, $AdvRsvnDays, $AdvRsvnMonths, $AdvRsvnEarliestTm, $AdvRsvnLatestTm, $AdvRsvnWaived, $AdvRsvnDataExists, $AdvRsvnEndItem, $AdvTkEarliestTm, $AdvTkLatestTm, $AdvTkRsvnHrs, $AdvTkRsvnDays, $AdvTkRsvnMonths, $AdvTkStartHrs, $AdvTkStartDays, $AdvTkStartMonths, $AdvTkWaived, $AdvTkAnyTm, $AdvTkEndItem, $AdvRsvnTm, $AdvTkRsvnTm, $AdvTkStartTm, $EarliestRsvnDtPresent, $EarliestTkDtPresent, $LatestRsvnDtPresent, $LatestTkDtPresent, $EarliestRsvnDt, $EarliestTkDt, $LatestRsvnDt, $LatestTkDt)
+    public function __construct($AdvRsvnOnlyIfTk = null, $AdvRsvnAnyTm = null, $AdvRsvnHrs = null, $AdvRsvnDays = null, $AdvRsvnMonths = null, $AdvRsvnEarliestTm = null, $AdvRsvnLatestTm = null, $AdvRsvnWaived = null, $AdvRsvnDataExists = null, $AdvRsvnEndItem = null, $AdvTkEarliestTm = null, $AdvTkLatestTm = null, $AdvTkRsvnHrs = null, $AdvTkRsvnDays = null, $AdvTkRsvnMonths = null, $AdvTkStartHrs = null, $AdvTkStartDays = null, $AdvTkStartMonths = null, $AdvTkWaived = null, $AdvTkAnyTm = null, $AdvTkEndItem = null, $AdvRsvnTm = null, $AdvTkRsvnTm = null, $AdvTkStartTm = null, $EarliestRsvnDtPresent = null, $EarliestTkDtPresent = null, $LatestRsvnDtPresent = null, $LatestTkDtPresent = null, $EarliestRsvnDt = null, $EarliestTkDt = null, $LatestRsvnDt = null, $LatestTkDt = null)
     {
       $this->AdvRsvnOnlyIfTk = $AdvRsvnOnlyIfTk;
       $this->AdvRsvnAnyTm = $AdvRsvnAnyTm;

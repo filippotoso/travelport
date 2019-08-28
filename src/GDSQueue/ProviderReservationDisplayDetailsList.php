@@ -19,7 +19,7 @@ class ProviderReservationDisplayDetailsList
      * @param DisplayDetails $DisplayDetails
      * @param TravelerNameNum $TravelerNameNum
      */
-    public function __construct($DisplayDetails, $TravelerNameNum)
+    public function __construct($DisplayDetails = null, $TravelerNameNum = null)
     {
       $this->DisplayDetails = $DisplayDetails;
       $this->TravelerNameNum = $TravelerNameNum;

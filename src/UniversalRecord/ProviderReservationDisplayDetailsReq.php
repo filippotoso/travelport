@@ -78,7 +78,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
      * @param boolean $Cruise
      * @param boolean $RailSegment
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ProviderCode, $ProviderLocatorCode, $ProviderReservationDetail, $CustomCheck, $ProviderProfile, $DivideDetails, $EnhancedItinModifiers, $IntegratedContent, $Cruise, $RailSegment)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ProviderCode = null, $ProviderLocatorCode = null, $ProviderReservationDetail = null, $CustomCheck = null, $ProviderProfile = null, $DivideDetails = null, $EnhancedItinModifiers = null, $IntegratedContent = null, $Cruise = null, $RailSegment = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ProviderCode = $ProviderCode;

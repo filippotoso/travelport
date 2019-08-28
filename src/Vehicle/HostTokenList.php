@@ -13,7 +13,7 @@ class HostTokenList
     /**
      * @param HostToken $HostToken
      */
-    public function __construct($HostToken)
+    public function __construct($HostToken = null)
     {
       $this->HostToken = $HostToken;
     }

@@ -49,7 +49,7 @@ class FareSurcharge
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key, $Type, $Amount, $SegmentRef, $CouponRef, $ElStat, $KeyOverride)
+    public function __construct($Key = null, $Type = null, $Amount = null, $SegmentRef = null, $CouponRef = null, $ElStat = null, $KeyOverride = null)
     {
       $this->Key = $Key;
       $this->Type = $Type;

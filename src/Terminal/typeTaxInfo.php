@@ -97,7 +97,7 @@ class typeTaxInfo
      * @param string $CountryCode
      * @param typeRef $FareInfoRef
      */
-    public function __construct($TaxDetail, $Key, $Category, $CarrierDefinedCategory, $SegmentRef, $FlightDetailsRef, $CouponRef, $TaxExempted, $ProviderCode, $SupplierCode, $Amount, $OriginAirport, $DestinationAirport, $CountryCode, $FareInfoRef)
+    public function __construct($TaxDetail = null, $Key = null, $Category = null, $CarrierDefinedCategory = null, $SegmentRef = null, $FlightDetailsRef = null, $CouponRef = null, $TaxExempted = null, $ProviderCode = null, $SupplierCode = null, $Amount = null, $OriginAirport = null, $DestinationAirport = null, $CountryCode = null, $FareInfoRef = null)
     {
       $this->TaxDetail = $TaxDetail;
       $this->Key = $Key;

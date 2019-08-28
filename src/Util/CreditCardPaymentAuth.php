@@ -37,7 +37,7 @@ class CreditCardPaymentAuth
      * @param typeMoney $Amount
      * @param boolean $PerformAVS
      */
-    public function __construct($CreditCard, $FormOfPaymentRef, $SecurityCode, $Amount, $PerformAVS)
+    public function __construct($CreditCard = null, $FormOfPaymentRef = null, $SecurityCode = null, $Amount = null, $PerformAVS = null)
     {
       $this->CreditCard = $CreditCard;
       $this->FormOfPaymentRef = $FormOfPaymentRef;

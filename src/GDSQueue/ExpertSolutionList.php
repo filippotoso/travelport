@@ -13,7 +13,7 @@ class ExpertSolutionList
     /**
      * @param ExpertSolution $ExpertSolution
      */
-    public function __construct($ExpertSolution)
+    public function __construct($ExpertSolution = null)
     {
       $this->ExpertSolution = $ExpertSolution;
     }

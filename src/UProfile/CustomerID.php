@@ -22,7 +22,7 @@ class CustomerID extends typeRemark
      * @param typeRemark $_
      * @param typeRef $Key
      */
-    public function __construct($_, $ProviderReservationInfoRef, $ProviderCode, $Key)
+    public function __construct($_ = null, $ProviderReservationInfoRef = null, $ProviderCode = null, $Key = null)
     {
       parent::__construct($_, $ProviderReservationInfoRef, $ProviderCode);
       $this->_ = $_;

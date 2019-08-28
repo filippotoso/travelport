@@ -67,7 +67,7 @@ class DisplayDetails
      * @param boolean $Cruise
      * @param boolean $RailSegment
      */
-    public function __construct($DisplayDetail, $DisplayContents, $ProviderReservationDetail, $CustomCheck, $ProviderProfile, $DivideDetails, $EnhancedItinModifiers, $IntegratedContent, $Cruise, $RailSegment)
+    public function __construct($DisplayDetail = null, $DisplayContents = null, $ProviderReservationDetail = null, $CustomCheck = null, $ProviderProfile = null, $DivideDetails = null, $EnhancedItinModifiers = null, $IntegratedContent = null, $Cruise = null, $RailSegment = null)
     {
       $this->DisplayDetail = $DisplayDetail;
       $this->DisplayContents = $DisplayContents;

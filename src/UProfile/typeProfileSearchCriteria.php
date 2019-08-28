@@ -33,7 +33,7 @@ class typeProfileSearchCriteria
     /**
      * @param typeWildcard $AdditionalIdentifier
      */
-    public function __construct($AdditionalIdentifier)
+    public function __construct($AdditionalIdentifier = null)
     {
       $this->AdditionalIdentifier = $AdditionalIdentifier;
     }

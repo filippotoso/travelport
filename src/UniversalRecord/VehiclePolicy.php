@@ -19,7 +19,7 @@ class VehiclePolicy
      * @param VehicleDisclaimer $VehicleDisclaimer
      * @param VehicleDetail $VehicleDetail
      */
-    public function __construct($VehicleDisclaimer, $VehicleDetail)
+    public function __construct($VehicleDisclaimer = null, $VehicleDetail = null)
     {
       $this->VehicleDisclaimer = $VehicleDisclaimer;
       $this->VehicleDetail = $VehicleDetail;

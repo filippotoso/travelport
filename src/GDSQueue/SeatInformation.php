@@ -43,7 +43,7 @@ class SeatInformation
      * @param Rating $Rating
      * @param typeRef $Key
      */
-    public function __construct($Power, $Video, $Type, $Description, $Rating, $Key)
+    public function __construct($Power = null, $Video = null, $Type = null, $Description = null, $Rating = null, $Key = null)
     {
       $this->Power = $Power;
       $this->Video = $Video;

@@ -45,7 +45,7 @@ class SavedTripSearchResult extends typeSavedTripProductInfo
      * @param typeLocatorCode $LocatorCode
      * @param typeLocatorCode $UniversalRecordLocatorCode
      */
-    public function __construct($ProductType, $VendorCode, $ProviderCode, $EarliestTravelDate, $CreatedDate, $SavedTripName, $LocatorCode, $UniversalRecordLocatorCode)
+    public function __construct($ProductType = null, $VendorCode = null, $ProviderCode = null, $EarliestTravelDate = null, $CreatedDate = null, $SavedTripName = null, $LocatorCode = null, $UniversalRecordLocatorCode = null)
     {
       parent::__construct($ProductType, $VendorCode, $ProviderCode);
       $this->EarliestTravelDate = $EarliestTravelDate;

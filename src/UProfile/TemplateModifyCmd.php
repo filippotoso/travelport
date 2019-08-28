@@ -73,7 +73,7 @@ class TemplateModifyCmd
      * @param typeCustomFieldAndGroupDeleteRef $CustomFieldDelete
      * @param typeCustomFieldAndGroupDeleteRef $CustomFieldGroupDelete
      */
-    public function __construct($TemplateInfoUpdate, $FixedFieldUpdate, $FixedGroupUpdate, $CustomFieldAdd, $CustomFieldUpdate, $CustomFieldGroupAdd, $CustomFieldGroupUpdate, $EndpointAdd, $EndpointRemove, $CustomFieldDelete, $CustomFieldGroupDelete)
+    public function __construct($TemplateInfoUpdate = null, $FixedFieldUpdate = null, $FixedGroupUpdate = null, $CustomFieldAdd = null, $CustomFieldUpdate = null, $CustomFieldGroupAdd = null, $CustomFieldGroupUpdate = null, $EndpointAdd = null, $EndpointRemove = null, $CustomFieldDelete = null, $CustomFieldGroupDelete = null)
     {
       $this->TemplateInfoUpdate = $TemplateInfoUpdate;
       $this->FixedFieldUpdate = $FixedFieldUpdate;

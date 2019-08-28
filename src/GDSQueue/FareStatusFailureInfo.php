@@ -19,7 +19,7 @@ class FareStatusFailureInfo
      * @param string $Code
      * @param string $Reason
      */
-    public function __construct($Code, $Reason)
+    public function __construct($Code = null, $Reason = null)
     {
       $this->Code = $Code;
       $this->Reason = $Reason;

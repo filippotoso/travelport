@@ -30,7 +30,7 @@ class typePaymentInformation
      * @param string $BillingReferenceNumber
      * @param anonymous582 $PrePayment
      */
-    public function __construct($BillingNumber, $BillingReferenceNumber, $PrePayment)
+    public function __construct($BillingNumber = null, $BillingReferenceNumber = null, $PrePayment = null)
     {
       $this->BillingNumber = $BillingNumber;
       $this->BillingReferenceNumber = $BillingReferenceNumber;

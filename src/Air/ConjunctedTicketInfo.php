@@ -43,11 +43,11 @@ class ConjunctedTicketInfo
      * @param typeCountry $CountryCode
      * @param typeTicketStatus $Status
      */
-    public function __construct($Number, $IATANumber, \DateTime $TicketIssueDate, $TicketingAgentSignOn, $CountryCode, $Status)
+    public function __construct($Number = null, $IATANumber = null, \DateTime $TicketIssueDate = null, $TicketingAgentSignOn = null, $CountryCode = null, $Status = null)
     {
       $this->Number = $Number;
       $this->IATANumber = $IATANumber;
-      $this->TicketIssueDate = $TicketIssueDate->format(\DateTime::ATOM);
+      $this->TicketIssueDate = $TicketIssueDate ? $TicketIssueDate->format(\DateTime::ATOM) : null;
       $this->TicketingAgentSignOn = $TicketingAgentSignOn;
       $this->CountryCode = $CountryCode;
       $this->Status = $Status;

@@ -19,7 +19,7 @@ class typeProfileInfo
      * @param StringLength1to255 $AdditionalIdentifier
      * @param typeDescription $Description
      */
-    public function __construct($AdditionalIdentifier, $Description)
+    public function __construct($AdditionalIdentifier = null, $Description = null)
     {
       $this->AdditionalIdentifier = $AdditionalIdentifier;
       $this->Description = $Description;

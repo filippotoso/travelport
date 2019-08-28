@@ -37,7 +37,7 @@ class RailSpecificSeatAssignment
      * @param typeRef $RailSegmentRef
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($CoachLabel, $PlaceLabel, $Assignment, $RailSegmentRef, $BookingTravelerRef)
+    public function __construct($CoachLabel = null, $PlaceLabel = null, $Assignment = null, $RailSegmentRef = null, $BookingTravelerRef = null)
     {
       $this->CoachLabel = $CoachLabel;
       $this->PlaceLabel = $PlaceLabel;

@@ -25,7 +25,7 @@ class typeAgencyPaymentHistory
      * @param anonymous921 $AgencyBillingNumber
      * @param anonymous922 $AgencyBillingPassword
      */
-    public function __construct($AgencyBillingIdentifier, $AgencyBillingNumber, $AgencyBillingPassword)
+    public function __construct($AgencyBillingIdentifier = null, $AgencyBillingNumber = null, $AgencyBillingPassword = null)
     {
       $this->AgencyBillingIdentifier = $AgencyBillingIdentifier;
       $this->AgencyBillingNumber = $AgencyBillingNumber;

@@ -61,7 +61,7 @@ class typeDepositGuarantee
      * @param boolean $Required
      * @param boolean $RequirementPassed
      */
-    public function __construct($Purpose, $Type, $Amount, $Percent, $DueDate, $NumberOfDays, $OptionType, $Required, $RequirementPassed)
+    public function __construct($Purpose = null, $Type = null, $Amount = null, $Percent = null, $DueDate = null, $NumberOfDays = null, $OptionType = null, $Required = null, $RequirementPassed = null)
     {
       $this->Purpose = $Purpose;
       $this->Type = $Type;

@@ -16,7 +16,7 @@ class EndpointAdd extends typeEditableEndpoint
      * @param typeFieldRef $CustomFieldRef
      * @param typePurposeTypeCode $PurposeTypeCode
      */
-    public function __construct($ID, $FixedFieldRef, $CustomFieldRef, $PurposeTypeCode)
+    public function __construct($ID = null, $FixedFieldRef = null, $CustomFieldRef = null, $PurposeTypeCode = null)
     {
       parent::__construct($ID, $FixedFieldRef, $CustomFieldRef);
       $this->PurposeTypeCode = $PurposeTypeCode;

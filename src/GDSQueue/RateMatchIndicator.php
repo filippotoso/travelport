@@ -25,7 +25,7 @@ class RateMatchIndicator
      * @param anonymous1226 $Status
      * @param string $Value
      */
-    public function __construct($Type, $Status, $Value)
+    public function __construct($Type = null, $Status = null, $Value = null)
     {
       $this->Type = $Type;
       $this->Status = $Status;

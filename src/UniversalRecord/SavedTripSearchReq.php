@@ -66,7 +66,7 @@ class SavedTripSearchReq extends BaseReq
      * @param RailReservationCriteria $RailReservationCriteria
      * @param typeSavedTripRecordStatus $RecordStatus
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $SavedTripSearchModifiers, $TravelerCriteria, $SearchAgent, $AirReservationCriteria, $HotelReservationCriteria, $VehicleReservationCriteria, $RailReservationCriteria, $RecordStatus)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $SavedTripSearchModifiers = null, $TravelerCriteria = null, $SearchAgent = null, $AirReservationCriteria = null, $HotelReservationCriteria = null, $VehicleReservationCriteria = null, $RailReservationCriteria = null, $RecordStatus = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->SavedTripSearchModifiers = $SavedTripSearchModifiers;

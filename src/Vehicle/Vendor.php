@@ -13,7 +13,7 @@ class Vendor
     /**
      * @param typeSupplierCode $Code
      */
-    public function __construct($Code)
+    public function __construct($Code = null)
     {
       $this->Code = $Code;
     }

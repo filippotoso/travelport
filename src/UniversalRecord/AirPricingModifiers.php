@@ -219,7 +219,7 @@ class AirPricingModifiers
      * @param boolean $SellCheck
      * @param boolean $ReturnFailedSegments
      */
-    public function __construct($PermittedCabins, $ExemptTaxes, $PenaltyFareInformation, $DiscountCard, $ManualFareAdjustment, $PointOfSale, $BrandModifiers, $MultiGDSSearchIndicator, $PreferredCabins, $ProhibitMinStayFares, $ProhibitMaxStayFares, $CurrencyType, $ProhibitAdvancePurchaseFares, $ProhibitNonRefundableFares, $ProhibitRestrictedFares, $FaresIndicator, $FiledCurrency, $PlatingCarrier, $OverrideCarrier, $ETicketability, $AccountCodeFaresOnly, $Key, $ProhibitNonExchangeableFares, $ForceSegmentSelect, $InventoryRequestType, $OneWayShop, $ProhibitUnbundledFareTypes, $ReturnServices, $ChannelId, $ReturnFareAttributes, $SellCheck, $ReturnFailedSegments)
+    public function __construct($PermittedCabins = null, $ExemptTaxes = null, $PenaltyFareInformation = null, $DiscountCard = null, $ManualFareAdjustment = null, $PointOfSale = null, $BrandModifiers = null, $MultiGDSSearchIndicator = null, $PreferredCabins = null, $ProhibitMinStayFares = null, $ProhibitMaxStayFares = null, $CurrencyType = null, $ProhibitAdvancePurchaseFares = null, $ProhibitNonRefundableFares = null, $ProhibitRestrictedFares = null, $FaresIndicator = null, $FiledCurrency = null, $PlatingCarrier = null, $OverrideCarrier = null, $ETicketability = null, $AccountCodeFaresOnly = null, $Key = null, $ProhibitNonExchangeableFares = null, $ForceSegmentSelect = null, $InventoryRequestType = null, $OneWayShop = null, $ProhibitUnbundledFareTypes = null, $ReturnServices = null, $ChannelId = null, $ReturnFareAttributes = null, $SellCheck = null, $ReturnFailedSegments = null)
     {
       $this->PermittedCabins = $PermittedCabins;
       $this->ExemptTaxes = $ExemptTaxes;

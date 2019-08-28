@@ -25,7 +25,7 @@ class State
      * @param string $Name
      * @param typeCountry $CountryCode
      */
-    public function __construct($Code, $Name, $CountryCode)
+    public function __construct($Code = null, $Name = null, $CountryCode = null)
     {
       $this->Code = $Code;
       $this->Name = $Name;

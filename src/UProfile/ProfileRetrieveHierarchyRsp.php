@@ -18,7 +18,7 @@ class ProfileRetrieveHierarchyRsp extends BaseRsp
      * @param string $CommandHistory
      * @param HierarchyLevel $HierarchyLevel
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $HierarchyLevel)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $HierarchyLevel = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->HierarchyLevel = $HierarchyLevel;

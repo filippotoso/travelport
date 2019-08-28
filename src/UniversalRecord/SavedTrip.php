@@ -272,7 +272,7 @@ class SavedTrip
      * @param string $CreatedByAgent
      * @param string $ModifiedByAgent
      */
-    public function __construct($BookingTraveler, $AgencyContactInfo, $SearchPassenger, $PointOfSale, $AccountingRemark, $GeneralRemark, $AgencyInfo, $ReservationName, $AirPricingModifiers, $AirPricingSolution, $VehicleSearchModifiers, $VehicleDateLocation, $SpecialEquipment, $VehicleSpecialRequest, $PaymentInformation, $DeliveryAddress, $CollectionAddress, $FlightArrivalInformation, $Vehicle, $VendorLocation, $HotelProperty, $HotelStay, $HotelRulesModifiers, $HotelDetailsModifiers, $HotelRateDetail, $PromotionCode, $RailPricingSolution, $RailFareNote, $SavedTripActivity, $ProfileAssociation, $PolicyInformation, $LocatorCode, $UniversalRecordLocatorCode, $Name, \DateTime $CreateDate, \DateTime $ModifiedDate, $Version, $Status, $CreatedByAgent, $ModifiedByAgent)
+    public function __construct($BookingTraveler = null, $AgencyContactInfo = null, $SearchPassenger = null, $PointOfSale = null, $AccountingRemark = null, $GeneralRemark = null, $AgencyInfo = null, $ReservationName = null, $AirPricingModifiers = null, $AirPricingSolution = null, $VehicleSearchModifiers = null, $VehicleDateLocation = null, $SpecialEquipment = null, $VehicleSpecialRequest = null, $PaymentInformation = null, $DeliveryAddress = null, $CollectionAddress = null, $FlightArrivalInformation = null, $Vehicle = null, $VendorLocation = null, $HotelProperty = null, $HotelStay = null, $HotelRulesModifiers = null, $HotelDetailsModifiers = null, $HotelRateDetail = null, $PromotionCode = null, $RailPricingSolution = null, $RailFareNote = null, $SavedTripActivity = null, $ProfileAssociation = null, $PolicyInformation = null, $LocatorCode = null, $UniversalRecordLocatorCode = null, $Name = null, \DateTime $CreateDate = null, \DateTime $ModifiedDate = null, $Version = null, $Status = null, $CreatedByAgent = null, $ModifiedByAgent = null)
     {
       $this->BookingTraveler = $BookingTraveler;
       $this->AgencyContactInfo = $AgencyContactInfo;
@@ -308,8 +308,8 @@ class SavedTrip
       $this->LocatorCode = $LocatorCode;
       $this->UniversalRecordLocatorCode = $UniversalRecordLocatorCode;
       $this->Name = $Name;
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
-      $this->ModifiedDate = $ModifiedDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
+      $this->ModifiedDate = $ModifiedDate ? $ModifiedDate->format(\DateTime::ATOM) : null;
       $this->Version = $Version;
       $this->Status = $Status;
       $this->CreatedByAgent = $CreatedByAgent;

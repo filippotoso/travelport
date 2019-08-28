@@ -19,7 +19,7 @@ class AirUpsellOfferSearchCriteria
      * @param AccountCode $AccountCode
      * @param typeClassOfService $ClassOfService
      */
-    public function __construct($AccountCode, $ClassOfService)
+    public function __construct($AccountCode = null, $ClassOfService = null)
     {
       $this->AccountCode = $AccountCode;
       $this->ClassOfService = $ClassOfService;

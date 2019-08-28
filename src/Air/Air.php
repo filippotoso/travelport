@@ -64,7 +64,7 @@ class Air extends typeTransactionsAllowed
      * @param boolean $AirportsEnabled
      * @param boolean $ODEnabled
      */
-    public function __construct($BookingEnabled, $ShoppingEnabled, $PricingEnabled, $OneWayShop, $FlexExplore, $RapidRepriceEnabled, $ReturnUpsellFare, $Tier, $DaysEnabled, $WeekendsEnabled, $AirportsEnabled, $ODEnabled)
+    public function __construct($BookingEnabled = null, $ShoppingEnabled = null, $PricingEnabled = null, $OneWayShop = null, $FlexExplore = null, $RapidRepriceEnabled = null, $ReturnUpsellFare = null, $Tier = null, $DaysEnabled = null, $WeekendsEnabled = null, $AirportsEnabled = null, $ODEnabled = null)
     {
       parent::__construct($BookingEnabled, $ShoppingEnabled, $PricingEnabled);
       $this->OneWayShop = $OneWayShop;

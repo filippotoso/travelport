@@ -55,7 +55,7 @@ class HierarchyLevel
      * @param typeID $HierarchyLevelID
      * @param typeProfileType $ProfileType
      */
-    public function __construct($DefaultTemplate, $Name, $LevelNumber, $Description, $TemplateID, $TemplateVersion, $HierarchyLevelID, $ProfileType)
+    public function __construct($DefaultTemplate = null, $Name = null, $LevelNumber = null, $Description = null, $TemplateID = null, $TemplateVersion = null, $HierarchyLevelID = null, $ProfileType = null)
     {
       $this->DefaultTemplate = $DefaultTemplate;
       $this->Name = $Name;

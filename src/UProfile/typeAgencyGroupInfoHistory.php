@@ -15,7 +15,7 @@ class typeAgencyGroupInfoHistory extends typeProfileInfo
      * @param typeDescription $Description
      * @param StringLength1to128 $Name
      */
-    public function __construct($AdditionalIdentifier, $Description, $Name)
+    public function __construct($AdditionalIdentifier = null, $Description = null, $Name = null)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->Name = $Name;

@@ -31,7 +31,7 @@ class ExchangeEligibilityInfo
      * @param string $RefundableFares
      * @param boolean $PassedAutomationChecks
      */
-    public function __construct($ExchangePenaltyInfo, $EligibleFares, $RefundableFares, $PassedAutomationChecks)
+    public function __construct($ExchangePenaltyInfo = null, $EligibleFares = null, $RefundableFares = null, $PassedAutomationChecks = null)
     {
       $this->ExchangePenaltyInfo = $ExchangePenaltyInfo;
       $this->EligibleFares = $EligibleFares;

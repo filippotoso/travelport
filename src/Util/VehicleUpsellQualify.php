@@ -151,7 +151,7 @@ class VehicleUpsellQualify
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key, $VendorCode, $EffectiveDate, $ExpirationDate, $ProviderCode, $PickupDateTime, $PickupLocation, $ReturnDateTime, $ReturnLocation, $PickupLocationType, $ReturnLocationType, $PickupLocationNumber, $ReturnLocationNumber, $AirConditioning, $TransmissionType, $VehicleClass, $Category, $DoorCount, $RateCode, $RateCategory, $DiscountNumber, $OfferRef, $ElStat, $KeyOverride)
+    public function __construct($Key = null, $VendorCode = null, $EffectiveDate = null, $ExpirationDate = null, $ProviderCode = null, $PickupDateTime = null, $PickupLocation = null, $ReturnDateTime = null, $ReturnLocation = null, $PickupLocationType = null, $ReturnLocationType = null, $PickupLocationNumber = null, $ReturnLocationNumber = null, $AirConditioning = null, $TransmissionType = null, $VehicleClass = null, $Category = null, $DoorCount = null, $RateCode = null, $RateCategory = null, $DiscountNumber = null, $OfferRef = null, $ElStat = null, $KeyOverride = null)
     {
       $this->Key = $Key;
       $this->VendorCode = $VendorCode;

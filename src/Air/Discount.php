@@ -19,7 +19,7 @@ class Discount
      * @param DiscountCard $DiscountCard
      * @param typeRef $Key
      */
-    public function __construct($DiscountCard, $Key)
+    public function __construct($DiscountCard = null, $Key = null)
     {
       $this->DiscountCard = $DiscountCard;
       $this->Key = $Key;

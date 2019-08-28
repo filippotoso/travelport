@@ -121,7 +121,7 @@ class FixedFieldGroup
      * @param int $MaxOccursOverride
      * @param boolean $InheritableControlInd
      */
-    public function __construct($FixedField, $FixedFieldGroup, $ID, $ReadOnly, $Overriden, $Name, $Description, $Component, $CorrelationElement, $CorrelationValue, $DisplayOrder, $Hide, $Inheritable, $MinOccurs, $MaxOccurs, $Label, $MinOccursOverride, $MaxOccursOverride, $InheritableControlInd)
+    public function __construct($FixedField = null, $FixedFieldGroup = null, $ID = null, $ReadOnly = null, $Overriden = null, $Name = null, $Description = null, $Component = null, $CorrelationElement = null, $CorrelationValue = null, $DisplayOrder = null, $Hide = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null, $Label = null, $MinOccursOverride = null, $MaxOccursOverride = null, $InheritableControlInd = null)
     {
       $this->FixedField = $FixedField;
       $this->FixedFieldGroup = $FixedFieldGroup;

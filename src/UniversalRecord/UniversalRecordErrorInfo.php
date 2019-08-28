@@ -25,7 +25,7 @@ class UniversalRecordErrorInfo extends typeErrorInfo
      * @param typeLocatorCode $LocatorCode
      * @param typeURVersion $Version
      */
-    public function __construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata, $LocatorCode, $Version)
+    public function __construct($Code = null, $Service = null, $Type = null, $Description = null, $TransactionId = null, $Auxdata = null, $LocatorCode = null, $Version = null)
     {
       parent::__construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata);
       $this->LocatorCode = $LocatorCode;

@@ -54,7 +54,7 @@ class AvailabilitySearchReq extends AirSearchReq
      * @param anonymous1189 $ChannelId
      * @param anonymous1190 $NSCC
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference, $PointOfCommencement, $SearchAirLeg, $SearchSpecificAirSegment, $AirSearchModifiers, $JourneyData, $SearchPassenger, $PointOfSale, $ReturnBrandIndicator, $ChannelId, $NSCC)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $NextResultReference = null, $PointOfCommencement = null, $SearchAirLeg = null, $SearchSpecificAirSegment = null, $AirSearchModifiers = null, $JourneyData = null, $SearchPassenger = null, $PointOfSale = null, $ReturnBrandIndicator = null, $ChannelId = null, $NSCC = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference, $PointOfCommencement, $SearchAirLeg, $SearchSpecificAirSegment, $AirSearchModifiers, $JourneyData);
       $this->SearchPassenger = $SearchPassenger;

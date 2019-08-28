@@ -25,7 +25,7 @@ class SponsoredFltInfo
      * @param int $NeutralLNB
      * @param anonymous829 $FltKey
      */
-    public function __construct($SponsoredLNB, $NeutralLNB, $FltKey)
+    public function __construct($SponsoredLNB = null, $NeutralLNB = null, $FltKey = null)
     {
       $this->SponsoredLNB = $SponsoredLNB;
       $this->NeutralLNB = $NeutralLNB;

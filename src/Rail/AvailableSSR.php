@@ -24,7 +24,7 @@ class AvailableSSR
      * @param SSR $SSR
      * @param IndustryStandardSSR $IndustryStandardSSR
      */
-    public function __construct($SSR, $IndustryStandardSSR)
+    public function __construct($SSR = null, $IndustryStandardSSR = null)
     {
       $this->SSR = $SSR;
       $this->IndustryStandardSSR = $IndustryStandardSSR;

@@ -13,7 +13,7 @@ class Credentials
     /**
      * @param anonymous28 $UserId
      */
-    public function __construct($UserId)
+    public function __construct($UserId = null)
     {
       $this->UserId = $UserId;
     }

@@ -24,7 +24,7 @@ class DocumentInfo
      * @param TicketInfo $TicketInfo
      * @param TCRInfo $TCRInfo
      */
-    public function __construct($TicketInfo, $TCRInfo)
+    public function __construct($TicketInfo = null, $TCRInfo = null)
     {
       $this->TicketInfo = $TicketInfo;
       $this->TCRInfo = $TCRInfo;

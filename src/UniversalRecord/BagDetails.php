@@ -55,7 +55,7 @@ class BagDetails
      * @param typeMoney $TotalPrice
      * @param typeMoney $ApproximateTotalPrice
      */
-    public function __construct($BaggageRestriction, $AvailableDiscount, $ApplicableBags, $BasePrice, $ApproximateBasePrice, $Taxes, $TotalPrice, $ApproximateTotalPrice)
+    public function __construct($BaggageRestriction = null, $AvailableDiscount = null, $ApplicableBags = null, $BasePrice = null, $ApproximateBasePrice = null, $Taxes = null, $TotalPrice = null, $ApproximateTotalPrice = null)
     {
       $this->BaggageRestriction = $BaggageRestriction;
       $this->AvailableDiscount = $AvailableDiscount;

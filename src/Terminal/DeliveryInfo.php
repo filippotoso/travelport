@@ -59,7 +59,7 @@ class DeliveryInfo extends typeStructuredAddress
      * @param anonymous122 $SignatureRequired
      * @param string $TrackingNumber
      */
-    public function __construct($State, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride, $PhoneNumber, $Email, $GeneralRemark, $Type, $SignatureRequired, $TrackingNumber)
+    public function __construct($State = null, $ProviderReservationInfoRef = null, $Key = null, $ElStat = null, $KeyOverride = null, $PhoneNumber = null, $Email = null, $GeneralRemark = null, $Type = null, $SignatureRequired = null, $TrackingNumber = null)
     {
       parent::__construct($State, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride);
       $this->PhoneNumber = $PhoneNumber;

@@ -43,7 +43,7 @@ class SearchRailLeg
      * @param typeTimeSpec[] $SearchArvTime
      * @param RailLegModifiers $RailLegModifiers
      */
-    public function __construct(array $SearchOrigin, array $SearchDestination, $RailSegmentList, array $SearchDepTime, array $SearchArvTime, $RailLegModifiers)
+    public function __construct(array $SearchOrigin = null, array $SearchDestination = null, $RailSegmentList = null, array $SearchDepTime = null, array $SearchArvTime = null, $RailLegModifiers = null)
     {
       $this->SearchOrigin = $SearchOrigin;
       $this->SearchDestination = $SearchDestination;

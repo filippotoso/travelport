@@ -126,7 +126,7 @@ class Brand
      * @param StringLength1to10 $BrandTier
      * @param StringLength1to99 $BrandMaintained
      */
-    public function __construct($Title, $Text, $ImageLocation, $OptionalServices, $Rules, $ServiceAssociations, $UpsellBrand, $DefaultBrandDetail, $Key, $BrandID, $Name, $AirItineraryDetailsRef, $UpSellBrandID, $BrandFound, $UpSellBrandFound, $BrandedDetailsAvailable, $Carrier, $BrandTier, $BrandMaintained)
+    public function __construct($Title = null, $Text = null, $ImageLocation = null, $OptionalServices = null, $Rules = null, $ServiceAssociations = null, $UpsellBrand = null, $DefaultBrandDetail = null, $Key = null, $BrandID = null, $Name = null, $AirItineraryDetailsRef = null, $UpSellBrandID = null, $BrandFound = null, $UpSellBrandFound = null, $BrandedDetailsAvailable = null, $Carrier = null, $BrandTier = null, $BrandMaintained = null)
     {
       $this->Title = $Title;
       $this->Text = $Text;

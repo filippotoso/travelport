@@ -43,7 +43,7 @@ class AirUpsellOffer
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($AccountCode, $ClassOfService, $CabinClass, $Key, $ElStat, $KeyOverride)
+    public function __construct($AccountCode = null, $ClassOfService = null, $CabinClass = null, $Key = null, $ElStat = null, $KeyOverride = null)
     {
       $this->AccountCode = $AccountCode;
       $this->ClassOfService = $ClassOfService;

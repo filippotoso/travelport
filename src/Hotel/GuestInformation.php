@@ -30,7 +30,7 @@ class GuestInformation
      * @param NumberOfChildren $NumberOfChildren
      * @param int $NumberOfRooms
      */
-    public function __construct($NumberOfAdults, $NumberOfChildren, $NumberOfRooms)
+    public function __construct($NumberOfAdults = null, $NumberOfChildren = null, $NumberOfRooms = null)
     {
       $this->NumberOfAdults = $NumberOfAdults;
       $this->NumberOfChildren = $NumberOfChildren;

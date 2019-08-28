@@ -42,7 +42,7 @@ class AgencyServiceFeeCreateReq extends BaseReq
      * @param typeLocatorCode $ProviderLocatorCode
      * @param string $ProviderCode
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $ServiceFeeInfo, $UniversalRecordLocatorCode, $ProviderLocatorCode, $ProviderCode)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ServiceFeeInfo = null, $UniversalRecordLocatorCode = null, $ProviderLocatorCode = null, $ProviderCode = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->ServiceFeeInfo = $ServiceFeeInfo;

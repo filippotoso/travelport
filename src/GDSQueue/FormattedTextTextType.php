@@ -31,7 +31,7 @@ class FormattedTextTextType
      * @param anonymous331 $TextFormat
      * @param language $Language
      */
-    public function __construct($_, $Formatted, $TextFormat, $Language)
+    public function __construct($_ = null, $Formatted = null, $TextFormat = null, $Language = null)
     {
       $this->_ = $_;
       $this->Formatted = $Formatted;

@@ -62,7 +62,7 @@ class SolutionGroup
      * @param anonymous567 $Tag
      * @param boolean $Primary
      */
-    public function __construct($Count, $TripType, $Diversification, $Tag, $Primary)
+    public function __construct($Count = null, $TripType = null, $Diversification = null, $Tag = null, $Primary = null)
     {
       $this->Count = $Count;
       $this->TripType = $TripType;

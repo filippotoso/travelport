@@ -25,7 +25,7 @@ class typeDateOptions
      * @param typeMonth $Month
      * @param typeYear $Year
      */
-    public function __construct($Day, $Month, $Year)
+    public function __construct($Day = null, $Month = null, $Year = null)
     {
       $this->Day = $Day;
       $this->Month = $Month;

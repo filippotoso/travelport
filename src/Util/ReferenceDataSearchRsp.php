@@ -62,7 +62,7 @@ class ReferenceDataSearchRsp extends BaseRsp
      * @param int $ResponseTime
      * @param string $CommandHistory
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
     }

@@ -43,7 +43,7 @@ class AgencySellInfo
      * @param typePCC $PseudoCityCode
      * @param typeIATACode $CityCode
      */
-    public function __construct($IataCode, $Country, $CurrencyCode, $ProviderCode, $PseudoCityCode, $CityCode)
+    public function __construct($IataCode = null, $Country = null, $CurrencyCode = null, $ProviderCode = null, $PseudoCityCode = null, $CityCode = null)
     {
       $this->IataCode = $IataCode;
       $this->Country = $Country;

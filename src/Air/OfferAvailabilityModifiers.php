@@ -23,7 +23,7 @@ class OfferAvailabilityModifiers
     /**
      * @param typeCurrency $CurrencyType
      */
-    public function __construct($CurrencyType)
+    public function __construct($CurrencyType = null)
     {
       $this->CurrencyType = $CurrencyType;
     }

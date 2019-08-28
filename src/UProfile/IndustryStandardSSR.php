@@ -13,7 +13,7 @@ class IndustryStandardSSR
     /**
      * @param string $Code
      */
-    public function __construct($Code)
+    public function __construct($Code = null)
     {
       $this->Code = $Code;
     }

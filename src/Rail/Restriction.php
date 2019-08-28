@@ -19,7 +19,7 @@ class Restriction
      * @param DaysOfWeekRestriction $DaysOfWeekRestriction
      * @param RestrictionPassengerTypes $RestrictionPassengerTypes
      */
-    public function __construct($DaysOfWeekRestriction, $RestrictionPassengerTypes)
+    public function __construct($DaysOfWeekRestriction = null, $RestrictionPassengerTypes = null)
     {
       $this->DaysOfWeekRestriction = $DaysOfWeekRestriction;
       $this->RestrictionPassengerTypes = $RestrictionPassengerTypes;

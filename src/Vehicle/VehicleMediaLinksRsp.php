@@ -18,7 +18,7 @@ class VehicleMediaLinksRsp extends BaseRsp
      * @param string $CommandHistory
      * @param VehicleWithMediaItems $VehicleWithMediaItems
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $VehicleWithMediaItems)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $VehicleWithMediaItems = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->VehicleWithMediaItems = $VehicleWithMediaItems;

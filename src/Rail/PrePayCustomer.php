@@ -36,7 +36,7 @@ class PrePayCustomer
      * @param RelatedTraveler $RelatedTraveler
      * @param LoyaltyCard $LoyaltyCard
      */
-    public function __construct($PersonName, $Email, $RelatedTraveler, $LoyaltyCard)
+    public function __construct($PersonName = null, $Email = null, $RelatedTraveler = null, $LoyaltyCard = null)
     {
       $this->PersonName = $PersonName;
       $this->Email = $Email;

@@ -18,7 +18,7 @@ class ProfileSearchActionRsp extends BaseRsp
      * @param string $CommandHistory
      * @param ActionSummary $ActionSummary
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ActionSummary)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ActionSummary = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ActionSummary = $ActionSummary;

@@ -47,7 +47,7 @@ class AirRetrieveDocumentRsp extends BaseRsp
      * @param ServiceFeeInfo $ServiceFeeInfo
      * @param typeLocatorCode $UniversalRecordLocatorCode
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ETR, $MCO, $TCR, $ServiceFeeInfo, $UniversalRecordLocatorCode)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ETR = null, $MCO = null, $TCR = null, $ServiceFeeInfo = null, $UniversalRecordLocatorCode = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ETR = $ETR;

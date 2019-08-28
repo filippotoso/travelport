@@ -25,7 +25,7 @@ class VoidFailureInfo
      * @param string $TicketNumber
      * @param int $Code
      */
-    public function __construct($_, $TicketNumber, $Code)
+    public function __construct($_ = null, $TicketNumber = null, $Code = null)
     {
       $this->_ = $_;
       $this->TicketNumber = $TicketNumber;

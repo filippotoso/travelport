@@ -13,7 +13,7 @@ class VehicleType
     /**
      * @param typeVehicleTypes $_
      */
-    public function __construct($_)
+    public function __construct($_ = null)
     {
       $this->_ = $_;
     }

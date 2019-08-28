@@ -19,7 +19,7 @@ class ProfileAssociation
      * @param typeRef $TravelerID
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($TravelerID, $BookingTravelerRef)
+    public function __construct($TravelerID = null, $BookingTravelerRef = null)
     {
       $this->TravelerID = $TravelerID;
       $this->BookingTravelerRef = $BookingTravelerRef;

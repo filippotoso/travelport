@@ -43,7 +43,7 @@ class FareDisplayRule
      * @param string $Source
      * @param string $TariffNumber
      */
-    public function __construct($RuleAdvancedPurchase, $RuleLengthOfStay, $RuleCharges, $RuleNumber, $Source, $TariffNumber)
+    public function __construct($RuleAdvancedPurchase = null, $RuleLengthOfStay = null, $RuleCharges = null, $RuleNumber = null, $Source = null, $TariffNumber = null)
     {
       $this->RuleAdvancedPurchase = $RuleAdvancedPurchase;
       $this->RuleLengthOfStay = $RuleLengthOfStay;

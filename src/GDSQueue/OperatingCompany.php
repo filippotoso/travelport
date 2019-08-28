@@ -25,7 +25,7 @@ class OperatingCompany
      * @param string $Code
      * @param string $Name
      */
-    public function __construct($_, $Code, $Name)
+    public function __construct($_ = null, $Code = null, $Name = null)
     {
       $this->_ = $_;
       $this->Code = $Code;

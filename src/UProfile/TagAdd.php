@@ -25,7 +25,7 @@ class TagAdd
      * @param typeRef $Key
      * @param typeTagID $TagID
      */
-    public function __construct($Element, $Key, $TagID)
+    public function __construct($Element = null, $Key = null, $TagID = null)
     {
       $this->Element = $Element;
       $this->Key = $Key;

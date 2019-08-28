@@ -61,7 +61,7 @@ class typeRemarkHistory extends typeKeyElement
      * @param typeSupplier $Supplier
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key, $Type, $AccountingRemarkType, $Provider, $GeneralRemarkType, $CategoryType, $SupplierType, $Supplier, $PriorityOrder)
+    public function __construct($Key = null, $Type = null, $AccountingRemarkType = null, $Provider = null, $GeneralRemarkType = null, $CategoryType = null, $SupplierType = null, $Supplier = null, $PriorityOrder = null)
     {
       parent::__construct($Key);
       $this->Type = $Type;

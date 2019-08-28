@@ -25,7 +25,7 @@ class AirItinerarySolution
      * @param Connection $Connection
      * @param typeRef $Key
      */
-    public function __construct($AirSegmentRef, $Connection, $Key)
+    public function __construct($AirSegmentRef = null, $Connection = null, $Key = null)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->Connection = $Connection;

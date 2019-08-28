@@ -23,7 +23,7 @@ class ReferenceDataSearchItem
     /**
      * @param anonymous1147 $Type
      */
-    public function __construct($Type)
+    public function __construct($Type = null)
     {
       $this->Type = $Type;
     }

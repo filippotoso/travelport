@@ -19,7 +19,7 @@ class OverrideCurrency
      * @param typeCurrency $CurrencyCode
      * @param typeCountry $CountryCode
      */
-    public function __construct($CurrencyCode, $CountryCode)
+    public function __construct($CurrencyCode = null, $CountryCode = null)
     {
       $this->CurrencyCode = $CurrencyCode;
       $this->CountryCode = $CountryCode;

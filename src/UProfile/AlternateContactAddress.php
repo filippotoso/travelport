@@ -25,7 +25,7 @@ class AlternateContactAddress extends typeTaggableAddress
      * @param typePriorityOrder $PriorityOrder
      * @param typeRef $AlternateContactRef
      */
-    public function __construct($Key, $AddressLine, $City, $State, $OtherStateProvince, $Country, $Postal, $Type, $TagRef, $DeliveryDescription, $Purpose, $PriorityOrder, $AlternateContactRef)
+    public function __construct($Key = null, $AddressLine = null, $City = null, $State = null, $OtherStateProvince = null, $Country = null, $Postal = null, $Type = null, $TagRef = null, $DeliveryDescription = null, $Purpose = null, $PriorityOrder = null, $AlternateContactRef = null)
     {
       parent::__construct($Key, $AddressLine, $City, $State, $OtherStateProvince, $Country, $Postal, $Type, $TagRef, $DeliveryDescription, $Purpose, $PriorityOrder);
       $this->AlternateContactRef = $AlternateContactRef;

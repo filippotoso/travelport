@@ -31,7 +31,7 @@ class typeProviderReservationSpecificInfo
      * @param boolean $ProviderReservationLevel
      * @param boolean $ReservationLevel
      */
-    public function __construct($OperatedBy, $ProviderReservationInfoRef, $ProviderReservationLevel, $ReservationLevel)
+    public function __construct($OperatedBy = null, $ProviderReservationInfoRef = null, $ProviderReservationLevel = null, $ReservationLevel = null)
     {
       $this->OperatedBy = $OperatedBy;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;

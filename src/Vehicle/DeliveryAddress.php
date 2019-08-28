@@ -18,7 +18,7 @@ class DeliveryAddress extends typeStructuredAddress
      * @param boolean $KeyOverride
      * @param PhoneNumber $PhoneNumber
      */
-    public function __construct($State, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride, $PhoneNumber)
+    public function __construct($State = null, $ProviderReservationInfoRef = null, $Key = null, $ElStat = null, $KeyOverride = null, $PhoneNumber = null)
     {
       parent::__construct($State, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride);
       $this->PhoneNumber = $PhoneNumber;

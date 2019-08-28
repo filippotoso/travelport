@@ -19,7 +19,7 @@ class CreditsUsed
      * @param float $UsedCredit
      * @param typeCurrency $CurrencyCode
      */
-    public function __construct($UsedCredit, $CurrencyCode)
+    public function __construct($UsedCredit = null, $CurrencyCode = null)
     {
       $this->UsedCredit = $UsedCredit;
       $this->CurrencyCode = $CurrencyCode;

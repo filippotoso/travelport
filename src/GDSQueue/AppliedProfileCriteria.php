@@ -13,7 +13,7 @@ class AppliedProfileCriteria
     /**
      * @param anonymous1410 $TravelerProfileId
      */
-    public function __construct($TravelerProfileId)
+    public function __construct($TravelerProfileId = null)
     {
       $this->TravelerProfileId = $TravelerProfileId;
     }

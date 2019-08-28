@@ -19,7 +19,7 @@ class BranchBaseInfo
      * @param Address $Address
      * @param Phone $Phone
      */
-    public function __construct($Address, $Phone)
+    public function __construct($Address = null, $Phone = null)
     {
       $this->Address = $Address;
       $this->Phone = $Phone;

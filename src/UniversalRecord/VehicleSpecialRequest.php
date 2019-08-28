@@ -19,7 +19,7 @@ class VehicleSpecialRequest
      * @param typeGeneralText $_
      * @param typeRef $Key
      */
-    public function __construct($_, $Key)
+    public function __construct($_ = null, $Key = null)
     {
       $this->_ = $_;
       $this->Key = $Key;

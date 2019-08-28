@@ -25,7 +25,7 @@ class PassiveRemark
      * @param string $Type
      * @param typeRef $PassiveSegmentRef
      */
-    public function __construct($Text, $Type, $PassiveSegmentRef)
+    public function __construct($Text = null, $Type = null, $PassiveSegmentRef = null)
     {
       $this->Text = $Text;
       $this->Type = $Type;

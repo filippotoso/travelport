@@ -62,7 +62,7 @@ class typeCreditCardType extends typePaymentCard
      * @param typeState $BankStateCode
      * @param boolean $Enett
      */
-    public function __construct($PhoneNumber, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode, $ExtendedPayment, $CustomerReference, $AcceptanceOverride, $ThirdPartyPayment, $BankName, $BankCountryCode, $BankStateCode, $Enett)
+    public function __construct($PhoneNumber = null, $Type = null, $Number = null, $ExpDate = null, $Name = null, $CVV = null, $ApprovalCode = null, $ExtendedPayment = null, $CustomerReference = null, $AcceptanceOverride = null, $ThirdPartyPayment = null, $BankName = null, $BankCountryCode = null, $BankStateCode = null, $Enett = null)
     {
       parent::__construct($PhoneNumber, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode);
       $this->ExtendedPayment = $ExtendedPayment;

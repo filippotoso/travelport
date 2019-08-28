@@ -13,7 +13,7 @@ class DisfavoredAlliances
     /**
      * @param Alliance $Alliance
      */
-    public function __construct($Alliance)
+    public function __construct($Alliance = null)
     {
       $this->Alliance = $Alliance;
     }

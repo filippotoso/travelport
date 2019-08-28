@@ -19,7 +19,7 @@ class ExchangedCoupon
      * @param typeTicketNumber $TicketNumber
      * @param string $CouponNumber
      */
-    public function __construct($TicketNumber, $CouponNumber)
+    public function __construct($TicketNumber = null, $CouponNumber = null)
     {
       $this->TicketNumber = $TicketNumber;
       $this->CouponNumber = $CouponNumber;

@@ -49,7 +49,7 @@ class typeDaysOfOperation
      * @param boolean $Sat
      * @param boolean $Sun
      */
-    public function __construct($Mon, $Tue, $Wed, $Thu, $Fri, $Sat, $Sun)
+    public function __construct($Mon = null, $Tue = null, $Wed = null, $Thu = null, $Fri = null, $Sat = null, $Sun = null)
     {
       $this->Mon = $Mon;
       $this->Tue = $Tue;

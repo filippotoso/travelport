@@ -13,7 +13,7 @@ class RailFareIDList
     /**
      * @param RailFareID $RailFareID
      */
-    public function __construct($RailFareID)
+    public function __construct($RailFareID = null)
     {
       $this->RailFareID = $RailFareID;
     }

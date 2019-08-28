@@ -13,7 +13,7 @@ class BookingGuestInformation
     /**
      * @param typeGuestRoomInformation[] $Room
      */
-    public function __construct(array $Room)
+    public function __construct(array $Room = null)
     {
       $this->Room = $Room;
     }

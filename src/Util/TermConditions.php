@@ -19,7 +19,7 @@ class TermConditions
      * @param LanguageOption $LanguageOption
      * @param boolean $IncludeTermConditions
      */
-    public function __construct($LanguageOption, $IncludeTermConditions)
+    public function __construct($LanguageOption = null, $IncludeTermConditions = null)
     {
       $this->LanguageOption = $LanguageOption;
       $this->IncludeTermConditions = $IncludeTermConditions;

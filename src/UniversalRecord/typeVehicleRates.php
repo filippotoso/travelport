@@ -67,7 +67,7 @@ class typeVehicleRates
      * @param typeMoney $PayNow
      * @param typeMoney $PayLater
      */
-    public function __construct($EstimatedTotalAmount, $BaseRate, $RateForPeriod, $DropOffCharge, $YoungDriverCharge, $SeniorDriverCharge, $FuelSurcharge, $ExtraMileageCharge, $PayNow, $PayLater)
+    public function __construct($EstimatedTotalAmount = null, $BaseRate = null, $RateForPeriod = null, $DropOffCharge = null, $YoungDriverCharge = null, $SeniorDriverCharge = null, $FuelSurcharge = null, $ExtraMileageCharge = null, $PayNow = null, $PayLater = null)
     {
       $this->EstimatedTotalAmount = $EstimatedTotalAmount;
       $this->BaseRate = $BaseRate;

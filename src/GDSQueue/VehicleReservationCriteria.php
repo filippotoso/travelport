@@ -42,7 +42,7 @@ class VehicleReservationCriteria
      * @param string $LocationNumber
      * @param boolean $PassiveOnly
      */
-    public function __construct($VehicleConfirmation, $Location, $VendorCode, $LocationNumber, $PassiveOnly)
+    public function __construct($VehicleConfirmation = null, $Location = null, $VendorCode = null, $LocationNumber = null, $PassiveOnly = null)
     {
       $this->VehicleConfirmation = $VehicleConfirmation;
       $this->Location = $Location;

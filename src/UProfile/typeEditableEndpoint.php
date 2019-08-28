@@ -20,7 +20,7 @@ class typeEditableEndpoint extends typeEndpointRef
      * @param typeFieldRef $FixedFieldRef
      * @param typeFieldRef $CustomFieldRef
      */
-    public function __construct($ID, $FixedFieldRef, $CustomFieldRef)
+    public function __construct($ID = null, $FixedFieldRef = null, $CustomFieldRef = null)
     {
       parent::__construct($ID);
       $this->FixedFieldRef = $FixedFieldRef;

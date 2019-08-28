@@ -31,7 +31,7 @@ class BrandInfo
      * @param typeRef $AirPricingInfoRef
      * @param typeRef $FareInfoRef
      */
-    public function __construct($Key, $BrandID, $AirPricingInfoRef, $FareInfoRef)
+    public function __construct($Key = null, $BrandID = null, $AirPricingInfoRef = null, $FareInfoRef = null)
     {
       $this->Key = $Key;
       $this->BrandID = $BrandID;

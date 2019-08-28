@@ -88,7 +88,7 @@ class AirTicketingReq extends AirBaseReq
      * @param boolean $BulkTicket
      * @param boolean $ValidateSpanishResidency
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AirReservationLocatorCode, $WaiverCode, $Commission, $DetailedBillingInformation, $FaxDetailsInformation, $AirTicketingModifiers, $AirSegmentTicketingModifiers, $ReturnInfoOnFail, $BulkTicket, $ValidateSpanishResidency)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AirReservationLocatorCode = null, $WaiverCode = null, $Commission = null, $DetailedBillingInformation = null, $FaxDetailsInformation = null, $AirTicketingModifiers = null, $AirSegmentTicketingModifiers = null, $ReturnInfoOnFail = null, $BulkTicket = null, $ValidateSpanishResidency = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AirReservationLocatorCode = $AirReservationLocatorCode;

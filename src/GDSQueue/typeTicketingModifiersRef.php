@@ -19,7 +19,7 @@ class typeTicketingModifiersRef
      * @param AirPricingInfoRef $AirPricingInfoRef
      * @param typeRef $Key
      */
-    public function __construct($AirPricingInfoRef, $Key)
+    public function __construct($AirPricingInfoRef = null, $Key = null)
     {
       $this->AirPricingInfoRef = $AirPricingInfoRef;
       $this->Key = $Key;

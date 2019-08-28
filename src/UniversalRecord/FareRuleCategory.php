@@ -13,7 +13,7 @@ class FareRuleCategory
     /**
      * @param anonymous741 $Category
      */
-    public function __construct($Category)
+    public function __construct($Category = null)
     {
       $this->Category = $Category;
     }

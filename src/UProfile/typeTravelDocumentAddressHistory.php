@@ -43,7 +43,7 @@ class typeTravelDocumentAddressHistory
      * @param anonymous733 $Postal
      * @param anonymous734 $City
      */
-    public function __construct($AddressLine, $State, $OtherStateProvince, $Country, $Postal, $City)
+    public function __construct($AddressLine = null, $State = null, $OtherStateProvince = null, $Country = null, $Postal = null, $City = null)
     {
       $this->AddressLine = $AddressLine;
       $this->State = $State;

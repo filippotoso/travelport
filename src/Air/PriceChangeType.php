@@ -31,7 +31,7 @@ class PriceChangeType
      * @param string $Carrier
      * @param string $SegmentRef
      */
-    public function __construct($_, $Amount, $Carrier, $SegmentRef)
+    public function __construct($_ = null, $Amount = null, $Carrier = null, $SegmentRef = null)
     {
       $this->_ = $_;
       $this->Amount = $Amount;

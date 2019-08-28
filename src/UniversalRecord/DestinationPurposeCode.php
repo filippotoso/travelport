@@ -19,7 +19,7 @@ class DestinationPurposeCode
      * @param typeDestinationCode $Destination
      * @param typePurposeCode $Purpose
      */
-    public function __construct($Destination, $Purpose)
+    public function __construct($Destination = null, $Purpose = null)
     {
       $this->Destination = $Destination;
       $this->Purpose = $Purpose;

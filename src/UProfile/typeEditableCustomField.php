@@ -31,7 +31,7 @@ class typeEditableCustomField extends typeCommonEditableField
      * @param boolean $SearchOption
      * @param int $SearchOptionDisplayOrder
      */
-    public function __construct($ID, $MinOccursOverride, $MaxOccursOverride, $Label, $DisplayOrder, $Inheritable, $Hide, $SearchOption, $SearchOptionDisplayOrder)
+    public function __construct($ID = null, $MinOccursOverride = null, $MaxOccursOverride = null, $Label = null, $DisplayOrder = null, $Inheritable = null, $Hide = null, $SearchOption = null, $SearchOptionDisplayOrder = null)
     {
       parent::__construct($ID, $MinOccursOverride, $MaxOccursOverride, $Label, $DisplayOrder, $Inheritable);
       $this->Hide = $Hide;

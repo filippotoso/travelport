@@ -13,7 +13,7 @@ class PseudoCityCode
     /**
      * @param typePCC $Value
      */
-    public function __construct($Value)
+    public function __construct($Value = null)
     {
       $this->Value = $Value;
     }

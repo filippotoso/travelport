@@ -51,7 +51,7 @@ class HotelDetailsReq extends BaseHotelDetailsReq
      * @param boolean $ReturnGuestReviews
      * @param typePolicyReference $PolicyReference
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $HotelProperty, $HotelDetailsModifiers, $PointOfSale, $HostToken, $NextResultReference, $ReturnMediaLinks, $ReturnGuestReviews, $PolicyReference)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $HotelProperty = null, $HotelDetailsModifiers = null, $PointOfSale = null, $HostToken = null, $NextResultReference = null, $ReturnMediaLinks = null, $ReturnGuestReviews = null, $PolicyReference = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $HotelProperty, $HotelDetailsModifiers, $PointOfSale);
       $this->HostToken = $HostToken;

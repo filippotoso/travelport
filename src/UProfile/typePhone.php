@@ -50,7 +50,7 @@ class typePhone extends typeKeyElement
      * @param StringLength1to255 $Description
      * @param typeCityOrAirport $Location
      */
-    public function __construct($Key, $Type, $Country, $AreaCode, $LocalNumber, $Extension, $Description, $Location)
+    public function __construct($Key = null, $Type = null, $Country = null, $AreaCode = null, $LocalNumber = null, $Extension = null, $Description = null, $Location = null)
     {
       parent::__construct($Key);
       $this->Type = $Type;

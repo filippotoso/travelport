@@ -19,7 +19,7 @@ class RatingRange
      * @param typeSimpleHotelRating $MinimumRating
      * @param typeSimpleHotelRating $MaximumRating
      */
-    public function __construct($MinimumRating, $MaximumRating)
+    public function __construct($MinimumRating = null, $MaximumRating = null)
     {
       $this->MinimumRating = $MinimumRating;
       $this->MaximumRating = $MaximumRating;

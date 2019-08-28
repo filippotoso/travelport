@@ -19,7 +19,7 @@ class HotelUpsellRule
      * @param HotelUpsellQualify $HotelUpsellQualify
      * @param HotelUpsellOffer $HotelUpsellOffer
      */
-    public function __construct($HotelUpsellQualify, $HotelUpsellOffer)
+    public function __construct($HotelUpsellQualify = null, $HotelUpsellOffer = null)
     {
       $this->HotelUpsellQualify = $HotelUpsellQualify;
       $this->HotelUpsellOffer = $HotelUpsellOffer;

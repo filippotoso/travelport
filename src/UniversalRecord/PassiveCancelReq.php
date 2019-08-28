@@ -54,7 +54,7 @@ class PassiveCancelReq extends BaseReq
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $PassiveSegmentRef, $FileFinishingInfo, $PassiveReservationLocatorCode, $Version, $ProviderCode, $ProviderLocatorCode)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $PassiveSegmentRef = null, $FileFinishingInfo = null, $PassiveReservationLocatorCode = null, $Version = null, $ProviderCode = null, $ProviderLocatorCode = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->PassiveSegmentRef = $PassiveSegmentRef;

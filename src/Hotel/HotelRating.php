@@ -25,7 +25,7 @@ class HotelRating
      * @param RatingRange $RatingRange
      * @param string $RatingProvider
      */
-    public function __construct(array $Rating, $RatingRange, $RatingProvider)
+    public function __construct(array $Rating = null, $RatingRange = null, $RatingProvider = null)
     {
       $this->Rating = $Rating;
       $this->RatingRange = $RatingRange;

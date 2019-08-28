@@ -25,7 +25,7 @@ class DebitCard
      * @param string $ProfileID
      * @param typeRef $Key
      */
-    public function __construct($IssueNumber, $ProfileID, $Key)
+    public function __construct($IssueNumber = null, $ProfileID = null, $Key = null)
     {
       $this->IssueNumber = $IssueNumber;
       $this->ProfileID = $ProfileID;

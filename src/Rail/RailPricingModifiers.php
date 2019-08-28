@@ -37,7 +37,7 @@ class RailPricingModifiers
      * @param typeCurrency $CurrencyType
      * @param typeRailSearchType $RailSearchType
      */
-    public function __construct($DiscountCard, $ProhibitNonRefundableFares, $ProhibitNonExchangeableFares, $CurrencyType, $RailSearchType)
+    public function __construct($DiscountCard = null, $ProhibitNonRefundableFares = null, $ProhibitNonExchangeableFares = null, $CurrencyType = null, $RailSearchType = null)
     {
       $this->DiscountCard = $DiscountCard;
       $this->ProhibitNonRefundableFares = $ProhibitNonRefundableFares;

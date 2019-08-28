@@ -31,7 +31,7 @@ class typeVoucherInformationHistory
      * @param string $ConfirmationNumber
      * @param string $AccountName
      */
-    public function __construct($VoucherType, $Amount, $ConfirmationNumber, $AccountName)
+    public function __construct($VoucherType = null, $Amount = null, $ConfirmationNumber = null, $AccountName = null)
     {
       $this->VoucherType = $VoucherType;
       $this->Amount = $Amount;

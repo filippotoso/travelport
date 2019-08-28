@@ -37,7 +37,7 @@ class PrePayCancelInfo
      * @param int $NumberOfDaysHours
      * @param int $RentalDays
      */
-    public function __construct($Code, $Amount, $Percent, $NumberOfDaysHours, $RentalDays)
+    public function __construct($Code = null, $Amount = null, $Percent = null, $NumberOfDaysHours = null, $RentalDays = null)
     {
       $this->Code = $Code;
       $this->Amount = $Amount;

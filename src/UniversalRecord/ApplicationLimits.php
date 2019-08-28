@@ -13,7 +13,7 @@ class ApplicationLimits
     /**
      * @param OptionalServiceApplicationLimitType[] $ApplicationLimit
      */
-    public function __construct(array $ApplicationLimit)
+    public function __construct(array $ApplicationLimit = null)
     {
       $this->ApplicationLimit = $ApplicationLimit;
     }

@@ -38,7 +38,7 @@ class BranchCriteria extends typeProfileSearchCriteria
      * @param typeWildcard $PseudoCityCode
      * @param typeWildcard $BranchCode
      */
-    public function __construct($AdditionalIdentifier, $Name, $IataNumber, $BranchType, $PseudoCityCode, $BranchCode)
+    public function __construct($AdditionalIdentifier = null, $Name = null, $IataNumber = null, $BranchType = null, $PseudoCityCode = null, $BranchCode = null)
     {
       parent::__construct($AdditionalIdentifier);
       $this->Name = $Name;

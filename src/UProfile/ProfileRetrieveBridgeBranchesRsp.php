@@ -30,7 +30,7 @@ class ProfileRetrieveBridgeBranchesRsp extends BaseRsp
      * @param typeProfileID $AgentID
      * @param StringLength1to128 $UserName
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $BridgeBranch, $AgentID, $UserName)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $BridgeBranch = null, $AgentID = null, $UserName = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->BridgeBranch = $BridgeBranch;

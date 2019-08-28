@@ -19,7 +19,7 @@ class VoidDocumentInfo
      * @param StringLength1to13 $DocumentNumber
      * @param anonymous453 $DocumentType
      */
-    public function __construct($DocumentNumber, $DocumentType)
+    public function __construct($DocumentNumber = null, $DocumentType = null)
     {
       $this->DocumentNumber = $DocumentNumber;
       $this->DocumentType = $DocumentType;

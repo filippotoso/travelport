@@ -13,7 +13,7 @@ class FareRuleShortRef
     /**
      * @param typeRef $Key
      */
-    public function __construct($Key)
+    public function __construct($Key = null)
     {
       $this->Key = $Key;
     }

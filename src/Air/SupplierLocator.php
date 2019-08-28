@@ -36,12 +36,12 @@ class SupplierLocator
      * @param typeRef $ProviderReservationInfoRef
      * @param \DateTime $CreateDateTime
      */
-    public function __construct($SupplierCode, $SupplierLocatorCode, $ProviderReservationInfoRef, \DateTime $CreateDateTime)
+    public function __construct($SupplierCode = null, $SupplierLocatorCode = null, $ProviderReservationInfoRef = null, \DateTime $CreateDateTime = null)
     {
       $this->SupplierCode = $SupplierCode;
       $this->SupplierLocatorCode = $SupplierLocatorCode;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
-      $this->CreateDateTime = $CreateDateTime->format(\DateTime::ATOM);
+      $this->CreateDateTime = $CreateDateTime ? $CreateDateTime->format(\DateTime::ATOM) : null;
     }
 
     /**

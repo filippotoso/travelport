@@ -66,7 +66,7 @@ class RailExchangeQuoteReq extends BaseReq
      * @param typeLocatorCode $LocatorCode
      * @param typeResponseType $ResponseType
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $SearchRailLeg, $RailSearchModifiers, $SearchPassenger, $HostTokenList, $RailPricingSolution, $RailFareNoteList, $LocatorCode, $ResponseType)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $SearchRailLeg = null, $RailSearchModifiers = null, $SearchPassenger = null, $HostTokenList = null, $RailPricingSolution = null, $RailFareNoteList = null, $LocatorCode = null, $ResponseType = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->SearchRailLeg = $SearchRailLeg;

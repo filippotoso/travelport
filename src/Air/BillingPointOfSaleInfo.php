@@ -19,7 +19,7 @@ class BillingPointOfSaleInfo
      * @param string $OriginApplication
      * @param anonymous398 $CIDBNumber
      */
-    public function __construct($OriginApplication, $CIDBNumber)
+    public function __construct($OriginApplication = null, $CIDBNumber = null)
     {
       $this->OriginApplication = $OriginApplication;
       $this->CIDBNumber = $CIDBNumber;

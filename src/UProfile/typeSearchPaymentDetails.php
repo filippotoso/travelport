@@ -30,7 +30,7 @@ class typeSearchPaymentDetails
      * @param typePaymentSupplier $PaymentSupplier
      * @param StringLength1to255 $AccountNumber
      */
-    public function __construct($Type, $PaymentSupplier, $AccountNumber)
+    public function __construct($Type = null, $PaymentSupplier = null, $AccountNumber = null)
     {
       $this->Type = $Type;
       $this->PaymentSupplier = $PaymentSupplier;

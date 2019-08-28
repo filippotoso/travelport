@@ -13,7 +13,7 @@ class Refundability
     /**
      * @param typeRefundabilityValue $Value
      */
-    public function __construct($Value)
+    public function __construct($Value = null)
     {
       $this->Value = $Value;
     }

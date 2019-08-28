@@ -114,7 +114,7 @@ class UniversalUpdate
      * @param OwnershipChange $OwnershipChange
      * @param FormOfPayment $FormOfPayment
      */
-    public function __construct($AccountingRemark, $GeneralRemark, $OSI, $UnassociatedRemark, $XMLRemark, $Postscript, $BookingTravelerInfo, $ServiceFeeInfo, $AgencyContactInfo, $CustomerID, $CommissionRemark, $ConsolidatorRemark, $InvoiceRemark, $ActionStatus, $ReviewBooking, $OwnershipChange, $FormOfPayment)
+    public function __construct($AccountingRemark = null, $GeneralRemark = null, $OSI = null, $UnassociatedRemark = null, $XMLRemark = null, $Postscript = null, $BookingTravelerInfo = null, $ServiceFeeInfo = null, $AgencyContactInfo = null, $CustomerID = null, $CommissionRemark = null, $ConsolidatorRemark = null, $InvoiceRemark = null, $ActionStatus = null, $ReviewBooking = null, $OwnershipChange = null, $FormOfPayment = null)
     {
       $this->AccountingRemark = $AccountingRemark;
       $this->GeneralRemark = $GeneralRemark;

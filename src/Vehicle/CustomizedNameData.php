@@ -25,7 +25,7 @@ class CustomizedNameData
      * @param typeRef $Key
      * @param typeRef $ProviderReservationInfoRef
      */
-    public function __construct($_, $Key, $ProviderReservationInfoRef)
+    public function __construct($_ = null, $Key = null, $ProviderReservationInfoRef = null)
     {
       $this->_ = $_;
       $this->Key = $Key;

@@ -32,7 +32,7 @@ class typeCommissionReferenceHistory extends typeKeyElement
      * @param typePriorityOrder $PriorityOrder
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key, $AgentName, $AgentNumber, $PriorityOrder, $OwnerID)
+    public function __construct($Key = null, $AgentName = null, $AgentNumber = null, $PriorityOrder = null, $OwnerID = null)
     {
       parent::__construct($Key);
       $this->AgentName = $AgentName;

@@ -30,7 +30,7 @@ class TravelerInformation
      * @param date $VisaExpirationDate
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($HomeAirport, $VisaExpirationDate, $BookingTravelerRef)
+    public function __construct($HomeAirport = null, $VisaExpirationDate = null, $BookingTravelerRef = null)
     {
       $this->HomeAirport = $HomeAirport;
       $this->VisaExpirationDate = $VisaExpirationDate;

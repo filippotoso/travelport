@@ -24,7 +24,7 @@ class EMDIssuanceRsp extends BaseRsp
      * @param EMDSummaryInfo $EMDSummaryInfo
      * @param EMDInfo $EMDInfo
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $EMDSummaryInfo, $EMDInfo)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $EMDSummaryInfo = null, $EMDInfo = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->EMDSummaryInfo = $EMDSummaryInfo;

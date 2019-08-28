@@ -61,7 +61,7 @@ class ProfileChildSummary
      * @param typeProfileID $ProfileID
      * @param typeProfileType $ProfileType
      */
-    public function __construct($Name, $ProvisioningCode, $HierarchyLevelID, $Status, $Version, $Control, $Description, $ProfileID, $ProfileType)
+    public function __construct($Name = null, $ProvisioningCode = null, $HierarchyLevelID = null, $Status = null, $Version = null, $Control = null, $Description = null, $ProfileID = null, $ProfileType = null)
     {
       $this->Name = $Name;
       $this->ProvisioningCode = $ProvisioningCode;

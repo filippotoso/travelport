@@ -25,7 +25,7 @@ class EMDTravelerInfo
      * @param typePTC $TravelerType
      * @param int $Age
      */
-    public function __construct($NameInfo, $TravelerType, $Age)
+    public function __construct($NameInfo = null, $TravelerType = null, $Age = null)
     {
       $this->NameInfo = $NameInfo;
       $this->TravelerType = $TravelerType;

@@ -69,7 +69,7 @@ class RailReservationCriteria
      * @param string $TrainNumber
      * @param boolean $PassiveOnly
      */
-    public function __construct($JourneyOrigin, $JourneyDestination, $JourneyRailLocOrigin, $JourneyRailLocDestination, $SupplierCode, $TrainNumber, $PassiveOnly)
+    public function __construct($JourneyOrigin = null, $JourneyDestination = null, $JourneyRailLocOrigin = null, $JourneyRailLocDestination = null, $SupplierCode = null, $TrainNumber = null, $PassiveOnly = null)
     {
       $this->JourneyOrigin = $JourneyOrigin;
       $this->JourneyDestination = $JourneyDestination;

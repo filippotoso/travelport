@@ -36,7 +36,7 @@ class ReferenceDataItem
      * @param StringLength1to128 $Name
      * @param StringLength1to255 $Description
      */
-    public function __construct($Deprecated, $Code, $Name, $Description)
+    public function __construct($Deprecated = null, $Code = null, $Name = null, $Description = null)
     {
       $this->Deprecated = $Deprecated;
       $this->Code = $Code;

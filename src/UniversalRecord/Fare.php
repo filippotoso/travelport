@@ -25,7 +25,7 @@ class Fare
      * @param boolean $MultipleFareIndicator
      * @param StringLength1to8 $RateCode
      */
-    public function __construct($FareSpecific, $MultipleFareIndicator, $RateCode)
+    public function __construct($FareSpecific = null, $MultipleFareIndicator = null, $RateCode = null)
     {
       $this->FareSpecific = $FareSpecific;
       $this->MultipleFareIndicator = $MultipleFareIndicator;

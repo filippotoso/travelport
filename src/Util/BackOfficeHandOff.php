@@ -25,7 +25,7 @@ class BackOfficeHandOff
      * @param string $Location
      * @param typePCC $PseudoCityCode
      */
-    public function __construct($Type, $Location, $PseudoCityCode)
+    public function __construct($Type = null, $Location = null, $PseudoCityCode = null)
     {
       $this->Type = $Type;
       $this->Location = $Location;

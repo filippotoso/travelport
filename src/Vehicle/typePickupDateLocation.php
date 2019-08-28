@@ -31,7 +31,7 @@ class typePickupDateLocation
      * @param typeVehicleLocation $LocationType
      * @param string $PickupLocationNumber
      */
-    public function __construct($Date, $Location, $LocationType, $PickupLocationNumber)
+    public function __construct($Date = null, $Location = null, $LocationType = null, $PickupLocationNumber = null)
     {
       $this->Date = $Date;
       $this->Location = $Location;

@@ -13,7 +13,7 @@ class HotelType
     /**
      * @param typeSourceLink $SourceLink
      */
-    public function __construct($SourceLink)
+    public function __construct($SourceLink = null)
     {
       $this->SourceLink = $SourceLink;
     }

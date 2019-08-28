@@ -61,7 +61,7 @@ class Ticket
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Coupon, $TicketEndorsement, $TourCode, $ExchangedTicketInfo, $Key, $TicketNumber, $TicketStatus, $ElStat, $KeyOverride)
+    public function __construct($Coupon = null, $TicketEndorsement = null, $TourCode = null, $ExchangedTicketInfo = null, $Key = null, $TicketNumber = null, $TicketStatus = null, $ElStat = null, $KeyOverride = null)
     {
       $this->Coupon = $Coupon;
       $this->TicketEndorsement = $TicketEndorsement;

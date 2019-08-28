@@ -20,7 +20,7 @@ class EndpointRef extends typeEndpointRef
      * @param typePurposeTypeCode $PurposeTypeCode
      * @param string $EndPointCode
      */
-    public function __construct($ID, $PurposeTypeCode, $EndPointCode)
+    public function __construct($ID = null, $PurposeTypeCode = null, $EndPointCode = null)
     {
       parent::__construct($ID);
       $this->PurposeTypeCode = $PurposeTypeCode;

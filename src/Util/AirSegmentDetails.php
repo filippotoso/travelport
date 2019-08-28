@@ -96,7 +96,7 @@ class AirSegmentDetails
      * @param typeCarrier $OperatingCarrier
      * @param typeFlightNumber $FlightNumber
      */
-    public function __construct($PassengerDetailsRef, $BrandID, $Key, $ProviderCode, $Carrier, $Origin, $Destination, \DateTime $DepartureTime, \DateTime $ArrivalTime, $Equipment, $ClassOfService, $CabinClass, $OperatingCarrier, $FlightNumber)
+    public function __construct($PassengerDetailsRef = null, $BrandID = null, $Key = null, $ProviderCode = null, $Carrier = null, $Origin = null, $Destination = null, \DateTime $DepartureTime = null, \DateTime $ArrivalTime = null, $Equipment = null, $ClassOfService = null, $CabinClass = null, $OperatingCarrier = null, $FlightNumber = null)
     {
       $this->PassengerDetailsRef = $PassengerDetailsRef;
       $this->BrandID = $BrandID;
@@ -105,8 +105,8 @@ class AirSegmentDetails
       $this->Carrier = $Carrier;
       $this->Origin = $Origin;
       $this->Destination = $Destination;
-      $this->DepartureTime = $DepartureTime->format(\DateTime::ATOM);
-      $this->ArrivalTime = $ArrivalTime->format(\DateTime::ATOM);
+      $this->DepartureTime = $DepartureTime ? $DepartureTime->format(\DateTime::ATOM) : null;
+      $this->ArrivalTime = $ArrivalTime ? $ArrivalTime->format(\DateTime::ATOM) : null;
       $this->Equipment = $Equipment;
       $this->ClassOfService = $ClassOfService;
       $this->CabinClass = $CabinClass;

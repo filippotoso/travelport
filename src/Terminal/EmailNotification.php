@@ -18,7 +18,7 @@ class EmailNotification
     /**
      * @param anonymous476 $Recipients
      */
-    public function __construct($Recipients)
+    public function __construct($Recipients = null)
     {
       $this->Recipients = $Recipients;
     }

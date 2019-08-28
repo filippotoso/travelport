@@ -44,7 +44,7 @@ class TravelerIdentityInformation extends typeKeyElement
      * @param StringLength1to128 $SecurityQuestion2
      * @param StringLength1to128 $SecurityAnswer2
      */
-    public function __construct($Key, $SecondaryIdCode, $MaskSecondaryIdCode, $SecurityQuestion1, $SecurityAnswer1, $SecurityQuestion2, $SecurityAnswer2)
+    public function __construct($Key = null, $SecondaryIdCode = null, $MaskSecondaryIdCode = null, $SecurityQuestion1 = null, $SecurityAnswer1 = null, $SecurityQuestion2 = null, $SecurityAnswer2 = null)
     {
       parent::__construct($Key);
       $this->SecondaryIdCode = $SecondaryIdCode;

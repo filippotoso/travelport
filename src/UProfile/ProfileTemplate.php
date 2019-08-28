@@ -67,7 +67,7 @@ class ProfileTemplate
      * @param typeTemplateID $BaseTemplateID
      * @param typeProfileID $OwnerProfileID
      */
-    public function __construct($FixedFieldGroup, $CustomField, $CustomFieldGroup, $OverrideDefinition, $ID, $Name, $Description, $Version, $BaseTemplateID, $OwnerProfileID)
+    public function __construct($FixedFieldGroup = null, $CustomField = null, $CustomFieldGroup = null, $OverrideDefinition = null, $ID = null, $Name = null, $Description = null, $Version = null, $BaseTemplateID = null, $OwnerProfileID = null)
     {
       $this->FixedFieldGroup = $FixedFieldGroup;
       $this->CustomField = $CustomField;

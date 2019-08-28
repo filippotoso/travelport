@@ -31,7 +31,7 @@ class typeHotelDetails
      * @param HotelRateDetail $HotelRateDetail
      * @param MediaItem $MediaItem
      */
-    public function __construct($HotelProperty, $HotelDetailItem, $HotelRateDetail, $MediaItem)
+    public function __construct($HotelProperty = null, $HotelDetailItem = null, $HotelRateDetail = null, $MediaItem = null)
     {
       $this->HotelProperty = $HotelProperty;
       $this->HotelDetailItem = $HotelDetailItem;

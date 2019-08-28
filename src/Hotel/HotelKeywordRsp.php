@@ -24,7 +24,7 @@ class HotelKeywordRsp extends BaseRsp
      * @param MarketingInformation $MarketingInformation
      * @param Keyword $Keyword
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $MarketingInformation, $Keyword)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $MarketingInformation = null, $Keyword = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->MarketingInformation = $MarketingInformation;

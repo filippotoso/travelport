@@ -13,7 +13,7 @@ class HotelRateInfo
     /**
      * @param typeRatePlanType $RatePlanType
      */
-    public function __construct($RatePlanType)
+    public function __construct($RatePlanType = null)
     {
       $this->RatePlanType = $RatePlanType;
     }

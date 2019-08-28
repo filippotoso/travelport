@@ -42,7 +42,7 @@ class UniversalRecordImportReq extends BaseReq
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $FileFinishingInfo, $UniversalRecordLocatorCode, $ProviderCode, $ProviderLocatorCode)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $FileFinishingInfo = null, $UniversalRecordLocatorCode = null, $ProviderCode = null, $ProviderLocatorCode = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->FileFinishingInfo = $FileFinishingInfo;

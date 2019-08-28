@@ -75,7 +75,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
      * @param string $ReturnLocationNumber
      * @param typeRef $Key
      */
-    public function __construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken, $LocationType, $LocationCode, $Type, $PickupDateTime, $PickupLocation, $ReturnDateTime, $ReturnLocation, $PickupLocationType, $ReturnLocationType, $PickupLocationNumber, $ReturnLocationNumber)
+    public function __construct($ProviderCode = null, $VendorCode = null, $PreferredOption = null, $VendorLocationID = null, $Key = null, $MoreRatesToken = null, $LocationType = null, $LocationCode = null, $Type = null, $PickupDateTime = null, $PickupLocation = null, $ReturnDateTime = null, $ReturnLocation = null, $PickupLocationType = null, $ReturnLocationType = null, $PickupLocationNumber = null, $ReturnLocationNumber = null)
     {
       parent::__construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken, $LocationType, $LocationCode, $Type);
       $this->PickupDateTime = $PickupDateTime;

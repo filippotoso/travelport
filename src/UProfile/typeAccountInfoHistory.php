@@ -22,7 +22,7 @@ class typeAccountInfoHistory extends typeAccountTypeProfileInfo
      * @param StringLength1to128 $Name
      * @param StringLength1to128 $LocalLanguageName
      */
-    public function __construct($AdditionalIdentifier, $Description, $MidOfficeID, $Name, $LocalLanguageName)
+    public function __construct($AdditionalIdentifier = null, $Description = null, $MidOfficeID = null, $Name = null, $LocalLanguageName = null)
     {
       parent::__construct($AdditionalIdentifier, $Description, $MidOfficeID);
       $this->Name = $Name;

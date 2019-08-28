@@ -67,7 +67,7 @@ class EMDSummary
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($EMDCoupon, $Key, $Number, $PrimaryDocumentIndicator, $InConjunctionWith, $AssociatedTicketNumber, $PlatingCarrier, \DateTime $IssueDate, $ElStat, $KeyOverride)
+    public function __construct($EMDCoupon = null, $Key = null, $Number = null, $PrimaryDocumentIndicator = null, $InConjunctionWith = null, $AssociatedTicketNumber = null, $PlatingCarrier = null, \DateTime $IssueDate = null, $ElStat = null, $KeyOverride = null)
     {
       $this->EMDCoupon = $EMDCoupon;
       $this->Key = $Key;
@@ -76,7 +76,7 @@ class EMDSummary
       $this->InConjunctionWith = $InConjunctionWith;
       $this->AssociatedTicketNumber = $AssociatedTicketNumber;
       $this->PlatingCarrier = $PlatingCarrier;
-      $this->IssueDate = $IssueDate->format(\DateTime::ATOM);
+      $this->IssueDate = $IssueDate ? $IssueDate->format(\DateTime::ATOM) : null;
       $this->ElStat = $ElStat;
       $this->KeyOverride = $KeyOverride;
     }

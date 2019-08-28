@@ -115,7 +115,7 @@ class typeCustomField
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($FreeformTextRestriction, $WholeNumberRestriction, $DecimalRestriction, $TextRestriction, $AlphaNumericRestriction, $PercentageRestriction, $ID, $Name, $Description, $Type, $Encrypted, $Masked, $DefaultValue, $Protected, $DisplayOrder, $Inheritable, $MinOccurs, $MaxOccurs)
+    public function __construct($FreeformTextRestriction = null, $WholeNumberRestriction = null, $DecimalRestriction = null, $TextRestriction = null, $AlphaNumericRestriction = null, $PercentageRestriction = null, $ID = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $Protected = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
     {
       $this->FreeformTextRestriction = $FreeformTextRestriction;
       $this->WholeNumberRestriction = $WholeNumberRestriction;

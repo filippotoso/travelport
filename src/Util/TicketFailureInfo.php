@@ -37,7 +37,7 @@ class TicketFailureInfo
      * @param string $Message
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($AirPricingInfoRef, $Name, $Code, $Message, $BookingTravelerRef)
+    public function __construct($AirPricingInfoRef = null, $Name = null, $Code = null, $Message = null, $BookingTravelerRef = null)
     {
       $this->AirPricingInfoRef = $AirPricingInfoRef;
       $this->Name = $Name;

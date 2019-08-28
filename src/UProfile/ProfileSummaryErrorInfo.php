@@ -25,7 +25,7 @@ class ProfileSummaryErrorInfo extends typeErrorInfo
      * @param ProfileSummary[] $ProfileSummary
      * @param int $NumberOfChildren
      */
-    public function __construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata, array $ProfileSummary, $NumberOfChildren)
+    public function __construct($Code = null, $Service = null, $Type = null, $Description = null, $TransactionId = null, $Auxdata = null, array $ProfileSummary = null, $NumberOfChildren = null)
     {
       parent::__construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata);
       $this->ProfileSummary = $ProfileSummary;

@@ -31,7 +31,7 @@ class typeVehicleSearchDistance
      * @param anonymous562 $MinDistance
      * @param anonymous563 $MaxDistance
      */
-    public function __construct($Units, $Direction, $MinDistance, $MaxDistance)
+    public function __construct($Units = null, $Direction = null, $MinDistance = null, $MaxDistance = null)
     {
       $this->Units = $Units;
       $this->Direction = $Direction;

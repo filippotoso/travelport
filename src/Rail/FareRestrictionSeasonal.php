@@ -55,7 +55,7 @@ class FareRestrictionSeasonal
      * @param string $SeasonalRange2StartDate
      * @param string $SeasonalRange2EndDate
      */
-    public function __construct($Comment, $VariationByTravelDates, $SeasonalRange1Ind, $SeasonalRange1StartDate, $SeasonalRange1EndDate, $SeasonalRange2Ind, $SeasonalRange2StartDate, $SeasonalRange2EndDate)
+    public function __construct($Comment = null, $VariationByTravelDates = null, $SeasonalRange1Ind = null, $SeasonalRange1StartDate = null, $SeasonalRange1EndDate = null, $SeasonalRange2Ind = null, $SeasonalRange2StartDate = null, $SeasonalRange2EndDate = null)
     {
       $this->Comment = $Comment;
       $this->VariationByTravelDates = $VariationByTravelDates;

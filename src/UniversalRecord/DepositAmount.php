@@ -19,7 +19,7 @@ class DepositAmount
      * @param typeMoney $Amount
      * @param typeMoney $ApproximateAmount
      */
-    public function __construct($Amount, $ApproximateAmount)
+    public function __construct($Amount = null, $ApproximateAmount = null)
     {
       $this->Amount = $Amount;
       $this->ApproximateAmount = $ApproximateAmount;

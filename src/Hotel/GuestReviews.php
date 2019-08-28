@@ -13,7 +13,7 @@ class GuestReviews
     /**
      * @param Comments[] $Comments
      */
-    public function __construct(array $Comments)
+    public function __construct(array $Comments = null)
     {
       $this->Comments = $Comments;
     }

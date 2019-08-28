@@ -137,7 +137,7 @@ class AirLegModifiers
      * @param anonymous735 $OrderBy
      * @param typeMaxJourneyTime $MaxJourneyTime
      */
-    public function __construct($PermittedCabins, $PreferredCabins, $PermittedCarriers, $ProhibitedCarriers, $PreferredCarriers, $PreferredBookingCodes, $FlightType, $ProhibitOvernightLayovers, $MaxConnectionTime, $ReturnFirstAvailableOnly, $AllowDirectAccess, $ProhibitMultiAirportConnection, $PreferNonStop, $OrderBy, $MaxJourneyTime)
+    public function __construct($PermittedCabins = null, $PreferredCabins = null, $PermittedCarriers = null, $ProhibitedCarriers = null, $PreferredCarriers = null, $PreferredBookingCodes = null, $FlightType = null, $ProhibitOvernightLayovers = null, $MaxConnectionTime = null, $ReturnFirstAvailableOnly = null, $AllowDirectAccess = null, $ProhibitMultiAirportConnection = null, $PreferNonStop = null, $OrderBy = null, $MaxJourneyTime = null)
     {
       $this->PermittedCabins = $PermittedCabins;
       $this->PreferredCabins = $PreferredCabins;

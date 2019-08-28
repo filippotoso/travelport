@@ -61,7 +61,7 @@ class QueueElement
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($DepartureDate, $QueueDate, $QueueTime, $Name, $UniversalRecordLocatorCode, $CreatedByAgentCode, $ModifiedByAgentCode, $ProviderCode, $ProviderLocatorCode)
+    public function __construct($DepartureDate = null, $QueueDate = null, $QueueTime = null, $Name = null, $UniversalRecordLocatorCode = null, $CreatedByAgentCode = null, $ModifiedByAgentCode = null, $ProviderCode = null, $ProviderLocatorCode = null)
     {
       $this->DepartureDate = $DepartureDate;
       $this->QueueDate = $QueueDate;

@@ -19,7 +19,7 @@ class BookingCodeInfo
      * @param string $CabinClass
      * @param string $BookingCounts
      */
-    public function __construct($CabinClass, $BookingCounts)
+    public function __construct($CabinClass = null, $BookingCounts = null)
     {
       $this->CabinClass = $CabinClass;
       $this->BookingCounts = $BookingCounts;

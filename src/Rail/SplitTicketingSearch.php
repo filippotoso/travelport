@@ -13,7 +13,7 @@ class SplitTicketingSearch
     /**
      * @param int $RoundTrip
      */
-    public function __construct($RoundTrip)
+    public function __construct($RoundTrip = null)
     {
       $this->RoundTrip = $RoundTrip;
     }

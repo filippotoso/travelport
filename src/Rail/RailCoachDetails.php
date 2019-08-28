@@ -25,7 +25,7 @@ class RailCoachDetails
      * @param string $AvailableRailSeats
      * @param boolean $RailSeatMapAvailability
      */
-    public function __construct($RailCoachNumber, $AvailableRailSeats, $RailSeatMapAvailability)
+    public function __construct($RailCoachNumber = null, $AvailableRailSeats = null, $RailSeatMapAvailability = null)
     {
       $this->RailCoachNumber = $RailCoachNumber;
       $this->AvailableRailSeats = $AvailableRailSeats;

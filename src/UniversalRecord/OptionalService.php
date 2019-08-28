@@ -103,7 +103,7 @@ class OptionalService
      * @param boolean $AirCityIndicator
      * @param boolean $PurchaseIndicator
      */
-    public function __construct($OptionJourneyDetails, $BookingTravelerRef, $FeatureType, $Status, $Quantity, $ProviderDefinedType, $Description, $StartDate, $EndDate, $BookingDate, $SetIdentifier, $SetName, $TotalPrice, $TransportIndicator, $AirCityIndicator, $PurchaseIndicator)
+    public function __construct($OptionJourneyDetails = null, $BookingTravelerRef = null, $FeatureType = null, $Status = null, $Quantity = null, $ProviderDefinedType = null, $Description = null, $StartDate = null, $EndDate = null, $BookingDate = null, $SetIdentifier = null, $SetName = null, $TotalPrice = null, $TransportIndicator = null, $AirCityIndicator = null, $PurchaseIndicator = null)
     {
       $this->OptionJourneyDetails = $OptionJourneyDetails;
       $this->BookingTravelerRef = $BookingTravelerRef;

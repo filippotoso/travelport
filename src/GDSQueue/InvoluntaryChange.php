@@ -13,7 +13,7 @@ class InvoluntaryChange
     /**
      * @param TicketEndorsement $TicketEndorsement
      */
-    public function __construct($TicketEndorsement)
+    public function __construct($TicketEndorsement = null)
     {
       $this->TicketEndorsement = $TicketEndorsement;
     }

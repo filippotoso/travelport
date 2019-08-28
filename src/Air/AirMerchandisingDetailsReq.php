@@ -36,7 +36,7 @@ class AirMerchandisingDetailsReq extends BaseReq
      * @param OptionalServiceModifiers $OptionalServiceModifiers
      * @param MerchandisingAvailabilityDetails $MerchandisingAvailabilityDetails
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $MerchandisingDetails, $OptionalServiceModifiers, $MerchandisingAvailabilityDetails)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $MerchandisingDetails = null, $OptionalServiceModifiers = null, $MerchandisingAvailabilityDetails = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->MerchandisingDetails = $MerchandisingDetails;

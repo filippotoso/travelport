@@ -43,7 +43,7 @@ class typeSearchLocation
      * @param RailLocation $RailLocation
      * @param Distance $Distance
      */
-    public function __construct($Airport, $City, $CityOrAirport, $CoordinateLocation, $RailLocation, $Distance)
+    public function __construct($Airport = null, $City = null, $CityOrAirport = null, $CoordinateLocation = null, $RailLocation = null, $Distance = null)
     {
       $this->Airport = $Airport;
       $this->City = $City;

@@ -19,7 +19,7 @@ class TemplateInfoUpdate
      * @param UNKNOWN $Name
      * @param UNKNOWN $Description
      */
-    public function __construct($Name, $Description)
+    public function __construct($Name = null, $Description = null)
     {
       $this->Name = $Name;
       $this->Description = $Description;

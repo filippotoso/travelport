@@ -31,7 +31,7 @@ class ReferenceDataSearchModifiers
      * @param anonymous1143 $StartFromResult
      * @param typeProviderCode $ProviderCode
      */
-    public function __construct($RailStationLocationModifiers, $MaxResults, $StartFromResult, $ProviderCode)
+    public function __construct($RailStationLocationModifiers = null, $MaxResults = null, $StartFromResult = null, $ProviderCode = null)
     {
       $this->RailStationLocationModifiers = $RailStationLocationModifiers;
       $this->MaxResults = $MaxResults;

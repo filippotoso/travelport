@@ -25,7 +25,7 @@ class FareRuleLong
      * @param int $Category
      * @param string $Type
      */
-    public function __construct($_, $Category, $Type)
+    public function __construct($_ = null, $Category = null, $Type = null)
     {
       $this->_ = $_;
       $this->Category = $Category;

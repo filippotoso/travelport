@@ -47,7 +47,7 @@ class HotelSearchLocation
      * @param CoordinateLocation $CoordinateLocation
      * @param Distance $Distance
      */
-    public function __construct($HotelLocation, $ProviderLocation, $VendorLocation, $CoordinateLocation, $Distance)
+    public function __construct($HotelLocation = null, $ProviderLocation = null, $VendorLocation = null, $CoordinateLocation = null, $Distance = null)
     {
       $this->HotelLocation = $HotelLocation;
       $this->ProviderLocation = $ProviderLocation;

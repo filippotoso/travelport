@@ -119,7 +119,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
      * @param typePriorityOrder $PriorityOrder
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key, $TagRef, $CreditCard, $Certificate, $TicketNumber, $Check, $Requisition, $MiscFormOfPayment, $AgencyPayment, $UnitedNations, $DirectPayment, $AgentVoucher, $PaymentAdvice, $Type, $Description, $PriorityOrder, $OwnerID)
+    public function __construct($Key = null, $TagRef = null, $CreditCard = null, $Certificate = null, $TicketNumber = null, $Check = null, $Requisition = null, $MiscFormOfPayment = null, $AgencyPayment = null, $UnitedNations = null, $DirectPayment = null, $AgentVoucher = null, $PaymentAdvice = null, $Type = null, $Description = null, $PriorityOrder = null, $OwnerID = null)
     {
       parent::__construct($Key, $TagRef);
       $this->CreditCard = $CreditCard;

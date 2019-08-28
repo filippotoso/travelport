@@ -55,7 +55,7 @@ class ProfileTypeSearch
      * @param TravelerCriteria $TravelerCriteria
      * @param TravelerGroupCriteria $TravelerGroupCriteria
      */
-    public function __construct($AgencyGroupCriteria, $AgencyCriteria, $BranchCriteria, $BranchGroupCriteria, $AgentCriteria, $AccountCriteria, $TravelerCriteria, $TravelerGroupCriteria)
+    public function __construct($AgencyGroupCriteria = null, $AgencyCriteria = null, $BranchCriteria = null, $BranchGroupCriteria = null, $AgentCriteria = null, $AccountCriteria = null, $TravelerCriteria = null, $TravelerGroupCriteria = null)
     {
       $this->AgencyGroupCriteria = $AgencyGroupCriteria;
       $this->AgencyCriteria = $AgencyCriteria;

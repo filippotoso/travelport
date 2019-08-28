@@ -13,7 +13,7 @@ class ProhibitedRuleCategories
     /**
      * @param FareRuleCategory $FareRuleCategory
      */
-    public function __construct($FareRuleCategory)
+    public function __construct($FareRuleCategory = null)
     {
       $this->FareRuleCategory = $FareRuleCategory;
     }

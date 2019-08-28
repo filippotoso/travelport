@@ -43,7 +43,7 @@ class UnmaskedDataRemark
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($PseudoCityCode, $Key, $ProviderReservationInfoRef, $ProviderCode, $ElStat, $KeyOverride)
+    public function __construct($PseudoCityCode = null, $Key = null, $ProviderReservationInfoRef = null, $ProviderCode = null, $ElStat = null, $KeyOverride = null)
     {
       $this->PseudoCityCode = $PseudoCityCode;
       $this->Key = $Key;

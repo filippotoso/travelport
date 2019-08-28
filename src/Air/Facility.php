@@ -157,7 +157,7 @@ class Facility
      * @param typeRef $OptionalServiceRef
      * @param typeRef $SeatInformationRef
      */
-    public function __construct($Characteristic, $Remark, $PassengerSeatPrice, $TaxInfo, $EMD, $ServiceData, $TourCode, $Type, $SeatCode, $Availability, $SeatPrice, $Paid, $ServiceSubCode, $SSRCode, $IssuanceReason, $BaseSeatPrice, $Taxes, $Quantity, $SequenceNumber, $InclusiveOfTax, $InterlineSettlementAllowed, $GeographySpecification, $Source, $OptionalServiceRef, $SeatInformationRef)
+    public function __construct($Characteristic = null, $Remark = null, $PassengerSeatPrice = null, $TaxInfo = null, $EMD = null, $ServiceData = null, $TourCode = null, $Type = null, $SeatCode = null, $Availability = null, $SeatPrice = null, $Paid = null, $ServiceSubCode = null, $SSRCode = null, $IssuanceReason = null, $BaseSeatPrice = null, $Taxes = null, $Quantity = null, $SequenceNumber = null, $InclusiveOfTax = null, $InterlineSettlementAllowed = null, $GeographySpecification = null, $Source = null, $OptionalServiceRef = null, $SeatInformationRef = null)
     {
       $this->Characteristic = $Characteristic;
       $this->Remark = $Remark;

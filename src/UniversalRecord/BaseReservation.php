@@ -55,7 +55,7 @@ class BaseReservation
      * @param string $ModifiedDate
      * @param string $CustomerNumber
      */
-    public function __construct($AccountingRemark, $GeneralRemark, $Restriction, $PassiveInfo, $LocatorCode, $CreateDate, $ModifiedDate, $CustomerNumber)
+    public function __construct($AccountingRemark = null, $GeneralRemark = null, $Restriction = null, $PassiveInfo = null, $LocatorCode = null, $CreateDate = null, $ModifiedDate = null, $CustomerNumber = null)
     {
       $this->AccountingRemark = $AccountingRemark;
       $this->GeneralRemark = $GeneralRemark;

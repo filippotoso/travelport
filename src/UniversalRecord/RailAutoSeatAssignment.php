@@ -31,7 +31,7 @@ class RailAutoSeatAssignment
      * @param typeRef $RailSegmentRef
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($SeatType, $SeatValue, $RailSegmentRef, $BookingTravelerRef)
+    public function __construct($SeatType = null, $SeatValue = null, $RailSegmentRef = null, $BookingTravelerRef = null)
     {
       $this->SeatType = $SeatType;
       $this->SeatValue = $SeatValue;

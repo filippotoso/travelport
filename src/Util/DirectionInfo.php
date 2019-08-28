@@ -19,7 +19,7 @@ class DirectionInfo
      * @param typeIATACode $LocationCode
      * @param anonymous970 $Direction
      */
-    public function __construct($LocationCode, $Direction)
+    public function __construct($LocationCode = null, $Direction = null)
     {
       $this->LocationCode = $LocationCode;
       $this->Direction = $Direction;

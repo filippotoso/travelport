@@ -25,7 +25,7 @@ class TicketFeeInfo
      * @param typeMoney $Tax
      * @param typeMoney $Total
      */
-    public function __construct($Base, $Tax, $Total)
+    public function __construct($Base = null, $Tax = null, $Total = null)
     {
       $this->Base = $Base;
       $this->Tax = $Tax;

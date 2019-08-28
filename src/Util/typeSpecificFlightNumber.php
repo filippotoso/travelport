@@ -13,7 +13,7 @@ class typeSpecificFlightNumber
     /**
      * @param typeFlightNumber $FlightNumber
      */
-    public function __construct($FlightNumber)
+    public function __construct($FlightNumber = null)
     {
       $this->FlightNumber = $FlightNumber;
     }

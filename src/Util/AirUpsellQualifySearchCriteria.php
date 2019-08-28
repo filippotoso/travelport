@@ -33,7 +33,7 @@ class AirUpsellQualifySearchCriteria extends UpsellSearchCriteria
      * @param typeIATACode $Origin
      * @param typeIATACode $Destination
      */
-    public function __construct($EffectiveDate, $ExpirationDate, $AccountCode, $Carrier, $Origin, $Destination)
+    public function __construct($EffectiveDate = null, $ExpirationDate = null, $AccountCode = null, $Carrier = null, $Origin = null, $Destination = null)
     {
       parent::__construct($EffectiveDate, $ExpirationDate);
       $this->AccountCode = $AccountCode;

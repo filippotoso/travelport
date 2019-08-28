@@ -54,7 +54,7 @@ class RailAvailabilitySearchReq extends BaseReq
      * @param HostTokenList $HostTokenList
      * @param typeResponseType $ResponseType
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $SearchRailLeg, $SearchPassenger, $RailSearchModifiers, $RailPricingModifiers, $HostTokenList, $ResponseType)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $SearchRailLeg = null, $SearchPassenger = null, $RailSearchModifiers = null, $RailPricingModifiers = null, $HostTokenList = null, $ResponseType = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->SearchRailLeg = $SearchRailLeg;

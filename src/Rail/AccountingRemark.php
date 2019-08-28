@@ -66,7 +66,7 @@ class AccountingRemark
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($RemarkData, $Key, $Category, $TypeInGds, $ProviderReservationInfoRef, $ProviderCode, $UseProviderNativeMode, $ElStat, $KeyOverride)
+    public function __construct($RemarkData = null, $Key = null, $Category = null, $TypeInGds = null, $ProviderReservationInfoRef = null, $ProviderCode = null, $UseProviderNativeMode = null, $ElStat = null, $KeyOverride = null)
     {
       $this->RemarkData = $RemarkData;
       $this->Key = $Key;

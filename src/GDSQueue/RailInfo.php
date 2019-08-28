@@ -61,7 +61,7 @@ class RailInfo
      * @param string $DepartureTime
      * @param string $ArrivalTime
      */
-    public function __construct($TrainNumber, $ProviderCode, $SupplierCode, $Origin, $RailLocOrigin, $Destination, $RailLocDestination, $DepartureTime, $ArrivalTime)
+    public function __construct($TrainNumber = null, $ProviderCode = null, $SupplierCode = null, $Origin = null, $RailLocOrigin = null, $Destination = null, $RailLocDestination = null, $DepartureTime = null, $ArrivalTime = null)
     {
       $this->TrainNumber = $TrainNumber;
       $this->ProviderCode = $ProviderCode;

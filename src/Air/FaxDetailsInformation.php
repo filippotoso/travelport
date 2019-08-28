@@ -19,7 +19,7 @@ class FaxDetailsInformation
      * @param AirPricingInfoRef $AirPricingInfoRef
      * @param FaxDetails $FaxDetails
      */
-    public function __construct($AirPricingInfoRef, $FaxDetails)
+    public function __construct($AirPricingInfoRef = null, $FaxDetails = null)
     {
       $this->AirPricingInfoRef = $AirPricingInfoRef;
       $this->FaxDetails = $FaxDetails;

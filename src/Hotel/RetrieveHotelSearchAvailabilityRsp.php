@@ -23,7 +23,7 @@ class RetrieveHotelSearchAvailabilityRsp extends BaseHotelSearchRsp
      * @param int $AddressSearchQuality
      * @param BaseAsyncProviderSpecificResponse $AsyncProviderSpecificResponse
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $HotelSearchResult, $MarketingInformation, $HostToken, $AddressSearchQuality, $AsyncProviderSpecificResponse)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $NextResultReference = null, $HotelSearchResult = null, $MarketingInformation = null, $HostToken = null, $AddressSearchQuality = null, $AsyncProviderSpecificResponse = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $NextResultReference, $HotelSearchResult, $MarketingInformation, $HostToken, $AddressSearchQuality);
       $this->AsyncProviderSpecificResponse = $AsyncProviderSpecificResponse;

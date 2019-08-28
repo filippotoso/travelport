@@ -19,7 +19,7 @@ class CreditCard
      * @param boolean $ExtractIndicator
      * @param boolean $Active
      */
-    public function __construct($ExtractIndicator, $Active)
+    public function __construct($ExtractIndicator = null, $Active = null)
     {
       $this->ExtractIndicator = $ExtractIndicator;
       $this->Active = $Active;

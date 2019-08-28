@@ -19,7 +19,7 @@ class Criteria
      * @param anonymous572 $Order
      * @param anonymous573 $Type
      */
-    public function __construct($Order, $Type)
+    public function __construct($Order = null, $Type = null)
     {
       $this->Order = $Order;
       $this->Type = $Type;

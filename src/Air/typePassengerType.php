@@ -79,7 +79,7 @@ class typePassengerType
      * @param boolean $AccompaniedPassenger
      * @param typeResidency $ResidencyType
      */
-    public function __construct($Name, $LoyaltyCard, $DiscountCard, $PersonalGeography, $Code, $Age, $DOB, $Gender, $PricePTCOnly, $BookingTravelerRef, $AccompaniedPassenger, $ResidencyType)
+    public function __construct($Name = null, $LoyaltyCard = null, $DiscountCard = null, $PersonalGeography = null, $Code = null, $Age = null, $DOB = null, $Gender = null, $PricePTCOnly = null, $BookingTravelerRef = null, $AccompaniedPassenger = null, $ResidencyType = null)
     {
       $this->Name = $Name;
       $this->LoyaltyCard = $LoyaltyCard;

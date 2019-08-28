@@ -37,7 +37,7 @@ class TaxDetail
      * @param string $CountryCode
      * @param typeRef $FareInfoRef
      */
-    public function __construct($Amount, $OriginAirport, $DestinationAirport, $CountryCode, $FareInfoRef)
+    public function __construct($Amount = null, $OriginAirport = null, $DestinationAirport = null, $CountryCode = null, $FareInfoRef = null)
     {
       $this->Amount = $Amount;
       $this->OriginAirport = $OriginAirport;

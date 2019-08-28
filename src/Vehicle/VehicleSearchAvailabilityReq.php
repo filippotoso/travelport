@@ -58,7 +58,7 @@ class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
      * @param typePolicyReference $PolicyReference
      * @param boolean $ReturnInclusionDetails
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference, $VehicleDateLocation, $VehicleSearchModifiers, $PointOfSale, $ReturnMediaLinks, $ReturnAllRates, $ReturnApproximateTotal, $ReturnExtraRateInfo, $PolicyReference, $ReturnInclusionDetails)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $NextResultReference = null, $VehicleDateLocation = null, $VehicleSearchModifiers = null, $PointOfSale = null, $ReturnMediaLinks = null, $ReturnAllRates = null, $ReturnApproximateTotal = null, $ReturnExtraRateInfo = null, $PolicyReference = null, $ReturnInclusionDetails = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference, $VehicleDateLocation, $VehicleSearchModifiers, $PointOfSale);
       $this->ReturnMediaLinks = $ReturnMediaLinks;

@@ -13,7 +13,7 @@ class SeatAttributes
     /**
      * @param SeatAttribute $SeatAttribute
      */
-    public function __construct($SeatAttribute)
+    public function __construct($SeatAttribute = null)
     {
       $this->SeatAttribute = $SeatAttribute;
     }

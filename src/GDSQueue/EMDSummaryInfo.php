@@ -49,7 +49,7 @@ class EMDSummaryInfo
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($EMDSummary, $EMDTravelerInfo, $Payment, $ProviderReservationInfoRef, $Key, $ElStat, $KeyOverride)
+    public function __construct($EMDSummary = null, $EMDTravelerInfo = null, $Payment = null, $ProviderReservationInfoRef = null, $Key = null, $ElStat = null, $KeyOverride = null)
     {
       $this->EMDSummary = $EMDSummary;
       $this->EMDTravelerInfo = $EMDTravelerInfo;

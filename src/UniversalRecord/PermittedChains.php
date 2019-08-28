@@ -13,7 +13,7 @@ class PermittedChains
     /**
      * @param HotelChain $HotelChain
      */
-    public function __construct($HotelChain)
+    public function __construct($HotelChain = null)
     {
       $this->HotelChain = $HotelChain;
     }

@@ -54,7 +54,7 @@ class AirVoidDocumentReq extends BaseReq
      * @param string $ProviderLocatorCode
      * @param boolean $ValidateSpanishResidency
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $AirReservationLocatorCode, $VoidDocumentInfo, $ShowETR, $ProviderCode, $ProviderLocatorCode, $ValidateSpanishResidency)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AirReservationLocatorCode = null, $VoidDocumentInfo = null, $ShowETR = null, $ProviderCode = null, $ProviderLocatorCode = null, $ValidateSpanishResidency = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->AirReservationLocatorCode = $AirReservationLocatorCode;

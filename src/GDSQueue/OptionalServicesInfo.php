@@ -25,7 +25,7 @@ class OptionalServicesInfo
      * @param FormOfPayment $FormOfPayment
      * @param FormOfPaymentRef $FormOfPaymentRef
      */
-    public function __construct($AirPricingSolution, $FormOfPayment, $FormOfPaymentRef)
+    public function __construct($AirPricingSolution = null, $FormOfPayment = null, $FormOfPaymentRef = null)
     {
       $this->AirPricingSolution = $AirPricingSolution;
       $this->FormOfPayment = $FormOfPayment;

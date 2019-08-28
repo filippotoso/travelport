@@ -103,7 +103,7 @@ class FlightInfoDetail
      * @param anonymous993 $DestinationGate
      * @param boolean $AutomatedCheckin
      */
-    public function __construct($CodeshareInfo, $Meals, $InFlightServices, $Variance, $Origin, $Destination, $ScheduledDepartureTime, $ScheduledArrivalTime, $TravelTime, $ETicketability, $Equipment, $OriginTerminal, $OriginGate, $DestinationTerminal, $DestinationGate, $AutomatedCheckin)
+    public function __construct($CodeshareInfo = null, $Meals = null, $InFlightServices = null, $Variance = null, $Origin = null, $Destination = null, $ScheduledDepartureTime = null, $ScheduledArrivalTime = null, $TravelTime = null, $ETicketability = null, $Equipment = null, $OriginTerminal = null, $OriginGate = null, $DestinationTerminal = null, $DestinationGate = null, $AutomatedCheckin = null)
     {
       $this->CodeshareInfo = $CodeshareInfo;
       $this->Meals = $Meals;

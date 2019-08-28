@@ -13,7 +13,7 @@ class RequestKeyMappings
     /**
      * @param KeyMapping $KeyMapping
      */
-    public function __construct($KeyMapping)
+    public function __construct($KeyMapping = null)
     {
       $this->KeyMapping = $KeyMapping;
     }

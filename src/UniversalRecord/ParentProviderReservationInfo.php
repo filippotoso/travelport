@@ -16,7 +16,7 @@ class ParentProviderReservationInfo extends PNRDivideInfo
      * @param typeProviderLocatorCode $ProviderLocatorCode
      * @param typeLocatorCode $UniversalLocatorCode
      */
-    public function __construct($BookingTravelerName, $ProviderCode, $ProviderLocatorCode, $UniversalLocatorCode)
+    public function __construct($BookingTravelerName = null, $ProviderCode = null, $ProviderLocatorCode = null, $UniversalLocatorCode = null)
     {
       parent::__construct($BookingTravelerName, $ProviderCode, $ProviderLocatorCode);
       $this->UniversalLocatorCode = $UniversalLocatorCode;

@@ -143,7 +143,7 @@ class AirFareDisplayModifiers
      * @param boolean $ProhibitTravelRestrictedFares
      * @param typeCurrency $FiledCurrency
      */
-    public function __construct($CabinClass, $PenaltyFareInformation, $MaxResponses, $DepartureDate, $TicketingDate, $ReturnDate, $BaseFareOnly, $UnrestrictedFaresOnly, $FaresIndicator, $CurrencyType, $IncludeTaxes, $IncludeEstimatedTaxes, $IncludeSurcharges, $GlobalIndicator, $ProhibitMinStayFares, $ProhibitMaxStayFares, $ProhibitAdvancePurchaseFares, $ProhibitNonRefundableFares, $ValidatedFaresOnly, $ProhibitTravelRestrictedFares, $FiledCurrency)
+    public function __construct($CabinClass = null, $PenaltyFareInformation = null, $MaxResponses = null, $DepartureDate = null, $TicketingDate = null, $ReturnDate = null, $BaseFareOnly = null, $UnrestrictedFaresOnly = null, $FaresIndicator = null, $CurrencyType = null, $IncludeTaxes = null, $IncludeEstimatedTaxes = null, $IncludeSurcharges = null, $GlobalIndicator = null, $ProhibitMinStayFares = null, $ProhibitMaxStayFares = null, $ProhibitAdvancePurchaseFares = null, $ProhibitNonRefundableFares = null, $ValidatedFaresOnly = null, $ProhibitTravelRestrictedFares = null, $FiledCurrency = null)
     {
       $this->CabinClass = $CabinClass;
       $this->PenaltyFareInformation = $PenaltyFareInformation;

@@ -25,7 +25,7 @@ class FareValidity
      * @param date $NotValidBefore
      * @param date $NotValidAfter
      */
-    public function __construct($RailJourneyRef, $NotValidBefore, $NotValidAfter)
+    public function __construct($RailJourneyRef = null, $NotValidBefore = null, $NotValidAfter = null)
     {
       $this->RailJourneyRef = $RailJourneyRef;
       $this->NotValidBefore = $NotValidBefore;

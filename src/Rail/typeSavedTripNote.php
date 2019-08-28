@@ -13,7 +13,7 @@ class typeSavedTripNote
     /**
      * @param anonymous1417 $Text
      */
-    public function __construct($Text)
+    public function __construct($Text = null)
     {
       $this->Text = $Text;
     }

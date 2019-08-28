@@ -13,7 +13,7 @@ class SecondaryTypeRules
     /**
      * @param SecondaryTypeRule[] $SecondaryTypeRule
      */
-    public function __construct(array $SecondaryTypeRule)
+    public function __construct(array $SecondaryTypeRule = null)
     {
       $this->SecondaryTypeRule = $SecondaryTypeRule;
     }

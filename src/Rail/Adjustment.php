@@ -37,7 +37,7 @@ class Adjustment
      * @param typeMoney $ApproximateAdjustedTotalPrice
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($Amount, $Percent, $AdjustedTotalPrice, $ApproximateAdjustedTotalPrice, $BookingTravelerRef)
+    public function __construct($Amount = null, $Percent = null, $AdjustedTotalPrice = null, $ApproximateAdjustedTotalPrice = null, $BookingTravelerRef = null)
     {
       $this->Amount = $Amount;
       $this->Percent = $Percent;

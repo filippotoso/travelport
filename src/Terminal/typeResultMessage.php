@@ -25,7 +25,7 @@ class typeResultMessage
      * @param int $Code
      * @param anonymous219 $Type
      */
-    public function __construct($_, $Code, $Type)
+    public function __construct($_ = null, $Code = null, $Type = null)
     {
       $this->_ = $_;
       $this->Code = $Code;

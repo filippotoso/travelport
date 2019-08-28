@@ -17,7 +17,7 @@ class RequestedHotelDetails extends typeHotelDetails
      * @param MediaItem $MediaItem
      * @param HotelType $HotelType
      */
-    public function __construct($HotelProperty, $HotelDetailItem, $HotelRateDetail, $MediaItem, $HotelType)
+    public function __construct($HotelProperty = null, $HotelDetailItem = null, $HotelRateDetail = null, $MediaItem = null, $HotelType = null)
     {
       parent::__construct($HotelProperty, $HotelDetailItem, $HotelRateDetail, $MediaItem);
       $this->HotelType = $HotelType;

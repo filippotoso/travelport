@@ -24,7 +24,7 @@ class AirRepriceRsp extends BaseRsp
      * @param AirPricingSolution $AirPricingSolution
      * @param FareRule $FareRule
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirPricingSolution, $FareRule)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $AirPricingSolution = null, $FareRule = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->AirPricingSolution = $AirPricingSolution;

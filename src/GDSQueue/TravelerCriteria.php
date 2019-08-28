@@ -31,7 +31,7 @@ class TravelerCriteria
      * @param string $PhoneNumber
      * @param boolean $VIPOnly
      */
-    public function __construct($NameCriteria, $AppliedProfileCriteria, $PhoneNumber, $VIPOnly)
+    public function __construct($NameCriteria = null, $AppliedProfileCriteria = null, $PhoneNumber = null, $VIPOnly = null)
     {
       $this->NameCriteria = $NameCriteria;
       $this->AppliedProfileCriteria = $AppliedProfileCriteria;

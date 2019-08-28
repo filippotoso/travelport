@@ -13,7 +13,7 @@ class FlightTimeTableList
     /**
      * @param FlightTimeDetail $FlightTimeDetail
      */
-    public function __construct($FlightTimeDetail)
+    public function __construct($FlightTimeDetail = null)
     {
       $this->FlightTimeDetail = $FlightTimeDetail;
     }

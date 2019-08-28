@@ -13,7 +13,7 @@ class RailFareNoteList
     /**
      * @param RailFareNote $RailFareNote
      */
-    public function __construct($RailFareNote)
+    public function __construct($RailFareNote = null)
     {
       $this->RailFareNote = $RailFareNote;
     }

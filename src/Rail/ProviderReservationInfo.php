@@ -115,7 +115,7 @@ class ProviderReservationInfo
      * @param boolean $KeyOverride
      * @param anonymous515 $AgentOverride
      */
-    public function __construct($ProviderReservationDetails, $ProviderReservationDisplayDetailsList, $ExternalReservationInfo, $Key, $ProviderCode, $LocatorCode, \DateTime $CreateDate, $HostCreateDate, $HostCreateTime, \DateTime $ModifiedDate, $Imported, $TicketingModifiersRef, $InQueueMode, $GroupRef, $OwningPCC, $ElStat, $KeyOverride, $AgentOverride)
+    public function __construct($ProviderReservationDetails = null, $ProviderReservationDisplayDetailsList = null, $ExternalReservationInfo = null, $Key = null, $ProviderCode = null, $LocatorCode = null, \DateTime $CreateDate = null, $HostCreateDate = null, $HostCreateTime = null, \DateTime $ModifiedDate = null, $Imported = null, $TicketingModifiersRef = null, $InQueueMode = null, $GroupRef = null, $OwningPCC = null, $ElStat = null, $KeyOverride = null, $AgentOverride = null)
     {
       $this->ProviderReservationDetails = $ProviderReservationDetails;
       $this->ProviderReservationDisplayDetailsList = $ProviderReservationDisplayDetailsList;
@@ -123,10 +123,10 @@ class ProviderReservationInfo
       $this->Key = $Key;
       $this->ProviderCode = $ProviderCode;
       $this->LocatorCode = $LocatorCode;
-      $this->CreateDate = $CreateDate->format(\DateTime::ATOM);
+      $this->CreateDate = $CreateDate ? $CreateDate->format(\DateTime::ATOM) : null;
       $this->HostCreateDate = $HostCreateDate;
       $this->HostCreateTime = $HostCreateTime;
-      $this->ModifiedDate = $ModifiedDate->format(\DateTime::ATOM);
+      $this->ModifiedDate = $ModifiedDate ? $ModifiedDate->format(\DateTime::ATOM) : null;
       $this->Imported = $Imported;
       $this->TicketingModifiersRef = $TicketingModifiersRef;
       $this->InQueueMode = $InQueueMode;

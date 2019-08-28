@@ -13,7 +13,7 @@ class RouteList
     /**
      * @param Route $Route
      */
-    public function __construct($Route)
+    public function __construct($Route = null)
     {
       $this->Route = $Route;
     }

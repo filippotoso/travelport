@@ -30,7 +30,7 @@ class DocumentOptions
      * @param boolean $SuppressItineraryRemarks
      * @param boolean $GenerateItinNumbers
      */
-    public function __construct($PassengerReceiptOverride, $SuppressItineraryRemarks, $GenerateItinNumbers)
+    public function __construct($PassengerReceiptOverride = null, $SuppressItineraryRemarks = null, $GenerateItinNumbers = null)
     {
       $this->PassengerReceiptOverride = $PassengerReceiptOverride;
       $this->SuppressItineraryRemarks = $SuppressItineraryRemarks;

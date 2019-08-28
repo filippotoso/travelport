@@ -41,7 +41,7 @@ class typeKeyword
      * @param UNKNOWN $Description
      * @param language $LanguageCode
      */
-    public function __construct($Name, $Number, $Description, $LanguageCode)
+    public function __construct($Name = null, $Number = null, $Description = null, $LanguageCode = null)
     {
       $this->Name = $Name;
       $this->Number = $Number;

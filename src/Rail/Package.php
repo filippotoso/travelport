@@ -31,7 +31,7 @@ class Package
      * @param int $PassengerCount
      * @param StringLength1to14 $PackageIdentifier
      */
-    public function __construct($Name, $Identifier, $PassengerCount, $PackageIdentifier)
+    public function __construct($Name = null, $Identifier = null, $PassengerCount = null, $PackageIdentifier = null)
     {
       $this->Name = $Name;
       $this->Identifier = $Identifier;

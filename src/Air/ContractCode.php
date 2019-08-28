@@ -31,7 +31,7 @@ class ContractCode
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($Code, $CompanyName, $ProviderCode, $SupplierCode)
+    public function __construct($Code = null, $CompanyName = null, $ProviderCode = null, $SupplierCode = null)
     {
       $this->Code = $Code;
       $this->CompanyName = $CompanyName;

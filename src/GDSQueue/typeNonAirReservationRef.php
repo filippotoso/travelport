@@ -13,7 +13,7 @@ class typeNonAirReservationRef
     /**
      * @param typeLocatorCode $LocatorCode
      */
-    public function __construct($LocatorCode)
+    public function __construct($LocatorCode = null)
     {
       $this->LocatorCode = $LocatorCode;
     }

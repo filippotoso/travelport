@@ -31,7 +31,7 @@ class AirSearchParameters
      * @param boolean $NonPenaltyFares
      * @param boolean $UnRestrictedFares
      */
-    public function __construct($NoAdvancePurchase, $RefundableFares, $NonPenaltyFares, $UnRestrictedFares)
+    public function __construct($NoAdvancePurchase = null, $RefundableFares = null, $NonPenaltyFares = null, $UnRestrictedFares = null)
     {
       $this->NoAdvancePurchase = $NoAdvancePurchase;
       $this->RefundableFares = $RefundableFares;

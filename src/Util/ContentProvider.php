@@ -103,7 +103,7 @@ class ContentProvider
      * @param typeProviderSupplierCapabilityType $BookingCancel
      * @param typeProviderSupplierCapabilityType $SeatMap
      */
-    public function __construct($ProviderCode, $SupplierCode, $AgencyCredentials, $Active, $Provisionable, $MerchandisingACHAdapter, $StaticDataCarrier, $MerchandisingACHCarrier, $MerchandisingHubCarrier, $BookingRetrieve, $SegmentModify, $OptionalServicesModify, $TravelerInfoModify, $AdditionalPayment, $BookingCancel, $SeatMap)
+    public function __construct($ProviderCode = null, $SupplierCode = null, $AgencyCredentials = null, $Active = null, $Provisionable = null, $MerchandisingACHAdapter = null, $StaticDataCarrier = null, $MerchandisingACHCarrier = null, $MerchandisingHubCarrier = null, $BookingRetrieve = null, $SegmentModify = null, $OptionalServicesModify = null, $TravelerInfoModify = null, $AdditionalPayment = null, $BookingCancel = null, $SeatMap = null)
     {
       $this->ProviderCode = $ProviderCode;
       $this->SupplierCode = $SupplierCode;

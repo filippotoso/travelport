@@ -19,7 +19,7 @@ class UpsellSearchModifier
      * @param typeMaxResults $MaxResults
      * @param typeStartFromResult $StartFromResult
      */
-    public function __construct($MaxResults, $StartFromResult)
+    public function __construct($MaxResults = null, $StartFromResult = null)
     {
       $this->MaxResults = $MaxResults;
       $this->StartFromResult = $StartFromResult;

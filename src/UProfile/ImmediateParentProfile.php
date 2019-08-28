@@ -19,7 +19,7 @@ class ImmediateParentProfile
      * @param typeImmediateParentRef $ImmediateParentRef
      * @param boolean $ControlBranch
      */
-    public function __construct($ImmediateParentRef, $ControlBranch)
+    public function __construct($ImmediateParentRef = null, $ControlBranch = null)
     {
       $this->ImmediateParentRef = $ImmediateParentRef;
       $this->ControlBranch = $ControlBranch;

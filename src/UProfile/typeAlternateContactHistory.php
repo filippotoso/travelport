@@ -44,7 +44,7 @@ class typeAlternateContactHistory extends typeKeyElement
      * @param StringLength1to128 $Nickname
      * @param typePriorityOrder $PriorityOrder
      */
-    public function __construct($Key, $Type, $GivenName, $Surname, $OtherName, $Nickname, $PriorityOrder)
+    public function __construct($Key = null, $Type = null, $GivenName = null, $Surname = null, $OtherName = null, $Nickname = null, $PriorityOrder = null)
     {
       parent::__construct($Key);
       $this->Type = $Type;

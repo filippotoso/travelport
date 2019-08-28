@@ -49,7 +49,7 @@ class ProfileLink
      * @param typeProfileID $TravelerID
      * @param typeProfileLinkRelationship $Relationship
      */
-    public function __construct($GivenName, $OtherName, $Surname, $Nickname, $ElectronicAddress, $TravelerID, $Relationship)
+    public function __construct($GivenName = null, $OtherName = null, $Surname = null, $Nickname = null, $ElectronicAddress = null, $TravelerID = null, $Relationship = null)
     {
       $this->GivenName = $GivenName;
       $this->OtherName = $OtherName;

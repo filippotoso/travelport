@@ -30,7 +30,7 @@ class SelectionModifiers
      * @param typeCarrier $SupplierCode
      * @param anonymous1008 $RFIC
      */
-    public function __construct($AirSegmentRef, $SupplierCode, $RFIC)
+    public function __construct($AirSegmentRef = null, $SupplierCode = null, $RFIC = null)
     {
       $this->AirSegmentRef = $AirSegmentRef;
       $this->SupplierCode = $SupplierCode;

@@ -13,7 +13,7 @@ class ErrorInfo extends typeErrorInfo
      * @param string $TransactionId
      * @param Auxdata $Auxdata
      */
-    public function __construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata)
+    public function __construct($Code = null, $Service = null, $Type = null, $Description = null, $TransactionId = null, $Auxdata = null)
     {
       parent::__construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata);
     }

@@ -25,7 +25,7 @@ class typeGuaranteeInformation
      * @param anonymous114 $AgencyType
      * @param StringLength1to128 $IATANumber
      */
-    public function __construct($Type, $AgencyType, $IATANumber)
+    public function __construct($Type = null, $AgencyType = null, $IATANumber = null)
     {
       $this->Type = $Type;
       $this->AgencyType = $AgencyType;

@@ -26,7 +26,7 @@ class ElectronicAddress extends typeTaggableElectronicAddress
      * @param boolean $Provisioned
      * @param typeProfileID $OwnerID
      */
-    public function __construct($Key, $Name, $Type, $Format, $TagRef, $Purpose, $PriorityOrder, $Provisioned, $OwnerID)
+    public function __construct($Key = null, $Name = null, $Type = null, $Format = null, $TagRef = null, $Purpose = null, $PriorityOrder = null, $Provisioned = null, $OwnerID = null)
     {
       parent::__construct($Key, $Name, $Type, $Format, $TagRef, $Purpose, $PriorityOrder);
       $this->Provisioned = $Provisioned;

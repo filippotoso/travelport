@@ -37,7 +37,7 @@ class SpecificSeatAssignment
      * @param string $SeatId
      * @param anonymous721 $RailCoachNumber
      */
-    public function __construct($BookingTravelerRef, $SegmentRef, $FlightDetailRef, $SeatId, $RailCoachNumber)
+    public function __construct($BookingTravelerRef = null, $SegmentRef = null, $FlightDetailRef = null, $SeatId = null, $RailCoachNumber = null)
     {
       $this->BookingTravelerRef = $BookingTravelerRef;
       $this->SegmentRef = $SegmentRef;

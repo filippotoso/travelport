@@ -143,7 +143,7 @@ class MCO extends MCOInformation
      * @param typePCC $PseudoCityCode
      * @param date $ExpiryDate
      */
-    public function __construct($PassengerInfo, $MCONumber, $Status, $MCOType, $FormOfPayment, $Endorsement, $MCOExchangeInfo, $MCOFeeInfo, $MCORemark, $MCOPriceData, $StockControl, $MCOText, $TicketType, $TicketNumber, $MCOIssued, \DateTime $MCOIssueDate, $MCODocNum, $IssueReasonCode, $PlatingCarrier, $TourOperator, $Location, $TourCode, $ProviderCode, $ProviderLocatorCode, $PseudoCityCode, $ExpiryDate)
+    public function __construct($PassengerInfo = null, $MCONumber = null, $Status = null, $MCOType = null, $FormOfPayment = null, $Endorsement = null, $MCOExchangeInfo = null, $MCOFeeInfo = null, $MCORemark = null, $MCOPriceData = null, $StockControl = null, $MCOText = null, $TicketType = null, $TicketNumber = null, $MCOIssued = null, \DateTime $MCOIssueDate = null, $MCODocNum = null, $IssueReasonCode = null, $PlatingCarrier = null, $TourOperator = null, $Location = null, $TourCode = null, $ProviderCode = null, $ProviderLocatorCode = null, $PseudoCityCode = null, $ExpiryDate = null)
     {
       parent::__construct($PassengerInfo, $MCONumber, $Status, $MCOType);
       $this->FormOfPayment = $FormOfPayment;
@@ -157,7 +157,7 @@ class MCO extends MCOInformation
       $this->TicketType = $TicketType;
       $this->TicketNumber = $TicketNumber;
       $this->MCOIssued = $MCOIssued;
-      $this->MCOIssueDate = $MCOIssueDate->format(\DateTime::ATOM);
+      $this->MCOIssueDate = $MCOIssueDate ? $MCOIssueDate->format(\DateTime::ATOM) : null;
       $this->MCODocNum = $MCODocNum;
       $this->IssueReasonCode = $IssueReasonCode;
       $this->PlatingCarrier = $PlatingCarrier;

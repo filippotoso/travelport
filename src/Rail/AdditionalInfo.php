@@ -13,7 +13,7 @@ class AdditionalInfo
     /**
      * @param string $Category
      */
-    public function __construct($Category)
+    public function __construct($Category = null)
     {
       $this->Category = $Category;
     }

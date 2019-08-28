@@ -62,7 +62,7 @@ class typeBranchInfoHistory extends typeProfileInfo
      * @param boolean $ProfileSyncTo
      * @param boolean $ProfileSyncFrom
      */
-    public function __construct($AdditionalIdentifier, $Description, $Name, $GeoCityCode, $Control, $BranchCode, $Currency, $URSyncTo, $ProfileSyncTo, $ProfileSyncFrom)
+    public function __construct($AdditionalIdentifier = null, $Description = null, $Name = null, $GeoCityCode = null, $Control = null, $BranchCode = null, $Currency = null, $URSyncTo = null, $ProfileSyncTo = null, $ProfileSyncFrom = null)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->Name = $Name;

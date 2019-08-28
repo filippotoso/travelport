@@ -19,7 +19,7 @@ class DocumentModifiers
      * @param boolean $GenerateItineraryInvoice
      * @param boolean $GenerateAccountingInterface
      */
-    public function __construct($GenerateItineraryInvoice, $GenerateAccountingInterface)
+    public function __construct($GenerateItineraryInvoice = null, $GenerateAccountingInterface = null)
     {
       $this->GenerateItineraryInvoice = $GenerateItineraryInvoice;
       $this->GenerateAccountingInterface = $GenerateAccountingInterface;

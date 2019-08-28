@@ -19,7 +19,7 @@ class AirFareDisplayRuleKey
      * @param typeNonBlanks $_
      * @param typeProviderCode $ProviderCode
      */
-    public function __construct($_, $ProviderCode)
+    public function __construct($_ = null, $ProviderCode = null)
     {
       $this->_ = $_;
       $this->ProviderCode = $ProviderCode;

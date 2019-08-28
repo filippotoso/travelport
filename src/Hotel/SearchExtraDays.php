@@ -19,7 +19,7 @@ class SearchExtraDays
      * @param int $DaysBefore
      * @param int $DaysAfter
      */
-    public function __construct($DaysBefore, $DaysAfter)
+    public function __construct($DaysBefore = null, $DaysAfter = null)
     {
       $this->DaysBefore = $DaysBefore;
       $this->DaysAfter = $DaysAfter;

@@ -25,7 +25,7 @@ class Itinerary
      * @param typeItineraryOption $Option
      * @param boolean $SeparateIndicator
      */
-    public function __construct($Type, $Option, $SeparateIndicator)
+    public function __construct($Type = null, $Option = null, $SeparateIndicator = null)
     {
       $this->Type = $Type;
       $this->Option = $Option;

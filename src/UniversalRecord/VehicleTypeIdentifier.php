@@ -43,7 +43,7 @@ class VehicleTypeIdentifier
      * @param typeDoorCount $DoorCount
      * @param typeFuel $FuelType
      */
-    public function __construct($AirConditioning, $TransmissionType, $VehicleClass, $Category, $DoorCount, $FuelType)
+    public function __construct($AirConditioning = null, $TransmissionType = null, $VehicleClass = null, $Category = null, $DoorCount = null, $FuelType = null)
     {
       $this->AirConditioning = $AirConditioning;
       $this->TransmissionType = $TransmissionType;

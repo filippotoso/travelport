@@ -13,7 +13,7 @@ class typeFlexibleTimeSpec extends typeTimeSpec
     /**
      * @param string $PreferredTime
      */
-    public function __construct($PreferredTime)
+    public function __construct($PreferredTime = null)
     {
       parent::__construct($PreferredTime);
     }

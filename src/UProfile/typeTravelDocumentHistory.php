@@ -169,7 +169,7 @@ class typeTravelDocumentHistory extends typeKeyElement
      * @param typeGeoPoliticalAreaType $IssuedForGeoPoliticalAreaType
      * @param typeGeoPoliticalAreaCode $IssuedForGeoPoliticalAreaCode
      */
-    public function __construct($Key, $Type, $DocumentNumber, $IssuedDate, $ExpirationDate, $LocationIssuedDescription, $GivenName, $MiddleName, $Surname, $Gender, $NationalIdentifier, $BirthDate, $PlaceOfBirth, $Nationality, $Citizenship, $IssuedByCountry, $IssuedByOtherCountryName, $Height, $HeightUnit, $Weight, $WeightUnit, $Residence, $EyeColor, $MilitaryStatus, $PriorityOrder, $IssuedForGeoPoliticalAreaType, $IssuedForGeoPoliticalAreaCode)
+    public function __construct($Key = null, $Type = null, $DocumentNumber = null, $IssuedDate = null, $ExpirationDate = null, $LocationIssuedDescription = null, $GivenName = null, $MiddleName = null, $Surname = null, $Gender = null, $NationalIdentifier = null, $BirthDate = null, $PlaceOfBirth = null, $Nationality = null, $Citizenship = null, $IssuedByCountry = null, $IssuedByOtherCountryName = null, $Height = null, $HeightUnit = null, $Weight = null, $WeightUnit = null, $Residence = null, $EyeColor = null, $MilitaryStatus = null, $PriorityOrder = null, $IssuedForGeoPoliticalAreaType = null, $IssuedForGeoPoliticalAreaCode = null)
     {
       parent::__construct($Key);
       $this->Type = $Type;

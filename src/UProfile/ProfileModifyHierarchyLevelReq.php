@@ -48,7 +48,7 @@ class ProfileModifyHierarchyLevelReq extends BaseReq
      * @param typeID $HierarchyLevelID
      * @param typeProfileType $ProfileType
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $Name, $Description, $ParentHierarchyLevelID, $HierarchyLevelID, $ProfileType)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $Name = null, $Description = null, $ParentHierarchyLevelID = null, $HierarchyLevelID = null, $ProfileType = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->Name = $Name;

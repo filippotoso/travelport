@@ -24,7 +24,7 @@ class FlightDetailsRsp extends BaseRsp
      * @param typeBaseAirSegment $AirSegment
      * @param CO2Emissions $CO2Emissions
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirSegment, $CO2Emissions)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $AirSegment = null, $CO2Emissions = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->AirSegment = $AirSegment;

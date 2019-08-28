@@ -13,7 +13,7 @@ class RefundRemark
     /**
      * @param string $RemarkData
      */
-    public function __construct($RemarkData)
+    public function __construct($RemarkData = null)
     {
       $this->RemarkData = $RemarkData;
     }

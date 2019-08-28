@@ -60,7 +60,7 @@ class FlightInfo
      * @param date $DepartureDate
      * @param typeClassOfService $ClassOfService
      */
-    public function __construct($FlightInfoDetail, $CriteriaKey, $Carrier, $FlightNumber, $Origin, $Destination, $DepartureDate, $ClassOfService)
+    public function __construct($FlightInfoDetail = null, $CriteriaKey = null, $Carrier = null, $FlightNumber = null, $Origin = null, $Destination = null, $DepartureDate = null, $ClassOfService = null)
     {
       $this->FlightInfoDetail = $FlightInfoDetail;
       $this->CriteriaKey = $CriteriaKey;

@@ -43,7 +43,7 @@ class HotelSuperShopperReq extends BaseSearchReq
      * @param HotelStay $HotelStay
      * @param QuickResponse $QuickResponse
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference, $HotelSearchLocation, $HotelSearchModifiers, $HotelStay, $QuickResponse)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $NextResultReference = null, $HotelSearchLocation = null, $HotelSearchModifiers = null, $HotelStay = null, $QuickResponse = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $NextResultReference);
       $this->HotelSearchLocation = $HotelSearchLocation;

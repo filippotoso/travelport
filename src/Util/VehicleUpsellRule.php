@@ -19,7 +19,7 @@ class VehicleUpsellRule
      * @param VehicleUpsellQualify $VehicleUpsellQualify
      * @param VehicleUpsellOffer $VehicleUpsellOffer
      */
-    public function __construct($VehicleUpsellQualify, $VehicleUpsellOffer)
+    public function __construct($VehicleUpsellQualify = null, $VehicleUpsellOffer = null)
     {
       $this->VehicleUpsellQualify = $VehicleUpsellQualify;
       $this->VehicleUpsellOffer = $VehicleUpsellOffer;

@@ -97,7 +97,7 @@ class CustomFieldGroup
      * @param boolean $ReadOnly
      * @param boolean $Overriden
      */
-    public function __construct($CustomField, $ID, $Name, $DisplayOrder, $Description, $Label, $Inheritable, $Hide, $MinOccurs, $MaxOccurs, $MinOccursOverride, $MaxOccursOverride, $InheritableControlInd, $ReadOnly, $Overriden)
+    public function __construct($CustomField = null, $ID = null, $Name = null, $DisplayOrder = null, $Description = null, $Label = null, $Inheritable = null, $Hide = null, $MinOccurs = null, $MaxOccurs = null, $MinOccursOverride = null, $MaxOccursOverride = null, $InheritableControlInd = null, $ReadOnly = null, $Overriden = null)
     {
       $this->CustomField = $CustomField;
       $this->ID = $ID;

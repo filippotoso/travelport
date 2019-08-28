@@ -55,7 +55,7 @@ class RailSeatAssignment
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Characteristic, $Key, $Status, $Seat, $RailSegmentRef, $CoachNumber, $ElStat, $KeyOverride)
+    public function __construct($Characteristic = null, $Key = null, $Status = null, $Seat = null, $RailSegmentRef = null, $CoachNumber = null, $ElStat = null, $KeyOverride = null)
     {
       $this->Characteristic = $Characteristic;
       $this->Key = $Key;

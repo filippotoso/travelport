@@ -19,7 +19,7 @@ class JourneyRemark
      * @param string $_
      * @param string $Category
      */
-    public function __construct($_, $Category)
+    public function __construct($_ = null, $Category = null)
     {
       $this->_ = $_;
       $this->Category = $Category;

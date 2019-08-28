@@ -19,7 +19,7 @@ class ARCPayment
      * @param anonymous53 $ARCIdentifier
      * @param anonymous54 $ARCPassword
      */
-    public function __construct($ARCIdentifier, $ARCPassword)
+    public function __construct($ARCIdentifier = null, $ARCPassword = null)
     {
       $this->ARCIdentifier = $ARCIdentifier;
       $this->ARCPassword = $ARCPassword;

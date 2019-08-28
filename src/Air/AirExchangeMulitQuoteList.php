@@ -13,7 +13,7 @@ class AirExchangeMulitQuoteList
     /**
      * @param AirExchangeMultiQuoteOption $AirExchangeMultiQuoteOption
      */
-    public function __construct($AirExchangeMultiQuoteOption)
+    public function __construct($AirExchangeMultiQuoteOption = null)
     {
       $this->AirExchangeMultiQuoteOption = $AirExchangeMultiQuoteOption;
     }

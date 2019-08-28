@@ -18,7 +18,7 @@ class CategoryDetailsType
     /**
      * @param string $Value
      */
-    public function __construct($Value)
+    public function __construct($Value = null)
     {
       $this->Value = $Value;
     }

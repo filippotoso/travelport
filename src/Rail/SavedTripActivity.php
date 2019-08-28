@@ -133,7 +133,7 @@ class SavedTripActivity
     /**
      * @param anonymous1443 $Type
      */
-    public function __construct($Type)
+    public function __construct($Type = null)
     {
       $this->Type = $Type;
     }

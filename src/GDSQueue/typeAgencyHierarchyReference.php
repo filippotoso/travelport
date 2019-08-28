@@ -19,7 +19,7 @@ class typeAgencyHierarchyReference
      * @param typeProfileID $ProfileID
      * @param typeAgencyProfileLevel $ProfileType
      */
-    public function __construct($ProfileID, $ProfileType)
+    public function __construct($ProfileID = null, $ProfileType = null)
     {
       $this->ProfileID = $ProfileID;
       $this->ProfileType = $ProfileType;

@@ -61,7 +61,7 @@ class FareRestrictionDaysOfWeek
      * @param boolean $Saturday
      * @param boolean $Sunday
      */
-    public function __construct($Direction, $TripType, $Monday, $Tuesday, $Wednesday, $Thursday, $Friday, $Saturday, $Sunday)
+    public function __construct($Direction = null, $TripType = null, $Monday = null, $Tuesday = null, $Wednesday = null, $Thursday = null, $Friday = null, $Saturday = null, $Sunday = null)
     {
       $this->Direction = $Direction;
       $this->TripType = $TripType;

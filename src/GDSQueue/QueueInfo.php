@@ -43,7 +43,7 @@ class QueueInfo
      * @param int $PNRCount
      * @param string $Title
      */
-    public function __construct($CategoryInfo, $Queue, $PseudoCityCode, $TotalPNRCount, $PNRCount, $Title)
+    public function __construct($CategoryInfo = null, $Queue = null, $PseudoCityCode = null, $TotalPNRCount = null, $PNRCount = null, $Title = null)
     {
       $this->CategoryInfo = $CategoryInfo;
       $this->Queue = $Queue;

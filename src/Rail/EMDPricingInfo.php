@@ -37,7 +37,7 @@ class EMDPricingInfo
      * @param typeMoney $TotalTax
      * @param typeMoney $EquivFare
      */
-    public function __construct($TaxInfo, $BaseFare, $TotalFare, $TotalTax, $EquivFare)
+    public function __construct($TaxInfo = null, $BaseFare = null, $TotalFare = null, $TotalTax = null, $EquivFare = null)
     {
       $this->TaxInfo = $TaxInfo;
       $this->BaseFare = $BaseFare;

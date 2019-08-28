@@ -60,7 +60,7 @@ class typeVehicleLocationInformation
      * @param typeVehicleLocation $LocationType
      * @param StringLength3 $LocationNumber
      */
-    public function __construct($PhoneNumber, $OperationTime, $LocationName, $CounterLocation, $VendorCode, $LocationCode, $LocationType, $LocationNumber)
+    public function __construct($PhoneNumber = null, $OperationTime = null, $LocationName = null, $CounterLocation = null, $VendorCode = null, $LocationCode = null, $LocationType = null, $LocationNumber = null)
     {
       $this->PhoneNumber = $PhoneNumber;
       $this->OperationTime = $OperationTime;

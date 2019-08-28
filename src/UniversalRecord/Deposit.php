@@ -25,7 +25,7 @@ class Deposit
      * @param date $DueDate
      * @param date $ReceivedDate
      */
-    public function __construct($Amount, $DueDate, $ReceivedDate)
+    public function __construct($Amount = null, $DueDate = null, $ReceivedDate = null)
     {
       $this->Amount = $Amount;
       $this->DueDate = $DueDate;

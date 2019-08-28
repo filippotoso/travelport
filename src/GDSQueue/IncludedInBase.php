@@ -13,7 +13,7 @@ class IncludedInBase
     /**
      * @param typeMoney $Amount
      */
-    public function __construct($Amount)
+    public function __construct($Amount = null)
     {
       $this->Amount = $Amount;
     }

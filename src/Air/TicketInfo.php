@@ -79,14 +79,14 @@ class TicketInfo
      * @param typeRef $BookingTravelerRef
      * @param typeRef $AirPricingInfoRef
      */
-    public function __construct($Name, $ConjunctedTicketInfo, $ExchangedTicketInfo, $Number, $IATANumber, \DateTime $TicketIssueDate, $TicketingAgentSignOn, $CountryCode, $Status, $BulkTicket, $BookingTravelerRef, $AirPricingInfoRef)
+    public function __construct($Name = null, $ConjunctedTicketInfo = null, $ExchangedTicketInfo = null, $Number = null, $IATANumber = null, \DateTime $TicketIssueDate = null, $TicketingAgentSignOn = null, $CountryCode = null, $Status = null, $BulkTicket = null, $BookingTravelerRef = null, $AirPricingInfoRef = null)
     {
       $this->Name = $Name;
       $this->ConjunctedTicketInfo = $ConjunctedTicketInfo;
       $this->ExchangedTicketInfo = $ExchangedTicketInfo;
       $this->Number = $Number;
       $this->IATANumber = $IATANumber;
-      $this->TicketIssueDate = $TicketIssueDate->format(\DateTime::ATOM);
+      $this->TicketIssueDate = $TicketIssueDate ? $TicketIssueDate->format(\DateTime::ATOM) : null;
       $this->TicketingAgentSignOn = $TicketingAgentSignOn;
       $this->CountryCode = $CountryCode;
       $this->Status = $Status;

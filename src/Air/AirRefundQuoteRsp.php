@@ -24,7 +24,7 @@ class AirRefundQuoteRsp extends BaseRsp
      * @param AirRefundBundle $AirRefundBundle
      * @param TCRRefundBundle $TCRRefundBundle
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $AirRefundBundle, $TCRRefundBundle)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $AirRefundBundle = null, $TCRRefundBundle = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->AirRefundBundle = $AirRefundBundle;

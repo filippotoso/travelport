@@ -123,7 +123,7 @@ class ModifyField extends typeStringRestriction
      * @param int $MinOccurs
      * @param int $MaxOccurs
      */
-    public function __construct($MinLength, $MaxLength, $ID, $Action, $Force, $Name, $Description, $Type, $Encrypted, $Masked, $DefaultValue, $Protected, $DisplayOrder, $Inheritable, $MinOccurs, $MaxOccurs)
+    public function __construct($MinLength = null, $MaxLength = null, $ID = null, $Action = null, $Force = null, $Name = null, $Description = null, $Type = null, $Encrypted = null, $Masked = null, $DefaultValue = null, $Protected = null, $DisplayOrder = null, $Inheritable = null, $MinOccurs = null, $MaxOccurs = null)
     {
       parent::__construct($MinLength, $MaxLength);
       $this->ID = $ID;

@@ -31,7 +31,7 @@ class typeVehicleVendorLocation extends typeVendorLocation
      * @param typeIATACode $LocationCode
      * @param anonymous546 $Type
      */
-    public function __construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken, $LocationType, $LocationCode, $Type)
+    public function __construct($ProviderCode = null, $VendorCode = null, $PreferredOption = null, $VendorLocationID = null, $Key = null, $MoreRatesToken = null, $LocationType = null, $LocationCode = null, $Type = null)
     {
       parent::__construct($ProviderCode, $VendorCode, $PreferredOption, $VendorLocationID, $Key, $MoreRatesToken);
       $this->LocationType = $LocationType;

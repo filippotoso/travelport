@@ -37,7 +37,7 @@ class RatesAndDates
      * @param typeMoney $Low
      * @param typeMoney $High
      */
-    public function __construct($Status, $Start, $End, $Low, $High)
+    public function __construct($Status = null, $Start = null, $End = null, $Low = null, $High = null)
     {
       $this->Status = $Status;
       $this->Start = $Start;

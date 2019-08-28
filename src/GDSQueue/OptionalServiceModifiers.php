@@ -13,7 +13,7 @@ class OptionalServiceModifiers
     /**
      * @param OptionalServiceModifier $OptionalServiceModifier
      */
-    public function __construct($OptionalServiceModifier)
+    public function __construct($OptionalServiceModifier = null)
     {
       $this->OptionalServiceModifier = $OptionalServiceModifier;
     }

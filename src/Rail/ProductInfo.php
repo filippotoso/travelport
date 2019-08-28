@@ -13,7 +13,7 @@ class ProductInfo
     /**
      * @param Name $Name
      */
-    public function __construct($Name)
+    public function __construct($Name = null)
     {
       $this->Name = $Name;
     }

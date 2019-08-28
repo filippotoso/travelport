@@ -18,7 +18,7 @@ class RailSeatMapRsp extends BaseRsp
      * @param string $CommandHistory
      * @param Coach $Coach
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $Coach)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $Coach = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->Coach = $Coach;

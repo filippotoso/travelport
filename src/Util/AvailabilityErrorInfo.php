@@ -19,7 +19,7 @@ class AvailabilityErrorInfo extends typeErrorInfo
      * @param Auxdata $Auxdata
      * @param AirSegmentError $AirSegmentError
      */
-    public function __construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata, $AirSegmentError)
+    public function __construct($Code = null, $Service = null, $Type = null, $Description = null, $TransactionId = null, $Auxdata = null, $AirSegmentError = null)
     {
       parent::__construct($Code, $Service, $Type, $Description, $TransactionId, $Auxdata);
       $this->AirSegmentError = $AirSegmentError;

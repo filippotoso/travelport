@@ -67,7 +67,7 @@ class DaysOfWeekRestriction
      * @param boolean $Sat
      * @param boolean $Sun
      */
-    public function __construct($RestrictionExistsInd, $Application, $IncludeExcludeUseInd, $Mon, $Tue, $Wed, $Thu, $Fri, $Sat, $Sun)
+    public function __construct($RestrictionExistsInd = null, $Application = null, $IncludeExcludeUseInd = null, $Mon = null, $Tue = null, $Wed = null, $Thu = null, $Fri = null, $Sat = null, $Sun = null)
     {
       $this->RestrictionExistsInd = $RestrictionExistsInd;
       $this->Application = $Application;

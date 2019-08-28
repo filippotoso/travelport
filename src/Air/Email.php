@@ -49,7 +49,7 @@ class Email
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($ProviderReservationInfoRef, $Key, $Type, $Comment, $EmailID, $ElStat, $KeyOverride)
+    public function __construct($ProviderReservationInfoRef = null, $Key = null, $Type = null, $Comment = null, $EmailID = null, $ElStat = null, $KeyOverride = null)
     {
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;
       $this->Key = $Key;

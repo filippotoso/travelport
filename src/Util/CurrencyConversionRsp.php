@@ -18,7 +18,7 @@ class CurrencyConversionRsp extends BaseRsp
      * @param string $CommandHistory
      * @param CurrencyConversion $CurrencyConversion
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $CurrencyConversion)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $CurrencyConversion = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->CurrencyConversion = $CurrencyConversion;

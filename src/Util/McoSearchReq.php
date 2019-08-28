@@ -54,7 +54,7 @@ class McoSearchReq extends BaseReq
      * @param typeTimeRange $McoCreateDate
      * @param McoSearchModifiers $McoSearchModifiers
      */
-    public function __construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails, $Name, $Carrier, $Airport, $TicketNumber, $McoCreateDate, $McoSearchModifiers)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $Name = null, $Carrier = null, $Airport = null, $TicketNumber = null, $McoCreateDate = null, $McoSearchModifiers = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->Name = $Name;

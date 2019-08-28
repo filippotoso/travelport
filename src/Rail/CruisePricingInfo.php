@@ -139,7 +139,7 @@ class CruisePricingInfo
      * @param typeProviderCode $ProviderCode
      * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($Fare, $Charges, $Discount, $Deposit, $Balance, $Commission, $CruiseFees, $CruiseBookingTravelerRef, $NetFare, $ReceivedAmount, $TotalPrice, $BasePrice, $ApproximateTotalPrice, $ApproximateBasePrice, $EquivalentBasePrice, $Taxes, $Fees, $Services, $ApproximateTaxes, $ApproximateFees, $ProviderCode, $SupplierCode)
+    public function __construct($Fare = null, $Charges = null, $Discount = null, $Deposit = null, $Balance = null, $Commission = null, $CruiseFees = null, $CruiseBookingTravelerRef = null, $NetFare = null, $ReceivedAmount = null, $TotalPrice = null, $BasePrice = null, $ApproximateTotalPrice = null, $ApproximateBasePrice = null, $EquivalentBasePrice = null, $Taxes = null, $Fees = null, $Services = null, $ApproximateTaxes = null, $ApproximateFees = null, $ProviderCode = null, $SupplierCode = null)
     {
       $this->Fare = $Fare;
       $this->Charges = $Charges;

@@ -24,7 +24,7 @@ class AlternateContactPhone extends typeTaggablePhone
      * @param typePriorityOrder $PriorityOrder
      * @param typeRef $AlternateContactRef
      */
-    public function __construct($Key, $Type, $Country, $AreaCode, $LocalNumber, $Extension, $Description, $Location, $TagRef, $Purpose, $PriorityOrder, $AlternateContactRef)
+    public function __construct($Key = null, $Type = null, $Country = null, $AreaCode = null, $LocalNumber = null, $Extension = null, $Description = null, $Location = null, $TagRef = null, $Purpose = null, $PriorityOrder = null, $AlternateContactRef = null)
     {
       parent::__construct($Key, $Type, $Country, $AreaCode, $LocalNumber, $Extension, $Description, $Location, $TagRef, $Purpose, $PriorityOrder);
       $this->AlternateContactRef = $AlternateContactRef;

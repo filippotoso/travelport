@@ -25,7 +25,7 @@ class EmergencyContact
      * @param UNKNOWN $Name
      * @param UNKNOWN $Relationship
      */
-    public function __construct($PhoneNumber, $Name, $Relationship)
+    public function __construct($PhoneNumber = null, $Name = null, $Relationship = null)
     {
       $this->PhoneNumber = $PhoneNumber;
       $this->Name = $Name;

@@ -142,7 +142,7 @@ class RepricingModifiers
      * @param boolean $MultiAirportSearch
      * @param typeIATACode $ConnectionPoint
      */
-    public function __construct($FareType, $FareTicketDesignator, $AirSegmentPricingModifiers, $PriceClassOfService, $CreateDate, $ReissueLocCityCode, $ReissueLocCountryCode, $BulkTicket, $AccountCode, $PenaltyAsTaxCode, $AirPricingSolutionRef, $PenaltyToFare, $PricePTCOnly, $BrandDetails, $BrandModifier, $JetServiceOnly, $TimeWindow, $FlightType, $MultiAirportSearch, $ConnectionPoint)
+    public function __construct($FareType = null, $FareTicketDesignator = null, $AirSegmentPricingModifiers = null, $PriceClassOfService = null, $CreateDate = null, $ReissueLocCityCode = null, $ReissueLocCountryCode = null, $BulkTicket = null, $AccountCode = null, $PenaltyAsTaxCode = null, $AirPricingSolutionRef = null, $PenaltyToFare = null, $PricePTCOnly = null, $BrandDetails = null, $BrandModifier = null, $JetServiceOnly = null, $TimeWindow = null, $FlightType = null, $MultiAirportSearch = null, $ConnectionPoint = null)
     {
       $this->FareType = $FareType;
       $this->FareTicketDesignator = $FareTicketDesignator;

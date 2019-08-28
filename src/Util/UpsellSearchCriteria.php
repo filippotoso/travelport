@@ -19,7 +19,7 @@ class UpsellSearchCriteria
      * @param EffectiveDate $EffectiveDate
      * @param ExpirationDate $ExpirationDate
      */
-    public function __construct($EffectiveDate, $ExpirationDate)
+    public function __construct($EffectiveDate = null, $ExpirationDate = null)
     {
       $this->EffectiveDate = $EffectiveDate;
       $this->ExpirationDate = $ExpirationDate;

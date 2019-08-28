@@ -19,7 +19,7 @@ class YieldCustom
      * @param typeMoney $Amount
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($Amount, $BookingTravelerRef)
+    public function __construct($Amount = null, $BookingTravelerRef = null)
     {
       $this->Amount = $Amount;
       $this->BookingTravelerRef = $BookingTravelerRef;

@@ -163,7 +163,7 @@ class TCR
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($FormOfPayment, $Payment, $BookingTraveler, $PassengerTicketNumber, $AirPricingInfo, $AgencyInfo, $AirReservationLocatorCode, $SupplierLocator, $RefundRemark, $TCRNumber, $Status, $ModifiedDate, $ConfirmedDate, $BasePrice, $Taxes, $Fees, $Refundable, $Exchangeable, $Voidable, $Modifiable, $RefundAccessCode, $RefundAmount, $RefundFee, $ForfeitAmount, $ProviderCode, $ProviderLocatorCode)
+    public function __construct($FormOfPayment = null, $Payment = null, $BookingTraveler = null, $PassengerTicketNumber = null, $AirPricingInfo = null, $AgencyInfo = null, $AirReservationLocatorCode = null, $SupplierLocator = null, $RefundRemark = null, $TCRNumber = null, $Status = null, $ModifiedDate = null, $ConfirmedDate = null, $BasePrice = null, $Taxes = null, $Fees = null, $Refundable = null, $Exchangeable = null, $Voidable = null, $Modifiable = null, $RefundAccessCode = null, $RefundAmount = null, $RefundFee = null, $ForfeitAmount = null, $ProviderCode = null, $ProviderLocatorCode = null)
     {
       $this->FormOfPayment = $FormOfPayment;
       $this->Payment = $Payment;

@@ -25,7 +25,7 @@ class CruiseBookingTravelerRef
      * @param typeRef $Key
      * @param boolean $WaiverIndicator
      */
-    public function __construct($LoyaltyCardRef, $Key, $WaiverIndicator)
+    public function __construct($LoyaltyCardRef = null, $Key = null, $WaiverIndicator = null)
     {
       $this->LoyaltyCardRef = $LoyaltyCardRef;
       $this->Key = $Key;

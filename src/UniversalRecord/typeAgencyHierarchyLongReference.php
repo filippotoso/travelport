@@ -21,7 +21,7 @@ class typeAgencyHierarchyLongReference extends typeAgencyHierarchyReference
      * @param int $ProfileVersion
      * @param anonymous375 $ProfileName
      */
-    public function __construct($ProfileID, $ProfileType, $ProfileVersion, $ProfileName)
+    public function __construct($ProfileID = null, $ProfileType = null, $ProfileVersion = null, $ProfileName = null)
     {
       parent::__construct($ProfileID, $ProfileType);
       $this->ProfileVersion = $ProfileVersion;

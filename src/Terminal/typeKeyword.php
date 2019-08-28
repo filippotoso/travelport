@@ -30,7 +30,7 @@ class typeKeyword
      * @param UNKNOWN $Number
      * @param UNKNOWN $Description
      */
-    public function __construct($Name, $Number, $Description)
+    public function __construct($Name = null, $Number = null, $Description = null)
     {
       $this->Name = $Name;
       $this->Number = $Number;

@@ -13,7 +13,7 @@ class DirectPayment
     /**
      * @param string $Text
      */
-    public function __construct($Text)
+    public function __construct($Text = null)
     {
       $this->Text = $Text;
     }

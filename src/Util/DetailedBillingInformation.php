@@ -25,7 +25,7 @@ class DetailedBillingInformation
      * @param AirPricingInfoRef $AirPricingInfoRef
      * @param BillingDetailItem $BillingDetailItem
      */
-    public function __construct($FormOfPaymentRef, $AirPricingInfoRef, $BillingDetailItem)
+    public function __construct($FormOfPaymentRef = null, $AirPricingInfoRef = null, $BillingDetailItem = null)
     {
       $this->FormOfPaymentRef = $FormOfPaymentRef;
       $this->AirPricingInfoRef = $AirPricingInfoRef;

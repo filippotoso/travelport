@@ -61,7 +61,7 @@ class Embargo
      * @param anyURI $Url
      * @param anonymous1135 $ServiceSubCode
      */
-    public function __construct($Key, $Carrier, $SegmentRef, $Name, $Text, $SecondaryType, $Type, $Url, $ServiceSubCode)
+    public function __construct($Key = null, $Carrier = null, $SegmentRef = null, $Name = null, $Text = null, $SecondaryType = null, $Type = null, $Url = null, $ServiceSubCode = null)
     {
       $this->Key = $Key;
       $this->Carrier = $Carrier;

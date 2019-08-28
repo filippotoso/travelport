@@ -24,7 +24,7 @@ class AccountInformation
      * @param PhoneNumber $PhoneNumber
      * @param string $AccountName
      */
-    public function __construct($PhoneNumber, $AccountName)
+    public function __construct($PhoneNumber = null, $AccountName = null)
     {
       $this->PhoneNumber = $PhoneNumber;
       $this->AccountName = $AccountName;

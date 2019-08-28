@@ -13,7 +13,7 @@ class SessTok
     /**
      * @param string $id
      */
-    public function __construct($id)
+    public function __construct($id = null)
     {
       $this->id = $id;
     }

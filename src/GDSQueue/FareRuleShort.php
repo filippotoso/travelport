@@ -25,7 +25,7 @@ class FareRuleShort
      * @param int $Category
      * @param string $TableNumber
      */
-    public function __construct($FareRuleNameValue, $Category, $TableNumber)
+    public function __construct($FareRuleNameValue = null, $Category = null, $TableNumber = null)
     {
       $this->FareRuleNameValue = $FareRuleNameValue;
       $this->Category = $Category;

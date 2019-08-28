@@ -75,7 +75,7 @@ class typeAgentInfoHistory extends typeProfileInfo
      * @param typeProvisioningCode $DefaultBranchCode
      * @param typeAlternateAgentID $AlternateAgentID
      */
-    public function __construct($AdditionalIdentifier, $Description, $UserName, $OccupationalTitle, $Title, $Nickname, $GivenName, $OtherName, $Surname, $Suffix, $DefaultBranchID, $DefaultBranchCode, $AlternateAgentID)
+    public function __construct($AdditionalIdentifier = null, $Description = null, $UserName = null, $OccupationalTitle = null, $Title = null, $Nickname = null, $GivenName = null, $OtherName = null, $Surname = null, $Suffix = null, $DefaultBranchID = null, $DefaultBranchCode = null, $AlternateAgentID = null)
     {
       parent::__construct($AdditionalIdentifier, $Description);
       $this->UserName = $UserName;

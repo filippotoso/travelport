@@ -13,7 +13,7 @@ class AirExchangeBundleList
     /**
      * @param AirExchangeBundle $AirExchangeBundle
      */
-    public function __construct($AirExchangeBundle)
+    public function __construct($AirExchangeBundle = null)
     {
       $this->AirExchangeBundle = $AirExchangeBundle;
     }

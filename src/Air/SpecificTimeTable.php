@@ -35,7 +35,7 @@ class SpecificTimeTable
      * @param typeCarrier $Carrier
      * @param typeFlightNumber $FlightNumber
      */
-    public function __construct($StartDate, $Carrier, $FlightNumber)
+    public function __construct($StartDate = null, $Carrier = null, $FlightNumber = null)
     {
       $this->StartDate = $StartDate;
       $this->Carrier = $Carrier;

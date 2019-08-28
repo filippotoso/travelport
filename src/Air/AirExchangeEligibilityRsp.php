@@ -18,7 +18,7 @@ class AirExchangeEligibilityRsp extends BaseRsp
      * @param string $CommandHistory
      * @param ExchangeEligibilityInfo $ExchangeEligibilityInfo
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ExchangeEligibilityInfo)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ExchangeEligibilityInfo = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ExchangeEligibilityInfo = $ExchangeEligibilityInfo;

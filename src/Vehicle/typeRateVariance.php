@@ -25,7 +25,7 @@ class typeRateVariance
      * @param float $Value
      * @param string $Apply
      */
-    public function __construct($Type, $Value, $Apply)
+    public function __construct($Type = null, $Value = null, $Apply = null)
     {
       $this->Type = $Type;
       $this->Value = $Value;

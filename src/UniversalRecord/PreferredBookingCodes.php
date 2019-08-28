@@ -13,7 +13,7 @@ class PreferredBookingCodes
     /**
      * @param BookingCode $BookingCode
      */
-    public function __construct($BookingCode)
+    public function __construct($BookingCode = null)
     {
       $this->BookingCode = $BookingCode;
     }

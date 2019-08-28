@@ -31,7 +31,7 @@ class Equipment
      * @param int $Quantity
      * @param typeStatusCode $Status
      */
-    public function __construct($Type, $Description, $Quantity, $Status)
+    public function __construct($Type = null, $Description = null, $Quantity = null, $Status = null)
     {
       $this->Type = $Type;
       $this->Description = $Description;

@@ -18,7 +18,7 @@ class SSRInfo
     /**
      * @param SSR $SSR
      */
-    public function __construct($SSR)
+    public function __construct($SSR = null)
     {
       $this->SSR = $SSR;
     }

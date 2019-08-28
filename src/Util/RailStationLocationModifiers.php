@@ -37,7 +37,7 @@ class RailStationLocationModifiers
      * @param string $Description
      * @param boolean $Active
      */
-    public function __construct($RailLocation, $CountryCode, $Distributor, $Description, $Active)
+    public function __construct($RailLocation = null, $CountryCode = null, $Distributor = null, $Description = null, $Active = null)
     {
       $this->RailLocation = $RailLocation;
       $this->CountryCode = $CountryCode;

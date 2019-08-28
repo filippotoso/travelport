@@ -37,7 +37,7 @@ class PolicyInformation
      * @param typeSegmentPolicy $VehiclePolicy
      * @param typeRef $BookingTravelerRef
      */
-    public function __construct($AirPolicy, $RailPolicy, $HotelPolicy, $VehiclePolicy, $BookingTravelerRef)
+    public function __construct($AirPolicy = null, $RailPolicy = null, $HotelPolicy = null, $VehiclePolicy = null, $BookingTravelerRef = null)
     {
       $this->AirPolicy = $AirPolicy;
       $this->RailPolicy = $RailPolicy;

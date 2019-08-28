@@ -29,7 +29,7 @@ class ProviderARNKSegment
      * @param typeRef $Key
      * @param typeRef $ProviderReservationInfoRef
      */
-    public function __construct($Key, $ProviderReservationInfoRef)
+    public function __construct($Key = null, $ProviderReservationInfoRef = null)
     {
       $this->Key = $Key;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;

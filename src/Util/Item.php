@@ -17,7 +17,7 @@ class Item extends typeReferenceData
      * @param StringLength1to255 $Description
      * @param AdditionalElement $AdditionalElement
      */
-    public function __construct($DeprecatedDate, $Code, $Name, $Description, $AdditionalElement)
+    public function __construct($DeprecatedDate = null, $Code = null, $Name = null, $Description = null, $AdditionalElement = null)
     {
       parent::__construct($DeprecatedDate, $Code, $Name, $Description);
       $this->AdditionalElement = $AdditionalElement;

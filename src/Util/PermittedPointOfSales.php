@@ -13,7 +13,7 @@ class PermittedPointOfSales
     /**
      * @param PointOfSale $PointOfSale
      */
-    public function __construct($PointOfSale)
+    public function __construct($PointOfSale = null)
     {
       $this->PointOfSale = $PointOfSale;
     }

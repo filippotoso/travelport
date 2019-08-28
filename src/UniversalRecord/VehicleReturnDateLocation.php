@@ -31,7 +31,7 @@ class VehicleReturnDateLocation
      * @param typeVehicleLocation $ReturnLocationType
      * @param string $ReturnLocationNumber
      */
-    public function __construct($ReturnDateTime, $ReturnLocation, $ReturnLocationType, $ReturnLocationNumber)
+    public function __construct($ReturnDateTime = null, $ReturnLocation = null, $ReturnLocationType = null, $ReturnLocationNumber = null)
     {
       $this->ReturnDateTime = $ReturnDateTime;
       $this->ReturnLocation = $ReturnLocation;

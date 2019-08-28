@@ -19,7 +19,7 @@ class ProviderReservationInfo
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($ProviderCode, $ProviderLocatorCode)
+    public function __construct($ProviderCode = null, $ProviderLocatorCode = null)
     {
       $this->ProviderCode = $ProviderCode;
       $this->ProviderLocatorCode = $ProviderLocatorCode;

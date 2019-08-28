@@ -34,7 +34,7 @@ class CreditCard extends typeCreditCardType
      * @param string $ProfileID
      * @param typeRef $Key
      */
-    public function __construct($PhoneNumber, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode, $ExtendedPayment, $CustomerReference, $AcceptanceOverride, $ThirdPartyPayment, $BankName, $BankCountryCode, $BankStateCode, $Enett, $ProfileID, $Key)
+    public function __construct($PhoneNumber = null, $Type = null, $Number = null, $ExpDate = null, $Name = null, $CVV = null, $ApprovalCode = null, $ExtendedPayment = null, $CustomerReference = null, $AcceptanceOverride = null, $ThirdPartyPayment = null, $BankName = null, $BankCountryCode = null, $BankStateCode = null, $Enett = null, $ProfileID = null, $Key = null)
     {
       parent::__construct($PhoneNumber, $Type, $Number, $ExpDate, $Name, $CVV, $ApprovalCode, $ExtendedPayment, $CustomerReference, $AcceptanceOverride, $ThirdPartyPayment, $BankName, $BankCountryCode, $BankStateCode, $Enett);
       $this->ProfileID = $ProfileID;

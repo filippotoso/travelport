@@ -37,7 +37,7 @@ class PaymentPhone
      * @param anonymous898 $Extension
      * @param typeCityOrAirport $Location
      */
-    public function __construct($Country, $AreaCode, $LocalNumber, $Extension, $Location)
+    public function __construct($Country = null, $AreaCode = null, $LocalNumber = null, $Extension = null, $Location = null)
     {
       $this->Country = $Country;
       $this->AreaCode = $AreaCode;

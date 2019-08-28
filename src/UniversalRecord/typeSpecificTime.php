@@ -13,7 +13,7 @@ class typeSpecificTime
     /**
      * @param string $Time
      */
-    public function __construct($Time)
+    public function __construct($Time = null)
     {
       $this->Time = $Time;
     }

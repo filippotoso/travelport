@@ -43,7 +43,7 @@ class HotelRulesLookup
      * @param typeMoney $Base
      * @param anonymous664 $RulesDetailReqd
      */
-    public function __construct($HotelProperty, $HotelStay, $HotelRulesModifiers, $RatePlanType, $Base, $RulesDetailReqd)
+    public function __construct($HotelProperty = null, $HotelStay = null, $HotelRulesModifiers = null, $RatePlanType = null, $Base = null, $RulesDetailReqd = null)
     {
       $this->HotelProperty = $HotelProperty;
       $this->HotelStay = $HotelStay;

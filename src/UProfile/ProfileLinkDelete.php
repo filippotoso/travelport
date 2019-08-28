@@ -19,7 +19,7 @@ class ProfileLinkDelete
      * @param typeProfileID $TravelerID
      * @param typeProfileLinkRelationship $Relationship
      */
-    public function __construct($TravelerID, $Relationship)
+    public function __construct($TravelerID = null, $Relationship = null)
     {
       $this->TravelerID = $TravelerID;
       $this->Relationship = $Relationship;

@@ -25,7 +25,7 @@ class Coach
      * @param Remark $Remark
      * @param string $CoachNumber
      */
-    public function __construct($Characteristic, $Remark, $CoachNumber)
+    public function __construct($Characteristic = null, $Remark = null, $CoachNumber = null)
     {
       $this->Characteristic = $Characteristic;
       $this->Remark = $Remark;

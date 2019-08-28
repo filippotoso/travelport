@@ -61,7 +61,7 @@ class CruiseItinerary
      * @param StringLength1to20 $PortName
      * @param StringLength1 $PortIndicator
      */
-    public function __construct($DepartureDate, $DepartureTime, $ArrivalDate, $ArrivalTime, $BoardingDate, $BoardingTime, $Status, $PortName, $PortIndicator)
+    public function __construct($DepartureDate = null, $DepartureTime = null, $ArrivalDate = null, $ArrivalTime = null, $BoardingDate = null, $BoardingTime = null, $Status = null, $PortName = null, $PortIndicator = null)
     {
       $this->DepartureDate = $DepartureDate;
       $this->DepartureTime = $DepartureTime;

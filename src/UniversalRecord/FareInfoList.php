@@ -13,7 +13,7 @@ class FareInfoList
     /**
      * @param FareInfo $FareInfo
      */
-    public function __construct($FareInfo)
+    public function __construct($FareInfo = null)
     {
       $this->FareInfo = $FareInfo;
     }

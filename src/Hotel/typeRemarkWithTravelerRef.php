@@ -30,7 +30,7 @@ class typeRemarkWithTravelerRef
      * @param typeRef $ProviderReservationInfoRef
      * @param typeProviderCode $ProviderCode
      */
-    public function __construct($RemarkData, $ProviderReservationInfoRef, $ProviderCode)
+    public function __construct($RemarkData = null, $ProviderReservationInfoRef = null, $ProviderCode = null)
     {
       $this->RemarkData = $RemarkData;
       $this->ProviderReservationInfoRef = $ProviderReservationInfoRef;

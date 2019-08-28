@@ -19,7 +19,7 @@ class VehicleUpsellDelete
      * @param typeRef $QualifyRef
      * @param typeRef $OfferRef
      */
-    public function __construct($QualifyRef, $OfferRef)
+    public function __construct($QualifyRef = null, $OfferRef = null)
     {
       $this->QualifyRef = $QualifyRef;
       $this->OfferRef = $OfferRef;

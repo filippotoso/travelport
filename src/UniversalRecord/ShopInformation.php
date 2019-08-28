@@ -35,7 +35,7 @@ class ShopInformation
      * @param string $CabinSelected
      * @param typeMoney $LowestFareOffered
      */
-    public function __construct($CabinShopped, $CabinSelected, $LowestFareOffered)
+    public function __construct($CabinShopped = null, $CabinSelected = null, $LowestFareOffered = null)
     {
       $this->CabinShopped = $CabinShopped;
       $this->CabinSelected = $CabinSelected;

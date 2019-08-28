@@ -49,7 +49,7 @@ class typeAccountingReferenceHistory extends typeKeyElement
      * @param typeProfileID $OwnerID
      * @param boolean $Active
      */
-    public function __construct($Key, $Type, $Value, $AccountID, $PriorityOrder, $OwnerID, $Active)
+    public function __construct($Key = null, $Type = null, $Value = null, $AccountID = null, $PriorityOrder = null, $OwnerID = null, $Active = null)
     {
       parent::__construct($Key);
       $this->Type = $Type;

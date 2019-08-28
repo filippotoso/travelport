@@ -13,7 +13,7 @@ class PersonNameSearch
     /**
      * @param StringLength1to64 $Last
      */
-    public function __construct($Last)
+    public function __construct($Last = null)
     {
       $this->Last = $Last;
     }

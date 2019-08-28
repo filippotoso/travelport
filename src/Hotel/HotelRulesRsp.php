@@ -30,7 +30,7 @@ class HotelRulesRsp extends BaseRsp
      * @param HotelRuleItem $HotelRuleItem
      * @param HotelType $HotelType
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $HotelRateDetail, $HotelRuleItem, $HotelType)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $HotelRateDetail = null, $HotelRuleItem = null, $HotelType = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->HotelRateDetail = $HotelRateDetail;

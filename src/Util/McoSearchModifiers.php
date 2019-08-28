@@ -37,7 +37,7 @@ class McoSearchModifiers
      * @param anonymous1123 $StartFromResult
      * @param boolean $IncludeName
      */
-    public function __construct($Type, $Status, $MaxResults, $StartFromResult, $IncludeName)
+    public function __construct($Type = null, $Status = null, $MaxResults = null, $StartFromResult = null, $IncludeName = null)
     {
       $this->Type = $Type;
       $this->Status = $Status;

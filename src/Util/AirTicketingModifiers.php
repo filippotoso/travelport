@@ -79,7 +79,7 @@ class AirTicketingModifiers
      * @param boolean $SuppressTaxAndFee
      * @param boolean $NoComparisonSFQ
      */
-    public function __construct($DocumentModifiers, $AirPricingInfoRef, $TourCode, $TicketEndorsement, $Commission, $FormOfPayment, $CreditCardAuth, $Payment, $PlatingCarrier, $TicketedFareOverride, $SuppressTaxAndFee, $NoComparisonSFQ)
+    public function __construct($DocumentModifiers = null, $AirPricingInfoRef = null, $TourCode = null, $TicketEndorsement = null, $Commission = null, $FormOfPayment = null, $CreditCardAuth = null, $Payment = null, $PlatingCarrier = null, $TicketedFareOverride = null, $SuppressTaxAndFee = null, $NoComparisonSFQ = null)
     {
       $this->DocumentModifiers = $DocumentModifiers;
       $this->AirPricingInfoRef = $AirPricingInfoRef;

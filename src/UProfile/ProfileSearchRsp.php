@@ -36,7 +36,7 @@ class ProfileSearchRsp extends BaseRsp
      * @param StringLength1to128 $SearchToken
      * @param typeMoreResults $MoreResults
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ProfileSummary, $ProfileParentSearchSummary, $SearchToken, $MoreResults)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ProfileSummary = null, $ProfileParentSearchSummary = null, $SearchToken = null, $MoreResults = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ProfileSummary = $ProfileSummary;

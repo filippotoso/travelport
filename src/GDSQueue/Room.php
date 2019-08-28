@@ -19,7 +19,7 @@ class Room
      * @param int $Capacity
      * @param int $Quantity
      */
-    public function __construct($Capacity, $Quantity)
+    public function __construct($Capacity = null, $Quantity = null)
     {
       $this->Capacity = $Capacity;
       $this->Quantity = $Quantity;

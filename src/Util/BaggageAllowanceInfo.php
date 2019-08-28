@@ -30,7 +30,7 @@ class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
      * @param typePTC $TravelerType
      * @param typeRef $FareInfoRef
      */
-    public function __construct($URLInfo, $TextInfo, $Origin, $Destination, $Carrier, $BagDetails, $TravelerType, $FareInfoRef)
+    public function __construct($URLInfo = null, $TextInfo = null, $Origin = null, $Destination = null, $Carrier = null, $BagDetails = null, $TravelerType = null, $FareInfoRef = null)
     {
       parent::__construct($URLInfo, $TextInfo, $Origin, $Destination, $Carrier);
       $this->BagDetails = $BagDetails;

@@ -64,7 +64,7 @@ class TravelComplianceData
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($Key, $AirSegmentRef, $PassiveSegmentRef, $RailSegmentRef, $ReservationLocatorRef, $ElStat, $KeyOverride)
+    public function __construct($Key = null, $AirSegmentRef = null, $PassiveSegmentRef = null, $RailSegmentRef = null, $ReservationLocatorRef = null, $ElStat = null, $KeyOverride = null)
     {
       $this->Key = $Key;
       $this->AirSegmentRef = $AirSegmentRef;

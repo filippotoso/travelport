@@ -30,7 +30,7 @@ class ProfileChildSearchRsp extends BaseRsp
      * @param typeMoreResults $MoreResults
      * @param int $NumberOfChildren
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ProfileChildSummary, $MoreResults, $NumberOfChildren)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ProfileChildSummary = null, $MoreResults = null, $NumberOfChildren = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ProfileChildSummary = $ProfileChildSummary;

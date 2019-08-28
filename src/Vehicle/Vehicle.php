@@ -133,7 +133,7 @@ class Vehicle
      * @param typePolicyCode $PolicyCode
      * @param boolean $PreferredOption
      */
-    public function __construct($PolicyCodesList, $VehicleRate, $VendorCode, $AirConditioning, $TransmissionType, $VehicleClass, $Category, $Description, $DoorCount, $Location, $CounterLocationCode, $VendorLocationKey, $VendorName, $AlternateVendor, $FuelType, $AcrissVehicleCode, $Key, $ReturnAtPickup, $InPolicy, $PolicyCode, $PreferredOption)
+    public function __construct($PolicyCodesList = null, $VehicleRate = null, $VendorCode = null, $AirConditioning = null, $TransmissionType = null, $VehicleClass = null, $Category = null, $Description = null, $DoorCount = null, $Location = null, $CounterLocationCode = null, $VendorLocationKey = null, $VendorName = null, $AlternateVendor = null, $FuelType = null, $AcrissVehicleCode = null, $Key = null, $ReturnAtPickup = null, $InPolicy = null, $PolicyCode = null, $PreferredOption = null)
     {
       $this->PolicyCodesList = $PolicyCodesList;
       $this->VehicleRate = $VehicleRate;

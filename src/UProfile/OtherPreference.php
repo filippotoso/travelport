@@ -111,7 +111,7 @@ class OtherPreference extends typeKeyTaggedElement
      * @param typeCurrency $Currency
      * @param StringLength1to255 $GeneralPreference
      */
-    public function __construct($Key, $TagRef, $Purpose, $PriorityOrder, $TripApproval, $Inclusive, $OtherSupplierType, $SupplierName, $BookingStartDate, $BookingEndDate, $UsageStartDate, $UsageEndDate, $GeoPoliticalAreaType, $GeoPoliticalAreaCode, $PreferencePaymentMethod, $PaymentDetailsRef, $MaxCostAmount, $Currency, $GeneralPreference)
+    public function __construct($Key = null, $TagRef = null, $Purpose = null, $PriorityOrder = null, $TripApproval = null, $Inclusive = null, $OtherSupplierType = null, $SupplierName = null, $BookingStartDate = null, $BookingEndDate = null, $UsageStartDate = null, $UsageEndDate = null, $GeoPoliticalAreaType = null, $GeoPoliticalAreaCode = null, $PreferencePaymentMethod = null, $PaymentDetailsRef = null, $MaxCostAmount = null, $Currency = null, $GeneralPreference = null)
     {
       parent::__construct($Key, $TagRef);
       $this->Purpose = $Purpose;

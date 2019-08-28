@@ -43,7 +43,7 @@ class IssuanceModifiers
      * @param EMDCommission $EMDCommission
      * @param typeCarrier $PlatingCarrier
      */
-    public function __construct($FormOfPaymentRef, $FormOfPayment, $CustomerReceiptInfo, $EMDEndorsement, $EMDCommission, $PlatingCarrier)
+    public function __construct($FormOfPaymentRef = null, $FormOfPayment = null, $CustomerReceiptInfo = null, $EMDEndorsement = null, $EMDCommission = null, $PlatingCarrier = null)
     {
       $this->FormOfPaymentRef = $FormOfPaymentRef;
       $this->FormOfPayment = $FormOfPayment;

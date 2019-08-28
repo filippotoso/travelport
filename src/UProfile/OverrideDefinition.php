@@ -43,7 +43,7 @@ class OverrideDefinition
      * @param boolean $ReadOnly
      * @param typeCustomFieldOrGroupType $TemplateFieldType
      */
-    public function __construct($TemplateFieldID, $Hide, $Label, $MinOccursOverride, $ReadOnly, $TemplateFieldType)
+    public function __construct($TemplateFieldID = null, $Hide = null, $Label = null, $MinOccursOverride = null, $ReadOnly = null, $TemplateFieldType = null)
     {
       $this->TemplateFieldID = $TemplateFieldID;
       $this->Hide = $Hide;

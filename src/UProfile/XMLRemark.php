@@ -37,7 +37,7 @@ class XMLRemark
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($_, $Key, $Category, $ElStat, $KeyOverride)
+    public function __construct($_ = null, $Key = null, $Category = null, $ElStat = null, $KeyOverride = null)
     {
       $this->_ = $_;
       $this->Key = $Key;

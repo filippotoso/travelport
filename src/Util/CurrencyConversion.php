@@ -37,7 +37,7 @@ class CurrencyConversion
      * @param float $ConvertedAmount
      * @param float $BankSellingRate
      */
-    public function __construct($From, $To, $OriginalAmount, $ConvertedAmount, $BankSellingRate)
+    public function __construct($From = null, $To = null, $OriginalAmount = null, $ConvertedAmount = null, $BankSellingRate = null)
     {
       $this->From = $From;
       $this->To = $To;

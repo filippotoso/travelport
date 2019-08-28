@@ -24,7 +24,7 @@ class ReferenceDataRetrieveRsp extends BaseRsp
      * @param ReferenceDataItem $ReferenceDataItem
      * @param typeMoreResults $MoreResults
      */
-    public function __construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory, $ReferenceDataItem, $MoreResults)
+    public function __construct($ResponseMessage = null, $TraceId = null, $TransactionId = null, $ResponseTime = null, $CommandHistory = null, $ReferenceDataItem = null, $MoreResults = null)
     {
       parent::__construct($ResponseMessage, $TraceId, $TransactionId, $ResponseTime, $CommandHistory);
       $this->ReferenceDataItem = $ReferenceDataItem;

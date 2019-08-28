@@ -73,7 +73,7 @@ class typeProfileParentWithData
      * @param typeTemplateID $TemplateID
      * @param typeVersion $TemplateVersion
      */
-    public function __construct($BaseInfo, $ProfileParent, $ProfileData, $ProfileID, $ProfileType, $Name, $Status, $HierarchyLevelID, $Version, $TemplateID, $TemplateVersion)
+    public function __construct($BaseInfo = null, $ProfileParent = null, $ProfileData = null, $ProfileID = null, $ProfileType = null, $Name = null, $Status = null, $HierarchyLevelID = null, $Version = null, $TemplateID = null, $TemplateVersion = null)
     {
       $this->BaseInfo = $BaseInfo;
       $this->ProfileParent = $ProfileParent;

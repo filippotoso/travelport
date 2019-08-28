@@ -19,7 +19,7 @@ class OverridePCC
      * @param typeProviderCode $ProviderCode
      * @param typePCC $PseudoCityCode
      */
-    public function __construct($ProviderCode, $PseudoCityCode)
+    public function __construct($ProviderCode = null, $PseudoCityCode = null)
     {
       $this->ProviderCode = $ProviderCode;
       $this->PseudoCityCode = $PseudoCityCode;

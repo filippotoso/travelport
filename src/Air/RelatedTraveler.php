@@ -36,7 +36,7 @@ class RelatedTraveler
      * @param string $StatusCode
      * @param string $Relation
      */
-    public function __construct($LoyaltyCard, $PersonName, $StatusCode, $Relation)
+    public function __construct($LoyaltyCard = null, $PersonName = null, $StatusCode = null, $Relation = null)
     {
       $this->LoyaltyCard = $LoyaltyCard;
       $this->PersonName = $PersonName;

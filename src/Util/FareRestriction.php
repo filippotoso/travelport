@@ -37,7 +37,7 @@ class FareRestriction
      * @param FareRestrictionSeasonal $FareRestrictionSeasonal
      * @param typeFareRestrictionType $FareRestrictiontype
      */
-    public function __construct($FareRestrictionDaysOfWeek, $FareRestrictionDate, $FareRestrictionSaleDate, $FareRestrictionSeasonal, $FareRestrictiontype)
+    public function __construct($FareRestrictionDaysOfWeek = null, $FareRestrictionDate = null, $FareRestrictionSaleDate = null, $FareRestrictionSeasonal = null, $FareRestrictiontype = null)
     {
       $this->FareRestrictionDaysOfWeek = $FareRestrictionDaysOfWeek;
       $this->FareRestrictionDate = $FareRestrictionDate;

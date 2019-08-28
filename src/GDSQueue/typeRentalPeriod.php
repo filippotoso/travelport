@@ -25,7 +25,7 @@ class typeRentalPeriod
      * @param int $Length
      * @param boolean $RequirementPassed
      */
-    public function __construct($RentalUnit, $Length, $RequirementPassed)
+    public function __construct($RentalUnit = null, $Length = null, $RequirementPassed = null)
     {
       $this->RentalUnit = $RentalUnit;
       $this->Length = $Length;

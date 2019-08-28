@@ -19,7 +19,7 @@ class FareRuleNameValue
      * @param string $Name
      * @param string $Value
      */
-    public function __construct($Name, $Value)
+    public function __construct($Name = null, $Value = null)
     {
       $this->Name = $Name;
       $this->Value = $Value;
