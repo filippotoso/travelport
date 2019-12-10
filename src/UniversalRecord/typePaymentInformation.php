@@ -21,14 +21,14 @@ class typePaymentInformation
     protected $BillingReferenceNumber = null;
 
     /**
-     * @var anonymous1122 $PrePayment
+     * @var anonymous1124 $PrePayment
      */
     protected $PrePayment = null;
 
     /**
      * @param string $BillingNumber
      * @param string $BillingReferenceNumber
-     * @param anonymous1122 $PrePayment
+     * @param anonymous1124 $PrePayment
      */
     public function __construct($BillingNumber = null, $BillingReferenceNumber = null, $PrePayment = null)
     {
@@ -92,7 +92,7 @@ class typePaymentInformation
     }
 
     /**
-     * @return anonymous1122
+     * @return anonymous1124
      */
     public function getPrePayment()
     {
@@ -100,7 +100,7 @@ class typePaymentInformation
     }
 
     /**
-     * @param anonymous1122 $PrePayment
+     * @param anonymous1124 $PrePayment
      * @return \FilippoToso\Travelport\UniversalRecord\typePaymentInformation
      */
     public function setPrePayment($PrePayment)

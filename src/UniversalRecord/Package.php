@@ -11,7 +11,7 @@ class Package
     protected $Name = null;
 
     /**
-     * @var anonymous1357 $Identifier
+     * @var anonymous1359 $Identifier
      */
     protected $Identifier = null;
 
@@ -27,7 +27,7 @@ class Package
 
     /**
      * @param StringLength1to30 $Name
-     * @param anonymous1357 $Identifier
+     * @param anonymous1359 $Identifier
      * @param int $PassengerCount
      * @param StringLength1to14 $PackageIdentifier
      */
@@ -58,7 +58,7 @@ class Package
     }
 
     /**
-     * @return anonymous1357
+     * @return anonymous1359
      */
     public function getIdentifier()
     {
@@ -66,7 +66,7 @@ class Package
     }
 
     /**
-     * @param anonymous1357 $Identifier
+     * @param anonymous1359 $Identifier
      * @return \FilippoToso\Travelport\UniversalRecord\Package
      */
     public function setIdentifier($Identifier)

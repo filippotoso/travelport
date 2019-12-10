@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<definitions name="UniversalRecordServices"
+             xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:tns="http://www.travelport.com/service/universal_v49_0"
+             xmlns:ns1="http://www.travelport.com/schema/universal_v49_0"
+             targetNamespace="http://www.travelport.com/service/universal_v49_0">
+
+    <import namespace="http://www.travelport.com/service/universal_v49_0"
+            location="UniversalRecordAbstract.wsdl"/>
+
+    <binding name="RailCreateReservationBinding" type="tns:RailCreateReservationPortType">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+        <operation name="service">
+            <soap:operation soapAction="http://localhost:8080/kestrel/RailService"/>
+            <input>
+                <soap:body use="literal" />
+            </input>
+            <output>
+                <soap:body use="literal" />
+            </output>
+            <fault name="ErrorInfoMsg">
+                <soap:fault name="ErrorInfoMsg" use="literal" />
+            </fault>
+        </operation>
+    </binding><service name="RailService"><port name="RailCreateReservationPort" binding="tns:RailCreateReservationBinding">
+            <soap:address location="http://localhost:8080/kestrel/RailService" />
+        </port></service></definitions>

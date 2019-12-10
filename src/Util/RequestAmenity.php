@@ -6,12 +6,12 @@ class RequestAmenity
 {
 
     /**
-     * @var anonymous1104 $Type
+     * @var anonymous1106 $Type
      */
     protected $Type = null;
 
     /**
-     * @param anonymous1104 $Type
+     * @param anonymous1106 $Type
      */
     public function __construct($Type = null)
     {
@@ -19,7 +19,7 @@ class RequestAmenity
     }
 
     /**
-     * @return anonymous1104
+     * @return anonymous1106
      */
     public function getType()
     {
@@ -27,7 +27,7 @@ class RequestAmenity
     }
 
     /**
-     * @param anonymous1104 $Type
+     * @param anonymous1106 $Type
      * @return \FilippoToso\Travelport\Util\RequestAmenity
      */
     public function setType($Type)

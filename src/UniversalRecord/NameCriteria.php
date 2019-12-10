@@ -6,18 +6,18 @@ class NameCriteria
 {
 
     /**
-     * @var anonymous1410 $FirstName
+     * @var anonymous1412 $FirstName
      */
     protected $FirstName = null;
 
     /**
-     * @var anonymous1411 $LastName
+     * @var anonymous1413 $LastName
      */
     protected $LastName = null;
 
     /**
-     * @param anonymous1410 $FirstName
-     * @param anonymous1411 $LastName
+     * @param anonymous1412 $FirstName
+     * @param anonymous1413 $LastName
      */
     public function __construct($FirstName = null, $LastName = null)
     {
@@ -26,7 +26,7 @@ class NameCriteria
     }
 
     /**
-     * @return anonymous1410
+     * @return anonymous1412
      */
     public function getFirstName()
     {
@@ -34,7 +34,7 @@ class NameCriteria
     }
 
     /**
-     * @param anonymous1410 $FirstName
+     * @param anonymous1412 $FirstName
      * @return \FilippoToso\Travelport\UniversalRecord\NameCriteria
      */
     public function setFirstName($FirstName)
@@ -44,7 +44,7 @@ class NameCriteria
     }
 
     /**
-     * @return anonymous1411
+     * @return anonymous1413
      */
     public function getLastName()
     {
@@ -52,7 +52,7 @@ class NameCriteria
     }
 
     /**
-     * @param anonymous1411 $LastName
+     * @param anonymous1413 $LastName
      * @return \FilippoToso\Travelport\UniversalRecord\NameCriteria
      */
     public function setLastName($LastName)

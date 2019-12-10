@@ -31,7 +31,7 @@ class RailJourney
     protected $Key = null;
 
     /**
-     * @var anonymous1268 $RouteDescription
+     * @var anonymous1270 $RouteDescription
      */
     protected $RouteDescription = null;
 
@@ -66,7 +66,7 @@ class RailJourney
     protected $TravelOrder = null;
 
     /**
-     * @var anonymous1269 $RouteReference
+     * @var anonymous1271 $RouteReference
      */
     protected $RouteReference = null;
 
@@ -191,14 +191,14 @@ class RailJourney
      * @param JourneyRemark $JourneyRemark
      * @param HostToken $HostToken
      * @param typeRef $Key
-     * @param anonymous1268 $RouteDescription
+     * @param anonymous1270 $RouteDescription
      * @param typeJourneyDirection $JourneyDirection
      * @param int $JourneyDuration
      * @param string $Status
      * @param typeRef $ProviderReservationInfoRef
      * @param typeRef $PassiveProviderReservationInfoRef
      * @param int $TravelOrder
-     * @param anonymous1269 $RouteReference
+     * @param anonymous1271 $RouteReference
      * @param string $Operation
      * @param typeIATACode $Origin
      * @param typeIATACode $Destination
@@ -354,7 +354,7 @@ class RailJourney
     }
 
     /**
-     * @return anonymous1268
+     * @return anonymous1270
      */
     public function getRouteDescription()
     {
@@ -362,7 +362,7 @@ class RailJourney
     }
 
     /**
-     * @param anonymous1268 $RouteDescription
+     * @param anonymous1270 $RouteDescription
      * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
      */
     public function setRouteDescription($RouteDescription)
@@ -480,7 +480,7 @@ class RailJourney
     }
 
     /**
-     * @return anonymous1269
+     * @return anonymous1271
      */
     public function getRouteReference()
     {
@@ -488,7 +488,7 @@ class RailJourney
     }
 
     /**
-     * @param anonymous1269 $RouteReference
+     * @param anonymous1271 $RouteReference
      * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
      */
     public function setRouteReference($RouteReference)

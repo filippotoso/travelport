@@ -6,18 +6,18 @@ class Criteria
 {
 
     /**
-     * @var anonymous1186 $Order
+     * @var anonymous1188 $Order
      */
     protected $Order = null;
 
     /**
-     * @var anonymous1187 $Type
+     * @var anonymous1189 $Type
      */
     protected $Type = null;
 
     /**
-     * @param anonymous1186 $Order
-     * @param anonymous1187 $Type
+     * @param anonymous1188 $Order
+     * @param anonymous1189 $Type
      */
     public function __construct($Order = null, $Type = null)
     {
@@ -26,7 +26,7 @@ class Criteria
     }
 
     /**
-     * @return anonymous1186
+     * @return anonymous1188
      */
     public function getOrder()
     {
@@ -34,7 +34,7 @@ class Criteria
     }
 
     /**
-     * @param anonymous1186 $Order
+     * @param anonymous1188 $Order
      * @return \FilippoToso\Travelport\GDSQueue\Criteria
      */
     public function setOrder($Order)
@@ -44,7 +44,7 @@ class Criteria
     }
 
     /**
-     * @return anonymous1187
+     * @return anonymous1189
      */
     public function getType()
     {
@@ -52,7 +52,7 @@ class Criteria
     }
 
     /**
-     * @param anonymous1187 $Type
+     * @param anonymous1189 $Type
      * @return \FilippoToso\Travelport\GDSQueue\Criteria
      */
     public function setType($Type)

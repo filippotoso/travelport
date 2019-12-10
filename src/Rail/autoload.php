@@ -800,6 +800,8 @@
         'FilippoToso\Travelport\Rail\AirSegmentData' => __DIR__ .'/AirSegmentData.php',
         'FilippoToso\Travelport\Rail\AirExchangeBundleList' => __DIR__ .'/AirExchangeBundleList.php',
         'FilippoToso\Travelport\Rail\InvoluntaryChange' => __DIR__ .'/InvoluntaryChange.php',
+        'FilippoToso\Travelport\Rail\typeMostRestrictivePenalties' => __DIR__ .'/typeMostRestrictivePenalties.php',
+        'FilippoToso\Travelport\Rail\typeRestrictionData' => __DIR__ .'/typeRestrictionData.php',
         'FilippoToso\Travelport\Rail\HotelReservation' => __DIR__ .'/HotelReservation.php',
         'FilippoToso\Travelport\Rail\HotelProperty' => __DIR__ .'/HotelProperty.php',
         'FilippoToso\Travelport\Rail\MarketingMessage' => __DIR__ .'/MarketingMessage.php',

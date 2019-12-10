@@ -16,7 +16,7 @@ class ContentProvider
     protected $SupplierCode = null;
 
     /**
-     * @var anonymous1138 $AgencyCredentials
+     * @var anonymous1140 $AgencyCredentials
      */
     protected $AgencyCredentials = null;
 
@@ -88,7 +88,7 @@ class ContentProvider
     /**
      * @param string $ProviderCode
      * @param string $SupplierCode
-     * @param anonymous1138 $AgencyCredentials
+     * @param anonymous1140 $AgencyCredentials
      * @param boolean $Active
      * @param boolean $Provisionable
      * @param string $MerchandisingACHAdapter
@@ -160,7 +160,7 @@ class ContentProvider
     }
 
     /**
-     * @return anonymous1138
+     * @return anonymous1140
      */
     public function getAgencyCredentials()
     {
@@ -168,7 +168,7 @@ class ContentProvider
     }
 
     /**
-     * @param anonymous1138 $AgencyCredentials
+     * @param anonymous1140 $AgencyCredentials
      * @return \FilippoToso\Travelport\Util\ContentProvider
      */
     public function setAgencyCredentials($AgencyCredentials)

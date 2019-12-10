@@ -11,13 +11,13 @@ class AirSegmentSpecialUpdate
     protected $AirSegment = null;
 
     /**
-     * @var anonymous1385 $Action
+     * @var anonymous1387 $Action
      */
     protected $Action = null;
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @param anonymous1385 $Action
+     * @param anonymous1387 $Action
      */
     public function __construct($AirSegment = null, $Action = null)
     {
@@ -44,7 +44,7 @@ class AirSegmentSpecialUpdate
     }
 
     /**
-     * @return anonymous1385
+     * @return anonymous1387
      */
     public function getAction()
     {
@@ -52,7 +52,7 @@ class AirSegmentSpecialUpdate
     }
 
     /**
-     * @param anonymous1385 $Action
+     * @param anonymous1387 $Action
      * @return \FilippoToso\Travelport\GDSQueue\AirSegmentSpecialUpdate
      */
     public function setAction($Action)

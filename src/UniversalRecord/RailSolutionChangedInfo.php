@@ -11,13 +11,13 @@ class RailSolutionChangedInfo
     protected $RailPricingSolution = null;
 
     /**
-     * @var anonymous1324 $ReasonCode
+     * @var anonymous1326 $ReasonCode
      */
     protected $ReasonCode = null;
 
     /**
      * @param RailPricingSolution $RailPricingSolution
-     * @param anonymous1324 $ReasonCode
+     * @param anonymous1326 $ReasonCode
      */
     public function __construct($RailPricingSolution = null, $ReasonCode = null)
     {
@@ -44,7 +44,7 @@ class RailSolutionChangedInfo
     }
 
     /**
-     * @return anonymous1324
+     * @return anonymous1326
      */
     public function getReasonCode()
     {
@@ -52,7 +52,7 @@ class RailSolutionChangedInfo
     }
 
     /**
-     * @param anonymous1324 $ReasonCode
+     * @param anonymous1326 $ReasonCode
      * @return \FilippoToso\Travelport\UniversalRecord\RailSolutionChangedInfo
      */
     public function setReasonCode($ReasonCode)

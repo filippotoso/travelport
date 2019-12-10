@@ -800,6 +800,8 @@
         'FilippoToso\Travelport\GDSQueue\AirSegmentData' => __DIR__ .'/AirSegmentData.php',
         'FilippoToso\Travelport\GDSQueue\AirExchangeBundleList' => __DIR__ .'/AirExchangeBundleList.php',
         'FilippoToso\Travelport\GDSQueue\InvoluntaryChange' => __DIR__ .'/InvoluntaryChange.php',
+        'FilippoToso\Travelport\GDSQueue\typeMostRestrictivePenalties' => __DIR__ .'/typeMostRestrictivePenalties.php',
+        'FilippoToso\Travelport\GDSQueue\typeRestrictionData' => __DIR__ .'/typeRestrictionData.php',
         'FilippoToso\Travelport\GDSQueue\HotelReservation' => __DIR__ .'/HotelReservation.php',
         'FilippoToso\Travelport\GDSQueue\HotelProperty' => __DIR__ .'/HotelProperty.php',
         'FilippoToso\Travelport\GDSQueue\MarketingMessage' => __DIR__ .'/MarketingMessage.php',

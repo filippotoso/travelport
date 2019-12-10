@@ -136,6 +136,11 @@ class TCR
     protected $ProviderLocatorCode = null;
 
     /**
+     * @var typeSupplierCode $SupplierCode
+     */
+    protected $SupplierCode = null;
+
+    /**
      * @param FormOfPayment $FormOfPayment
      * @param Payment $Payment
      * @param BookingTraveler $BookingTraveler
@@ -162,8 +167,9 @@ class TCR
      * @param typeMoney $ForfeitAmount
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
+     * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($FormOfPayment = null, $Payment = null, $BookingTraveler = null, $PassengerTicketNumber = null, $AirPricingInfo = null, $AgencyInfo = null, $AirReservationLocatorCode = null, $SupplierLocator = null, $RefundRemark = null, $TCRNumber = null, $Status = null, $ModifiedDate = null, $ConfirmedDate = null, $BasePrice = null, $Taxes = null, $Fees = null, $Refundable = null, $Exchangeable = null, $Voidable = null, $Modifiable = null, $RefundAccessCode = null, $RefundAmount = null, $RefundFee = null, $ForfeitAmount = null, $ProviderCode = null, $ProviderLocatorCode = null)
+    public function __construct($FormOfPayment = null, $Payment = null, $BookingTraveler = null, $PassengerTicketNumber = null, $AirPricingInfo = null, $AgencyInfo = null, $AirReservationLocatorCode = null, $SupplierLocator = null, $RefundRemark = null, $TCRNumber = null, $Status = null, $ModifiedDate = null, $ConfirmedDate = null, $BasePrice = null, $Taxes = null, $Fees = null, $Refundable = null, $Exchangeable = null, $Voidable = null, $Modifiable = null, $RefundAccessCode = null, $RefundAmount = null, $RefundFee = null, $ForfeitAmount = null, $ProviderCode = null, $ProviderLocatorCode = null, $SupplierCode = null)
     {
       $this->FormOfPayment = $FormOfPayment;
       $this->Payment = $Payment;
@@ -191,6 +197,7 @@ class TCR
       $this->ForfeitAmount = $ForfeitAmount;
       $this->ProviderCode = $ProviderCode;
       $this->ProviderLocatorCode = $ProviderLocatorCode;
+      $this->SupplierCode = $SupplierCode;
     }
 
     /**
@@ -658,6 +665,24 @@ class TCR
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
       $this->ProviderLocatorCode = $ProviderLocatorCode;
+      return $this;
+    }
+
+    /**
+     * @return typeSupplierCode
+     */
+    public function getSupplierCode()
+    {
+      return $this->SupplierCode;
+    }
+
+    /**
+     * @param typeSupplierCode $SupplierCode
+     * @return \FilippoToso\Travelport\Air\TCR
+     */
+    public function setSupplierCode($SupplierCode)
+    {
+      $this->SupplierCode = $SupplierCode;
       return $this;
     }
 

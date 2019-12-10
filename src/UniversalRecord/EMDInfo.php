@@ -66,6 +66,11 @@ class EMDInfo
     protected $ProviderLocatorCode = null;
 
     /**
+     * @var typeSupplierCode $SupplierCode
+     */
+    protected $SupplierCode = null;
+
+    /**
      * @var typeElementStatus $ElStat
      */
     protected $ElStat = null;
@@ -88,10 +93,11 @@ class EMDInfo
      * @param typeRef $Key
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
+     * @param typeSupplierCode $SupplierCode
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
      */
-    public function __construct($EMDTravelerInfo = null, $SupplierLocator = null, $ElectronicMiscDocument = null, $Payment = null, $FormOfPayment = null, $EMDPricingInfo = null, $EMDEndorsement = null, $FareCalc = null, $EMDCommission = null, $Key = null, $ProviderCode = null, $ProviderLocatorCode = null, $ElStat = null, $KeyOverride = null)
+    public function __construct($EMDTravelerInfo = null, $SupplierLocator = null, $ElectronicMiscDocument = null, $Payment = null, $FormOfPayment = null, $EMDPricingInfo = null, $EMDEndorsement = null, $FareCalc = null, $EMDCommission = null, $Key = null, $ProviderCode = null, $ProviderLocatorCode = null, $SupplierCode = null, $ElStat = null, $KeyOverride = null)
     {
       $this->EMDTravelerInfo = $EMDTravelerInfo;
       $this->SupplierLocator = $SupplierLocator;
@@ -105,6 +111,7 @@ class EMDInfo
       $this->Key = $Key;
       $this->ProviderCode = $ProviderCode;
       $this->ProviderLocatorCode = $ProviderLocatorCode;
+      $this->SupplierCode = $SupplierCode;
       $this->ElStat = $ElStat;
       $this->KeyOverride = $KeyOverride;
     }
@@ -322,6 +329,24 @@ class EMDInfo
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
       $this->ProviderLocatorCode = $ProviderLocatorCode;
+      return $this;
+    }
+
+    /**
+     * @return typeSupplierCode
+     */
+    public function getSupplierCode()
+    {
+      return $this->SupplierCode;
+    }
+
+    /**
+     * @param typeSupplierCode $SupplierCode
+     * @return \FilippoToso\Travelport\UniversalRecord\EMDInfo
+     */
+    public function setSupplierCode($SupplierCode)
+    {
+      $this->SupplierCode = $SupplierCode;
       return $this;
     }
 

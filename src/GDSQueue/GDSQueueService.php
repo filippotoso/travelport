@@ -694,6 +694,8 @@ class GDSQueueService extends \SoapClient
   'AirSegmentData' => 'FilippoToso\\Travelport\\GDSQueue\\AirSegmentData',
   'AirExchangeBundleList' => 'FilippoToso\\Travelport\\GDSQueue\\AirExchangeBundleList',
   'InvoluntaryChange' => 'FilippoToso\\Travelport\\GDSQueue\\InvoluntaryChange',
+  'typeMostRestrictivePenalties' => 'FilippoToso\\Travelport\\GDSQueue\\typeMostRestrictivePenalties',
+  'typeRestrictionData' => 'FilippoToso\\Travelport\\GDSQueue\\typeRestrictionData',
   'HotelReservation' => 'FilippoToso\\Travelport\\GDSQueue\\HotelReservation',
   'HotelProperty' => 'FilippoToso\\Travelport\\GDSQueue\\HotelProperty',
   'MarketingMessage' => 'FilippoToso\\Travelport\\GDSQueue\\MarketingMessage',
@@ -962,7 +964,7 @@ class GDSQueueService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/gdsQueue_v48_0/GDSQueue.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/gdsQueue_v49_0/GDSQueue.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

@@ -11,7 +11,7 @@ class typeDepositGuarantee
     protected $Purpose = null;
 
     /**
-     * @var anonymous1128 $Type
+     * @var anonymous1130 $Type
      */
     protected $Type = null;
 
@@ -36,7 +36,7 @@ class typeDepositGuarantee
     protected $NumberOfDays = null;
 
     /**
-     * @var anonymous1129 $OptionType
+     * @var anonymous1131 $OptionType
      */
     protected $OptionType = null;
 
@@ -52,12 +52,12 @@ class typeDepositGuarantee
 
     /**
      * @param typeReserveRequirement $Purpose
-     * @param anonymous1128 $Type
+     * @param anonymous1130 $Type
      * @param typeMoney $Amount
      * @param float $Percent
      * @param date $DueDate
      * @param int $NumberOfDays
-     * @param anonymous1129 $OptionType
+     * @param anonymous1131 $OptionType
      * @param boolean $Required
      * @param boolean $RequirementPassed
      */
@@ -93,7 +93,7 @@ class typeDepositGuarantee
     }
 
     /**
-     * @return anonymous1128
+     * @return anonymous1130
      */
     public function getType()
     {
@@ -101,7 +101,7 @@ class typeDepositGuarantee
     }
 
     /**
-     * @param anonymous1128 $Type
+     * @param anonymous1130 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\typeDepositGuarantee
      */
     public function setType($Type)
@@ -183,7 +183,7 @@ class typeDepositGuarantee
     }
 
     /**
-     * @return anonymous1129
+     * @return anonymous1131
      */
     public function getOptionType()
     {
@@ -191,7 +191,7 @@ class typeDepositGuarantee
     }
 
     /**
-     * @param anonymous1129 $OptionType
+     * @param anonymous1131 $OptionType
      * @return \FilippoToso\Travelport\UniversalRecord\typeDepositGuarantee
      */
     public function setOptionType($OptionType)

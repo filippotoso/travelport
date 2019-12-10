@@ -797,6 +797,8 @@
         'FilippoToso\Travelport\Air\AirSegmentData' => __DIR__ .'/AirSegmentData.php',
         'FilippoToso\Travelport\Air\AirExchangeBundleList' => __DIR__ .'/AirExchangeBundleList.php',
         'FilippoToso\Travelport\Air\InvoluntaryChange' => __DIR__ .'/InvoluntaryChange.php',
+        'FilippoToso\Travelport\Air\typeMostRestrictivePenalties' => __DIR__ .'/typeMostRestrictivePenalties.php',
+        'FilippoToso\Travelport\Air\typeRestrictionData' => __DIR__ .'/typeRestrictionData.php',
         'FilippoToso\Travelport\Air\AirBaseReq' => __DIR__ .'/AirBaseReq.php',
         'FilippoToso\Travelport\Air\BaseAirPriceReq' => __DIR__ .'/BaseAirPriceReq.php',
         'FilippoToso\Travelport\Air\AirPriceReq' => __DIR__ .'/AirPriceReq.php',

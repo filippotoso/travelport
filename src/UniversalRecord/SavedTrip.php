@@ -196,7 +196,7 @@ class SavedTrip
     protected $UniversalRecordLocatorCode = null;
 
     /**
-     * @var anonymous1418 $Name
+     * @var anonymous1420 $Name
      */
     protected $Name = null;
 
@@ -264,7 +264,7 @@ class SavedTrip
      * @param PolicyInformation $PolicyInformation
      * @param typeLocatorCode $LocatorCode
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @param anonymous1418 $Name
+     * @param anonymous1420 $Name
      * @param \DateTime $CreateDate
      * @param \DateTime $ModifiedDate
      * @param typeURVersion $Version
@@ -1001,7 +1001,7 @@ class SavedTrip
     }
 
     /**
-     * @return anonymous1418
+     * @return anonymous1420
      */
     public function getName()
     {
@@ -1009,7 +1009,7 @@ class SavedTrip
     }
 
     /**
-     * @param anonymous1418 $Name
+     * @param anonymous1420 $Name
      * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
      */
     public function setName($Name)

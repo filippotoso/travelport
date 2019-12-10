@@ -71,6 +71,11 @@ class AirPricingInfo
     protected $NoShowPenalty = null;
 
     /**
+     * @var typeMostRestrictivePenalties $MostRestrictivePenalties
+     */
+    protected $MostRestrictivePenalties = null;
+
+    /**
      * @var typeFeeInfo $FeeInfo
      */
     protected $FeeInfo = null;
@@ -689,6 +694,24 @@ class AirPricingInfo
     public function setNoShowPenalty(array $NoShowPenalty = null)
     {
       $this->NoShowPenalty = $NoShowPenalty;
+      return $this;
+    }
+
+    /**
+     * @return typeMostRestrictivePenalties
+     */
+    public function getMostRestrictivePenalties()
+    {
+      return $this->MostRestrictivePenalties;
+    }
+
+    /**
+     * @param typeMostRestrictivePenalties $MostRestrictivePenalties
+     * @return \FilippoToso\Travelport\UniversalRecord\AirPricingInfo
+     */
+    public function setMostRestrictivePenalties($MostRestrictivePenalties)
+    {
+      $this->MostRestrictivePenalties = $MostRestrictivePenalties;
       return $this;
     }
 

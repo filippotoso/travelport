@@ -91,7 +91,7 @@ class RailFare
     protected $TicketTypeCode = null;
 
     /**
-     * @var anonymous1310 $FareReference
+     * @var anonymous1312 $FareReference
      */
     protected $FareReference = null;
 
@@ -158,7 +158,7 @@ class RailFare
      * @param typeMoney $Amount
      * @param string $RouteDescription
      * @param string $TicketTypeCode
-     * @param anonymous1310 $FareReference
+     * @param anonymous1312 $FareReference
      * @param boolean $CrossCityFare
      * @param string $OriginStationName
      * @param string $DestinationStationName
@@ -507,7 +507,7 @@ class RailFare
     }
 
     /**
-     * @return anonymous1310
+     * @return anonymous1312
      */
     public function getFareReference()
     {
@@ -515,7 +515,7 @@ class RailFare
     }
 
     /**
-     * @param anonymous1310 $FareReference
+     * @param anonymous1312 $FareReference
      * @return \FilippoToso\Travelport\GDSQueue\RailFare
      */
     public function setFareReference($FareReference)

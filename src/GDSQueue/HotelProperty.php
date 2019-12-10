@@ -101,7 +101,7 @@ class HotelProperty
     protected $MoreRates = null;
 
     /**
-     * @var anonymous1154 $MoreRatesToken
+     * @var anonymous1156 $MoreRatesToken
      */
     protected $MoreRatesToken = null;
 
@@ -134,7 +134,7 @@ class HotelProperty
      * @param typeRef $Key
      * @param boolean $PreferredOption
      * @param boolean $MoreRates
-     * @param anonymous1154 $MoreRatesToken
+     * @param anonymous1156 $MoreRatesToken
      * @param typeNetTransCommission $NetTransCommissionInd
      * @param int $NumOfRatePlans
      */
@@ -506,7 +506,7 @@ class HotelProperty
     }
 
     /**
-     * @return anonymous1154
+     * @return anonymous1156
      */
     public function getMoreRatesToken()
     {
@@ -514,7 +514,7 @@ class HotelProperty
     }
 
     /**
-     * @param anonymous1154 $MoreRatesToken
+     * @param anonymous1156 $MoreRatesToken
      * @return \FilippoToso\Travelport\GDSQueue\HotelProperty
      */
     public function setMoreRatesToken($MoreRatesToken)

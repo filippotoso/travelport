@@ -6,7 +6,7 @@ class GdsQueueAgentListReq extends BaseReq
 {
 
     /**
-     * @var anonymous1489 $AgentID
+     * @var anonymous1491 $AgentID
      */
     protected $AgentID = null;
 
@@ -22,7 +22,7 @@ class GdsQueueAgentListReq extends BaseReq
      * @param language $LanguageCode
      * @param OverridePCC $OverridePCC
      * @param boolean $RetrieveProviderReservationDetails
-     * @param anonymous1489 $AgentID
+     * @param anonymous1491 $AgentID
      */
     public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $AgentID = null)
     {
@@ -31,7 +31,7 @@ class GdsQueueAgentListReq extends BaseReq
     }
 
     /**
-     * @return anonymous1489
+     * @return anonymous1491
      */
     public function getAgentID()
     {
@@ -39,7 +39,7 @@ class GdsQueueAgentListReq extends BaseReq
     }
 
     /**
-     * @param anonymous1489 $AgentID
+     * @param anonymous1491 $AgentID
      * @return \FilippoToso\Travelport\GDSQueue\GdsQueueAgentListReq
      */
     public function setAgentID($AgentID)

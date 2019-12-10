@@ -646,6 +646,8 @@ class UniversalRecordService extends \SoapClient
   'AirSegmentData' => 'FilippoToso\\Travelport\\UniversalRecord\\AirSegmentData',
   'AirExchangeBundleList' => 'FilippoToso\\Travelport\\UniversalRecord\\AirExchangeBundleList',
   'InvoluntaryChange' => 'FilippoToso\\Travelport\\UniversalRecord\\InvoluntaryChange',
+  'typeMostRestrictivePenalties' => 'FilippoToso\\Travelport\\UniversalRecord\\typeMostRestrictivePenalties',
+  'typeRestrictionData' => 'FilippoToso\\Travelport\\UniversalRecord\\typeRestrictionData',
   'VehicleReservation' => 'FilippoToso\\Travelport\\UniversalRecord\\VehicleReservation',
   'PaymentInformation' => 'FilippoToso\\Travelport\\UniversalRecord\\PaymentInformation',
   'VehicleDateLocation' => 'FilippoToso\\Travelport\\UniversalRecord\\VehicleDateLocation',
@@ -996,7 +998,7 @@ class UniversalRecordService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/universal_v48_0/UniversalRecord.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/universal_v49_0/UniversalRecord.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

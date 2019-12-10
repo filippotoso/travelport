@@ -16,7 +16,7 @@ class CreditCardPaymentAuth
     protected $FormOfPaymentRef = null;
 
     /**
-     * @var anonymous1119 $SecurityCode
+     * @var anonymous1121 $SecurityCode
      */
     protected $SecurityCode = null;
 
@@ -33,7 +33,7 @@ class CreditCardPaymentAuth
     /**
      * @param CreditCard $CreditCard
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @param anonymous1119 $SecurityCode
+     * @param anonymous1121 $SecurityCode
      * @param typeMoney $Amount
      * @param boolean $PerformAVS
      */
@@ -83,7 +83,7 @@ class CreditCardPaymentAuth
     }
 
     /**
-     * @return anonymous1119
+     * @return anonymous1121
      */
     public function getSecurityCode()
     {
@@ -91,7 +91,7 @@ class CreditCardPaymentAuth
     }
 
     /**
-     * @param anonymous1119 $SecurityCode
+     * @param anonymous1121 $SecurityCode
      * @return \FilippoToso\Travelport\Util\CreditCardPaymentAuth
      */
     public function setSecurityCode($SecurityCode)

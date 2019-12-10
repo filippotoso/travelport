@@ -6,12 +6,12 @@ class RailAutoSeatAssignment
 {
 
     /**
-     * @var anonymous1332 $SeatType
+     * @var anonymous1334 $SeatType
      */
     protected $SeatType = null;
 
     /**
-     * @var anonymous1333 $SeatValue
+     * @var anonymous1335 $SeatValue
      */
     protected $SeatValue = null;
 
@@ -26,8 +26,8 @@ class RailAutoSeatAssignment
     protected $BookingTravelerRef = null;
 
     /**
-     * @param anonymous1332 $SeatType
-     * @param anonymous1333 $SeatValue
+     * @param anonymous1334 $SeatType
+     * @param anonymous1335 $SeatValue
      * @param typeRef $RailSegmentRef
      * @param typeRef $BookingTravelerRef
      */
@@ -40,7 +40,7 @@ class RailAutoSeatAssignment
     }
 
     /**
-     * @return anonymous1332
+     * @return anonymous1334
      */
     public function getSeatType()
     {
@@ -48,7 +48,7 @@ class RailAutoSeatAssignment
     }
 
     /**
-     * @param anonymous1332 $SeatType
+     * @param anonymous1334 $SeatType
      * @return \FilippoToso\Travelport\Rail\RailAutoSeatAssignment
      */
     public function setSeatType($SeatType)
@@ -58,7 +58,7 @@ class RailAutoSeatAssignment
     }
 
     /**
-     * @return anonymous1333
+     * @return anonymous1335
      */
     public function getSeatValue()
     {
@@ -66,7 +66,7 @@ class RailAutoSeatAssignment
     }
 
     /**
-     * @param anonymous1333 $SeatValue
+     * @param anonymous1335 $SeatValue
      * @return \FilippoToso\Travelport\Rail\RailAutoSeatAssignment
      */
     public function setSeatValue($SeatValue)

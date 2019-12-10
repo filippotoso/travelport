@@ -101,7 +101,7 @@ class PassiveSegment
     protected $TravelOrder = null;
 
     /**
-     * @var anonymous1267 $ProviderSegmentOrder
+     * @var anonymous1269 $ProviderSegmentOrder
      */
     protected $ProviderSegmentOrder = null;
 
@@ -139,7 +139,7 @@ class PassiveSegment
      * @param typeRef $PassiveProviderReservationInfoRef
      * @param int $Group
      * @param int $TravelOrder
-     * @param anonymous1267 $ProviderSegmentOrder
+     * @param anonymous1269 $ProviderSegmentOrder
      * @param string $PassiveGroup
      * @param typeElementStatus $ElStat
      * @param boolean $KeyOverride
@@ -513,7 +513,7 @@ class PassiveSegment
     }
 
     /**
-     * @return anonymous1267
+     * @return anonymous1269
      */
     public function getProviderSegmentOrder()
     {
@@ -521,7 +521,7 @@ class PassiveSegment
     }
 
     /**
-     * @param anonymous1267 $ProviderSegmentOrder
+     * @param anonymous1269 $ProviderSegmentOrder
      * @return \FilippoToso\Travelport\GDSQueue\PassiveSegment
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)

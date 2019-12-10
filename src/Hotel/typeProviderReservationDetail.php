@@ -16,13 +16,20 @@ class typeProviderReservationDetail
     protected $ProviderLocatorCode = null;
 
     /**
+     * @var typeSupplierCode $SupplierCode
+     */
+    protected $SupplierCode = null;
+
+    /**
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
+     * @param typeSupplierCode $SupplierCode
      */
-    public function __construct($ProviderCode = null, $ProviderLocatorCode = null)
+    public function __construct($ProviderCode = null, $ProviderLocatorCode = null, $SupplierCode = null)
     {
       $this->ProviderCode = $ProviderCode;
       $this->ProviderLocatorCode = $ProviderLocatorCode;
+      $this->SupplierCode = $SupplierCode;
     }
 
     /**
@@ -58,6 +65,24 @@ class typeProviderReservationDetail
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
       $this->ProviderLocatorCode = $ProviderLocatorCode;
+      return $this;
+    }
+
+    /**
+     * @return typeSupplierCode
+     */
+    public function getSupplierCode()
+    {
+      return $this->SupplierCode;
+    }
+
+    /**
+     * @param typeSupplierCode $SupplierCode
+     * @return \FilippoToso\Travelport\Hotel\typeProviderReservationDetail
+     */
+    public function setSupplierCode($SupplierCode)
+    {
+      $this->SupplierCode = $SupplierCode;
       return $this;
     }
 

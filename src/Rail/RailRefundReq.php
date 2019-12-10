@@ -21,7 +21,7 @@ class RailRefundReq extends BaseReq
     protected $LocatorCode = null;
 
     /**
-     * @var anonymous1472 $RefundOption
+     * @var anonymous1474 $RefundOption
      */
     protected $RefundOption = null;
 
@@ -40,7 +40,7 @@ class RailRefundReq extends BaseReq
      * @param ContinuityCheckOverride $ContinuityCheckOverride
      * @param FormOfPayment $FormOfPayment
      * @param typeLocatorCode $LocatorCode
-     * @param anonymous1472 $RefundOption
+     * @param anonymous1474 $RefundOption
      */
     public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $ContinuityCheckOverride = null, $FormOfPayment = null, $LocatorCode = null, $RefundOption = null)
     {
@@ -106,7 +106,7 @@ class RailRefundReq extends BaseReq
     }
 
     /**
-     * @return anonymous1472
+     * @return anonymous1474
      */
     public function getRefundOption()
     {
@@ -114,7 +114,7 @@ class RailRefundReq extends BaseReq
     }
 
     /**
-     * @param anonymous1472 $RefundOption
+     * @param anonymous1474 $RefundOption
      * @return \FilippoToso\Travelport\Rail\RailRefundReq
      */
     public function setRefundOption($RefundOption)

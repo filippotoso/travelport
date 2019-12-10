@@ -11,12 +11,12 @@ class ReferenceDataSearchModifiers
     protected $RailStationLocationModifiers = null;
 
     /**
-     * @var anonymous1142 $MaxResults
+     * @var anonymous1144 $MaxResults
      */
     protected $MaxResults = null;
 
     /**
-     * @var anonymous1143 $StartFromResult
+     * @var anonymous1145 $StartFromResult
      */
     protected $StartFromResult = null;
 
@@ -27,8 +27,8 @@ class ReferenceDataSearchModifiers
 
     /**
      * @param RailStationLocationModifiers $RailStationLocationModifiers
-     * @param anonymous1142 $MaxResults
-     * @param anonymous1143 $StartFromResult
+     * @param anonymous1144 $MaxResults
+     * @param anonymous1145 $StartFromResult
      * @param typeProviderCode $ProviderCode
      */
     public function __construct($RailStationLocationModifiers = null, $MaxResults = null, $StartFromResult = null, $ProviderCode = null)
@@ -58,7 +58,7 @@ class ReferenceDataSearchModifiers
     }
 
     /**
-     * @return anonymous1142
+     * @return anonymous1144
      */
     public function getMaxResults()
     {
@@ -66,7 +66,7 @@ class ReferenceDataSearchModifiers
     }
 
     /**
-     * @param anonymous1142 $MaxResults
+     * @param anonymous1144 $MaxResults
      * @return \FilippoToso\Travelport\Util\ReferenceDataSearchModifiers
      */
     public function setMaxResults($MaxResults)
@@ -76,7 +76,7 @@ class ReferenceDataSearchModifiers
     }
 
     /**
-     * @return anonymous1143
+     * @return anonymous1145
      */
     public function getStartFromResult()
     {
@@ -84,7 +84,7 @@ class ReferenceDataSearchModifiers
     }
 
     /**
-     * @param anonymous1143 $StartFromResult
+     * @param anonymous1145 $StartFromResult
      * @return \FilippoToso\Travelport\Util\ReferenceDataSearchModifiers
      */
     public function setStartFromResult($StartFromResult)

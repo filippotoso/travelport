@@ -41,7 +41,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
     protected $LocationCode = null;
 
     /**
-     * @var anonymous1083 $LocatorCode
+     * @var anonymous1085 $LocatorCode
      */
     protected $LocatorCode = null;
 
@@ -69,7 +69,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
      * @param AccountingRemark $AccountingRemark
      * @param typeMoney $Amount
      * @param typeAirport $LocationCode
-     * @param anonymous1083 $LocatorCode
+     * @param anonymous1085 $LocatorCode
      * @param string $TicketNumber
      */
     public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $Name = null, $FormOfPayment = null, $FormOfPaymentRef = null, $GeneralRemark = null, $AccountingRemark = null, $Amount = null, $LocationCode = null, $LocatorCode = null, $TicketNumber = null)
@@ -213,7 +213,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
     }
 
     /**
-     * @return anonymous1083
+     * @return anonymous1085
      */
     public function getLocatorCode()
     {
@@ -221,7 +221,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
     }
 
     /**
-     * @param anonymous1083 $LocatorCode
+     * @param anonymous1085 $LocatorCode
      * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setLocatorCode($LocatorCode)

@@ -21,6 +21,11 @@ class HotelRulesModifiers
     protected $HotelBedding = null;
 
     /**
+     * @var typeOTACode $RateCategory
+     */
+    protected $RateCategory = null;
+
+    /**
      * @var CorporateDiscountID $CorporateDiscountID
      */
     protected $CorporateDiscountID = null;
@@ -118,6 +123,24 @@ class HotelRulesModifiers
     public function setHotelBedding($HotelBedding)
     {
       $this->HotelBedding = $HotelBedding;
+      return $this;
+    }
+
+    /**
+     * @return typeOTACode
+     */
+    public function getRateCategory()
+    {
+      return $this->RateCategory;
+    }
+
+    /**
+     * @param typeOTACode $RateCategory
+     * @return \FilippoToso\Travelport\Rail\HotelRulesModifiers
+     */
+    public function setRateCategory($RateCategory)
+    {
+      $this->RateCategory = $RateCategory;
       return $this;
     }
 

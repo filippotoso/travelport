@@ -21,12 +21,12 @@ class AvailabilitySearchReq extends AirSearchReq
     protected $ReturnBrandIndicator = null;
 
     /**
-     * @var anonymous1189 $ChannelId
+     * @var anonymous1191 $ChannelId
      */
     protected $ChannelId = null;
 
     /**
-     * @var anonymous1190 $NSCC
+     * @var anonymous1192 $NSCC
      */
     protected $NSCC = null;
 
@@ -51,8 +51,8 @@ class AvailabilitySearchReq extends AirSearchReq
      * @param SearchPassenger $SearchPassenger
      * @param PointOfSale $PointOfSale
      * @param boolean $ReturnBrandIndicator
-     * @param anonymous1189 $ChannelId
-     * @param anonymous1190 $NSCC
+     * @param anonymous1191 $ChannelId
+     * @param anonymous1192 $NSCC
      */
     public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $NextResultReference = null, $PointOfCommencement = null, $SearchAirLeg = null, $SearchSpecificAirSegment = null, $AirSearchModifiers = null, $JourneyData = null, $SearchPassenger = null, $PointOfSale = null, $ReturnBrandIndicator = null, $ChannelId = null, $NSCC = null)
     {
@@ -119,7 +119,7 @@ class AvailabilitySearchReq extends AirSearchReq
     }
 
     /**
-     * @return anonymous1189
+     * @return anonymous1191
      */
     public function getChannelId()
     {
@@ -127,7 +127,7 @@ class AvailabilitySearchReq extends AirSearchReq
     }
 
     /**
-     * @param anonymous1189 $ChannelId
+     * @param anonymous1191 $ChannelId
      * @return \FilippoToso\Travelport\Air\AvailabilitySearchReq
      */
     public function setChannelId($ChannelId)
@@ -137,7 +137,7 @@ class AvailabilitySearchReq extends AirSearchReq
     }
 
     /**
-     * @return anonymous1190
+     * @return anonymous1192
      */
     public function getNSCC()
     {
@@ -145,7 +145,7 @@ class AvailabilitySearchReq extends AirSearchReq
     }
 
     /**
-     * @param anonymous1190 $NSCC
+     * @param anonymous1192 $NSCC
      * @return \FilippoToso\Travelport\Air\AvailabilitySearchReq
      */
     public function setNSCC($NSCC)

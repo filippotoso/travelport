@@ -744,6 +744,8 @@
         'FilippoToso\Travelport\Util\AirSegmentData' => __DIR__ .'/AirSegmentData.php',
         'FilippoToso\Travelport\Util\AirExchangeBundleList' => __DIR__ .'/AirExchangeBundleList.php',
         'FilippoToso\Travelport\Util\InvoluntaryChange' => __DIR__ .'/InvoluntaryChange.php',
+        'FilippoToso\Travelport\Util\typeMostRestrictivePenalties' => __DIR__ .'/typeMostRestrictivePenalties.php',
+        'FilippoToso\Travelport\Util\typeRestrictionData' => __DIR__ .'/typeRestrictionData.php',
         'FilippoToso\Travelport\Util\UpsellAdminReq' => __DIR__ .'/UpsellAdminReq.php',
         'FilippoToso\Travelport\Util\UpsellAdminRsp' => __DIR__ .'/UpsellAdminRsp.php',
         'FilippoToso\Travelport\Util\UpsellSearchReq' => __DIR__ .'/UpsellSearchReq.php',

@@ -64,7 +64,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
      * @param anonymous8 $MoreRatesToken
      * @param typeVehicleLocation $LocationType
      * @param typeIATACode $LocationCode
-     * @param anonymous1083 $Type
+     * @param anonymous1085 $Type
      * @param string $PickupDateTime
      * @param typeIATACode $PickupLocation
      * @param string $ReturnDateTime

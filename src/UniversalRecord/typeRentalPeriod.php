@@ -6,7 +6,7 @@ class typeRentalPeriod
 {
 
     /**
-     * @var anonymous1126 $RentalUnit
+     * @var anonymous1128 $RentalUnit
      */
     protected $RentalUnit = null;
 
@@ -21,7 +21,7 @@ class typeRentalPeriod
     protected $RequirementPassed = null;
 
     /**
-     * @param anonymous1126 $RentalUnit
+     * @param anonymous1128 $RentalUnit
      * @param int $Length
      * @param boolean $RequirementPassed
      */
@@ -33,7 +33,7 @@ class typeRentalPeriod
     }
 
     /**
-     * @return anonymous1126
+     * @return anonymous1128
      */
     public function getRentalUnit()
     {
@@ -41,7 +41,7 @@ class typeRentalPeriod
     }
 
     /**
-     * @param anonymous1126 $RentalUnit
+     * @param anonymous1128 $RentalUnit
      * @return \FilippoToso\Travelport\UniversalRecord\typeRentalPeriod
      */
     public function setRentalUnit($RentalUnit)

@@ -31,12 +31,12 @@ class typeVehicleCharge
     protected $Description = null;
 
     /**
-     * @var anonymous1132 $Type
+     * @var anonymous1134 $Type
      */
     protected $Type = null;
 
     /**
-     * @var anonymous1133 $IncludedInRate
+     * @var anonymous1135 $IncludedInRate
      */
     protected $IncludedInRate = null;
 
@@ -44,8 +44,8 @@ class typeVehicleCharge
      * @param string $Category
      * @param string $Name
      * @param string $Description
-     * @param anonymous1132 $Type
-     * @param anonymous1133 $IncludedInRate
+     * @param anonymous1134 $Type
+     * @param anonymous1135 $IncludedInRate
      */
     public function __construct($Category = null, $Name = null, $Description = null, $Type = null, $IncludedInRate = null)
     {
@@ -147,7 +147,7 @@ class typeVehicleCharge
     }
 
     /**
-     * @return anonymous1132
+     * @return anonymous1134
      */
     public function getType()
     {
@@ -155,7 +155,7 @@ class typeVehicleCharge
     }
 
     /**
-     * @param anonymous1132 $Type
+     * @param anonymous1134 $Type
      * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleCharge
      */
     public function setType($Type)
@@ -165,7 +165,7 @@ class typeVehicleCharge
     }
 
     /**
-     * @return anonymous1133
+     * @return anonymous1135
      */
     public function getIncludedInRate()
     {
@@ -173,7 +173,7 @@ class typeVehicleCharge
     }
 
     /**
-     * @param anonymous1133 $IncludedInRate
+     * @param anonymous1135 $IncludedInRate
      * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleCharge
      */
     public function setIncludedInRate($IncludedInRate)

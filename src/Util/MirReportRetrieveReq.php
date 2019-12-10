@@ -6,12 +6,12 @@ class MirReportRetrieveReq extends BaseReq
 {
 
     /**
-     * @var anonymous1089 $LocatorCode
+     * @var anonymous1091 $LocatorCode
      */
     protected $LocatorCode = null;
 
     /**
-     * @var anonymous1090 $ReportFormat
+     * @var anonymous1092 $ReportFormat
      */
     protected $ReportFormat = null;
 
@@ -27,8 +27,8 @@ class MirReportRetrieveReq extends BaseReq
      * @param language $LanguageCode
      * @param OverridePCC $OverridePCC
      * @param boolean $RetrieveProviderReservationDetails
-     * @param anonymous1089 $LocatorCode
-     * @param anonymous1090 $ReportFormat
+     * @param anonymous1091 $LocatorCode
+     * @param anonymous1092 $ReportFormat
      */
     public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $LocatorCode = null, $ReportFormat = null)
     {
@@ -38,7 +38,7 @@ class MirReportRetrieveReq extends BaseReq
     }
 
     /**
-     * @return anonymous1089
+     * @return anonymous1091
      */
     public function getLocatorCode()
     {
@@ -46,7 +46,7 @@ class MirReportRetrieveReq extends BaseReq
     }
 
     /**
-     * @param anonymous1089 $LocatorCode
+     * @param anonymous1091 $LocatorCode
      * @return \FilippoToso\Travelport\Util\MirReportRetrieveReq
      */
     public function setLocatorCode($LocatorCode)
@@ -56,7 +56,7 @@ class MirReportRetrieveReq extends BaseReq
     }
 
     /**
-     * @return anonymous1090
+     * @return anonymous1092
      */
     public function getReportFormat()
     {
@@ -64,7 +64,7 @@ class MirReportRetrieveReq extends BaseReq
     }
 
     /**
-     * @param anonymous1090 $ReportFormat
+     * @param anonymous1092 $ReportFormat
      * @return \FilippoToso\Travelport\Util\MirReportRetrieveReq
      */
     public function setReportFormat($ReportFormat)

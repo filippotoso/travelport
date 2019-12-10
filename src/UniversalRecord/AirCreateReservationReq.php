@@ -76,7 +76,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     protected $RetainReservation = null;
 
     /**
-     * @var anonymous1518 $Source
+     * @var anonymous1520 $Source
      */
     protected $Source = null;
 
@@ -96,17 +96,17 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     protected $CreatePassiveForHold = null;
 
     /**
-     * @var anonymous1519 $ChannelId
+     * @var anonymous1521 $ChannelId
      */
     protected $ChannelId = null;
 
     /**
-     * @var anonymous1520 $NSCC
+     * @var anonymous1522 $NSCC
      */
     protected $NSCC = null;
 
     /**
-     * @var anonymous1521 $CheckPriceVarianceType
+     * @var anonymous1523 $CheckPriceVarianceType
      */
     protected $CheckPriceVarianceType = null;
 
@@ -177,13 +177,13 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
      * @param ReviewBooking $ReviewBooking
      * @param AirPricingTicketingModifiers $AirPricingTicketingModifiers
      * @param typeRetainReservation $RetainReservation
-     * @param anonymous1518 $Source
+     * @param anonymous1520 $Source
      * @param boolean $OverrideMCT
      * @param boolean $RestrictWaitlist
      * @param boolean $CreatePassiveForHold
-     * @param anonymous1519 $ChannelId
-     * @param anonymous1520 $NSCC
-     * @param anonymous1521 $CheckPriceVarianceType
+     * @param anonymous1521 $ChannelId
+     * @param anonymous1522 $NSCC
+     * @param anonymous1523 $CheckPriceVarianceType
      * @param float $CheckPriceVarianceValue
      * @param boolean $SplitReservation
      * @param boolean $PreferCompleteItinerary
@@ -470,7 +470,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @return anonymous1518
+     * @return anonymous1520
      */
     public function getSource()
     {
@@ -478,7 +478,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @param anonymous1518 $Source
+     * @param anonymous1520 $Source
      * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setSource($Source)
@@ -542,7 +542,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @return anonymous1519
+     * @return anonymous1521
      */
     public function getChannelId()
     {
@@ -550,7 +550,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @param anonymous1519 $ChannelId
+     * @param anonymous1521 $ChannelId
      * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setChannelId($ChannelId)
@@ -560,7 +560,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @return anonymous1520
+     * @return anonymous1522
      */
     public function getNSCC()
     {
@@ -568,7 +568,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @param anonymous1520 $NSCC
+     * @param anonymous1522 $NSCC
      * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setNSCC($NSCC)
@@ -578,7 +578,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @return anonymous1521
+     * @return anonymous1523
      */
     public function getCheckPriceVarianceType()
     {
@@ -586,7 +586,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
     }
 
     /**
-     * @param anonymous1521 $CheckPriceVarianceType
+     * @param anonymous1523 $CheckPriceVarianceType
      * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setCheckPriceVarianceType($CheckPriceVarianceType)

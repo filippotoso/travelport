@@ -71,7 +71,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     protected $PreferCompleteItinerary = null;
 
     /**
-     * @var anonymous1183 $MetaOptionIdentifier
+     * @var anonymous1185 $MetaOptionIdentifier
      */
     protected $MetaOptionIdentifier = null;
 
@@ -106,7 +106,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     protected $CheckOBFees = null;
 
     /**
-     * @var anonymous1184 $NSCC
+     * @var anonymous1186 $NSCC
      */
     protected $NSCC = null;
 
@@ -114,6 +114,11 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
      * @var boolean $FareInfoRules
      */
     protected $FareInfoRules = null;
+
+    /**
+     * @var boolean $MostRestrictivePenalties
+     */
+    protected $MostRestrictivePenalties = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo
@@ -144,17 +149,18 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
      * @param int $MaxNumberOfExpertSolutions
      * @param boolean $SolutionResult
      * @param boolean $PreferCompleteItinerary
-     * @param anonymous1183 $MetaOptionIdentifier
+     * @param anonymous1185 $MetaOptionIdentifier
      * @param boolean $ReturnUpsellFare
      * @param boolean $IncludeFareInfoMessages
      * @param boolean $ReturnBrandedFares
      * @param boolean $MultiGDSSearch
      * @param boolean $ReturnMM
      * @param string $CheckOBFees
-     * @param anonymous1184 $NSCC
+     * @param anonymous1186 $NSCC
      * @param boolean $FareInfoRules
+     * @param boolean $MostRestrictivePenalties
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $NextResultReference = null, $SearchAirLeg = null, $SearchSpecificAirSegment = null, $AirSearchModifiers = null, $SplitTicketingSearch = null, $JourneyData = null, $SearchPassenger = null, $AirPricingModifiers = null, $Enumeration = null, $AirExchangeModifiers = null, $FlexExploreModifiers = null, $PCC = null, $FareRulesFilterCategory = null, $FormOfPayment = null, $EnablePointToPointSearch = null, $EnablePointToPointAlternates = null, $MaxNumberOfExpertSolutions = null, $SolutionResult = null, $PreferCompleteItinerary = null, $MetaOptionIdentifier = null, $ReturnUpsellFare = null, $IncludeFareInfoMessages = null, $ReturnBrandedFares = null, $MultiGDSSearch = null, $ReturnMM = null, $CheckOBFees = null, $NSCC = null, $FareInfoRules = null)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $NextResultReference = null, $SearchAirLeg = null, $SearchSpecificAirSegment = null, $AirSearchModifiers = null, $SplitTicketingSearch = null, $JourneyData = null, $SearchPassenger = null, $AirPricingModifiers = null, $Enumeration = null, $AirExchangeModifiers = null, $FlexExploreModifiers = null, $PCC = null, $FareRulesFilterCategory = null, $FormOfPayment = null, $EnablePointToPointSearch = null, $EnablePointToPointAlternates = null, $MaxNumberOfExpertSolutions = null, $SolutionResult = null, $PreferCompleteItinerary = null, $MetaOptionIdentifier = null, $ReturnUpsellFare = null, $IncludeFareInfoMessages = null, $ReturnBrandedFares = null, $MultiGDSSearch = null, $ReturnMM = null, $CheckOBFees = null, $NSCC = null, $FareInfoRules = null, $MostRestrictivePenalties = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $NextResultReference, $SearchAirLeg, $SearchSpecificAirSegment, $AirSearchModifiers, $SplitTicketingSearch, $JourneyData);
       $this->SearchPassenger = $SearchPassenger;
@@ -179,6 +185,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
       $this->CheckOBFees = $CheckOBFees;
       $this->NSCC = $NSCC;
       $this->FareInfoRules = $FareInfoRules;
+      $this->MostRestrictivePenalties = $MostRestrictivePenalties;
     }
 
     /**
@@ -416,7 +423,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     }
 
     /**
-     * @return anonymous1183
+     * @return anonymous1185
      */
     public function getMetaOptionIdentifier()
     {
@@ -424,7 +431,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     }
 
     /**
-     * @param anonymous1183 $MetaOptionIdentifier
+     * @param anonymous1185 $MetaOptionIdentifier
      * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
      */
     public function setMetaOptionIdentifier($MetaOptionIdentifier)
@@ -542,7 +549,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     }
 
     /**
-     * @return anonymous1184
+     * @return anonymous1186
      */
     public function getNSCC()
     {
@@ -550,7 +557,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     }
 
     /**
-     * @param anonymous1184 $NSCC
+     * @param anonymous1186 $NSCC
      * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
      */
     public function setNSCC($NSCC)
@@ -574,6 +581,24 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
     public function setFareInfoRules($FareInfoRules)
     {
       $this->FareInfoRules = $FareInfoRules;
+      return $this;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function getMostRestrictivePenalties()
+    {
+      return $this->MostRestrictivePenalties;
+    }
+
+    /**
+     * @param boolean $MostRestrictivePenalties
+     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     */
+    public function setMostRestrictivePenalties($MostRestrictivePenalties)
+    {
+      $this->MostRestrictivePenalties = $MostRestrictivePenalties;
       return $this;
     }
 

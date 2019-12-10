@@ -86,12 +86,12 @@ class AirFareDisplayReq extends BaseReq
     protected $UnSaleableFaresOnly = null;
 
     /**
-     * @var anonymous1168 $ChannelId
+     * @var anonymous1170 $ChannelId
      */
     protected $ChannelId = null;
 
     /**
-     * @var anonymous1169 $NSCC
+     * @var anonymous1171 $NSCC
      */
     protected $NSCC = null;
 
@@ -127,8 +127,8 @@ class AirFareDisplayReq extends BaseReq
      * @param typeProviderCode $ProviderCode
      * @param typeMileOrRouteBasedFare $IncludeMileRouteInformation
      * @param boolean $UnSaleableFaresOnly
-     * @param anonymous1168 $ChannelId
-     * @param anonymous1169 $NSCC
+     * @param anonymous1170 $ChannelId
+     * @param anonymous1171 $NSCC
      * @param boolean $ReturnMM
      */
     public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $FareType = null, $BookingCode = null, $IncludeAddlBookingCodeInfo = null, $FareBasis = null, $Carrier = null, $AccountCode = null, $ContractCode = null, $AirFareDisplayModifiers = null, $PointOfSale = null, $AirFareDisplayRuleKey = null, $Origin = null, $Destination = null, $ProviderCode = null, $IncludeMileRouteInformation = null, $UnSaleableFaresOnly = null, $ChannelId = null, $NSCC = null, $ReturnMM = null)
@@ -443,7 +443,7 @@ class AirFareDisplayReq extends BaseReq
     }
 
     /**
-     * @return anonymous1168
+     * @return anonymous1170
      */
     public function getChannelId()
     {
@@ -451,7 +451,7 @@ class AirFareDisplayReq extends BaseReq
     }
 
     /**
-     * @param anonymous1168 $ChannelId
+     * @param anonymous1170 $ChannelId
      * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
      */
     public function setChannelId($ChannelId)
@@ -461,7 +461,7 @@ class AirFareDisplayReq extends BaseReq
     }
 
     /**
-     * @return anonymous1169
+     * @return anonymous1171
      */
     public function getNSCC()
     {
@@ -469,7 +469,7 @@ class AirFareDisplayReq extends BaseReq
     }
 
     /**
-     * @param anonymous1169 $NSCC
+     * @param anonymous1171 $NSCC
      * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
      */
     public function setNSCC($NSCC)

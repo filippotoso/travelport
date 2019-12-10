@@ -166,7 +166,7 @@ class VehicleRate
     protected $RateGuaranteeType = null;
 
     /**
-     * @var anonymous1089 $RequiredPayment
+     * @var anonymous1091 $RequiredPayment
      */
     protected $RequiredPayment = null;
 
@@ -235,7 +235,7 @@ class VehicleRate
      * @param string $TourCode
      * @param typeTrinary $TourCodeApplied
      * @param typeRateGuarantee $RateGuaranteeType
-     * @param anonymous1089 $RequiredPayment
+     * @param anonymous1091 $RequiredPayment
      * @param boolean $DropOffChargesIncluded
      * @param boolean $CorporateRate
      * @param string $AdvancedBooking
@@ -859,7 +859,7 @@ class VehicleRate
     }
 
     /**
-     * @return anonymous1089
+     * @return anonymous1091
      */
     public function getRequiredPayment()
     {
@@ -867,7 +867,7 @@ class VehicleRate
     }
 
     /**
-     * @param anonymous1089 $RequiredPayment
+     * @param anonymous1091 $RequiredPayment
      * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
      */
     public function setRequiredPayment($RequiredPayment)

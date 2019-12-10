@@ -16,7 +16,7 @@ class ProviderReservationDivideReq extends BaseReq
     protected $UniversalRecordLocatorCode = null;
 
     /**
-     * @var anonymous1475 $CreateChildUniversalRecord
+     * @var anonymous1477 $CreateChildUniversalRecord
      */
     protected $CreateChildUniversalRecord = null;
 
@@ -44,7 +44,7 @@ class ProviderReservationDivideReq extends BaseReq
      * @param boolean $RetrieveProviderReservationDetails
      * @param BookingTravelerRef[] $BookingTravelerRef
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @param anonymous1475 $CreateChildUniversalRecord
+     * @param anonymous1477 $CreateChildUniversalRecord
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
@@ -95,7 +95,7 @@ class ProviderReservationDivideReq extends BaseReq
     }
 
     /**
-     * @return anonymous1475
+     * @return anonymous1477
      */
     public function getCreateChildUniversalRecord()
     {
@@ -103,7 +103,7 @@ class ProviderReservationDivideReq extends BaseReq
     }
 
     /**
-     * @param anonymous1475 $CreateChildUniversalRecord
+     * @param anonymous1477 $CreateChildUniversalRecord
      * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideReq
      */
     public function setCreateChildUniversalRecord($CreateChildUniversalRecord)

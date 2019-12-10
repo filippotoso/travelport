@@ -11,7 +11,7 @@ class ReferenceDataUpdateReq extends BaseReq
     protected $Item = null;
 
     /**
-     * @var anonymous1212 $Action
+     * @var anonymous1214 $Action
      */
     protected $Action = null;
 
@@ -33,7 +33,7 @@ class ReferenceDataUpdateReq extends BaseReq
      * @param OverridePCC $OverridePCC
      * @param boolean $RetrieveProviderReservationDetails
      * @param Item[] $Item
-     * @param anonymous1212 $Action
+     * @param anonymous1214 $Action
      * @param typeTypeCode $TypeCode
      */
     public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, array $Item = null, $Action = null, $TypeCode = null)
@@ -63,7 +63,7 @@ class ReferenceDataUpdateReq extends BaseReq
     }
 
     /**
-     * @return anonymous1212
+     * @return anonymous1214
      */
     public function getAction()
     {
@@ -71,7 +71,7 @@ class ReferenceDataUpdateReq extends BaseReq
     }
 
     /**
-     * @param anonymous1212 $Action
+     * @param anonymous1214 $Action
      * @return \FilippoToso\Travelport\Util\ReferenceDataUpdateReq
      */
     public function setAction($Action)

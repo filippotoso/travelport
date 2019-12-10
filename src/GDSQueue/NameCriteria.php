@@ -6,18 +6,18 @@ class NameCriteria
 {
 
     /**
-     * @var anonymous1407 $FirstName
+     * @var anonymous1409 $FirstName
      */
     protected $FirstName = null;
 
     /**
-     * @var anonymous1408 $LastName
+     * @var anonymous1410 $LastName
      */
     protected $LastName = null;
 
     /**
-     * @param anonymous1407 $FirstName
-     * @param anonymous1408 $LastName
+     * @param anonymous1409 $FirstName
+     * @param anonymous1410 $LastName
      */
     public function __construct($FirstName = null, $LastName = null)
     {
@@ -26,7 +26,7 @@ class NameCriteria
     }
 
     /**
-     * @return anonymous1407
+     * @return anonymous1409
      */
     public function getFirstName()
     {
@@ -34,7 +34,7 @@ class NameCriteria
     }
 
     /**
-     * @param anonymous1407 $FirstName
+     * @param anonymous1409 $FirstName
      * @return \FilippoToso\Travelport\GDSQueue\NameCriteria
      */
     public function setFirstName($FirstName)
@@ -44,7 +44,7 @@ class NameCriteria
     }
 
     /**
-     * @return anonymous1408
+     * @return anonymous1410
      */
     public function getLastName()
     {
@@ -52,7 +52,7 @@ class NameCriteria
     }
 
     /**
-     * @param anonymous1408 $LastName
+     * @param anonymous1410 $LastName
      * @return \FilippoToso\Travelport\GDSQueue\NameCriteria
      */
     public function setLastName($LastName)

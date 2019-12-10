@@ -31,7 +31,7 @@ class RailJourney
     protected $Key = null;
 
     /**
-     * @var anonymous1274 $RouteDescription
+     * @var anonymous1276 $RouteDescription
      */
     protected $RouteDescription = null;
 
@@ -66,7 +66,7 @@ class RailJourney
     protected $TravelOrder = null;
 
     /**
-     * @var anonymous1275 $RouteReference
+     * @var anonymous1277 $RouteReference
      */
     protected $RouteReference = null;
 
@@ -191,14 +191,14 @@ class RailJourney
      * @param JourneyRemark $JourneyRemark
      * @param HostToken $HostToken
      * @param typeRef $Key
-     * @param anonymous1274 $RouteDescription
+     * @param anonymous1276 $RouteDescription
      * @param typeJourneyDirection $JourneyDirection
      * @param int $JourneyDuration
      * @param string $Status
      * @param typeRef $ProviderReservationInfoRef
      * @param typeRef $PassiveProviderReservationInfoRef
      * @param int $TravelOrder
-     * @param anonymous1275 $RouteReference
+     * @param anonymous1277 $RouteReference
      * @param string $Operation
      * @param typeIATACode $Origin
      * @param typeIATACode $Destination
@@ -354,7 +354,7 @@ class RailJourney
     }
 
     /**
-     * @return anonymous1274
+     * @return anonymous1276
      */
     public function getRouteDescription()
     {
@@ -362,7 +362,7 @@ class RailJourney
     }
 
     /**
-     * @param anonymous1274 $RouteDescription
+     * @param anonymous1276 $RouteDescription
      * @return \FilippoToso\Travelport\Rail\RailJourney
      */
     public function setRouteDescription($RouteDescription)
@@ -480,7 +480,7 @@ class RailJourney
     }
 
     /**
-     * @return anonymous1275
+     * @return anonymous1277
      */
     public function getRouteReference()
     {
@@ -488,7 +488,7 @@ class RailJourney
     }
 
     /**
-     * @param anonymous1275 $RouteReference
+     * @param anonymous1277 $RouteReference
      * @return \FilippoToso\Travelport\Rail\RailJourney
      */
     public function setRouteReference($RouteReference)

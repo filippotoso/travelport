@@ -16,12 +16,12 @@ class RailTicketInfo
     protected $TicketAdvisory = null;
 
     /**
-     * @var anonymous1271 $Number
+     * @var anonymous1273 $Number
      */
     protected $Number = null;
 
     /**
-     * @var anonymous1272 $IssueLocation
+     * @var anonymous1274 $IssueLocation
      */
     protected $IssueLocation = null;
 
@@ -31,7 +31,7 @@ class RailTicketInfo
     protected $TicketStatus = null;
 
     /**
-     * @var anonymous1273 $TicketFormType
+     * @var anonymous1275 $TicketFormType
      */
     protected $TicketFormType = null;
 
@@ -58,10 +58,10 @@ class RailTicketInfo
     /**
      * @param RailJourneyRef $RailJourneyRef
      * @param TicketAdvisory $TicketAdvisory
-     * @param anonymous1271 $Number
-     * @param anonymous1272 $IssueLocation
+     * @param anonymous1273 $Number
+     * @param anonymous1274 $IssueLocation
      * @param StringLength1to255 $TicketStatus
-     * @param anonymous1273 $TicketFormType
+     * @param anonymous1275 $TicketFormType
      * @param StringLength1to255 $TrafficType
      * @param \DateTime $IssuedDate
      * @param StringLength1to255 $TicketType
@@ -118,7 +118,7 @@ class RailTicketInfo
     }
 
     /**
-     * @return anonymous1271
+     * @return anonymous1273
      */
     public function getNumber()
     {
@@ -126,7 +126,7 @@ class RailTicketInfo
     }
 
     /**
-     * @param anonymous1271 $Number
+     * @param anonymous1273 $Number
      * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setNumber($Number)
@@ -136,7 +136,7 @@ class RailTicketInfo
     }
 
     /**
-     * @return anonymous1272
+     * @return anonymous1274
      */
     public function getIssueLocation()
     {
@@ -144,7 +144,7 @@ class RailTicketInfo
     }
 
     /**
-     * @param anonymous1272 $IssueLocation
+     * @param anonymous1274 $IssueLocation
      * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setIssueLocation($IssueLocation)
@@ -172,7 +172,7 @@ class RailTicketInfo
     }
 
     /**
-     * @return anonymous1273
+     * @return anonymous1275
      */
     public function getTicketFormType()
     {
@@ -180,7 +180,7 @@ class RailTicketInfo
     }
 
     /**
-     * @param anonymous1273 $TicketFormType
+     * @param anonymous1275 $TicketFormType
      * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setTicketFormType($TicketFormType)

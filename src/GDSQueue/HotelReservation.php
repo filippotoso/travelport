@@ -141,7 +141,7 @@ class HotelReservation extends BaseReservation
     protected $TravelOrder = null;
 
     /**
-     * @var anonymous1152 $ProviderSegmentOrder
+     * @var anonymous1154 $ProviderSegmentOrder
      */
     protected $ProviderSegmentOrder = null;
 
@@ -186,7 +186,7 @@ class HotelReservation extends BaseReservation
      * @param string $CancelConfirmation
      * @param typeRef $ProviderReservationInfoRef
      * @param int $TravelOrder
-     * @param anonymous1152 $ProviderSegmentOrder
+     * @param anonymous1154 $ProviderSegmentOrder
      * @param typeRef $PassiveProviderReservationInfoRef
      */
     public function __construct($AccountingRemark = null, $GeneralRemark = null, $Restriction = null, $PassiveInfo = null, $LocatorCode = null, $CreateDate = null, $ModifiedDate = null, $CustomerNumber = null, $BookingTravelerRef = null, $ReservationName = null, $ThirdPartyInformation = null, $HotelProperty = null, $HotelRateDetail = null, $HotelStay = null, $HotelSpecialRequest = null, $Guarantee = null, $PromotionCode = null, $BookingSource = null, $HotelBedding = null, $GuestInformation = null, $AssociatedRemark = null, $SellMessage = null, $HotelCommission = null, $BookingGuestInformation = null, $RoomConfirmationCodes = null, $CancelInfo = null, $TotalReservationPrice = null, $HotelDetailItem = null, $AdaptedRoomGuestAllocation = null, $Status = null, $AggregatorBookingStatus = null, $BookingConfirmation = null, $CancelConfirmation = null, $ProviderReservationInfoRef = null, $TravelOrder = null, $ProviderSegmentOrder = null, $PassiveProviderReservationInfoRef = null)
@@ -710,7 +710,7 @@ class HotelReservation extends BaseReservation
     }
 
     /**
-     * @return anonymous1152
+     * @return anonymous1154
      */
     public function getProviderSegmentOrder()
     {
@@ -718,7 +718,7 @@ class HotelReservation extends BaseReservation
     }
 
     /**
-     * @param anonymous1152 $ProviderSegmentOrder
+     * @param anonymous1154 $ProviderSegmentOrder
      * @return \FilippoToso\Travelport\GDSQueue\HotelReservation
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)

@@ -41,7 +41,7 @@ class GuaranteeInfo
     protected $HoldTime = null;
 
     /**
-     * @var anonymous1246 $GuaranteeType
+     * @var anonymous1248 $GuaranteeType
      */
     protected $GuaranteeType = null;
 
@@ -68,7 +68,7 @@ class GuaranteeInfo
      * @param \DateTime $AbsoluteDeadline
      * @param boolean $CredentialsRequired
      * @param string $HoldTime
-     * @param anonymous1246 $GuaranteeType
+     * @param anonymous1248 $GuaranteeType
      * @param StringLength1to16 $OffsetTimeUnit
      * @param Numeric0to999 $OffsetUnitMultiplier
      * @param StringLength1to20 $OffsetDropTime
@@ -223,7 +223,7 @@ class GuaranteeInfo
     }
 
     /**
-     * @return anonymous1246
+     * @return anonymous1248
      */
     public function getGuaranteeType()
     {
@@ -231,7 +231,7 @@ class GuaranteeInfo
     }
 
     /**
-     * @param anonymous1246 $GuaranteeType
+     * @param anonymous1248 $GuaranteeType
      * @return \FilippoToso\Travelport\UniversalRecord\GuaranteeInfo
      */
     public function setGuaranteeType($GuaranteeType)

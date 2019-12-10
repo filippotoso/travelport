@@ -111,7 +111,7 @@ class VehicleReservation extends BaseReservation
     protected $TravelOrder = null;
 
     /**
-     * @var anonymous1078 $ProviderSegmentOrder
+     * @var anonymous1080 $ProviderSegmentOrder
      */
     protected $ProviderSegmentOrder = null;
 
@@ -145,7 +145,7 @@ class VehicleReservation extends BaseReservation
      * @param typeRef $ProviderReservationInfoRef
      * @param typeRef $PassiveProviderReservationInfoRef
      * @param int $TravelOrder
-     * @param anonymous1078 $ProviderSegmentOrder
+     * @param anonymous1080 $ProviderSegmentOrder
      */
     public function __construct($AccountingRemark = null, $GeneralRemark = null, $Restriction = null, $PassiveInfo = null, $LocatorCode = null, $CreateDate = null, $ModifiedDate = null, $CustomerNumber = null, $BookingTravelerRef = null, $ReservationName = null, $VehicleDateLocation = null, $Vehicle = null, $SpecialEquipment = null, $VehicleSpecialRequest = null, $PaymentInformation = null, $DeliveryAddress = null, $CollectionAddress = null, $FlightArrivalInformation = null, $Guarantee = null, $AssociatedRemark = null, $BookingSource = null, $ThirdPartyInformation = null, $SellMessage = null, $SupplierCode = null, $BookingConfirmation = null, $Status = null, $ProviderReservationInfoRef = null, $PassiveProviderReservationInfoRef = null, $TravelOrder = null, $ProviderSegmentOrder = null)
     {
@@ -553,7 +553,7 @@ class VehicleReservation extends BaseReservation
     }
 
     /**
-     * @return anonymous1078
+     * @return anonymous1080
      */
     public function getProviderSegmentOrder()
     {
@@ -561,7 +561,7 @@ class VehicleReservation extends BaseReservation
     }
 
     /**
-     * @param anonymous1078 $ProviderSegmentOrder
+     * @param anonymous1080 $ProviderSegmentOrder
      * @return \FilippoToso\Travelport\UniversalRecord\VehicleReservation
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)

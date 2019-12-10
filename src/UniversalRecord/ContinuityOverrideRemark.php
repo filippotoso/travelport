@@ -11,13 +11,13 @@ class ContinuityOverrideRemark
     protected $_ = null;
 
     /**
-     * @var anonymous1405 $Category
+     * @var anonymous1407 $Category
      */
     protected $Category = null;
 
     /**
      * @param string $_
-     * @param anonymous1405 $Category
+     * @param anonymous1407 $Category
      */
     public function __construct($_ = null, $Category = null)
     {
@@ -44,7 +44,7 @@ class ContinuityOverrideRemark
     }
 
     /**
-     * @return anonymous1405
+     * @return anonymous1407
      */
     public function getCategory()
     {
@@ -52,7 +52,7 @@ class ContinuityOverrideRemark
     }
 
     /**
-     * @param anonymous1405 $Category
+     * @param anonymous1407 $Category
      * @return \FilippoToso\Travelport\UniversalRecord\ContinuityOverrideRemark
      */
     public function setCategory($Category)

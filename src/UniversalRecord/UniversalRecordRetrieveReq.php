@@ -26,6 +26,16 @@ class UniversalRecordRetrieveReq extends BaseReq
     protected $TravelerLastName = null;
 
     /**
+     * @var typeTravelerLastName $TravelerFirstName
+     */
+    protected $TravelerFirstName = null;
+
+    /**
+     * @var boolean $ReturnUnmaskedData
+     */
+    protected $ReturnUnmaskedData = null;
+
+    /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo
      * @param AgentIDOverride $AgentIDOverride
      * @param string $TerminalSessionInfo
@@ -41,14 +51,18 @@ class UniversalRecordRetrieveReq extends BaseReq
      * @param ProviderReservationInfo $ProviderReservationInfo
      * @param boolean $ViewOnlyInd
      * @param typeTravelerLastName $TravelerLastName
+     * @param typeTravelerLastName $TravelerFirstName
+     * @param boolean $ReturnUnmaskedData
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $UniversalRecordLocatorCode = null, $ProviderReservationInfo = null, $ViewOnlyInd = null, $TravelerLastName = null)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $UniversalRecordLocatorCode = null, $ProviderReservationInfo = null, $ViewOnlyInd = null, $TravelerLastName = null, $TravelerFirstName = null, $ReturnUnmaskedData = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->UniversalRecordLocatorCode = $UniversalRecordLocatorCode;
       $this->ProviderReservationInfo = $ProviderReservationInfo;
       $this->ViewOnlyInd = $ViewOnlyInd;
       $this->TravelerLastName = $TravelerLastName;
+      $this->TravelerFirstName = $TravelerFirstName;
+      $this->ReturnUnmaskedData = $ReturnUnmaskedData;
     }
 
     /**
@@ -120,6 +134,42 @@ class UniversalRecordRetrieveReq extends BaseReq
     public function setTravelerLastName($TravelerLastName)
     {
       $this->TravelerLastName = $TravelerLastName;
+      return $this;
+    }
+
+    /**
+     * @return typeTravelerLastName
+     */
+    public function getTravelerFirstName()
+    {
+      return $this->TravelerFirstName;
+    }
+
+    /**
+     * @param typeTravelerLastName $TravelerFirstName
+     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveReq
+     */
+    public function setTravelerFirstName($TravelerFirstName)
+    {
+      $this->TravelerFirstName = $TravelerFirstName;
+      return $this;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function getReturnUnmaskedData()
+    {
+      return $this->ReturnUnmaskedData;
+    }
+
+    /**
+     * @param boolean $ReturnUnmaskedData
+     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveReq
+     */
+    public function setReturnUnmaskedData($ReturnUnmaskedData)
+    {
+      $this->ReturnUnmaskedData = $ReturnUnmaskedData;
       return $this;
     }
 

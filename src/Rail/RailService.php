@@ -694,6 +694,8 @@ class RailService extends \SoapClient
   'AirSegmentData' => 'FilippoToso\\Travelport\\Rail\\AirSegmentData',
   'AirExchangeBundleList' => 'FilippoToso\\Travelport\\Rail\\AirExchangeBundleList',
   'InvoluntaryChange' => 'FilippoToso\\Travelport\\Rail\\InvoluntaryChange',
+  'typeMostRestrictivePenalties' => 'FilippoToso\\Travelport\\Rail\\typeMostRestrictivePenalties',
+  'typeRestrictionData' => 'FilippoToso\\Travelport\\Rail\\typeRestrictionData',
   'HotelReservation' => 'FilippoToso\\Travelport\\Rail\\HotelReservation',
   'HotelProperty' => 'FilippoToso\\Travelport\\Rail\\HotelProperty',
   'MarketingMessage' => 'FilippoToso\\Travelport\\Rail\\MarketingMessage',
@@ -952,7 +954,7 @@ class RailService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/rail_v48_0/Rail.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/rail_v49_0/Rail.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

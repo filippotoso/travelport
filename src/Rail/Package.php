@@ -11,7 +11,7 @@ class Package
     protected $Name = null;
 
     /**
-     * @var anonymous1354 $Identifier
+     * @var anonymous1356 $Identifier
      */
     protected $Identifier = null;
 
@@ -27,7 +27,7 @@ class Package
 
     /**
      * @param StringLength1to30 $Name
-     * @param anonymous1354 $Identifier
+     * @param anonymous1356 $Identifier
      * @param int $PassengerCount
      * @param StringLength1to14 $PackageIdentifier
      */
@@ -58,7 +58,7 @@ class Package
     }
 
     /**
-     * @return anonymous1354
+     * @return anonymous1356
      */
     public function getIdentifier()
     {
@@ -66,7 +66,7 @@ class Package
     }
 
     /**
-     * @param anonymous1354 $Identifier
+     * @param anonymous1356 $Identifier
      * @return \FilippoToso\Travelport\Rail\Package
      */
     public function setIdentifier($Identifier)

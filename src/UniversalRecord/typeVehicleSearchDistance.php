@@ -11,25 +11,25 @@ class typeVehicleSearchDistance
     protected $Units = null;
 
     /**
-     * @var anonymous1101 $Direction
+     * @var anonymous1103 $Direction
      */
     protected $Direction = null;
 
     /**
-     * @var anonymous1102 $MinDistance
+     * @var anonymous1104 $MinDistance
      */
     protected $MinDistance = null;
 
     /**
-     * @var anonymous1103 $MaxDistance
+     * @var anonymous1105 $MaxDistance
      */
     protected $MaxDistance = null;
 
     /**
      * @param typeDistance $Units
-     * @param anonymous1101 $Direction
-     * @param anonymous1102 $MinDistance
-     * @param anonymous1103 $MaxDistance
+     * @param anonymous1103 $Direction
+     * @param anonymous1104 $MinDistance
+     * @param anonymous1105 $MaxDistance
      */
     public function __construct($Units = null, $Direction = null, $MinDistance = null, $MaxDistance = null)
     {
@@ -58,7 +58,7 @@ class typeVehicleSearchDistance
     }
 
     /**
-     * @return anonymous1101
+     * @return anonymous1103
      */
     public function getDirection()
     {
@@ -66,7 +66,7 @@ class typeVehicleSearchDistance
     }
 
     /**
-     * @param anonymous1101 $Direction
+     * @param anonymous1103 $Direction
      * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleSearchDistance
      */
     public function setDirection($Direction)
@@ -76,7 +76,7 @@ class typeVehicleSearchDistance
     }
 
     /**
-     * @return anonymous1102
+     * @return anonymous1104
      */
     public function getMinDistance()
     {
@@ -84,7 +84,7 @@ class typeVehicleSearchDistance
     }
 
     /**
-     * @param anonymous1102 $MinDistance
+     * @param anonymous1104 $MinDistance
      * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleSearchDistance
      */
     public function setMinDistance($MinDistance)
@@ -94,7 +94,7 @@ class typeVehicleSearchDistance
     }
 
     /**
-     * @return anonymous1103
+     * @return anonymous1105
      */
     public function getMaxDistance()
     {
@@ -102,7 +102,7 @@ class typeVehicleSearchDistance
     }
 
     /**
-     * @param anonymous1103 $MaxDistance
+     * @param anonymous1105 $MaxDistance
      * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleSearchDistance
      */
     public function setMaxDistance($MaxDistance)

@@ -747,6 +747,8 @@
         'FilippoToso\Travelport\UniversalRecord\AirSegmentData' => __DIR__ .'/AirSegmentData.php',
         'FilippoToso\Travelport\UniversalRecord\AirExchangeBundleList' => __DIR__ .'/AirExchangeBundleList.php',
         'FilippoToso\Travelport\UniversalRecord\InvoluntaryChange' => __DIR__ .'/InvoluntaryChange.php',
+        'FilippoToso\Travelport\UniversalRecord\typeMostRestrictivePenalties' => __DIR__ .'/typeMostRestrictivePenalties.php',
+        'FilippoToso\Travelport\UniversalRecord\typeRestrictionData' => __DIR__ .'/typeRestrictionData.php',
         'FilippoToso\Travelport\UniversalRecord\VehicleReservation' => __DIR__ .'/VehicleReservation.php',
         'FilippoToso\Travelport\UniversalRecord\PaymentInformation' => __DIR__ .'/PaymentInformation.php',
         'FilippoToso\Travelport\UniversalRecord\VehicleDateLocation' => __DIR__ .'/VehicleDateLocation.php',

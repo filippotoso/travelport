@@ -643,6 +643,8 @@ class UtilService extends \SoapClient
   'AirSegmentData' => 'FilippoToso\\Travelport\\Util\\AirSegmentData',
   'AirExchangeBundleList' => 'FilippoToso\\Travelport\\Util\\AirExchangeBundleList',
   'InvoluntaryChange' => 'FilippoToso\\Travelport\\Util\\InvoluntaryChange',
+  'typeMostRestrictivePenalties' => 'FilippoToso\\Travelport\\Util\\typeMostRestrictivePenalties',
+  'typeRestrictionData' => 'FilippoToso\\Travelport\\Util\\typeRestrictionData',
   'UpsellAdminReq' => 'FilippoToso\\Travelport\\Util\\UpsellAdminReq',
   'UpsellAdminRsp' => 'FilippoToso\\Travelport\\Util\\UpsellAdminRsp',
   'UpsellSearchReq' => 'FilippoToso\\Travelport\\Util\\UpsellSearchReq',
@@ -776,7 +778,7 @@ class UtilService extends \SoapClient
   'features' => 1,
 ), $options);
       if (!$wsdl) {
-        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/util_v48_0/Util.wsdl';
+        $wsdl = 'D:\efes.to\components\filippo-toso\travelport\builder/../src/Wsdls/util_v49_0/Util.wsdl';
       }
       parent::__construct($wsdl, $options);
     }

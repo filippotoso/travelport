@@ -6,7 +6,7 @@ class Amount
 {
 
     /**
-     * @var anonymous1266 $Type
+     * @var anonymous1268 $Type
      */
     protected $Type = null;
 
@@ -16,7 +16,7 @@ class Amount
     protected $AmountDuePaid = null;
 
     /**
-     * @param anonymous1266 $Type
+     * @param anonymous1268 $Type
      * @param typeMoney $AmountDuePaid
      */
     public function __construct($Type = null, $AmountDuePaid = null)
@@ -26,7 +26,7 @@ class Amount
     }
 
     /**
-     * @return anonymous1266
+     * @return anonymous1268
      */
     public function getType()
     {
@@ -34,7 +34,7 @@ class Amount
     }
 
     /**
-     * @param anonymous1266 $Type
+     * @param anonymous1268 $Type
      * @return \FilippoToso\Travelport\GDSQueue\Amount
      */
     public function setType($Type)

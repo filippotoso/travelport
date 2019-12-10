@@ -11,13 +11,13 @@ class Amenity
     protected $Code = null;
 
     /**
-     * @var anonymous1230 $AmenityType
+     * @var anonymous1232 $AmenityType
      */
     protected $AmenityType = null;
 
     /**
      * @param typeAmenity $Code
-     * @param anonymous1230 $AmenityType
+     * @param anonymous1232 $AmenityType
      */
     public function __construct($Code = null, $AmenityType = null)
     {
@@ -44,7 +44,7 @@ class Amenity
     }
 
     /**
-     * @return anonymous1230
+     * @return anonymous1232
      */
     public function getAmenityType()
     {
@@ -52,7 +52,7 @@ class Amenity
     }
 
     /**
-     * @param anonymous1230 $AmenityType
+     * @param anonymous1232 $AmenityType
      * @return \FilippoToso\Travelport\GDSQueue\Amenity
      */
     public function setAmenityType($AmenityType)

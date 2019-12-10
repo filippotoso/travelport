@@ -16,6 +16,11 @@ class UniversalRecordImportReq extends BaseReq
     protected $UniversalRecordLocatorCode = null;
 
     /**
+     * @var boolean $ReturnUnmaskedData
+     */
+    protected $ReturnUnmaskedData = null;
+
+    /**
      * @var typeProviderCode $ProviderCode
      */
     protected $ProviderCode = null;
@@ -39,14 +44,16 @@ class UniversalRecordImportReq extends BaseReq
      * @param boolean $RetrieveProviderReservationDetails
      * @param FileFinishingInfo $FileFinishingInfo
      * @param typeLocatorCode $UniversalRecordLocatorCode
+     * @param boolean $ReturnUnmaskedData
      * @param typeProviderCode $ProviderCode
      * @param typeProviderLocatorCode $ProviderLocatorCode
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $FileFinishingInfo = null, $UniversalRecordLocatorCode = null, $ProviderCode = null, $ProviderLocatorCode = null)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $OverridePCC = null, $RetrieveProviderReservationDetails = null, $FileFinishingInfo = null, $UniversalRecordLocatorCode = null, $ReturnUnmaskedData = null, $ProviderCode = null, $ProviderLocatorCode = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode, $OverridePCC, $RetrieveProviderReservationDetails);
       $this->FileFinishingInfo = $FileFinishingInfo;
       $this->UniversalRecordLocatorCode = $UniversalRecordLocatorCode;
+      $this->ReturnUnmaskedData = $ReturnUnmaskedData;
       $this->ProviderCode = $ProviderCode;
       $this->ProviderLocatorCode = $ProviderLocatorCode;
     }
@@ -84,6 +91,24 @@ class UniversalRecordImportReq extends BaseReq
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
       $this->UniversalRecordLocatorCode = $UniversalRecordLocatorCode;
+      return $this;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function getReturnUnmaskedData()
+    {
+      return $this->ReturnUnmaskedData;
+    }
+
+    /**
+     * @param boolean $ReturnUnmaskedData
+     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordImportReq
+     */
+    public function setReturnUnmaskedData($ReturnUnmaskedData)
+    {
+      $this->ReturnUnmaskedData = $ReturnUnmaskedData;
       return $this;
     }
 

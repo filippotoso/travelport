@@ -81,7 +81,7 @@ class BaseAirPriceReq extends BaseCoreReq
     protected $ReturnMM = null;
 
     /**
-     * @var anonymous1145 $NSCC
+     * @var anonymous1147 $NSCC
      */
     protected $NSCC = null;
 
@@ -91,9 +91,14 @@ class BaseAirPriceReq extends BaseCoreReq
     protected $SplitPricing = null;
 
     /**
-     * @var boolean $IgnoreAvailability
+     * @var boolean $MostRestrictivePenalties
      */
-    protected $IgnoreAvailability = null;
+    protected $MostRestrictivePenalties = null;
+
+    /**
+     * @var string $PricingPreference
+     */
+    protected $PricingPreference = null;
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo
@@ -120,11 +125,12 @@ class BaseAirPriceReq extends BaseCoreReq
      * @param date $TicketDate
      * @param boolean $CheckFlightDetails
      * @param boolean $ReturnMM
-     * @param anonymous1145 $NSCC
+     * @param anonymous1147 $NSCC
      * @param boolean $SplitPricing
-     * @param boolean $IgnoreAvailability
+     * @param boolean $MostRestrictivePenalties
+     * @param string $PricingPreference
      */
-    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $AirItinerary = null, $AirPricingModifiers = null, $SearchPassenger = null, $AirPricingCommand = null, $AirReservationLocatorCode = null, $OptionalServices = null, $FormOfPayment = null, $PCC = null, $SSR = null, $CheckOBFees = null, $FareRuleType = null, $SupplierCode = null, $TicketDate = null, $CheckFlightDetails = null, $ReturnMM = null, $NSCC = null, $SplitPricing = null, $IgnoreAvailability = null)
+    public function __construct($BillingPointOfSaleInfo = null, $AgentIDOverride = null, $TerminalSessionInfo = null, $TraceId = null, $TokenId = null, $AuthorizedBy = null, $TargetBranch = null, $OverrideLogging = null, $LanguageCode = null, $AirItinerary = null, $AirPricingModifiers = null, $SearchPassenger = null, $AirPricingCommand = null, $AirReservationLocatorCode = null, $OptionalServices = null, $FormOfPayment = null, $PCC = null, $SSR = null, $CheckOBFees = null, $FareRuleType = null, $SupplierCode = null, $TicketDate = null, $CheckFlightDetails = null, $ReturnMM = null, $NSCC = null, $SplitPricing = null, $MostRestrictivePenalties = null, $PricingPreference = null)
     {
       parent::__construct($BillingPointOfSaleInfo, $AgentIDOverride, $TerminalSessionInfo, $TraceId, $TokenId, $AuthorizedBy, $TargetBranch, $OverrideLogging, $LanguageCode);
       $this->AirItinerary = $AirItinerary;
@@ -144,7 +150,8 @@ class BaseAirPriceReq extends BaseCoreReq
       $this->ReturnMM = $ReturnMM;
       $this->NSCC = $NSCC;
       $this->SplitPricing = $SplitPricing;
-      $this->IgnoreAvailability = $IgnoreAvailability;
+      $this->MostRestrictivePenalties = $MostRestrictivePenalties;
+      $this->PricingPreference = $PricingPreference;
     }
 
     /**
@@ -418,7 +425,7 @@ class BaseAirPriceReq extends BaseCoreReq
     }
 
     /**
-     * @return anonymous1145
+     * @return anonymous1147
      */
     public function getNSCC()
     {
@@ -426,7 +433,7 @@ class BaseAirPriceReq extends BaseCoreReq
     }
 
     /**
-     * @param anonymous1145 $NSCC
+     * @param anonymous1147 $NSCC
      * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
      */
     public function setNSCC($NSCC)
@@ -456,18 +463,36 @@ class BaseAirPriceReq extends BaseCoreReq
     /**
      * @return boolean
      */
-    public function getIgnoreAvailability()
+    public function getMostRestrictivePenalties()
     {
-      return $this->IgnoreAvailability;
+      return $this->MostRestrictivePenalties;
     }
 
     /**
-     * @param boolean $IgnoreAvailability
+     * @param boolean $MostRestrictivePenalties
      * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
      */
-    public function setIgnoreAvailability($IgnoreAvailability)
+    public function setMostRestrictivePenalties($MostRestrictivePenalties)
     {
-      $this->IgnoreAvailability = $IgnoreAvailability;
+      $this->MostRestrictivePenalties = $MostRestrictivePenalties;
+      return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPricingPreference()
+    {
+      return $this->PricingPreference;
+    }
+
+    /**
+     * @param string $PricingPreference
+     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     */
+    public function setPricingPreference($PricingPreference)
+    {
+      $this->PricingPreference = $PricingPreference;
       return $this;
     }
 
