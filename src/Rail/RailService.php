@@ -2,7 +2,9 @@
 
 namespace FilippoToso\Travelport\Rail;
 
-class RailService extends \SoapClient
+use FilippoToso\Travelport\TravelportClient;
+
+class RailService extends TravelportClient
 {
 
     /**

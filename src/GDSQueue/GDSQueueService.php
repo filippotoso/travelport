@@ -2,7 +2,9 @@
 
 namespace FilippoToso\Travelport\GDSQueue;
 
-class GDSQueueService extends \SoapClient
+use FilippoToso\Travelport\TravelportClient;
+
+class GDSQueueService extends TravelportClient
 {
 
     /**

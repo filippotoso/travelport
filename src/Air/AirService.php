@@ -2,7 +2,9 @@
 
 namespace FilippoToso\Travelport\Air;
 
-class AirService extends \SoapClient
+use FilippoToso\Travelport\TravelportClient;
+
+class AirService extends TravelportClient
 {
 
     /**

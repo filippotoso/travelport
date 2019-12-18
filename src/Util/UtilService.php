@@ -2,7 +2,9 @@
 
 namespace FilippoToso\Travelport\Util;
 
-class UtilService extends \SoapClient
+use FilippoToso\Travelport\TravelportClient;
+
+class UtilService extends TravelportClient
 {
 
     /**

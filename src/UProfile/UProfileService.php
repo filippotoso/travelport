@@ -2,7 +2,9 @@
 
 namespace FilippoToso\Travelport\UProfile;
 
-class UProfileService extends \SoapClient
+use FilippoToso\Travelport\TravelportClient;
+
+class UProfileService extends TravelportClient
 {
 
     /**

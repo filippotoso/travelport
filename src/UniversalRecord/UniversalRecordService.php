@@ -2,7 +2,9 @@
 
 namespace FilippoToso\Travelport\UniversalRecord;
 
-class UniversalRecordService extends \SoapClient
+use FilippoToso\Travelport\TravelportClient;
+
+class UniversalRecordService extends TravelportClient
 {
 
     /**

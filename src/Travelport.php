@@ -4,7 +4,6 @@ namespace FilippoToso\Travelport;
 
 use FilippoToso\Travelport\Exceptions\MissingBindingsException;
 use FilippoToso\Travelport\Exceptions\InvalidRegionException;
-use FilippoToso\Travelport\System;
 
 use Exception;
 
@@ -96,7 +95,7 @@ class Travelport
     protected function getOptions()
     {
         return [
-            'trace' => 1,
+            'trace' => ($this->logger) ? true : false,
             'exceptions' => true,
             'encoding' => 'UTF-8',
             'login' => $this->userId,
