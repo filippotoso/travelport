@@ -95,7 +95,7 @@ printf('Travelport pinged back: %s', $response->getPayload());
 
 ### Schema version
 
-The current version of this library supports the 18.4 schema version. I hope to keep it updated at least once a year. 
+The current version of this library supports the 19.2 schema version. I hope to keep it updated at least once a year. 
 
 ### Changelog
 
@@ -103,7 +103,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ### Security
 
-If you discover any security related issues, please email filippo.toso@creativepark.it instead of using the issue tracker.
+If you discover any security related issues, please email filippo@toso.dev instead of using the issue tracker.
 
 ## Credits
 

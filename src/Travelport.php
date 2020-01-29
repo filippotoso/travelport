@@ -113,4 +113,14 @@ class Travelport
             ]),
         ];
     }
+
+    public static function findByKey($elements, $key)
+    {
+        foreach ($elements as $element) {
+            if ($element->getKey() == $key) {
+                return $element;
+            }
+        }
+        return false;
+    }
 }
