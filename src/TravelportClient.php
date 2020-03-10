@@ -11,5 +11,4 @@ class TravelportClient extends \SoapClient
         $request = preg_replace('#xsi:type="(.*?)"#si', '', $request);
         return parent::__doRequest($request, $location, $action, $version, $one_way);
     }
-
 }

@@ -38,11 +38,23 @@ return [
     | Production
     |--------------------------------------------------------------------------
     |
-    | Specitfy if the API calls should be made on the production endpoints.
+    | Specify if the API calls should be made on the production endpoints.
     | Preproduction endpoints are used by default.
     |
     */
 
     'production' => env('TRAVELPORT_PRODUCTION', false),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Logger
+    |--------------------------------------------------------------------------
+    |
+    | The class that implements the TravelportLogger interface that will
+    | be used to log the requests and responses.
+    |
+    */
+
+    'logger' => null,
 
 ];

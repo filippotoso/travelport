@@ -13,20 +13,22 @@ class TravelportServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('travelport.php'),
+                __DIR__ . '/../config/config.php' => config_path('travelport.php'),
             ], 'config');
         }
     }
 
-    /**
+    /** 
      * Register the application services.
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'travelport');
+        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'travelport');
 
         $this->app->singleton('travelport', function () {
-            return new Travelport(config('travelport.user_id'), config('travelport.password'), config('travelport.target_branch'), config('travelport.region'), config('travelport.production'));
+            $loggerClass = config('travelport.logger');
+            $logger = class_exists($loggerClass) ? new $loggerClass() : null;
+            return new Travelport(config('travelport.user_id'), config('travelport.password'), config('travelport.target_branch'), config('travelport.region'), config('travelport.production'), $logger);
         });
     }
 }
